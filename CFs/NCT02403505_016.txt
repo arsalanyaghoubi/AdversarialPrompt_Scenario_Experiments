@@ -1,0 +1,653 @@
+## Informed Consent Form
+
+Study Title:
+
+Treat CEA positive rectal cancer with the Biological Product (CEA protein antigen plus BCG Vaccine) by the percutaneous use with the multiple puncture device.
+
+ClinicalTrials.gov ID:
+
+NCT02403505
+
+Sponsored by:
+
+Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator
+
+Principal Investigator:
+
+Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator
+
+Telephone:
+
++1 301-222-7143
+
+Thank you for your interest in our research study. Please read this consent form or ask someone to read it to you. If you decide to join the study, we will ask you to sign and date or make your mark on this  form.  We will offer you a copy to keep. We will ask you some questions to see if we have explained everything clearly. You can also ask us questions about the study.
+
+The clinical research is the same as treatment. The Biological Product (CEA protein antigen plus BCG Vaccine) by the percutaneous use with the multiple puncture device can treat CEA positive rectal cancer via activate human CEA protein antigen presentation reaction, so the human antigen presenting cells (APCs) take up and process CEA target protein antigen into small peptide fragments, and then kill CEA positive rectal cancer cells in vivo. The purpose of the research study, i.e., IND 172259 clinical trial / clinical investigation NCT02403505 is to answer medical questions.
+
+## Key information
+
+- Being in this research study is voluntary. It is your choice.
+- BCG should not be given to individuals previously infected with M. tuberculosis. A person given the IGRA blood test with TB antigens. The TB positive is the positive IGRA blood test with TB antigens. The TB negative is the negative IGRA blood test with TB antigens.
+- The objectives and purpose of the IND 172259 Phase 1 clinical study (NCT02403505) will be 1 dose of the biological product, CEA protein antigen , before 5 minutes for the percutaneous use  with  the  multiple  puncture  device,  add  into  1  dose  of  the  biological  product, BCG VACCINE and mix above them to take the percutaneous use and treat the CEA (+) RC.
+- Your  participation  in  this  study  will  last  for  about  1  month.  Procedures  will  include percutaneous use and CEA testing by blood-drawing.
+- We will also contact you about 1 month after your last study visit to check on your health.
+
+
+
+
+- Because you have a positive CEA test result you may have been told to be in quarantine or staying at home away from others. Some clinic staff may come to your location to meet with you and have a percutaneous use for this study as needed.
+- The risks associated with this study are minimal and may be primarily due to collecting the cervical, blood, nasal, saliva, and optional stool samples and the potential for loss of confidentiality .
+- There is no direct benefit to you from your participation in the study.
+
+## 1. About the study
+
+The cancer online clinical trial site will be doing a study to learn more about CEA (+) rectal cancer that  it  can  treat.  The  online  clinical  trial  site  includes  Medicine  Invention  Design  Incorporation (Health Care Provider - Group or Organization) and online patient referral center.
+
+About 20 participants will take part in this phase 1 clinical study at single study site or multiple study sites across the United States. The sponsor-investigator in charge of this clinical study at this research center is Han Xu, M.D., Ph.D., FAPCR. The UHC Member HMO Health Plan can be paying for the phase 1 clinical study.
+
+## 2. Why are we doing this study?
+
+The main purpose of this study is to learn more about CEA positive rectal cancer and how our bodies develop immune responses to it, hopefully helping us to recover from it. Your immune system is what helps to protect you against infections and disease. This information can be used in the future to help develop better treatments for CEA positive rectal cancer, as well as may help in developing future therapeutic biological products and other prevention strategies.
+
+## 3. Joining the study
+
+It is complete following up to you whether or not to join the study.
+
+## Eligibility
+
+Minimum Age: 24 Years
+
+Maximum Age: 64 Years
+
+Sex: Male and Female
+
+Accepts Healthy Volunteers: No
+
+## Criteria:
+
+- Conducting an initial, small, controlled clinical trial to assess CEA Antigen Presentation Therapeutic Biologics Mix that suggests the potential for clinical benefit of CEA (+) rectal cancer patients.
+- 20 CEA Positive Rectal Cancer Patients
+
+## Inclusion Criteria:
+
+- 20 CEA Positive Rectal Cancer Patients
+- Clinical Rectal Cancer Diagnosis Stage 0 - IIA
+- Clinical Rectal Cancer Diagnosis without symptoms
+
+
+
+
+## IRB00009424---IORG0007849---FWA00015357---NPI-1023387701---D11379922
+
+- Clinical Rectal Cancer Diagnosis without metastasis
+- Positive testing CEA by blood-drawing
+- TB negative participant is negative IGRA blood test with TB antigens.
+
+## Exclusion Criteria:
+
+- Pregnant
+- Thrombosis
+- Allergy
+- TB positive participant is positive IGRA blood test with TB antigens.
+- Symptoms of rectal cancer
+- Metastasis of rectal cancer
+- Evidence of critical illness
+
+Take your time in deciding. If it helps, talk to people you trust, such as your regular doctor, friends, or family. If you decide not to join this study, or if you leave it after you have joined, your other care and the benefits or rights you would normally have will not be affected.
+
+## 4. Being in the study
+
+## Study Design:
+
+Study Type: Interventional
+
+Primary Purpose: Treatment
+
+Study Phase: Early Phase 1
+
+Interventional Study Model: Single Group Assignment / Single Usage / Single Dosage
+
+Number of Arms: 1
+
+Masking: None (Open Label)
+
+Allocation: N/A
+
+Enrollment: 20 [Anticipated]
+
+## Study Description
+
+Brief Summary: Conducting an initial, small, controlled clinical trial to assess CEA protein Antigen Presentation Therapeutic Biologics Mix activity that suggests the potential for clinical benefit of CEA positive rectal cancer patients.
+
+1. Treat CEA positive rectal cancer
+2. Activate human CEA Trained Immunity Reaction
+3. Activate human CEA Protein Antigen Presentation Reaction.
+4. The human antigen presenting cells (APCs) can treat the CEA target protein antigen into small peptide fragments, and then kill CEA positive rectal cancer cells in vivo.
+
+## Detailed Description:
+
+-  Conducting an initial, small, controlled clinical trial to assess CEA Antigen Presentation Therapeutic Biologics Mix activity that suggests the potential for clinical benefit of CEA positive rectal cancer patients.
+-  20 CEA Positive Rectal Cancer Patients
+-  Clinical Rectal Cancer Diagnosis Stage 0 - IIA
+-  Clinical Rectal Cancer Diagnosis without symptoms
+-  Clinical Rectal Cancer Diagnosis without metastasis
+-  Positive testing CEA by blood-drawing
+-  TB negative participant is negative IGRA blood test with TB antigens.
+
+
+
+
+## Medicine Invention Design Incorporation IRB00009424---IORG0007849---FWA00015357---NPI-1023387701---D11379922
+
+-  Our trial duration will be 12-week duration.
+-  CEA protein antigen 0.05 mg plus BCG Vaccine 50 MG Mix
+-  Percutaneous Use with Multiple Puncture Device
+-  Our trial duration will be 12-week duration.
+-  Positive IGRA blood test with CEA protein antigen after percutaneous use 21 days
+
+You will be in the single group, i.e., only one group.
+
+We will enroll 20 people who have no symptoms. It is possible that people who start the clinical study in the single group may be stopped the study if have side-effects.
+
+You may have about 4 study visits per month, and then we will contact you online in the 3 months to check on your health.
+
+You can enroll at the Online Clinical Trial Site. Ask you online to take your temperature and report on your symptoms every day for about 90 days. To do this online, we will give you information about an electronic document to use, and we will show you how to use it. But there is no paper form available if you are unable to use the electronic document.
+
+There are 2 visits in the first week (day 1 and day 3), and then 2 visits in the week 4 (day 3 and day 5). These visits may take place in the clinic, in your home or wherever you are staying. Some parts of these visits could be completed over the phone or through electronic communication such as text messages and email, in addition to the sample collections done in person. We will also contact you about one month after the final study visit to check on your health.
+
+If you decide to join the study, we will online review your medical history at your enrollment to see if you meet the study requirements. If you are eligible, we will online have you sign and date this consent form and collect more information about your health and medications you take. We online will also ask you about any symptoms you may have related to CEA ( + ) rectal cancer. We may online need to review your medical records for additional information.  We will also  online  ask you to provide the name of a person who can provide information for you if you are unable to do it yourself.
+
+At this first visit, we will do following:
+
+- Test CEA by blood-drawing. BCG should not be given to individuals previously infected with M. tuberculosis. A person given the IGRA blood test with TB antigens. The TB positive is the positive IGRA blood test with TB antigens.
+- Collect rectal samples maybe sometimes. You may be able to do these procedures yourself, or the clinic staff may do them for you.
+- Take the IGRA blood test with CEA protein antigen.
+
+The first visit could last from 1 to 2 hours.
+
+For the online remainder of the visits, we want to collect medical information to see how your next steps develop or change over time. At these visits we will:
+
+
+
+## Medicine Invention Design Incorporation IRB00009424---IORG0007849---FWA00015357---NPI-1023387701---D11379922
+
+- Take testing CEA by blood-drawing at week 1 day 1.
+- Take the IGRA blood test with TB antigens at week 1 day 1.
+- Review medical information, data, results, and symptoms at week 1 day 3.
+
+Purchase FDA approved biological products like as following:
+
+- https://www.sigmaaldrich.com/US/en/product/mm/219369
+- ⚫ Millipore-Sigma CEA Antigen Protein
+
+Product name:
+
+Carcinoembryonic Antigen, Human Colon Adenocarcinoma Cell Line
+
+Pack Size:
+
+0.1 mg
+
+Product Number:
+
+219369
+
+Catalogue No.:
+
+D44022
+
+Brand:
+
+Millipore
+
+Company:
+
+Sigma-Aldrich Inc.
+
+-  Add 2 mL distilled water into above 0.1 mg CEA protein antigen
+-  Before  5  minutes for  the  percutaneous  route  with  the  multiple  puncture  device,  above biologic 1ml - 0.05 mg CEA will be added into following biologic BCG:
+- https://dailymed.nlm.nih.gov/dailymed/
+- ⚫ LABEL: BCG VACCINE - bacillus calmette-guerin substrain tice live antigen injection, powder, lyophilized, for solution
+
+NDC
+
+0052-0603-02
+
+BLA 103050
+
+Packager:
+
+Merck Sharp &amp; Dohme Corp.
+
+- Mix above FDA approved biological products to take the percutaneous route and treat the CEA positive rectal cancer.
+- The biological product name:
+
+## Biological Product (CEA protein antigen plus BCG Vaccine mix) by the percutaneous use with the multiple puncture device.
+
+- Take  Percutaneous  Use  (PU)  of  the  biological  product: Biological  Product  (CEA  protein antigen plus BCG Vaccine mix) by the percutaneous route with the multiple puncture device at week 1 day 3.
+- Ask online about any new symptoms you are having since the last time the clinic staff saw you, and after the biological product: Biological Product (CEA protein antigen plus BCG Vaccine  mix)  by  the  percutaneous  route  with  the  multiple  puncture  device for  this percutaneous use you were taking.
+- Collect medical information. You may be able to do this procedure yourself, or the research or referral clinic staff can do it.
+- Collect medical data. You may be able to do this procedure yourself, or the clinic staff can do it. This may depend on what the clinic staff is allowed to do and may change over time.
+
+
+
+
+- Test CEA by blood-drawing at week 1 day 1. If you have CEA positive rectal cancer, we will refer you to other clinics or hospitals. If you have symptoms, we will adjust the plan we take for this study and make sure you get the care you need. We will online ask if you will stop to join the clinical trial for CEA positive rectal cancer. If you do so, we will let you have a referral to other clinic or hospital.
+- Take CEA by blood-drawing at week 1 day 1. If you have CEA positive rectal cancer without symptoms, we will check on your health until the end of month 3.
+- Take IGRA blood test with CEA protein antigen assay at week 4 day 3.
+- Review medical information, data, results, and symptoms at week 4 day 5.
+- Collect online medical information, data, results, and symptoms every day.
+- Remind you online about reporting on your symptoms every day.
+
+These visits could last from a ½ hour to 2 hours.
+
+## Table of procedures - Month - 1
+
+| Procedure                                                        | Online Enrollment   | M1 W1 D 1   | M1 W1 D 3   | M1 W4 D 3   | M1 W4 D 5   | Online Notification   |
+|------------------------------------------------------------------|---------------------|-------------|-------------|-------------|-------------|-----------------------|
+| Medical history *                                                | √                   | √           | √           | √           | √           | √                     |
+| Test CEA by blood-drawing **                                     |                     | √           |             |             |             | √                     |
+| IGRA blood test with TB antigens ***                             |                     | √           |             | √           |             | √                     |
+| IGRA blood test with CEA protein antigen ****                    |                     |             |             | √           |             | √                     |
+| Review Results                                                   |                     |             | √           |             | √           | √                     |
+| Biological Product Mix (Percutaneous Use)                        |                     |             | √           |             |             | √                     |
+| Online Interview &Online Questionnaire For every day in 3 months | √                   | √           | √           | √           | √           | √                     |
+
+* This includes online reporting on symptoms every day for up to 90 days.
+- ** Test CEA protein antigen by blood-drawing.
+- *** BCG should not be given to individuals previously infected with M. tuberculosis, if a person got the Positive Interferon-gamma release assay blood test (IGRA) with TB antigens.
+- **** Take Interferon-gamma release assay blood test (IGRA) with CEA protein antigen.
+
+
+
+
+If participants agree, can go ahead following:
+
+## Table of procedures - Month - 2
+
+| Procedure                                                        | Online Enrollment   | M1 W1 D 1   | M1 W1 D 3   | M1 W4 D 3   | M1 W4 D 5   | Online Notification   |
+|------------------------------------------------------------------|---------------------|-------------|-------------|-------------|-------------|-----------------------|
+| Medical history *                                                | √                   | √           | √           | √           | √           | √                     |
+| Test CEA by blood-drawing **                                     |                     | √           |             |             |             | √                     |
+| IGRA blood test with TB antigens ***                             |                     | √           |             | √           |             | √                     |
+| IGRA blood test with CEA protein antigen ****                    |                     |             |             | √           |             | √                     |
+| Review Results                                                   |                     |             | √           |             | √           | √                     |
+| Biological Product Mix (Percutaneous Use)                        |                     |             | √           |             |             | √                     |
+| Online Interview &Online Questionnaire For every day in 3 months | √                   | √           | √           | √           | √           | √                     |
+
+* This includes online reporting on symptoms every day for up to 90 days.
+- ** Test CEA protein antigen by blood-drawing.
+- *** BCG should not be given to individuals previously infected with M. tuberculosis, if a person got the Positive Interferon-gamma release assay blood test (IGRA) with TB antigens.
+- **** Take Interferon-gamma release assay blood test (IGRA) with CEA protein antigen.
+
+## Table of procedures - Month - 1
+
+| Procedure                                                        | Online Enrollment   | M1 W1 D 1   | M1 W1 D 3   | M1 W4 D 3   | M1 W4 D 5   | Online Notification   |
+|------------------------------------------------------------------|---------------------|-------------|-------------|-------------|-------------|-----------------------|
+| Medical history *                                                | √                   | √           | √           | √           | √           | √                     |
+| Test CEA by blood-drawing **                                     |                     | √           |             |             |             | √                     |
+| IGRA blood test with TB antigens ***                             |                     | √           |             | √           |             | √                     |
+| IGRA blood test with CEA protein antigen ****                    |                     |             |             | √           |             | √                     |
+| Review Results                                                   |                     |             | √           |             | √           | √                     |
+| Biological Product Mix (Percutaneous Use)                        |                     |             | √           |             |             | √                     |
+| Online Interview &Online Questionnaire For every day in 3 months | √                   | √           | √           | √           | √           | √                     |
+
+* This includes online reporting on symptoms every day for up to 90 days.
+- ** Test CEA protein antigen by blood-drawing.
+- *** BCG should not be given to individuals previously infected with M. tuberculosis, if a person got the Positive Interferon-gamma release assay blood test (IGRA) with TB antigens.
+- **** Take Interferon-gamma release assay blood test (IGRA) with CEA protein antigen.
+
+
+
+
+Enrollment ICF Form Telehealth / Telemedicine Clinical Trial
+
+## 5. New Information
+
+Information about CEA positive protein antigen will be collected every day. We may online ask you to complete additional information. This may be because we would like to obtain your additional information. We will online keep you updated about any new information we learn that may change your decision to be involved in this study.
+
+We may also online contact you after the study ends (for example, to tell you about the study results).
+
+If you agree, we will also online collect medical information, data, results, and symptoms. At the end of this form, we will ask if you allow us to collect your medical information. You can decide not to give these medical data online, but you cannot still be in the study.
+
+We would like online to collect your medical information, data, results, and symptoms. We want to learn if your response to the CEA is influenced by the biological product mix. We also online want to know if CEA is present in your assay by blood-drawing, and if that changes over time. We will online ask you to do this at most study visits (12 times) as shown in the table above. We will online collect this information. These can be collected online and can be done by yourself, or some clinic staff may be able to do it for you. We will give you an online handout that describes these procedures in more detail. We will also ask you questions about your something about medical.
+
+## 6. If you are hospitalized or unable to continue to give consent for study procedures, we will pause your participation.
+
+Some people with CEA ( + ) RC develop severe symptoms and must be hospitalized. This can include being put on a ventilator to help you breathe. In the event you are not able to communicate and give consent for the study procedures to continue, we will pause your study participation. At any time that you are awake again and able to communicate, we will ask if you would like to continue participating in the study. We will only resume the study procedures if you give us permission to do so.
+
+It is also possible that you could be admitted to a hospital where the clinic staff are not able to visit you. If this happens, we will pause your study participation. When you are released from the hospital, we will ask if you would like to continue participating in the study.
+
+## 7. Compensation for Participation
+
+We will give you a receipt document for each study visit you complete.
+
+You do not have to pay anything to be on this study. The study procedures and study visits will be done at no charge to you or your insurance company.
+
+## 8. The Health Care Provider will use your blood samples for research related to your response to CEA protein antigen via biological product mix Percutaneous Use (PU) .
+
+Clinic will send your blood samples (with your name and other identifying information) to some labs approved by the Health Care Provider for this study, which are located in the United States.
+
+
+
+Labs will do blood-drawing testing related to only this study on your blood samples. Researchers will study only the enrolled cases related to CEA positive rectal cancer, and those biological products that affect how people get treated the CEA positive rectal cancer.
+
+In enrolled cases, labs will take testing CEA positive rectal cancer by blood-drawing assay, so that help those researchers can contribute to this study.
+
+This blood-drawing test done on your blood sample is for research purposes, and to check your existing CEA positive rectal cancel. However, the telehealth / telemedicine clinical trial site may online provide you with the results of testing by blood-drawing assay for CEA if you choose to know the results. When your blood samples are no longer needed for this study, the clinical trial site will not continue to store them. You cannot be asked for future studies using your stored samples.  You will not be asked to sign a separate consent form for this purpose.
+
+## 9. Confidentiality
+
+We only can do limited to protect your private information.
+
+Your study records and samples will be kept in a secure location and kept confidential in clinical trial term. We will label all of your blood samples and your study records with a code number, not your name or other personal information. However, it is possible to identify you, if necessary. And, if your CEA testing result is positive, your medical information must be open. Meanwhile, we will share your name with the lab that does the blood-drawing tests on your blood samples, or with anyone else who needs to know your name.
+
+Clinic staff will have access to your study records. Your records may also be reviewed by groups who watch over this study to see that we are protecting your rights, keeping you safe, and following the study plan. These groups include:
+
+- The sponsor, Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator, Medical Director, Medical Monitor, Safety Officer, IRB Chair -- Health Care Provider - Individual (NPI - 1831468511)
+- Any regulatory agency that reviews studies like this US Food and Drug Administration (FDA)
+- The Institutional Review Board (IRB), which is Medicine Invention Design Incorporation (MIDI) IRB #1 (IRB00009424)
+- The Health Care Provider and people who work for them:
+- Medicine Invention Design Incorporation (FWA00015357)
+- Medicine Invention Design Incorporation (IORG0007849)
+- CAQH Approved Maryland State License (D11379922)
+- Health Care Provider - Group/Organization (NPI - 1023387701)
+- Health Care Provider - Health Maintenance Organization (Code - 302R00000X)
+- Health Care Provider - Multi-Specialty Group - (Code - 193200000X)
+- Health Care Provider - Pharmacist - Clinical Pharmacy Specialist (Code - 1835P0018X)
+-  Han  Xu,  M.D.,  Ph.D.,  FAPCR,  Sponsor-Investigator,  Medical  Director,  Medical Monitor, Safety Officer, IRB Chair, IORG Director
+
+
+
+## Medicine Invention Design Incorporation IRB00009424---IORG0007849---FWA00015357---NPI-1023387701---D11379922
+
+- US Department of Health and Human Services (DHHS):
+- Health Care Provider - Organization (NPI - 1023387701)
+- Health Care Provider - Health Maintenance Organization (Code - 302R00000X)
+- Health Care Provider - Research Clinic/Center (Code - 261QR1100X)
+- Health Care Provider - Clinical Medical Laboratory (Code - 291U00000X)
+- Health Care Provider - Individual (NPI - 1831468511)
+- The US Office for Human Research Protections:
+- FWA00015357
+- IORG0007849
+- IRB00009424
+- STATE OF MARYLAND - Department of Assessments and Taxation
+- D11379922
+
+All reviewers will take steps to keep your records private.
+
+We cannot guarantee absolute privacy. At this telehealth / telemedicine clinical trial site, we have to report CEA positive rectal cancer test results to local health authorities, for example, US Centers for Disease Control and  Prevention  (CDC).  The  local  health  authorities  may  also  require  that  we  share  your  demographic information and information about your CEA ( + ) RC test results to support contact tracing.
+
+During your participation in this study, study staff may need to review and where necessary make and keep copies  of  some  of  your  medical  records  (for  example,  records  of  hospitalizations).  Any  medical  records information requested for this study will be kept confidential in the same manner as your other study records.
+
+The results of this study may be published. No publication will use your name or identify you personally.
+
+We may share information from the study with other researchers. We will not share your name or information that can identify you.
+
+A description of this study will be available on http://www.ClinicalTrials.gov . This website will not include information that can identify you. At most, the website will include a summary of the results. You can search this website at any time.
+
+## 10. Risks
+
+The potential risks associated with this study are minimal.
+
+This section describes the risks we know about. There may also be unknown risks. We will tell you if we learn anything new that may affect your willingness to stay in the study.
+
+## Risks of taking blood:
+
+In this study, maybe we take blood. This procedure can cause bruising, pain, feeling faint or dizzy, soreness, redness, swelling, itching, a sore, infection, or bleeding. Taking blood can cause a low blood cell count (anemia), making you feel tired. If you become pregnant, anemia may increase the risk of complications for you or your baby, and so we may avoid your blood drawing.
+
+## Risks of the cervical swab procedure:
+
+The feeling of having a small, soft-tipped swab inserted to your cervical and twirled around may be a little  uncomfortable, but it should not be painful. There is a small chance there could be some bleeding, but this is unlikely.
+
+
+
+
+## Risks of the cervical wash procedure:
+
+The cervical wash may be uncomfortable, but it should not be painful. There is a small chance that the sterile salt water could go into your cervical, causing you to feel a little uncomfortable, but this is unlikely.
+
+## Risks of collecting a cervical mucus sample:
+
+There are no known risks of giving a sample of your cervical mucus.
+
+## Urine sample collection:
+
+There are no known risks for collecting urine by routine clean catch methods.
+
+## Risks of swabbing stool:
+
+There are no known risks of having your stool swabbed to collect a sample.
+
+## Risks of collecting stool by a rectal swab:
+
+If you choose to provide a sample by rectal swabbing, you may feel pressure as the swab is inserted into your rectum. It may be uncomfortable, but it is usually not painful. Some people may have a little bit of bleeding.
+
+## Risks of disclosure of your personal information:
+
+We will take several steps to protect your personal information. Although the risk is very low, it is possible that your personal information could be given to someone who should not have it. If that happened, you could face discrimination, stress, and embarrassment.
+
+Study records will be kept in secure locations in the study clinic. Study records and specimens will be labeled only with a code. All information entered into a computer is secured and will only be labelled with a code. Your names will be written on some records that are kept in the research clinic. Your study records will only be accessed by study staff given permission to do so. Study records will continue to be kept under confidential conditions according to the sponsor and IRB's guidelines and requirements.
+
+We cannot guarantee absolute privacy. At this telehealth / telemedicine clinical trial site, we have to report CEA positive rectal cancer test results to local health authorities, for example, US Centers for Disease Control and Prevention (CDC). The local health authorities may also require that we share your demographic information and information about your CEA ( + ) RC test results to support contact tracing.
+
+## Risks of genetic testing:
+
+If your genetic research data is shared with unauthorized users, you may be at risk of loss of the privacy of your health data. It is unlikely, but the genetic tests done on your samples could show you may be at  risk  for  certain  diseases.  If  others  found  out,  it  could  lead  to  discrimination  or  other problems. However, it is almost impossible for you or others to know your test results from the genetic testing. The results are not part of your study records and are not given to you.
+
+## 11. Benefits
+
+This study will not benefit you directly.
+
+## 12. Alternatives to Participation
+
+This study is for research purposes only. The only alternative is to not participate in this study. This study may help us learn more about CEA positive rectal cancer. The study results may be used to guide future research, treatment and prevention that could help others in the future.
+
+
+
+## 13. Your rights and responsibilities
+
+If you join the study, you have rights and responsibilities.
+
+You have many rights that we will respect. You also have responsibilities. We list these in the Bill of Rights and Responsibilities for Research. We will give you a copy of it.
+
+## 14. Voluntary Participation/Leaving the study.
+
+Tell us if you decide to leave the study.
+
+You are free to leave the study at any time and for any reason. Your care at this clinic and your legal rights will not be affected, but it is important for you to let us know. We may take you out of the study at any time.
+
+We may take you out of the study if:
+
+You do not follow instructions,
+
+- We think that staying in the study might harm you,
+- The study is stopped for any reason.
+
+## 15. Compensation for Injuries
+
+Purchase FDA approved biological products according to their labels like as following:
+
+- https://www.sigmaaldrich.com/US/en/product/mm/219369
+- ⚫ Millipore-Sigma CEA Antigen Protein
+- https://dailymed.nlm.nih.gov/dailymed/
+- ⚫ LABEL: BCG VACCINE - bacillus calmette-guerin substrain tice live antigen injection, powder, lyophilized, for solution
+
+Product name: Carcinoembryonic Antigen, Human Colon Adenocarcinoma Cell Line
+
+Pack Size:
+
+0.1 mg
+
+Product Number:
+
+219369
+
+Catalogue No.:
+
+D44022
+
+Brand:
+
+Millipore
+
+Company:
+
+Sigma-Aldrich Inc.
+
+NDC 0052-0603-02
+
+BLA 103050
+
+Packager:
+
+Merck Sharp &amp; Dohme Corp.
+
+It  is  unlikely  that  you  will  be  injured  as  a  result  of  study  participation.  If  you  are  injured,  the  clinic personnel will give you immediate necessary treatment for your injuries and refer you to the local hospital for further care as necessary. You will not have to pay for treatment provided through the public health facilities. If you receive treatment at a private facility, you and/or your medical aid will be responsible for treatment costs. There is no program to pay money or give other forms of compensation for such injuries even if they are study related through Medicine Invention Design, Inc.
+
+By signing and dating this document, you will not lose any of your legal rights or release anyone involved in the research from responsibility for mistakes.
+
+## 16. Whom to contact about this study.
+
+During the study, if you experience any medical problems, suffer a research-related injury, or have questions, concerns or complaints about the study, please contact the study site personnel below:
+
+
+
+
+## Medicine Invention Design Incorporation
+
+IRB00009424---IORG0007849---FWA00015357---NPI-1023387701---D11379922
+
+## Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator, Medical Monitor, Safety Officer, IRB Chair, IORG Director
+
+Medicine Invention Design Incorporation (MIDI) IRB #1 (IRB00009424)
+
+Health Care Provider - Individual (NPI - 1831468511)
+
+Health Care Provider - Clinical Ethicist (Code - 174V00000X)
+
+Medicine Invention Design Incorporation (IORG0007849 - FWA00015357)
+
+CAQH Approved Maryland State License (D11379922)
+
+Health Care Provider - Group/Organization (NPI - 1023387701)
+
+Health Care Provider - Health Maintenance Organization - (Code - 302R00000X)
+
+Health Care Provider - Multi-Specialty Group - (Code - 193200000X)
+
+Health Care Provider - Pharmacist - Clinical Pharmacy Specialist (Code - 1835P0018X)
+
+Mail
+
+: 5545 Burnside Drive, Rockville, MD 20853
+
+Call:
+
+301-222-7143
+
+Fax:
+
+866-458-0099
+
+E-mail:
+
+hanxumdphd@midinc.us
+
+If you have any questions about your rights as a research subject, and/or concerns or complaints regarding this research study, contact:
+
+Sponsor-Investigator, Medical Monitor, Safety Officer, Medical Director, IRB Chair, IORG Director
+
+Tel: 301-222-7143
+
+Fax: 866-458-0099
+
+E-mail: hanxumdphd@midinc.us
+
+## 17. The Biological Product for Percutaneous Use
+
+Purchase FDA approved biological products like as following:
+
+- https://www.sigmaaldrich.com/US/en/product/mm/219369
+- ⚫ Millipore-Sigma CEA Antigen Protein
+- Add 2 mL distilled water into above 0.1 mg CEA protein antigen
+-  Before 5 minutes for the percutaneous route with the multiple puncture device, above biologic 1ml - 0.05 mg CEA will be added into following biologic BCG:
+- https://dailymed.nlm.nih.gov/dailymed/
+- ⚫ LABEL: BCG VACCINE - bacillus calmette-guerin substrain tice live antigen injection, powder, lyophilized, for solution
+
+Product name:
+
+Carcinoembryonic Antigen, Human Colon Adenocarcinoma Cell Line
+
+Pack Size:
+
+0.1 mg
+
+Product Number:
+
+219369
+
+Catalogue No.:
+
+D44022
+
+Brand:
+
+Millipore
+
+Company:
+
+Sigma-Aldrich Inc.
+
+NDC
+
+0052-0603-02
+
+BLA 103050
+
+Packager:
+
+Merck Sharp &amp; Dohme Corp.
+
+- Mix above FDA approved biological products to take the Percutaneous Use (PU) and  treat  the  CEA positive rectal cancer.
+- The biological product name:
+
+Biological Product CEA protein antigen plus BCG Vaccine) by the percutaneous use with the multiple puncture device.
+
+
+
+
+## 18. Method of the biological product to take the Percutaneous Use
+
+The biologics is administered percutaneously utilizing a sterile, single-use multiple puncture device. The multiple puncture device consists of a plastic holder for a thin, wafer-like stainless steel plate from which 36 points protrude (Figure 1). After the biologics is prepared, the skin site is cleansed with an alcohol or acetone sponge and allowed to dry thoroughly.
+
+
+
+1. Administer the biological product in the deltoid region (Figure 2). Position the arm to maintain a horizontal surface where the biologics is to be placed.
+2. Drop the dose of 1 mL of the biologics from the syringe and needle onto the cleansed surface of the skin (Figure 3) and spread over a 1" by 2" area using the smooth edge of the multiple puncture device (Figure 4).
+
+
+
+
+
+
+
+
+
+3. Grasp the arm firmly from underneath, tensing the skin. Center the multiple puncture device over the biologics and apply firm downward pressure such that the device points are well buried in the skin (Figure 5).
+
+
+
+4. Maintain pressure for 5 seconds. Do not "rock" the device. Release the pressure underneath the arm and remove the device. In a successful procedure the points puncture the skin. If the points do not puncture the skin, the puncture procedure must be repeated.
+5. After successful puncture, spread the biologics as evenly as possible over the puncture area with the smooth edge of the device (Figure 4). An additional 1 -2 drops of the biologics may be added to ensure a very wet vaccination site.
+6. Use the multiple puncture device once and discard in a standard biohazardous sharps container.
+7. Loosely cover the site and keep dry for 24 hours.
+8. Advise  the  patient  that  this  biologic  contains  live  organisms.  Although  the  biologics  will  not survive in a dry state for long, infection of others is possible.
+- BCG should not be given to individuals previously infected with M. tuberculosis.
+- The biologics will use the percutaneous route with the multiple puncture device.
+
+## If it is possible, please take clinical test like as following:
+
+- A person given the tuberculin skin test [10 tuberculin units (10 TU) purified protein derivative (PPD) by Intradermal Injection (ID)] must return within 48 hours. The positive is skin test reading &gt; 5 mm induration at 48 hours. The negative is skin test reading &lt; 5 mm induration at 48 hours.
+- A person given the CEA protein skin test [0.01 mg CEA protein antigen by Intradermal Injection (ID)] must return within 48 hours. The positive is skin test reading &gt; 5 mm induration at 48 hours. The negative is skin test reading &lt; 5 mm induration at 48 hours.
+

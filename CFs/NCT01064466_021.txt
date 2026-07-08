@@ -1,0 +1,349 @@
+(2)  A  short  form  written  consent  document  stating  that the  elements  of  informed  consent required by §50.25 have been presented orally to the subject or the subject's legally authorized representative. When this method is used, there shall be a witness to the oral presentation. Also, the IRB shall approve a written summary of what is to be said to the subject or the representative. Only  the  short  form  itself  is  to  be  signed  by  the  subject  or  the  representative.  However,  the witness  shall  sign  both  the  short  form  and  a  copy  of  the  summary,  and  the  person  actually obtaining the consent shall sign a copy of the summary. A copy of the summary shall be given to the subject or the representative in addition to a copy of the short form.
+
+## Contents
+
+| Phase 3 SNP Study Consent Form.........................................................................................4                |
+|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Study Title for Study Participants: ..............................................................................................4     |
+| Official Study Title for Internet Search on http://www.ClinicalTrials.gov:................................4                             |
+| What is the usual approach to my small-cell lung cancer?..........................................................5                     |
+| What are my other choices if I do not take part in this study? ....................................................5                    |
+| Why is this study being done?.....................................................................................................5     |
+| What are the study groups?..........................................................................................................5   |
+| How long will I be in this study?.................................................................................................6     |
+| What extra tests will I have if I take part in this study? ..............................................................6              |
+| What possible risks can I expect from taking part in this study? ................................................6                      |
+| What possible benefits can I expect from taking part in this study? ...........................................7                        |
+| Can I stop taking part in this study? ............................................................................................8     |
+| What are my rights in this study? ................................................................................................8     |
+| What are the costs of taking part in this study?...........................................................................8            |
+| What happens if I am injured or hurt because I took part in this study? .....................................8                          |
+| Who will see my medical information?.......................................................................................8            |
+| Where can I get more information?.............................................................................................9         |
+| Who can answer my questions about this study? ........................................................................9                 |
+| ADDITIONAL STUDIES SECTION:........................................................................................9                    |
+| This section is about an optional study you can choose to take part in .......................................9                         |
+| Possible Side Effects of Etoposide ..................................................................................................12 |
+| My Signature Agreeing to Take Part in the Main Study ...........................................................13                      |
+
+Our investigation (NCT01064466) will be conducted in compliance with the requirements for 21 CFR Part 50 like as following:
+
+## 21 CFR § 50.3 (f)
+
+Sponsor-investigator means an individual who both initiates and actually conducts, alone or with others, a clinical investigation, i.e., under whose immediate direction the test article is administered or dispensed to, or  used  involving,  a  subject.  The  term  does  not  include  any  person  other  than  an  individual,  e.g., corporation or agency.
+
+I  (sponsor-investigator)  will  actually  conduct,  with  online  referral  clinical  investigators,  the  clinical investigation, i.e., under whose immediate direction the test article is administered or dispensed to, or used involving, a subject.
+
+## 21 CFR 312.23(a)(1)(v)
+
+A commitment to conduct the investigation in accordance with all other applicable regulatory requirements.
+
+## Statement
+
+I write the statement with respect to each clinical study involving human subjects that it either will be conducted in compliance with the institutional review board regulations in part 56 or will not be subject to the  regulations  under  §56.104  or  §56.105;  and  that  it  either  will  be  conducted  in  compliance  with  the informed consent regulations in part 50 or will not be subject to the regulations under §50.23 and §50.24.
+
+## 21 CFR § 320.31
+
+## Applicability of requirements regarding an 'Investigational New Drug Application.'
+
+21 CFR 320.31(a)
+
+Any person planning to conduct an in vivo bioavailability or bioequivalence study in humans shall submit an ͞IŶǀestigatioŶal Neǁ Drug AppliĐatioŶ͟ ;INDͿ if:
+
+21 CFR 320.31(a)(3)
+
+The study involves a cytotoxic drug product.
+
+21 CFR 320.31(b)
+
+Any person planning to conduct a bioavailability or bioequivalence study in humans using a drug product that contains an already approved, non-new chemical entity shall submit an IND if the study is one of the following:
+
+## 21 CFR 320.31(b)(1)
+
+A single-dose study in normal subjects or patients where either the maximum single or total daily dose exceeds that  specified  in  the  labeling  of  the  drug  product  that  is  the  subject  of  an  approved  new  drug application or abbreviated new drug application.
+
+21 CFR 320.31(c)
+
+The provisions of parts 50, 56, and 312 of this chapter are applicable to any bioavailability or bioequivalence study in humans conducted under an IND.
+
+I (Han Xu,  Sponsor-Investigator) am planning to conduct an in vivo bioequivalence study in humans shall  suďŵit  aŶ  ͞IŶǀestigatioŶal  Neǁ  Drug  AppliĐatioŶ͟  ;INDͿ  ;Etoposide  IND  ϭϳϴϭϳϮ  CoŵŵerĐialͿ, which the study (NCT01064466) involves a cytotoxic drug product (ETOPOSIDE capsule). Meanwhile, I am planning to conduct the bioequivalent study in humans using the drug product that contains an already approved, non-new chemical entity (Etoposide) shall submit the IND 178172, which the study (NCT01064466) is a single-dose study in patients with the maximum single in the labeling of the drug product  (ETOPOSIDE  capsule)  that  is  the  subject  of  an  approved  abbreviated  new  drug  application (ANDA). The provisions of 21 CFR Part 50, 21 CFR Part 56, and 21 CFR Part 312 are applicable to my bioequivalence study (NCT01064466) in humans conducted under my IND 178172.
+
+## Phase 3 SNP Study Consent Form
+
+## Study Title for Study Participants:
+
+Testing the SNPs of the study chemotherapy, comparing to the SNPs of the usual chemotherapy in small cell lung cancer
+
+Pharmacogenomics IND EXEMPT SNP Clinical Study - Etoposide Capsule and Single Nucleotide Polymorphisms (Drugs-SNPs)
+
+## Official Study Title for Internet Search on http://www.ClinicalTrials.gov:
+
+Study 00001 (NCT01064466) -Pharmacogenomics IND EXEMPT SNP Clinical Study -Etoposide and Single Nucleotide Polymorphisms (Drugs SNPs) -- Explore the  relationship  between  single  nucleotide  polymorphisms  and  etoposide  response and toxicity in patients with small cell lung cancer.
+
+## What is the usual approach to my small-cell lung cancer?
+
+You are being asked to take part in this research study because you have had lung tissue biopsy for your  small  cell  lung  cancer.  People  who  are  not  in  a  research  study  may  be  treated  with chemotherapy-drug after lung tissue biopsy. There is one FDA-approved drug (Etoposide Capsule) that is commonly used. For patients who receive the usual approach for this cancer about 70 out of 100 may be alive and free of cancer in one year.
+
+## What are my other choices if I do not take part in this study?
+
+If you decide not to take part in this study, you have other choices. For example:
+
+- you may choose to have the usual approach described above
+- you may choose to take part in a different study if one is available
+- or you could decide not to be treated for cancer
+
+## Why is this study being done?
+
+The purpose of this study is to test any good and bad effects of the study chemotherapy drug (China Import  Etoposide  Capsule)  compared  to  the  usual  chemotherapy  drug  (Etoposide  Capsule).  The study group drug could cause therapeutic effects of chemotherapy by preventing your cancer from returning or  they  could cause side effects or reduce the benefits of chemotherapy. This study will allow the researchers to know whether the study chemotherapy drugs are better, the same or worse than not doing so . Correlate oncology drugs' targets' genes' single nucleotide polymorphisms (SNPs) to using oncology drugs therapeutic effects and side effects of treating small cell lung cancer (SCLC), based  on  precisely  sequencing oncology  drugs'  targets'  g enes.  The  chemotherapy  efficacy  can arrive higher than the 90% Effective Dose (ED90) level. The chemotherapy risk can arrive lower than the 10% Lethal Dose (LD10) level. There will be about 600 people taking part in this study.
+
+## What are the study groups?
+
+This study has two study groups.
+
+- Group 1 will get the usual chemotherapy drugs to treat this type of cancer: Etoposide Capsule
+- o Etoposide Capsule will be given to you orally daily on day 1-5 per week.
+- o This chemotherapy will be repeated for 12 weeks.
+- o The duration will be at least 90 days.
+- Group 2 will get the study chemotherapy drugs to treat this type of cancer: Etoposide Capsule
+- o You will receive China Import Etoposide Capsule into a mouth at day 1-5 per week.
+- o This chemotherapy will be repeated for 12 weeks.
+- o The duration will be at least 90 days.
+
+A  computer  will  by  chance  assign  you  to  chemotherapy  groups  in  the  study.  This  is  called randomization.  This is done by chance because no one knows if one study group is better or worse than the other. Neither you nor your doctor can choose which group you will be in.
+
+Another way to find out what will happen to you during this study is to read the chart below. Start reading on the left side and read across to the right, following the lines and arrows.
+
+<!-- image -->
+
+## How long will I be in this study?
+
+You will receive the study drugs for six months if you are in Group 1 and in Group 2. After you finish the  study  drugs,  you  will  be  asked  to  see  your  study  doctor  for  follow-up  examinations  for  2  years. Your study doctor would like to continue to watch you for side effects and follow your condition for the rest of your life.
+
+## What extra tests will I have if I take part in this study?
+
+If you are assigned to Group 1, all of the tests you will have are part of the usual approach to curing your cancer.  If  you  are  assigned  to  Group  2,  all  of  the  tests  you  will  have  are  part  of  the  study approach for your cancer. There are blood, urine, and tissue tests that you will need to have:
+
+- Sequence precisely each target gene DNA whole chain in peripheral blood as follows: DNA Topoisomerase II.
+- Correlate Topoisomerase II Gene Single Nucleotide Polymorphisms (SNPs) to Using Etoposide Therapeutic Effects of Treating Small Cell Lung Cancer (SCLC), based on precisely sequencing drug target gene via Peripheral Blood DNA.
+- Sequence precisely each target gene DNA whole chain in peripheral blood as follows: CYP450 3A4.
+- Correlate CYP450 3A4 Gene Single Nucleotide Polymorphisms (SNPs) to Using Etoposide Side Effects of Treating Small Cell Lung Cancer (SCLC), based on precisely sequencing drug target gene via Peripheral Blood DNA.
+- You will need a lung tissue biopsy test at least one time.
+- You will need an image test at least one time per month.
+- If you have an allergic reaction to oncology drugs, you will have an extra blood test.
+- You will need urine tests every week while you are taking oncology drugs.
+- You will need blood tests every week while you are taking oncology drugs.
+
+Your insurance  company will be  charged for the  blood,  urine,  and  tissue  biopsy  tests  related  to oncology drugs.
+
+## What possible risks can I expect from taking part in this study?
+
+If you choose to take part in this study, there is a risk that:
+
+- You may l ose time at work or home and spend more time in the hospital or doctor's office than usual .
+- You may be asked sensitive or private questions which you normally do not discuss.
+- The  usual  chemotherapy  drugs  may  not  be  better,  and  could  be  possibly  worse,  than receiving the chemotherapy drugs.
+
+The study drugs used in this study may affect how different parts of your body work such as your liver, kidneys, heart, and blood. The study doctor will be testing your blood, urine, and tissue, and will let you know if changes occur that may affect your health. There is also a risk that you could have side effects from the usual chemotherapy drugs and the study chemotherapy drugs.
+
+Here are important points about side effects:
+
+- The study doctors do not know who will or will not have side effects.
+- Some side effects may go away soon, some may last a long time, or some may never go away.
+- Some side effects may interfere with your ability to have children.
+- Some side effects may be serious and may even result in death.
+
+Here are important points about how you and the study doctor can make side effects less of a problem:
+
+- Tell the study doctor if you notice or feel anything different so they can see if you have a side effect.
+- The study doctor may be able to treat some side effects.
+- The study doctor may adjust the study drugs to try to reduce side effects.
+
+The tables below show the most common and the most serious side effects that researchers know about. There might be other side effects that researchers do not yet know about. If important new side effects are found, the study doctor will discuss these with you.
+
+Study Group 1 and Group 2 - Table of Possible Side Effects of the usual chemotherapy and the study chemotherapy for this type of cancer:
+
+- See Table of Possible Side Effects of Etoposide (See Page 12)
+
+Let your study doctor know of any questions you have about possible side effects. You can ask the study doctor questions about side effects at any time.
+
+Reproductive risks: You should not get pregnant, breastfeed, or father a baby while in this study. The drugs used in this study could be very damaging to an unborn baby. Check with the study doctor about what types of birth control, or pregnancy prevention, to use while in this study.
+
+## What possible benefits can I expect from taking part in this study?
+
+It is not possible to know at this time if the study chemotherapy is better than the usual chemotherapy, so  this  study  may  or  may  not  help  you.  This  study  will  help  researchers  learn  things  that  will  help people in the future.
+
+I (Sponsor-Investigator)  am  planning  to  conduct  an  in  vivo  bioequivalence  study  in  humans  shall suďŵit aŶ ͞IŶǀestigatioŶal Neǁ Drug AppliĐatioŶ͟ ;INDͿ ;Etoposide IND ϭϳϴϭϳϮ CoŵŵerĐialͿ, ǁhiĐh the  study  (NCT01064466)  involves  a  cytotoxic  drug  product  (ETOPOSIDE capsule).  Meanwhile,  I  am planning  to  conduct  the  bioequivalent  study  in  humans  using  the  drug  product  that  contains  an already approved, non-new chemical entity (Etoposide) shall submit the IND 178172, which the study (NCT01064466) is a single-dose study in patients with the maximum single in the labeling of the drug product  (ETOPOSIDE  capsule)  that  is  the  subject  of  an  approved  abbreviated  new  drug  application (ANDA). The provisions of 21 CFR Part 50, 21 CFR Part 56, and 21 CFR Part 312 are applicable to my bioequivalence study (NCT01064466) in humans conducted under my IND 178172.
+
+I (Han Xu, M.D., Ph.D. i.e., Sponsor i.e., Sponsor-Investigator) as IRB Chair of our IRB (IRB00009424) will organize the IRB meeting only but give up my voting power in the determination of IRB, when I conduct my clinical investigation (NCT01064466).
+
+## Can I stop taking part in this study?
+
+Yes. You can decide to stop at any time. If you decide to stop for any reason, it is important to let the  study  doctor  know  as  soon  as  possible  so  you  can  stop  safely.  If  you  stop,  you  can  decide whether  or  not  to  let  the  study  doctor  continue  to  provide  your  medical  information  to  the organization running the study.
+
+The study doctor will tell you about new information or changes in the study that may affect your health or your willingness to continue in the study.
+
+The study doctor may take you out of the study:
+
+- If your health changes and the study is no longer in your best interest
+- If new information becomes available
+- If you do not follow the study rules
+- If the study is stopped by the sponsor, IRB, or FDA
+
+## What are my rights in this study?
+
+Taking part in this study is your choice. No matter what decision you make, and even if your decision changes, there will be no penalty to you. You will not lose medical care or any legal rights.
+
+For questions about your rights while in this study, call the Medicine Invention Design, Inc. Institutional Review Board (IRB) at 1-301-222-7143.
+
+## What are the costs of taking part in this study?
+
+The  usual  chemotherapy  drugs  and  the  study  chemotherapy  drugs  will  be  supplied  at  charge  by  your insurance company while you take part in this study. The cost of getting the drugs ready and giving them to you is not provided by you so your insurance company will have to pay for this. It is possible that the usual chemotherapy drugs and the study chemotherapy drugs may not continue to be supplied while you are on the study. Although not likely, if this occurs, your study doctor will talk to you about your options.
+
+Your health plan / insurance company will need to pay for all of the other costs of treating your cancer while in this study, including the cost of managing any side effects. Before you decide to be in the study, you should check with your health plan or insurance company to find out exactly what they will pay for.
+
+You will not be paid for taking part in this study.
+
+## What happens if I am injured or hurt because I took part in this study?
+
+If you are injured or hurt as a result of taking part in this study and need medical treatment, please tell  your study doctor. The study sponsors will not offer to pay for medical treatment for injury. Your insurance company may be willing to pay for study-related injury.  If you have no insurance, you would be responsible for any costs.
+
+If you feel this injury was a result of medical error, you keep all your legal rights to receive some help for this even though you are in a study.
+
+## Who will see my medical information?
+
+Your  privacy  is  very  important  to  us  and  the  researchers  will  make  every  effort  to  protect  it.  Your information may be given out if required by law. For example, certain states require doctors to report to health  boards  if  they  find  a  disease  like  tuberculosis.  However,  the  researchers  will  do  their  best  to make sure that any information that is released will not identify you. Some of your health information, and/or information about your specimen, from this study will be kept in a central database for research. Your name or contact information will not be put in the database.
+
+There are organizations that may inspect your records. These organizations are required to make sure your information is kept private, unless required by law to provide information. Some of these organizations are:
+
+- The Medicine Invention Design, Inc. will use United Healthcare Insurance to support this study.
+- The Institutional Review Board, IRB, is a group of people who review the research with the goal of protecting the people who take part in the study.
+- The Food and Drug Administration in the U.S. and similar agencies in other countries involved in the study.
+
+## Where can I get more information?
+
+You may visit the Web page at https://clinicaltrials.gov/ct2/show/NCT01064466 for more information about this study. You may also call the Cancer Information Service of the Medicine Invention Design, Inc. to get the same information at: 1-301-222-7143.
+
+A description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. Law. This Web site will not include information that can identify you. At most, the Web site will include a summary of the results. You can search this Web site at any time.
+
+## Who can answer my questions about this study?
+
+You can talk to the study doctor about any questions or concerns you have about this study or to report side effects or injuries. Contact the study doctors via Han Xu, M.D., Ph.D., IRB Chair, Sponsor-Investigator, IORG Director at 1-301-222-7143.
+
+## ADDITIONAL STUDIES SECTION:
+
+## This section is about an optional study you can choose to take part in
+
+You can still take part in the main study even if you say 'no' to th is study. If you sign up for but cannot complete this study for any reason, you can still take part in the main study.
+
+## Optional Sample Collections for Biobanking for Possible Future Studies
+
+Researchers are trying to learn more about cancer, diabetes, and other health problems.  Much of this research is done using samples from your tissue, blood, urine, or other fluids. Through these studies, researchers hope to find new ways to prevent, detect, treat, or cure health problems.
+
+Some of  these  studies  may  be  about  genes.  Genes  carry  information  about  features  that  are found in you and in people who are related to you. Researchers are interested in the way that genes affect how your body responds to treatment.
+
+The researchers ask your permission to store and use your samples and health information for medical research. The research that may be done is unknown at this time. Storing samples for future studies is  called 'biobanking'. The Biobank is being run by the MIDINC Clinical Research Multiple Group and supported by the Medicine Invention Design, Inc. (MIDI).
+
+## What is involved?
+
+If you agree to take part, here is what will happen next:
+
+- 1) A sample from the tissue that was collected at the time of your biopsy will be sent to the Biobank.
+- 2) Your  sample  and  some  related  information  may  be  stored  in  the  Biobank  along  with samples and information from other people who take part. The samples will be kept until they are used up.
+
+- 3) Qualified  researchers  can  submit  a  request  to  use  the  materials  stored  in  the  Biobank.  A science  committee  at  the  clinical  trials  organization,  and/or  the  MIDI,  will  review  each request.  There  will  also  be  an  ethics  review  to  ensure  that  the  request  is  necessary  and proper.  Researchers  will  not  be  given  your  name  or  any  other  information  that  could directly identify you.
+- 4) Neither you nor your study doctor will be notified when research will be conducted or given reports or other information about any research that is done using your samples.
+- 5) Some of your genetic and health information may be placed in central databases that may be public,  along  with  information  from  many  other  people.  Information  that  could  directly identify you will not be included.
+
+## What are the possible risks?
+
+- 1) There is a risk that someone could get access to the personal information in your medical records or other information the researchers have stored about you.
+- 2) There  is  a  risk  that  someone  could  trace  the  information  in  a  central  database  back  to  you.  Even without  your  name  or  other  identifiers,  your  genetic  information  is  unique  to  you.  The  researchers believe the chance that someone will identify you is very small, but the risk may change in the future as people come up with new ways of tracing information.
+- 3) In some cases, this information could be used to make it harder for you to get or keep a job or insurance. There are laws against the misuse of genetic information, but they may not give full protection. There can also be a risk in knowing genetic information. New health information  about  inherited  traits  that  might  affect  you  or  your  blood  relatives  could  be found during a study. The researchers believe the chance these things will happen is very small but cannot promise that they will not occur.
+
+## How will information about me be kept private?
+
+Your privacy is very important to the researchers, and they will make every effort to protect it. Here are just a few of the steps they will take:
+
+- 1) When your sample is sent to the researchers, no information identifying you (such as your name) will be sent. Samples will be identified by a unique code only.
+- 2) The list that links the unique code to your name will be kept separate from your sample and health information. Any Biobank and MIDINC Clinical Research Multiple Group staff with access to the list must sign an agreement to keep your identity confidential.
+- 3) Researchers to  whom the  MIDINC Clinical Research Multiple Group sends your sample and information will not know who you are. They must also sign an agreement that they will not try to find out who you are.
+- 4) Information that identifies you will not be given to anyone, unless required by law.
+- 5) If research results are published, your name and other personal information will not be used.
+
+## What are the possible benefits?
+
+You will not benefit from taking part. The researchers, using the samples from you and others, might make discoveries that could help people in the future.
+
+## Are there any costs or payments?
+
+There are no costs to you or your insurance. You will not be paid for taking part. If any of the research leads to new tests, drugs, or other commercial products, you will not share in any profits.
+
+## What if I change my mind?
+
+If you decide you no longer want your samples to be used, you can call the study doctor via 1301-222-7143 who will let the researchers know. Then, any sample that remains in the bank will no longer be used. Samples or related information that have already been given to or used by researchers will not be returned.
+
+## What if I have more questions?
+
+If you have questions about the use of your samples for research, contact the study doctor via 1301-222-7143 .
+
+Please circle your answer to show whether or not you would like to take part in this optional biobanking study.
+
+My samples and related information may be kept in a Biobank for use in future health research.
+
+## YES NO
+
+I agree that my study doctor, or their representative, may contact me or my physician to see if I wish to participate in other research in the future.
+
+## YES NO
+
+This is the end of the section about optional studies.
+
+## *****Note:
+
+Based  on  FWA00015357,  this  Informed  Consent  Form  (ICF)  is  written  by  Han  Xu,  M.D.,  Ph.D., Sponsor-Investigator. Also, this ICF is reviewed and approved by IRB00009424 and IORG0007849. If you need or find any changes to this ICF, please inform IRB, IORG, or Han Xu, M.D., Ph.D., FAPCR, Sponsor-Investigator, Medical Director, IRB Chair, IORG Director immediately.
+
+Phone: +1-301-222-7143; Fax: +1-866-458-0099; E-mail: hanxumd@gmail.com
+
+I write following statement with respect to each clinical study involving human subjects that it either will be conducted in compliance with the institutional review board regulations in part 56 or will not be subject to the regulations under §56.104 or §56.105 ;  and that it either will be conducted in compliance with the informed consent regulations in part 50 or will not be subject to the regulations under §50.23 and §50.24 .
+
+Our investigation (NCT01064466) will be conducted in compliance with the requirements for 21 CFR Part 50 like as following:
+
+## 21 CFR § 50.3 (f)
+
+Sponsor-investigator means an individual who both initiates and actually conducts, alone or with others, a clinical investigation, i.e., under whose immediate direction the test article is administered or dispensed to, or  used  involving,  a  subject.  The  term  does  not  include  any  person  other  than  an  individual,  e.g., corporation or agency.
+
+- I  (sponsor-investigator)  will  actually  conduct,  with  online  referral  clinical  investigators,  the  clinical investigation, i.e., under whose immediate direction the test article is administered or dispensed to, or used involving, a subject.
+- I (Sponsor-Investigator)  am  planning  to  conduct  an  in  vivo  bioequivalence  study  in  humans  shall submit an ' Investigational New Drug Application ' (IND)  (Etoposide  IND 178172 Commercial), which the  study  (NCT01064466)  involves  a  cytotoxic  drug  product  (ETOPOSIDE capsule).  Meanwhile,  I  am planning  to  conduct  the  bioequivalent  study  in  humans  using  the  drug  product  that  contains  an already approved, non-new chemical entity (Etoposide) shall submit the IND 178172, which the study (NCT01064466) is a single-dose study in patients with the maximum single in the labeling of the drug product  (ETOPOSIDE  capsule)  that  is  the  subject  of  an  approved  abbreviated  new  drug  application (ANDA). The provisions of 21 CFR Part 50, 21 CFR Part 56, and 21 CFR Part 312 are applicable to my bioequivalence study (NCT01064466) in humans conducted under my IND 178172.
+
+## Possible Side Effects of Etoposide
+
+(Table Version Date: September 25, 2017)
+
+## COMMON, SOME MAY BE SERIOUS
+
+In 100 people receiving Etoposide, more than 20 and up to 100 may have:
+
+- Infection, especially when white blood cell count is low
+- Anemia which may require transfusion
+- Bruising, bleeding
+- Sores in mouth which may cause difficulty swallowing
+- Diarrhea, loss of appetite, nausea, vomiting
+- Tiredness
+- Fever
+- Chills
+- Hair loss
+
+## OCCASIONAL, SOME MAY BE SERIOUS
+
+In 100 people receiving Etoposide, from 4 to 20 may have:
+
+- Heart failure or heart attack which may cause chest pain, shortness of breath, swelling of ankles, and tiredness
+- Liver damage, which may cause yellowing of eyes and skin, swelling
+- Severe skin rash with blisters and peeling which can involve inside of mouth and other parts of the body
+
+## RARE, AND SERIOUS
+
+In 100 people receiving Etoposide, 3 or fewer may have:
+
+- Cancer of bone marrow caused by chemotherapy
+- Allergic reaction which may cause rash, low blood pressure, wheezing, shortness of breath, swelling of the face or throat

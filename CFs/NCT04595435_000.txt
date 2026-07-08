@@ -1,0 +1,249 @@
+## ATRIUM HEALTH NAVICENT CONSENT TO PARTICIPATE IN A RESEARCH STUDY
+
+## AND AUTHORIZATION TO DISCLOSE HEALTH INFORMATION For SUBJECTS
+
+Sponsor / Study Title:
+
+Atrium Health Navicent / Prospective Registry of Intraoperative Radiation Therapy Using Low Energy X-ray for Breast Cancer at Medical Center, Navicent Health
+
+Protocol Number:
+
+IORT
+
+Principal Investigator: (Study Doctor)
+
+
+Telephone:
+
+Address:
+
+## Version Date February 1, 2019
+
+You are being asked to participate in a research study because you are planning to have low energy x-ray intraoperative radiation therapy using Xoft for Breast Cancer (IORT-Breast) at The Medical Center, Navicent Health, or you have had this procedure within the last 6 months. Your participation in this trial is voluntary, you must choose to participate or not participate. Your choice will not affect the care that you will receive. Please take as much time as you require to read this Informed Consent and ask questions about participating in this research.
+
+## Background on treatment
+
+Intraoperative radiation therapy using low energy x-rays using Xoft (IORT-Breast) is an FDA approved treatment, after lumpectomy, for early stage low, risk breast cancer. Breast cancer is considered early stage, low risk when there is a single small lump, usually 2cm or less in greatest diameter, that has not spread beyond that lump, and the tumor has been shown to be slow growing (Low or medium cellular grade). Additionally, these tumors are sensitive to estrogen. (ER positive).
+
+Intraoperative radiation therapy allows for 1 single radiation treatment after lumpectomy but during the surgical visit.  This is an alternative to whole breast radiation or mastectomy.  The
+
+
+
+risks and benefits of these treatment alternatives have or will be discussed by your physician. While Intraoperative Radiation Therapy (IORT-Breast) has been used for many years, it has only recently been introduced at the Medical Center, Navicent Health. The researchers would like to follow as many women as possible who receive this treatment during the first FIVE years that this treatment is offered and to assess your satisfaction and success for TEN years after receiving treatment.
+
+## Purpose and Duration
+
+The purpose of this research is to determine the treatment outcomes of women with low risk breast cancer who receive intraoperative radiation therapy for the 10 years following treatment. The researchers hope to be able to follow all women who receive this treatment from October 2018 to December 2023. It is estimated that this will involve up to 300 women.
+
+Each participant would be followed for up to 10 years after IORT-Breast. The researchers are also interested in how your life has been affected by the cancer and its treatment, your 'Quality of Life'. For this you will receive a short questionnaire at each visit. The QOL questionnaire looks at how you are physically and emotionally, and how able you are to carry out your day to day living. If any questions make you feel uncomfortable, you may skip those questions and not give an answer. This information will help doctors better understand how patients feel and what effects treatments and medicines are having.
+
+The researchers are also interested in determining how participants feel that their surgery is having on their appearance. There is a brief questionnaire that allows participants and their doctors to rate their appearance and satisfaction at each visit.
+
+The trial will be open to accrual from January 2019 until December 2023. Follow up visits should be completed by early 2028 and the trial should be completed by December 2033.
+
+## Research Activities: Procedures and Information Requested
+
+This research study is an observational registry. There is NO experimental treatments. Participants will be treated according to standard of care practices by their doctors.
+
+There are two groups or cohorts, Cohort A includes those who agree to participate in the study prior to having surgery and IORT-Breast. This group includes all eligible for IORT-Breast. Consent and authorization will be obtained prior to surgery. Those who do not have IORT-Breast will have the reasons that IORT-Breast was not received noted and will then have no further follow-up. Those who have IORT-Breast will be followed until they have a 10 year post IORTBreast follow up.
+
+
+
+Figure 1: Cohort A Preoperative Prospective
+
+
+Cohort B are those people who have had IORT-Breast within the preceding 6M. Once consent and authorization are obtained they will be followed for 10 years post IORT.
+
+Figure 2: Cohort B Postoperative Prospective
+
+
+All participants will receive standard of care treatments.
+
+Research Information will be taken from your doctor's notes following your visits. The following information will be recorded.
+
+Height (initial visit)
+
+Weight
+
+Body Mass Index
+
+
+
+## History and physical exam findings
+
+-  Vital Signs
+-  Breast evaluation
+-  Medical Record Review
+-  Imaging Review
+-  Treatment Review, Hormonal Treatment Review
+-  Smoking history
+-  Birth Control/Gynecologic history
+
+## Breast Cancer Diagnosis Information
+
+-  Palpable lump or routine screening
+-  Location (left or right breast, 'clock' section, distance from nipple/areola, depth)
+-  Description (histology, ER/PR/Her 2 status)
+-  Additional Genetics (e.g. BRCA status if known)
+-  Family history of breast cancer
+
+In addition to the standard of care information: You will be asked to complete
+
+ECOG Performance Status Score (a measure of your physical abilities/activity)
+
+Cosmetic Appearance Score (a measure of your satisfaction of the appearance of your breast following surgery, rated by you and your doctor)
+
+FACT B Quality of Life Questionnaire (a quality of life tool measuring quality of life and wellbeing)
+
+The following tables give an example of when these are assessed.
+
+Please remember that participation is voluntary and if at any time you decide you do not wish to participate you may withdraw or opt not to complete questionnaires. This decision will not affect the treatment or care that you receive.
+
+
+
+## Cohort A
+
+|                     | Initial       | Operative Visit   | Follow- Up # 1   | Follow- Up # 2   | Follow- Up # 3   | Follow- Up # 4   | Follow-Up # 5 - 12    |
+|---------------------|---------------|-------------------|------------------|------------------|------------------|------------------|-----------------------|
+|                     | Prior to IORT | IORT              | 6M* Post IORT    | 12M* Post IORT   | 18M* Post IORT   | 24M* Post IORT   | 36M -120 M* Post IORT |
+| Demographics        | X             |                   |                  |                  |                  |                  |                       |
+| HT a /WT/BMI        | X             | X                 | X                | X                | X                | X                | X                     |
+| Vital Signs         | X             | X                 | X                | X                | X                | X                | X                     |
+| History& Physical   | X             |                   | X                | X                | X                | X                | X                     |
+| Breast Evaluation b | X             |                   | X                | X                | X                | X                | X                     |
+| Imaging Review c    | X             |                   | X                | X                | X                | X                | X                     |
+| Medication Review   | X             |                   | X                | X                | X                | X                | X                     |
+| Hormonal Therapy d  |               |                   | X                | X                | X                | X                | X                     |
+| Pathology Review e  | X             | X                 | X                |                  |                  |                  |                       |
+| Treatment Review    | X             |                   | X                | X                | X                | X                | X                     |
+| Imaging Review      | X             |                   | X                | X                | X                | X                | X                     |
+| QOL - FACT B        | X             |                   | X                | X                | X                | X                | X                     |
+
+
+
+## Cohort B
+
+|                     | Initial &   | Follow- Up # 1 &   | Follow- Up # 2   | Follow- Up # 3   | Follow- Up # 4   | Follow-Up # 5 - 12    |
+|---------------------|-------------|--------------------|------------------|------------------|------------------|-----------------------|
+|                     | Post IORT   | 6M* Post IORT      | 12M* Post IORT   | 18M* Post IORT   | 24M* Post IORT   | 36M -120 M* Post IORT |
+| Demographics        | X           |                    |                  |                  |                  |                       |
+| HT a /WT/BMI        | X           | X                  | X                | X                | X                | X                     |
+| Vital Signs         | X           | X                  | X                | X                | X                | X                     |
+| History &Physical   | X           | X                  | X                | X                | X                | X                     |
+| Breast Evaluation b | X           | X                  | X                | X                | X                | X                     |
+| Imaging Review c    | X           | X                  | X                | X                | X                | X                     |
+| Medication Review   | X           | X                  | X                | X                | X                | X                     |
+| Hormonal Therapy d  |             | X                  | X                | X                | X                | X                     |
+| Pathology Review e  | X           | X                  |                  |                  |                  |                       |
+| Treatment Review    | X           | X                  | X                | X                | X                | X                     |
+| Imaging Review      | X           | X                  | X                | X                | X                | X                     |
+| QOL - FACT B        | X           | X                  | X                | X                | X                | X                     |
+
+## Risks
+
+There are no foreseeable physical risks for participating or not participating in this research.
+
+There are no additional tests that will be performed because of your participation in the study. However, your participation may involve additional information being asked of you and involve research staff that would not normally be involved in your care. This additional involvement may affect your privacy and confidentiality. All efforts will be taken to keep your information confidential and private. Your identity will be protected as much as possible and a study identification will be generated to protect your identity. The information obtained will be secured in your medical record, a copy in the Oncology Research Office and in a password protected, limited access database.
+
+Paul Dale, MD This participation may also prolong your visits in order to complete additional questionnaires.
+
+
+## Benefits
+
+There are no additional benefits to you from participating in this study. Information that is collected may benefit others in the future if the research produces information that leads to practice change. This benefit is unknown at this time.
+
+## Cost and Payment
+
+There is no cost to participate in this research study. You will not receive a bill, nor will your insurance provider for your participation. You will be responsible for your treatment costs and doctor's visits. Please contact your doctor's office to determine costs of care, and your insurance company to determine their responsibility.
+
+You will not receive any payment for participating in this research study.
+
+## Alternative Treatments
+
+The treatment that you receive is not determined by this research study, it is determined by an informed decision you have made with your doctor. Your doctor may have offered or may offer treatment alternatives. Your choice to participate in this study will not alter your treatment choices nor effect the treatment choices available to you.
+
+Please discuss your treatment choices with your doctor.
+
+## Participant Responsibilities
+
+The researchers thank you for considering this research study. To ensure that the information that is obtained and the results of the study are of the highest quality the researchers ask that you are open and honest in answering any questions that your doctor or their staff asks. In addition, when answering the quality of life questionnaire there is no wrong or right answer, there is only the answer that you feel is the most appropriate at the time you are answering the question. This may change from visit to visit. That is to be expected.
+
+Please keep all appointments that are scheduled. If you are unable to attend an appointment, please let your doctor know prior to the appointment, and reschedule at your earliest convenience.
+
+## Your Rights
+
+Participating in this study does not alter or change your legal rights in any way. You maintain all your rights. You have the right to review your medical record and should consult your doctor's office for their policy and procedure to access your records.
+
+You have the right to participate or not participate in this study. You also have the right to withdraw from this study at any time. Any information that was obtained up to that point will be able to be used but no further information will be collected.
+
+
+
+## WHOM DO I CALL IF I HAVE QUESTIONS OR PROBLEMS?
+
+For questions about the study or in the event of a research-related injury, contact the study investigator using the contact information listed on the first page of this consent form .
+
+The Institutional Review Board (IRB) is a group of people who review the research to protect your rights. If you have a question about your rights as a research participant, or you would like to discuss problems or concerns, have questions or want to offer input, or you want to obtain additional information, you should contact the Chair of the IRB at or the Research Subject Advocate at
+
+You will be given a copy of this signed consent form.
+
+A description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. Law.  This website will not include information that can identify you.  At most, the website will include a summary of the results.  You can search this Web site at any time.
+
+## AUTHORIZATION TO USE AND DISCLOSE YOUR PROTECTED HEALTH INFORMATION
+
+In this research study, any new information we collect from you and/or information we get from your medical records or other facilities about your health or behaviors is considered Protected Health Information. The information we will collect for this research study includes : all information in your medical record, such as results of physical examinations, medical history, lab tests, or certain health information indicating or relating to a particular condition.
+
+If this research study involves the diagnosis or treatment of a medical condition, then Protected Health Information collected from you during this study will be placed in your medical record, and may be used to help treat you, arrange payment for your care, or assist with the health care operations of Atrium Health, Wake Forest University Health Sciences, and their respective affiliated entities.
+
+We will take steps to keep your Protected Health Information private. We will store records of your Protected Health Information in a cabinet in a locked office or on a password protected computer.
+
+Your personal health information and information that identifies you ('your health information') may be given to others during and after the study. This is for reasons such as to carry out the study, to determine the results of the study, to make sure the study is being done correctly, to provide required reports and to get approval for new products.
+
+Some of the people, agencies and businesses that may receive and use your health information are the research sponsor; representatives of the sponsor assisting with the research; investigators at other sites who are assisting with the research; central laboratories, reading centers or analysis
+
+
+
+centers; the Institutional Review Board; representatives of Wake Forest University Health Sciences and Atrium Health Facilities; representatives from government agencies such as the Food and Drug Administration (FDA) or the Office of Human Research Protections (OHRP), the Department of Health and Human Services (DHHS) and similar agencies in other countries.
+
+Some of these people, agencies and businesses may further disclose your health information. If disclosed by them, your health information may no longer be covered by federal or state privacy regulations.  Your health information may be disclosed if required by law. Your health information may be used to create information that does not directly identify you. This information may be used by other researchers. You will not be directly identified in any publication or presentation that may result from this study unless there are photographs, videotapes, audiotapes or other recorded media which identify you unless we have your written authorization.
+
+If required by law or court order, we might also have to share your Protected Health Information with a judge, law enforcement officer, government agencies, or others. If your Protected Health Information is shared with any of these groups it may no longer be protected by federal or state privacy rules.
+
+Any Protected Health Information collected from you in this study that is maintained in the research records will be kept for an indeterminate period of time. This authorization does not expire.
+
+You can tell Paul Dale, MD that you want to take away your permission to use and share your Protected Health Information at any time by sending a letter to this address:
+
+
+However, if you take away permission to use your Protected Health Information you will not be able to be in the study any longer. We will stop collecting any more information about you, but any information we have already collected can still be used for the purposes of the research study.
+
+By signing this form you give us permission to use your Protected Health Information for this study.
+
+
+
+## Future Studies
+
+This study may lead to other research opportunities. There may be new developments that the researchers discover. We would like to request your permission to contact you in the future should the opportunity arise. Please indicate below by circling your answer.
+
+I may be contacted in the future to take part in other research?
+
+YES
+
+NO
+
+## SIGNATURES
+
+I agree to take part in this study. I authorize the use and disclosure of my health information as described in this consent and authorization form.  If I have not already received a copy of the Privacy Notice, I may request one or one will be made available to me.  I have had a chance to ask questions about being in this study and have those questions answered.   By signing this consent and authorization form, I am not releasing or agreeing to release the investigator, the sponsor, the institution or its agents from liability for negligence.
+
+Subject Name (Printed):\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Subject Signature: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date: \_\_\_\_\_\_\_\_Time:\_\_\_\_\_\_\_ am pm
+
+## STATEMENT OF PERSON EXPLAINING CONSENT
+
+I have carefully explained to the subject the nature and purpose of the above study.  There has been an opportunity for the subject to ask questions about this research study.  I have been available to answer any questions that the subject has about this study.
+
+Person Obtaining Consent (Printed):\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Person Obtaining Consent Signature:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date:\_\_\_\_\_\_\_\_\_\_\_
+
+Time:\_\_\_\_\_\_\_\_ am pm
+

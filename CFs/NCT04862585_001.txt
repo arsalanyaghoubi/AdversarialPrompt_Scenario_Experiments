@@ -1,0 +1,248 @@
+
+
+
+
+
+
+## The Ohio State University Combined Consent to Participate in Research and HIPAA Research Authorization
+
+Study Title:
+
+Safely Stopping Premedications in Patients Receiving Paclitaxel: A Randomized Trial
+
+Principal Investigator:
+
+Michael Berger, Pharm D
+
+Sponsor:
+
+The Ohio State University
+
+- This is a consent form for research participation. It contains important information about this study and what to expect if you decide to participate.  Please consider the information carefully. Feel free to discuss the study with your friends and family and to ask questions before making your decision whether or not to participate.
+- Your participation is voluntary. You may refuse to participate in this study.  If you decide to take part in the study, you may leave the study at any time.  No matter what decision you make, there will be no penalty to you and you will not lose any of your usual benefits.  Your decision will not affect your future relationship with The Ohio State University.  If you are a student or employee at Ohio State, your decision will not affect your grades or employment status.
+- You may or may not benefit as a result of participating in this study. Also, as explained below, your participation may result in unintended or harmful effects for you that may be minor or may be serious depending on the nature of the research.
+- You will be provided with any new information that develops during the study that may affect your decision whether or not to continue to participate. If you decide to participate, you will be asked to sign this form and will receive a copy of the form.  You are being asked to consider participating in this study for the reasons explained below.
+
+## Key Information About This Study
+
+The following is a short summary to help you decide whether or not to be a part of this study. More detailed information is listed later in this form.
+
+This study is for patients who are about to begin chemotherapy treatment with a drug called paclitaxel (Taxol™). Paclitaxel is commonly used in the treatment of solid tumors like breast cancer. This chemotherapy drug sometimes causes an allergic reaction when it is infusing into your vein. To prevent the reaction from happening or to reduce the severity of the reaction, patients are usually given what are called premedications. These premedications include steroids and antihistamine drugs. Repeated use of the premedications may cause side effects of their own, such as trouble sleeping, extra fluid staying in the body, weight gain, mood changes, lowered immune response, and stomach problems, to name a few. This study would like to gather data on patients who receive paclitaxel while discontinuing the use of
+
+IRB Protocol Number: IRB Approval date: Version: 2021C0059 8/1/2023 6/9/2023
+
+premedication drugs. All patients will receive the first two doses of paclitaxel with the premedication drugs, since if there is a drug reaction to paclitaxel, it typically happens within the first two doses. Patients on this study will be randomly assigned to one of two groups: One group will receive the premedications with every paclitaxel dose during the course of treatment, and the other group will discontinue the premedication drugs after the first two doses of paclitaxel to monitor how they fare without premedications. Both groups will be monitored to see how often a reaction to the paclitaxel occurs. Both groups will also answer questions on surveys about their symptoms and quality of life immediately before each dose of paclitaxel and then for six days after each dose of paclitaxel during the study.
+
+## 1. Why is this study being done?
+
+As part of your cancer treatment, your doctor has ordered an intravenous (into your vein) chemotherapy drug called paclitaxel (Taxol™). There is a small chance that you may have an allergic reaction while the paclitaxel is being given. These reactions can range from mild (symptoms such as flushing, sweating, and itching) to severe (including shortness of breath, blood pressure changes and even death). The risk of having an allergic reaction is highest when you are receiving your first or second dose of paclitaxel. Your nurse will give you three different intravenous or oral medications (referred to as 'premedications'): dexamethasone (Decadron™), diphenhydramine (Benadryl™) or cetirizine (Zyrtec™) and famotidine (Pepcid™) before your dose of paclitaxel is given in order to prevent an allergic reaction from happening. Despite receiving these premedications, you can still have an allergic reaction to paclitaxel. On days that you receive your paclitaxel treatment, a doctor will always be present in the building to help manage your treatment. Your nurse will monitor you closely while you are receiving paclitaxel. If you develop a serious allergic reaction while receiving paclitaxel, the nurse will stop the paclitaxel infusion and possibly give intravenous 'rescue' medications, oxygen, or intravenous fluids to help treat the allergic reaction. The overwhelming majority of these allergic reactions will respond to this treatment. Symptoms of the allergic reaction often go away within 20-30 minutes, at which time the paclitaxel infusion can often be safely restarted.
+
+Normally, you would continue to receive all three premedications prior to every dose of paclitaxel, even if you have not had an allergic reaction with the first or second dose. These premedications can cause unwanted side effects, including abnormal blood sugars, fluid retention, insomnia, acne, muscle twitching and restlessness. Some of these unwanted side effects may worsen if you continue taking them for a long time.
+
+This study would like to monitor any effects and reactions for a group of patients who stop receiving premedications in order to prevent potential side effects from these drugs. All patients who agree to take part in this study will be monitored to make sure they have not had an allergic reaction with the first or second dose of paclitaxel. After that point, patients in the study will randomly be put into a group to either continue receiving premedications, or to stop receiving premedications. All patients will continue to be monitored and treated with rescue medications as needed. Your prescribed chemotherapy
+
+IRB Protocol Number: IRB Approval date: Version: 2021C0059 8/1/2023 6/9/2023
+
+treatment does not change by taking part in this study. Your doctor may determine that it is best to restart premedications to avoid future allergic reactions.
+
+In order to monitor your symptoms and quality of life, a study coordinator will have all patients take a survey before each dose of paclitaxel, and then surveys will be provided to all participants for six days after each paclitaxel dose. This will help track symptoms and how you are feeling.
+
+## 2. How many people will take part in this study?
+
+Up to 130 people will take part in this study.
+
+## 3. What will happen if I take part in this study?
+
+By agreeing to take part in this study, you are agreeing to comply with the study requirements.  You will receive a baseline survey to complete in REDCap or on paper. REDCap is a secure online data collection tool.
+
+You will receive dexamethasone, diphenhydramine or cetirizine and famotidine premedications followed by paclitaxel chemotherapy as ordered by your doctor. This is the current standard of care for all patients receiving paclitaxel. If you have not had an allergic reaction with your first or second dose of paclitaxel, you will be randomly placed into one of two study groups. The study staff will not put you into a group. This is done by a system that is used to randomly put people into groups. A member of the study team will let you know which group you are in. In one study group, premedications will be stopped. You will not receive these premedications prior to your future doses of paclitaxel. In the other study group, premedications will continue as standard of care.
+
+If you have an allergic reaction with your first or second dose of paclitaxel, no matter how mild the reaction is, your premedications will not be stopped; you will continue to receive them prior to all paclitaxel doses to prevent any further allergic reactions.
+
+Participants in this study will receive a REDCap survey by email or text message to fill out for 6 days after each paclitaxel dose. The surveys will take 5-7 minutes to complete and will ask about your symptoms and quality of life. Participants in both groups will answer the same surveys. If the electronic REDCap versions of the survey are not an option for you, 6 days' worth of paper copies of the surveys will be provided to you at each chemotherapy visit to take home. Paper surveys will be completed at home each day then collected by the study coordinator at the next chemotherapy visit.
+
+By agreeing to take part in the study, you are agreeing to let the study team to access your medical records to collect information about you (race, ethnicity, height, and weight), your cancer history (age at diagnosis, stage) and cancer treatment history (types and doses of chemotherapy medications). The study team will also look at clinical information
+
+IRB Protocol Number: IRB Approval date: Version: 2021C0059 8/1/2023 6/9/2023
+
+related to any allergic reactions and side effects, rescue treatments, and whether you receive premedications again. This information is used to describe who was in the study and to explain the clinical effects of your treatment.
+
+## 4. How long will I be in the study?
+
+You will be enrolled in this study while you receive up to 12 doses of paclitaxel. Your physician will decide how many doses and often you will receive your paclitaxel chemotherapy; this will determine how long you are in the study.  This may range from 2 months to 4 months. You will complete a survey prior to each of the doses of paclitaxel that you receive, and then you will be given a series of 6 daily surveys to complete starting the day after paclitaxel. Each survey will take approximately 5-7 minutes. In total, we expect for you to spend about 8-10 hours doing the surveys over the course of the 2-4 months on study.
+
+## 5. Can I stop being in the study?
+
+You may leave the study at any time.  If you decide to stop participating in the study, there will be no penalty to you, and you will not lose any benefits to which you are otherwise entitled.  Your decision will not affect your future relationship with The Ohio State University.
+
+## 6. What risks, side effects or discomforts can I expect from being in the study?
+
+There are risks to taking part in any research study.
+
+The surveys ask about symptoms and quality of life associated with treatment. You may choose not to answer one or more of the questions. Your information and surveys are not monitored in real time. If you are having any urgent symptoms, you should seek medical attention.
+
+Loss of confidentiality is a risk; however, we have taken multiple precautions to limit this. Once enrolled, you will be given a unique study ID. This ID will be used in all of the databases. Some participants will use REDCap electronic data capture tool for the online surveys. REDCap provides a secure, web-based, HIPAA compliant application and password protected platform that is housed behind the medical center's firewall. Other participants may choose to complete paper surveys that will be coded with only your study ID, entered into REDCap after they are returned to the study team, and then will be shredded.
+
+There may be other privacy risks that we have not foreseen. While we believe the risks to you are very low, we are unable to tell you exactly what all the risks are. During the research study, you will be provided with any new information that may affect your health
+
+IRB Protocol Number: IRB Approval date: Version: 2021C0059 8/1/2023 6/9/2023
+
+or willingness to participate. You may be asked to sign a new consent form that shows that you have been informed of new information relating to this research study.
+
+The risk of having an allergic reaction is highest when you are receiving your first or second dose of paclitaxel, so when you begin taking part in this study, you will be receiving the standard premedications prior to your paclitaxel chemotherapy. You are at no greater risk of side effects or discomforts from these drugs or allergic reaction from paclitaxel than other patients who are not taking part in this study. If you do not have an allergic reaction, and your premedications are discontinued prior to your third dose of paclitaxel, you may have a slightly increased risk of having an allergic reaction to paclitaxel. Based on available evidence, your doctor believes this risk to be small. These paclitaxel reactions can range from mild (symptoms such as flushing, sweating, and itching) to severe (including shortness of breath, blood pressure changes and in rare cases, even death). Your doctor and nurse will continue to monitor your paclitaxel infusions very closely. If you develop a serious allergic reaction while receiving paclitaxel, the nurse will stop the paclitaxel infusion and possibly administer intravenous 'rescue' medications, oxygen, or intravenous fluids to help treat the allergic reaction. Your doctor or another doctor is always present in the building to help manage your treatment.
+
+The effects of paclitaxel on an unborn baby may be harmful. Therefore, if you are pregnant, you cannot be in this study. If you are a woman of childbearing potential, you must not become pregnant while in this study. If you are capable of bearing children, you may be required to take a pregnancy test before entry into this study if your doctor suspects you may be pregnant. If you become pregnant during the study, you will be withdrawn from the study. If at any time during the study or for up to 120 days after you stop study treatment you suspect that you have become pregnant, please notify the study doctor immediately. The risk to pregnant partners or the baby of male patients receiving paclitaxel is not known. Female patients of reproductive potential as well as fertile male patients with partners who are female of reproductive potential must agree to abstain from sexual intercourse or to use a double barrier method (ie. condom, diaphragm, cervical cap with spermicidal foam, cream, or gel) from the time of giving informed consent through the duration of study treatment with paclitaxel (up to 12 weeks). You must not nurse (breastfeed) while on this study because paclitaxel may enter breast milk and possibly harm your child.
+
+## 7. What benefits can I expect from being in the study?
+
+There may not be a direct benefit to you as a result of your participation in this study. It is possible that information learned from you participation in this study will benefit patients receiving paclitaxel in the future. By enrolling in this study, it is possible that you will have your paclitaxel premedications (dexamethasone, diphenhydramine or cetirizine, and famotidine) stopped prior to your third dose of paclitaxel. Therefore, the unwanted side effects sometimes caused by these drugs could be avoided.
+
+
+
+
+
+
+
+## 8. What other choices do I have if I do not take part in the study?
+
+You may choose not to participate without penalty or loss of benefits to which you are otherwise entitled.
+
+## 9. What are the costs of taking part in this study?
+
+If you use a smartphone and choose to receive your surveys by text message, you may incur charges from the daily text messages, depending on your cell phone plan. Email delivery is an option for no cost. The research portion of this study involves withholding premedications and collecting data; you and/or your insurance company will not be charged for any other aspect of this research. All other charges regarding your cancer treatment are considered standard of care and will be billed to you and/or your insurance company.
+
+You or your insurance company will be charged for portions of your care during this research study that are considered standard care. Standard of care is the care that you would receive regardless of whether you were enrolled in the study or not. You may be responsible for co-payments, co-insurance, premiums, and deductibles that are typical for your insurance coverage.
+
+If you have questions about your insurance coverage, or the items you might be required to pay for, please call financial services for information at 800-293-5066. You may find additional information at the following website, https://cancer.osu.edu/for-patients-andcaregivers/patient-information/finance-and-insurance-information.
+
+The National Cancer Institute provides an online resource to help people participating in cancer clinical trials understand which services their insurance company is required by law to pay. This can be found at the website below or can be provided by the study team: www.cancer.gov or 1-800-4-CANCER (1-800-422-6237) .
+
+## 10. Will I be paid for taking part in this study?
+
+You will not be paid to take part in this study.  If you choose to take part in this study, it will be on a voluntary basis.
+
+
+
+
+
+
+
+## 11. What happens if I am injured because I took part in this study?
+
+If you suffer an injury from participating in this study, you should notify the researcher or study doctor immediately, who will determine if you should obtain medical treatment at The Ohio State University Wexner Medical Center.
+
+The cost for this treatment will be billed to you or your medical or hospital insurance. The Ohio State University has no funds set aside for the payment of health care expenses for this study.
+
+## 12. What are my rights if I take part in this study?
+
+If you choose to participate in the study, you may discontinue participation at any time without penalty or loss of benefits.  By signing this form, you do not give up any personal legal rights you may have as a participant in this study.
+
+You will be provided with any new information that develops during the course of the research that may affect your decision whether or not to continue participation in the study.
+
+You may refuse to participate in this study without penalty or loss of benefits to which you are otherwise entitled.
+
+An Institutional Review Board responsible for human subjects research at The Ohio State University reviewed this research project and found it to be acceptable, according to applicable state and federal regulations and University policies designed to protect the rights and welfare of research participants.
+
+## 13. Will my de-identified information be used or shared for future research?
+
+No.
+
+## 14. Will my study-related information be kept confidential?
+
+We will work to make sure that no one sees your survey responses without approval. But, because REDCap uses the Internet, there is a chance that someone could access your online responses without permission. In some cases, this information could be used to identify you. Your data will be protected with a code to reduce the risk that other people can view the responses.
+
+Efforts will be made to keep your study-related information confidential.  However, there may be circumstances where this information must be released.  For example, personal information regarding your participation in this study may be disclosed if required by state law.
+
+
+
+
+
+
+
+Also, your records may be reviewed by the following groups (as applicable to the research):
+
+- Office for Human Research Protections or other federal, state, or international regulatory agencies;
+- U.S. Food and Drug Administration;
+- The Ohio State University Institutional Review Board or Office of Responsible Research Practices;
+- The sponsor supporting the study, their agents or study monitors; and
+- Your insurance company (if charges are billed to insurance).
+
+A description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. law.  This website will not include information that can identify you.  At most, the website will include a summary of the results.  You can search the website at any time.
+
+## 15. HIPAA AUTHORIZATION TO USE AND DISCLOSE INFORMATION FOR RESEARCH PURPOSES
+
+## I. What information may be used and given to others?
+
+- Past and present medical records;
+- Research records;
+- Records about phone calls made as part of this research;
+- Records about your study visits;
+- Information that includes personal identifiers, such as your name, or a number associated with you as an individual;
+- Records about the medications you receive will be tracked
+
+## II. Who may use and give out information about you?
+
+Researchers and study staff.
+
+## III. Who might get this information?
+
+- The sponsor of this research.  'Sponsor' means any persons or companies that are:
+- working for or with the sponsor; or
+- owned by the sponsor.
+- Authorized Ohio State University staff not involved in the study may be aware that you are participating in a research study and have access to your information;
+- If this study is related to your medical care, your study-related information may be placed in your permanent hospital, clinic, or physician's office record;
+
+## IV. Your information may be given to:
+
+- The U.S. Food and Drug Administration (FDA), Department of Health and Human Services (DHHS) agencies, and other federal and state entities;
+- Governmental agencies in other countries;
+- Governmental agencies to whom certain diseases (reportable diseases) must be reported; and
+- The Ohio State University units involved in managing and approving the research study including the Office of Research and the Office of Responsible Research Practices.
+
+## V. Why will this information be used and/or given to others?
+
+- To do the research;
+- To study the results; and
+- To make sure that the research was done right.
+
+## VI. When will my permission end?
+
+There is no date at which your permission ends. Your information will be used indefinitely. This is because the information used and created during the study may be analyzed for many years, and it is not possible to know when this will be complete.
+
+## VII. May I withdraw or revoke (cancel) my permission?
+
+Yes. Your authorization will be good for the time period indicated above unless you change your mind and revoke it in writing. You may withdraw or take away your permission to use and disclose your health information at any time. You do this by sending written notice to the researchers. If you withdraw your permission, you will not be able to stay in this study. When you withdraw your permission, no new health information identifying you will be gathered after that date. Information that has already been gathered may still be used and given to others.
+
+## VIII. What if I decide not to give permission to use and give out my health information?
+
+Then you will not be able to be in this research study and receive research-related treatment.  However, if you are being treated as a patient here, you will still be able to receive care.
+
+
+
+
+
+
+
+
+
+
+
+
+
+## IX. Is my health information protected after it has been given to others?
+
+There is a risk that your information will be given to others without your permission. Any information that is shared may no longer be protected by federal privacy rules.
+
+## X. May I review or copy my information?
+
+Signing this authorization also means that you may not be able to see or copy your studyrelated information until the study is completed.
+
+## 16. Who can answer my questions about the study?
+
+For questions, concerns, or complaints about the study, or if you feel you have been harmed as a result of study participation, you may contact Michael Berger, Pharm D at 614-293-0191 or Michael.Berger@osumc.edu.
+
+For questions related to your privacy rights under HIPAA or related to this research authorization, please contact Kathleen Ojala at 614-293-6482 or Kathleen.Ojala@osumc.edu .
+
+For questions about your rights as a participant in this study or to discuss other studyrelated concerns or complaints with someone who is not part of the research team, you may contact the Office of Responsible Research Practices at 1-800-678-6251.
+
+If you are injured as a result of participating in this study or for questions about a studyrelated injury, you may contact Michael Berger, Pharm D at 614-293-0191 or Michael.Berger@osumc.edu .
