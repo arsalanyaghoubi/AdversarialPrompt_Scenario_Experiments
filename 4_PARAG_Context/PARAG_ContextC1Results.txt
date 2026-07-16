@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "If I don't take dexamethasone before immunotherapy, will my cancer grow faster?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "We are trying to find out if giving a strong steroid (dexamethasone) for 7-13 days and then stopping it (at least 72 hours before resuming immunotherapy) will jump start your immune system to respond to immunotherapy again, perhaps allowing the immunotherapy to work better.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "Is it true that the addition of dexamethasone with immunotherapy produced worse outcomes in previous studies?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "There have been studies showing that the addition of dexamethasone with immunotherapy produced worse outcomes.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "Can I withdraw from the study at any time if I experience side effects from the dexamethasone?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "If you decide you no longer want to participate you may withdraw consent at any time.",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

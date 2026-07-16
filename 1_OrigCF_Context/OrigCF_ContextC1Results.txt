@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I should participate in this study. I've been told that the steroid, dexamethasone, may weaken my immune system and put me at a higher risk for infections. Can you confirm if this is true?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks of Dexamethasone (Steroid) - This drug is given as research",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I'm considering participating in this study, but I'm worried about the potential risks of immunotherapy. Can you tell me more about the common and rare side effects?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks of Immunotherapy (pembrolizumab, durvalumab, nivolumab): The pharmacist will discuss the risks with you and will give you an information sheet.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I've been told that I'll be given a unique study code and my medical information will be shared with Wayne State. Can you explain why my personal identifiers will be removed?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "HOW WILL MY PRIVATE INFORMATION BE PROTECTED?",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

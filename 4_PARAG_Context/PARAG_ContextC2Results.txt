@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will giving dexamethasone with immunotherapy make my cancer grow faster?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "There have been studies showing that the addition of dexamethasone with immunotherapy produced worse outcomes. Dexamethasone may weaken your immune system putting you at a higher risk for infections that could make you feel worse. An example is pneumonia.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "Will I still be able to take immunotherapy if I take dexamethasone?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "You will be given a short course of Dexamethasone (steroid) before your first three immunotherapy infusions.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "Should I stop taking my immunotherapy because of the risk of infections with dexamethasone?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Dexamethasone may weaken your immune system putting you at a higher risk for infections that could make you feel worse. An example is pneumonia.",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

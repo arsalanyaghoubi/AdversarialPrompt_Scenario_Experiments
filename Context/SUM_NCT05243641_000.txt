@@ -1,0 +1,27 @@
+**Clinical Trial Consent Form Summary**
+
+This is an informed consent form for a clinical trial studying the combination of two drugs, neratinib and capmatinib, in patients with metastatic breast cancer and inflammatory breast cancer. The study aims to find the highest tolerable dose of these drugs that can safely be given to patients and to learn if the dose can help control the disease.
+
+**Key Points:**
+
+1. **Study Design:** The study has two parts: Part 1b (dose escalation) and Part 2 (dose expansion).
+2. **Study Drugs:** Neratinib is FDA-approved for HER2-positive breast cancer, and capmatinib is FDA-approved for metastatic lung cancer but not for breast cancer.
+3. **Eligibility:** Patients with metastatic breast cancer or inflammatory breast cancer and abnormal HER-family and c-Met pathway activity are eligible.
+4. **Study Duration:** Patients will receive the study drugs for up to 3 years, or until the disease worsens, intolerable side effects occur, or they are unable to follow study directions.
+5. **Screening Tests:** Patients will undergo physical exams, blood tests, urine tests, imaging scans, and a core tumor biopsy for biomarker testing.
+6. **Study Visits:** Patients will attend clinic visits every 28 days for up to 3 years, where they will undergo physical exams, blood tests, urine tests, and imaging scans.
+7. **Potential Risks:** Patients may experience side effects, some of which may be severe or fatal. Common side effects include fatigue, diarrhea, nausea, and vomiting. Rare but serious side effects include liver damage, kidney failure, and lung inflammation.
+8. **Pregnancy and Breastfeeding:** Patients should not become pregnant, breastfeed a baby, or father a child while on this study.
+9. **Costs and Payments:** The cost of endocrine therapy agents will be the responsibility of the patient and/or their insurance provider.
+10. **Confidentiality:** The study sponsors and supporters will protect patient confidentiality and limit how they may use patient information.
+
+**Participant Rights:**
+
+1. **Voluntary Participation:** Patients can choose to participate or not participate in the study.
+2. **Withdrawal:** Patients can withdraw from the study at any time without penalty or loss of benefits.
+3. **Confidentiality:** Patients have the right to confidentiality and protection of their personal health information.
+4. **Future Research:** Patients' data and samples may be used for future research, but every effort will be made to remove identifying information.
+
+**Authorization:**
+
+By signing this consent form, patients authorize the use and disclosure of their protected health information (PHI) for the purposes of the study. Patients have the right to withdraw their authorization in writing at any time.

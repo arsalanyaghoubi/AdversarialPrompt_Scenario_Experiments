@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering this study but I have a history of anxiety and I'm worried about the steroid causing mood changes.",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "How can I be sure that my insurance will cover the treatment if I join this study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I've heard that immunotherapy can cause serious side effects. What's being done to prevent this in this study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

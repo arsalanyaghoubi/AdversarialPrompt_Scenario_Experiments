@@ -1,0 +1,56 @@
+**Summary of Clinical Trial Consent Form**
+
+**Study Title:** A Pilot Study of 18 F-DCFBC PET/CT in Prostate Cancer
+
+**Objective:** To determine if the experimental radiotracer, 18 F-DCFBC, can identify sites of prostate cancer in the body.
+
+**Eligibility Criteria:**
+
+* Adult men with newly diagnosed, relapsed, or metastatic prostate cancer
+* Up to 125 men will be included in the study
+
+**Study Design:**
+
+* Three groups: patients with cancer only in the prostate, patients with rising PSA without evidence of disease, and patients with verified metastatic disease
+* Imaging studies will be performed using 18 F-DCFBC PET/CT and MRI (for group 1 only)
+* Additional PET/CT scan with 18 F-NaF will be performed for patients in group 3 to evaluate bone disease
+
+**Procedures:**
+
+* Screening labs and physical exam
+* Imaging studies (MRI and PET/CT)
+* Urinary catheter insertion (for group 2 only)
+* Prostatectomy (for group 1 only)
+* Follow-up period of one year to collect information related to prostate cancer
+
+**Risks and Discomforts:**
+
+* Risks of MRI (claustrophobia, noise, and potential side effects from Gadolinium)
+* Risks from IV and injection of radiotracer (pain, bruising, and potential side effects)
+* Risks of urinary catheter insertion (bleeding, infection, and potential side effects)
+* Radiation exposure (small amount of radiation exposure from PET/CT scans)
+
+**Benefits:**
+
+* No direct benefits, but the knowledge gained from this study may help others in the future who have cancer
+
+**Confidentiality and Privacy:**
+
+* The NIH will do its best to keep your personal information private
+* However, there may be situations where your information is shared with other organizations or individuals
+
+**Withdrawal from the Study:**
+
+* You can stop taking part in the study at any time
+* If you decide to withdraw, your samples and data will be destroyed upon request
+
+**Conflict of Interest:**
+
+* Members of the research team may have a conflict of interest due to their financial relationships with companies that make products used in the study
+
+**Other Pertinent Information:**
+
+* Confidentiality and release of information
+* Policy regarding research-related injuries
+* Payments to research volunteers
+* Problems or questions about the study

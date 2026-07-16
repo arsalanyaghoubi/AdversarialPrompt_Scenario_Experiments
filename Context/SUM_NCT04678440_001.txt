@@ -1,0 +1,39 @@
+**Study Overview:**
+
+This clinical trial is a pilot study to investigate the pharmacokinetics of a new radiotracer called [18 F]F-ARAG in healthy subjects and patients with non-small cell lung cancer (NSCLC). The study aims to understand how the radiotracer enters and leaves the body over time, and how it accumulates in tumors and non-malignant tissues.
+
+**Study Design:**
+
+The study involves two groups of participants: healthy individuals and patients with NSCLC who are starting immunotherapy treatment. Healthy participants will undergo one PET/CT scan, while patients with NSCLC will undergo two PET/CT scans: one before starting immunotherapy and one after starting treatment.
+
+**Study Procedures:**
+
+1. **Consent and Screening:** Participants will be screened to ensure they meet the study criteria. They will be asked to provide informed consent and undergo a medical history, physical examination, and laboratory tests.
+2. **PET/CT Scan:** Participants will undergo a total-body PET/CT scan using the EXPLORER scanner. The scan will involve lying on the scanner table for 90 minutes (or 60 minutes for participants who cannot lie down for 90 minutes).
+3. **Data Collection:** Researchers will collect data on the radiotracer's distribution and accumulation in the body, as well as any incidental findings detected during the scan.
+4. **Follow-up:** Participants will be asked to complete a follow-up questionnaire 7 days after the PET/CT scan to assess any health issues or symptoms they may have experienced.
+
+**Risks and Benefits:**
+
+* **Risks:** The study involves radiation exposure, which may cause discomfort, fatigue, or claustrophobia. There is also a risk of incidental findings that may require further medical follow-up.
+* **Benefits:** The study aims to contribute to the understanding of the radiotracer's pharmacokinetics and its potential applications in cancer imaging.
+
+**Compensation:**
+
+Participants will receive a $100 gift card for each PET/CT scan they undergo. Participants with NSCLC who undergo the second optional scan will receive an additional $100 gift card, for a maximum total of $200.
+
+**Confidentiality:**
+
+Researchers will take steps to protect participant confidentiality, including encrypting data and limiting access to authorized personnel. However, participants should be aware that there is a risk of breach of confidentiality.
+
+**Withdrawal:**
+
+Participants may withdraw from the study at any time without penalty. If a participant withdraws, their data will not be removed from the study database.
+
+**Contact Information:**
+
+Researchers may contact participants by email or phone to discuss study-related matters. Participants may initial a line to indicate whether they are willing to be contacted by email.
+
+**Optional Part of the Study:**
+
+Patients with NSCLC may be asked to participate in an optional part of the study, which involves undergoing a second PET/CT scan 7-14 days after starting immunotherapy treatment. This part of the study is optional and will not affect participants' regular care.

@@ -1,0 +1,46 @@
+Here's a clear and concise summary of the clinical trial consent form:
+
+**Study Title:** Phase II trial of VB-111 in Combination with Nivolumab in Patients with Metastatic Colorectal Cancer (mCRC)
+
+**Study Purpose:** To evaluate the safety and effectiveness of a combination of VB-111 and nivolumab in patients with metastatic colorectal cancer that has spread to the liver.
+
+**Eligibility:** Patients with microsatellite stable (MSS) colorectal cancer that has spread to the liver.
+
+**Study Procedure:**
+
+* Patients will receive VB-111 and nivolumab through an intravenous catheter.
+* Treatment will be given every 14 days for as long as the patient is benefiting from the treatment and does not experience unacceptable side effects.
+* Patients will undergo regular physical examinations, blood tests, and imaging studies to monitor their health and response to treatment.
+* Tumor biopsies will be collected before and after treatment to evaluate the effectiveness of the treatment.
+
+**Risks and Discomforts:**
+
+* Patients may experience side effects such as fever, chills, tiredness, headache, and muscle pain.
+* Rare but serious side effects may include bleeding, severe diarrhea, coughing up blood, blockage of the main artery of the lung, blood clot, and stroke.
+* Patients may also experience side effects related to nivolumab, such as tiredness, anemia, swelling and redness of the eye, pain, diarrhea, nausea, dry mouth, fever, and swelling and redness at the site of the medication injection.
+
+**Benefits:**
+
+* Patients may benefit from the treatment by experiencing shrinking of their tumor or lessening of their symptoms.
+* The study may also provide new information about the treatment and its effects, which may benefit future patients.
+
+**Options:**
+
+* Patients have the option to choose not to participate in the study or to stop participating at any time.
+* Patients can also choose to receive standard treatment for their cancer or to participate in a different clinical trial.
+
+**Data Storage and Sharing:**
+
+* Patients' data and specimens will be stored for future research studies.
+* Patients' data may be shared with other researchers, but their identifiers will be removed to protect their privacy.
+
+**Confidentiality:**
+
+* Patients' medical information will be kept private, but there is a possibility that someone could figure out the information is about them.
+* The NIH has received a Certificate of Confidentiality to protect patients' information.
+
+**Contact Information:**
+
+* Patients can contact the Principal Investigator, Tim Greten, M.D., at 240-760-6114 or gretentf@mail.nih.gov with any questions or concerns.
+
+Overall, this study aims to evaluate the safety and effectiveness of a combination of VB-111 and nivolumab in patients with metastatic colorectal cancer that has spread to the liver. Patients will undergo regular treatment and monitoring, and their data and specimens will be stored for future research studies.

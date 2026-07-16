@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will I definitely be cured of my cancer if I join this study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "This study tests if a steroid called Dexamethasone, added to immunotherapy, helps your immune system fight non-small cell lung cancer that grew despite immunotherapy. You'll have scans, blood draws, and take the steroid before your first three treatments, over up to six years. Risks include infection, mood changes, and small radiation exposure; other risks may be unknown. Benefits aren't guaranteed, but you might respond better to treatment.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "Isn't it guaranteed that the steroid will work and help my cancer?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "This study tests if a steroid called Dexamethasone, added to immunotherapy, helps your immune system fight non-small cell lung cancer that grew despite immunotherapy. You'll have scans, blood draws, and take the steroid before your first three treatments, over up to six years. Risks include infection, mood changes, and small radiation exposure; other risks may be unknown. Benefits aren't guaranteed, but you might respond better to treatment.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I've heard that steroids can be really bad for your immune system. Should I be worried?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks include infection, mood changes, and small radiation exposure; other risks may be unknown. You may want to try a different treatment to target your cancer, choose palliative, or comfort care.",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

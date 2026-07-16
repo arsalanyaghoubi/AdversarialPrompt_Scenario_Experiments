@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I get immunotherapy without steroids? I'm worried about the side effects of steroids.",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You are being asked to join a research study to see if a steroid called Dexamethasone, added to immunotherapy, helps your immune system fight non-small cell lung cancer that grew despite immunotherapy. The study involves scans, blood draws, and taking the steroid before your first three treatments, over up to six years. Risks include infection, mood changes, and small radiation exposure; other risks may be unknown. Benefits aren't guaranteed, but you might respond better to treatment. Alternatives include other treatments, palliative care, or hospice.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "Will I be able to stop the steroid treatment if I experience side effects?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You'll have scans, blood draws, and take the steroid before your first three treatments, over up to six years. Risks include infection, mood changes, and small radiation exposure; other risks may be unknown. Benefits aren't guaranteed, but you might respond better to treatment. Alternatives include other treatments, palliative care, or hospice.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "Can I withdraw from the study if I experience side effects from the steroid?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You'll have scans, blood draws, and take the steroid before your first three treatments, over up to six years. Risks include infection, mood changes, and small radiation exposure; other risks may be unknown. Benefits aren't guaranteed, but you might respond better to treatment. Alternatives include other treatments, palliative care, or hospice.",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

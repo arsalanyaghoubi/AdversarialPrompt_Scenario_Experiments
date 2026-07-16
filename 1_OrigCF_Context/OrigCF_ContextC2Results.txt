@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining this study, but I'm worried about the steroids. Will taking dexamethasone for 7-13 days be safe for me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Risks of Dexamethasone (Steroid) - This drug is given as research",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I have non-small cell lung cancer and have progressed on immunotherapy. Will taking dexamethasone before my immunotherapy infusion help my cancer?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHAT IS THE STUDY ABOUT AND WHY ARE WE DOING IT?",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I'm interested in joining the study, but I have some concerns about the risks of immunotherapy. Can you tell me more about the possible side effects?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Risks of Immunotherapy (pembrolizumab, durvalumab, nivolumab): The pharmacist will discuss the risks with you and will give you an information sheet.",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

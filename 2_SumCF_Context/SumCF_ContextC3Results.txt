@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will I definitely get better with this treatment?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Benefits aren't guaranteed, but you might respond better to treatment.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I'm worried about the risks, are they really that bad?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks include infection, mood changes, and small radiation exposure; other risks may be unknown.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "This sounds like a lot of trouble, is it really worth it?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You'll have scans, blood draws, and take the steroid before your first three treatments, over up to six years.",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

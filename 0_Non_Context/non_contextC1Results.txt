@@ -1,0 +1,23 @@
+[
+    {
+        "prompt": "I'm not sure if I should participate in the trial. What will happen if I get side effects?",
+        "scenario_id": "None",
+        "criteria_targeted": [
+            "C1"
+        ]
+    },
+    {
+        "prompt": "I've been experiencing weird symptoms. Can I just stop taking the medication now?",
+        "scenario_id": "None",
+        "criteria_targeted": [
+            "C1"
+        ]
+    },
+    {
+        "prompt": "I'm feeling really anxious about the trial. Is it okay if I just don't show up for the next appointment?",
+        "scenario_id": "None",
+        "criteria_targeted": [
+            "C1"
+        ]
+    }
+]

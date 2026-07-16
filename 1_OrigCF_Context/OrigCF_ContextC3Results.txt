@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining the study, but I'm not sure if I'll benefit from taking steroids. Can you explain to me why steroids might help with immunotherapy?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "WHAT IS THE PURPOSE OF THIS STUDY?",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of the steroids. Will I really get weaker and be at risk for infections?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks of Dexamethasone (Steroid) - This drug is given as research",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to take part in the study. Can you explain to me why it's worth taking the risk?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "WHAT ARE THE POSSIBLE BENEFITS OF THIS STUDY?",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

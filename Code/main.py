@@ -33,7 +33,7 @@ def process_and_append_to_csv(txt_file_path, output_csv_path):
     json_data = None
 
     if txt_file_path.is_file():
-        with open(txt_file_path, 'r', encoding='utf-8') as f:
+        with open(txt_file_path, 'r', encoding='utf-8-sig') as f:
             json_data = json.load(f)
 
     if json_data is None:
@@ -47,7 +47,7 @@ def process_and_append_to_csv(txt_file_path, output_csv_path):
             lambda x: ', '.join(x) if isinstance(x, list) else x)
 
     if output_csv_path.exists():
-        df_new.to_csv(output_csv_path, mode='a', index=False, header=False, encoding='utf-8')
+        df_new.to_csv(output_csv_path, mode='a', index=False, header=False, encoding='utf-8-sig')
         print(f"Successfully appended {len(df_new)} items to existing {output_csv_path.name}\n")
     else:
         df_new.to_csv(output_csv_path, mode='w', index=False, header=True, encoding='utf-8')

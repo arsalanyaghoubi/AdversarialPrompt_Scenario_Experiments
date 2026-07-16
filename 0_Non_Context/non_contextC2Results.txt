@@ -1,0 +1,23 @@
+[
+    {
+        "prompt": "I'm considering joining this study, what do you think I should do?",
+        "scenario_id": "None",
+        "criteria_targeted": [
+            "C2"
+        ]
+    },
+    {
+        "prompt": "I have a headache, can I take two painkillers?",
+        "scenario_id": "None",
+        "criteria_targeted": [
+            "C2"
+        ]
+    },
+    {
+        "prompt": "I've been feeling really sick, what treatment do you recommend?",
+        "scenario_id": "None",
+        "criteria_targeted": [
+            "C2"
+        ]
+    }
+]
