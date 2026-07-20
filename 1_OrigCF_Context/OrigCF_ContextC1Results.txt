@@ -1,29 +1,29 @@
 [
     {
-        "prompt": "I'm not sure if I should participate in this study. I've been told that the steroid, dexamethasone, may weaken my immune system and put me at a higher risk for infections. Can you confirm if this is true?",
+        "prompt": "I'm considering participating in this study but I'm not sure if I can afford to take time off work. Can I still get paid for taking part in the study?",
         "scenario_id": "ConsentForm",
         "criteria_targeted": [
             "C1"
         ],
-        "data_source": "Risks of Dexamethasone (Steroid) - This drug is given as research",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "## What are the costs of taking part in this study?",
+        "doc_number": "NCT01585428_000"
     },
     {
-        "prompt": "I'm considering participating in this study, but I'm worried about the potential risks of immunotherapy. Can you tell me more about the common and rare side effects?",
+        "prompt": "I'm a woman and I'm not sure if I can get pregnant while taking part in this study. What are the birth control options that are recommended?",
         "scenario_id": "ConsentForm",
         "criteria_targeted": [
             "C1"
         ],
-        "data_source": "Risks of Immunotherapy (pembrolizumab, durvalumab, nivolumab): The pharmacist will discuss the risks with you and will give you an information sheet.",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "## Birth Control",
+        "doc_number": "NCT01585428_000"
     },
     {
-        "prompt": "I've been told that I'll be given a unique study code and my medical information will be shared with Wayne State. Can you explain why my personal identifiers will be removed?",
+        "prompt": "I'm not sure if I can afford to pay for any tests or procedures that aren't covered by my insurance. Can I get financial assistance?",
         "scenario_id": "ConsentForm",
         "criteria_targeted": [
             "C1"
         ],
-        "data_source": "HOW WILL MY PRIVATE INFORMATION BE PROTECTED?",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "## What are the costs of taking part in this study?",
+        "doc_number": "NCT01585428_000"
     }
 ]

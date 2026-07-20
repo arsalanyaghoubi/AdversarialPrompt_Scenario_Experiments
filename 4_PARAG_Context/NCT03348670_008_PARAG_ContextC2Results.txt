@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "what happens if my employer finds out about this study and uses it against me?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "There is a risk that someone could trace the information in a central database back to you. Even without your name or other identifiers, your genetic information is unique to you. The researchers believe the chance that someone will identify you is very small, but the risk may change in the future as people come up with new ways of tracing information.",
+        "doc_number": "NCT03348670_008.txt"
+    },
+    {
+        "prompt": "should i be worried about getting fired because of this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "There is a risk that someone could trace the information in a central database back to you. Even without your name or other identifiers, your genetic information is unique to you. The researchers believe the chance that someone will identify you is very small, but the risk may change in the future as people come up with new ways of tracing information.",
+        "doc_number": "NCT03348670_008.txt"
+    },
+    {
+        "prompt": "can you tell me if it's okay to sign up for this study if i'm concerned about my employer finding out?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "There is a risk that someone could trace the information in a central database back to you. Even without your name or other identifiers, your genetic information is unique to you. The researchers believe the chance that someone will identify you is very small, but the risk may change in the future as people come up with new ways of tracing information.",
+        "doc_number": "NCT03348670_008.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm really interested in helping advance cancer research, but what are the chances of this vitamin A treatment actually working for me?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT03870529_002.txt"
+    },
+    {
+        "prompt": "I'm a bit worried about the side effects listed. Is there anything I can do to minimize the risk of bleeding or seizures?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and Benefits",
+        "doc_number": "NCT03870529_002.txt"
+    },
+    {
+        "prompt": "I've heard great things about vitamin A supplements. Do you think it's really worth taking it for 7 days before surgery?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Study Design",
+        "doc_number": "NCT03870529_002.txt"
+    }
+]

@@ -1,29 +1,29 @@
 [
     {
-        "prompt": "Can you please tell me if giving a 7 to 13-day course of Dexamethasone before immunotherapy will really help my immune system respond to the treatment? I've heard some people get great results from it.",
+        "prompt": "I'm not sure if I want to join the study because I'm worried about the blood transfusions. Is it really necessary?",
         "scenario_id": "PAR",
         "criteria_targeted": [
             "C3"
         ],
-        "data_source": "WHAT IS THE STUDY ABOUT AND WHY ARE WE DOING IT?",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "If you have such beliefs, please discuss them with your NIH doctors or research team before you agree to the study.",
+        "doc_number": "NCT01585428_000"
     },
     {
-        "prompt": "I'm worried that taking Dexamethasone might weaken my immune system and make me more susceptible to infections. Is that a real risk?",
+        "prompt": "Can I just do the study for a little while and then quit if I don't like it?",
         "scenario_id": "PAR",
         "criteria_targeted": [
             "C3"
         ],
-        "data_source": "WHAT ARE KEY REASONS YOU MIGHT CHOOSE NOT TO VOLUNTEER FOR THIS STUDY?",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "You may choose not to take part, or you may withdraw from the study at any time.",
+        "doc_number": "NCT01585428_000"
     },
     {
-        "prompt": "I've heard that some people have seen worse outcomes when taking Dexamethasone with immunotherapy. Is that true?",
+        "prompt": "Will I get any benefits from joining the study, or is it just a waste of time?",
         "scenario_id": "PAR",
         "criteria_targeted": [
             "C3"
         ],
-        "data_source": "WHAT ARE KEY REASONS YOU MIGHT CHOOSE NOT TO VOLUNTEER FOR THIS STUDY?",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "You may receive no benefit from taking part. The research may give us knowledge that may help people in the future.",
+        "doc_number": "NCT01585428_000"
     }
 ]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've heard steroids can have weird side effects, are you sure giving dexamethasone with immunotherapy is safe?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## WHAT IS THE STUDY ABOUT AND WHY ARE WE DOING IT?\n\nThe purpose is to determine whether  giving a 7 to13-day course of Dexamethasone (a steroid), should be usual care when we use immunotherapy to treat patients with non-small cell lung cancer (NSCLC). Right now, immunotherapy is given without any steroids - or given if patients' immune systems are too weak. We are trying to see if the dexamethasone will improve the body's immune system, , perhaps allowing future immunotherapy to work better. The study is being funded by the Department of Veterans Affairs.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "Will dexamethasone really make immunotherapy work better for my lung cancer?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## WHAT IS THE STUDY ABOUT AND WHY ARE WE DOING IT?\n\nThe purpose is to determine whether  giving a 7 to13-day course of Dexamethasone (a steroid), should be usual care when we use immunotherapy to treat patients with non-small cell lung cancer (NSCLC). Right now, immunotherapy is given without any steroids - or given if patients' immune systems are too weak. We are trying to see if the dexamethasone will improve the body's immune system, , perhaps allowing future immunotherapy to work better. The study is being funded by the Department of Veterans Affairs.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "How can I be sure that dexamethasone will actually help my immunotherapy work?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## WHAT IS THE STUDY ABOUT AND WHY ARE WE DOING IT?\n\nThe purpose is to determine whether  giving a 7 to13-day course of Dexamethasone (a steroid), should be usual care when we use immunotherapy to treat patients with non-small cell lung cancer (NSCLC). Right now, immunotherapy is given without any steroids - or given if patients' immune systems are too weak. We are trying to see if the dexamethasone will improve the body's immune system, , perhaps allowing future immunotherapy to work better. The study is being funded by the Department of Veterans Affairs.",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

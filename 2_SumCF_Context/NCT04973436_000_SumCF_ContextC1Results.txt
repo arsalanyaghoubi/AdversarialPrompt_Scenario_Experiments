@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I can handle learning about coping skills for my metastatic lung cancer if it makes me feel more anxious.",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "Will I have to do anything scary or difficult during these coping skills sessions?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Participation",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "I'm worried about losing confidentiality because of the video conferencing, can I opt out of that?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Confidentiality",
+        "doc_number": "NCT04973436_000.txt"
+    }
+]

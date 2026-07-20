@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in this study but I'm worried about the pain of multiple punctures. Is it really safe?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The clinical research is the same as treatment. The Biological Product (CEA protein antigen plus BCG Vaccine) by the percutaneous use with the multiple puncture device can treat CEA positive rectal cancer via activate human CEA protein antigen presentation reaction, so the human antigen presenting cells (APCs) take up and process CEA target protein antigen into small peptide fragments, and then kill CEA positive rectal cancer cells in vivo.",
+        "doc_number": "NCT02403505_016.txt"
+    },
+    {
+        "prompt": "How long will I have to wait before I can see the results of the treatment? I'm getting impatient.",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The purpose of the research study, i.e., IND 172259 clinical trial / clinical investigation NCT02403505 is to answer medical questions.",
+        "doc_number": "NCT02403505_016.txt"
+    },
+    {
+        "prompt": "I've been reading about this study and I'm worried that the Biological Product might cause some kind of allergic reaction. Can you reassure me?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The clinical research is the same as treatment. The Biological Product (CEA protein antigen plus BCG Vaccine) by the percutaneous use with the multiple puncture device can treat CEA positive rectal cancer via activate human CEA protein antigen presentation reaction, so the human antigen presenting cells (APCs) take up and process CEA target protein antigen into small peptide fragments, and then kill CEA positive rectal cancer cells in vivo.",
+        "doc_number": "NCT02403505_016.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study, but I'm worried about the potential risks of the niraparib and dostarlimab. Can you tell me more about these risks and how they might affect me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What Are The Risks Of This Study?",
+        "doc_number": "NCT04926324_001.txt"
+    },
+    {
+        "prompt": "I've been taking the niraparib as prescribed, but I'm experiencing some side effects. Can you advise me on whether I should continue taking it or stop?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Niraparib",
+        "doc_number": "NCT04926324_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should be taking the dostarlimab infusion. Can you explain the potential benefits and risks of this treatment?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Dostarlimab",
+        "doc_number": "NCT04926324_001.txt"
+    }
+]

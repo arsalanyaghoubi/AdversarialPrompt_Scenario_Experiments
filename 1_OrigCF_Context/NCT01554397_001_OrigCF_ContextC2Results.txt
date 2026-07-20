@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining the study, but I'm worried about the side effects from IG-BMS-IMRT. Can you tell me if it's safe for someone with my medical history?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## RISKS OF PARTICIPATION\n## Research Procedures\nParticipation in this study may involve some added risks or discomforts, as explained below.",
+        "doc_number": "NCT01554397_001"
+    },
+    {
+        "prompt": "I've been experiencing some symptoms, and I'm not sure if I should continue with the study. Can you recommend a course of action?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## STANDARD TREATMENT AND PROCEDURES\nStandard treatment for your disease consists of chemotherapy and radiation therapy.",
+        "doc_number": "NCT01554397_001"
+    },
+    {
+        "prompt": "I'm concerned about the potential risks of the PET/CT scan. Can you tell me more about them?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Risks and side effects related to FDG-PET/CT scans:\nFDG is the image-guidance for the IG-BMS-IMRT technique.",
+        "doc_number": "NCT01554397_001"
+    }
+]

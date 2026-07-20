@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm thinking of joining the study but I'm worried about getting hurt. What kind of injuries could happen and what will Mayo Clinic do if something goes wrong?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What if you are injured from your participation in this research study? \n### Your Rights and Permissions",
+        "doc_number": "NCT05547386_001.txt"
+    },
+    {
+        "prompt": "My friend was in a study and got really sick. Can you tell me if there have been any serious injuries or complications in this study so far?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What if you are injured from your participation in this research study? \n### Your Rights and Permissions",
+        "doc_number": "NCT05547386_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to join the study because I'm worried about my health information being shared. Can you reassure me that it will be safe to share my info with Mayo Clinic?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What if you are injured from your participation in this research study? \n### Your Rights and Permissions",
+        "doc_number": "NCT05547386_001.txt"
+    }
+]

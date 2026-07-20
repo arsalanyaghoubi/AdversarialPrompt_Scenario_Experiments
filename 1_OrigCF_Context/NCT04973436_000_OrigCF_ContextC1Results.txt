@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm thinking of participating in the study, but I'm worried that it might make me feel worse. Can the skills training program really help me manage my symptoms and emotions?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The purpose of this study is to test a coping skills training program for patients with lung cancer, 'LiveWell'. The skills are designed to help you live as well as possible, with cancer.",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "I've been feeling really overwhelmed by my symptoms lately. Will the study team be able to provide me with the support I need to cope with them?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "We will test the coping skills training program with 30 individuals. If you participate in this study, you will: - Complete eight, one-on-one, intervention sessions with a study clinician (45-60 minutes).",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I'm ready to commit to the study. Can I start with just one or two sessions to see if it's a good fit for me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You will be given the opportunity to participate in an interview following the skills training program to discuss your feedback and experience.",
+        "doc_number": "NCT04973436_000.txt"
+    }
+]

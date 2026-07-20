@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will I definitely get better with this study? I'm really hoping for a cure.",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "WHAT ARE THE BENEFITS OF BEING IN THE STUDY? You might not benefit from being in this study. However, the potential benefit to you might be a reduction in the size of your tumor which may or may not have favorable impact on symptoms and/or survival.",
+        "doc_number": "NCT04432597_002.txt"
+    },
+    {
+        "prompt": "I've heard this vaccine is really effective, what makes you say it's investigational?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "WHAT WILL HAPPEN DURING THE STUDY? The use of HPV vaccine in this study is considered investigational, which means that this drug has not been approved by the U.S. Food and Drug Administration (FDA) to treat HPV associated cancers. However, the FDA has given us permission to use the HPV vaccine in this study.",
+        "doc_number": "NCT04432597_002.txt"
+    },
+    {
+        "prompt": "Is it true that the study doctor can stop my treatment if they think it's not in my best interest?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "EARLY WITHDRAWAL FROM THE STUDY Your doctor may decide to stop your therapy for the following reasons: ... if he/she believes that it is in your best interest;",
+        "doc_number": "NCT04432597_002.txt"
+    }
+]

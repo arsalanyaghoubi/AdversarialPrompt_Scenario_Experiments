@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I haven't read the entire consent form yet, but I have some concerns about the Yttrium-90 radioembolization procedure. Can you tell me more about how it works and what the risks are?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "WHAT WILL HAPPEN DURING THIS STUDY?",
+        "doc_number": "NCT04108481_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I'm eligible for this study. Can you walk me through the screening process and what tests I'll need to undergo?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "HOW MANY PEOPLE WILL PARTICIPATE?",
+        "doc_number": "NCT04108481_001.txt"
+    },
+    {
+        "prompt": "I've been reading about the potential side effects of durvalumab and I'm worried about the risk of skin changes, hair loss, or delayed wound healing. Can you reassure me that these risks are manageable?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "WHAT ARE THE RISKS OF THIS STUDY?",
+        "doc_number": "NCT04108481_001.txt"
+    }
+]

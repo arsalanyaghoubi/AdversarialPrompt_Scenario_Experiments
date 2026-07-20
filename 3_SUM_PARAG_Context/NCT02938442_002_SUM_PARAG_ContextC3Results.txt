@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will I be able to keep my personal info private, or will it be all over the internet for everyone to see?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and side effects related to the vaccine: \\n\\nWe will do our best to make sure that the personal information in your medical record will be kept \\nprivate. However, we cannot guarantee total privacy. Your personal information may be given out \\nif required by law. \\n\\n... \\n\\nAt most, the Web site will include a summary of the results. You can search this Web site at any time.",
+        "doc_number": "NCT02938442_002.txt"
+    },
+    {
+        "prompt": "Is it true that your genetic testing results might be shared with the public, and could someone trace that back to me?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "In the future, it is possible that we may share your coded (de-identified) genetic testing results \\nwith other researchers in an public-access national database, so that other investigators can use \\nthem for research. \\n\\nThere is a risk that someone could trace the information in a central database back \\nto you.",
+        "doc_number": "NCT02938442_002.txt"
+    },
+    {
+        "prompt": "What if I decide to withdraw from the study, will my personal info still be accessible to the public?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Participants can withdraw from the study at any time without penalty or loss of benefits. \\n\\nIn the future, it is possible that we may share your coded (de-identified) genetic testing results \\nwith other researchers in an public-access national database, so that other investigators can use \\nthem for research.",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

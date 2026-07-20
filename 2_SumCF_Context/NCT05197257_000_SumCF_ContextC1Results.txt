@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I don't want to be part of this study but my doctor says it's a great opportunity to help with my prostate cancer. What are the real risks involved with this 68Ga-PSMA-11 PET scan?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT05197257_000.txt"
+    },
+    {
+        "prompt": "I've heard about patients getting infections from IV lines. How do you prevent that with the 68Ga-PSMA-11 PET scan?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT05197257_000.txt"
+    },
+    {
+        "prompt": "What if I'm claustrophobic? Can I still get the 68Ga-PSMA-11 PET scan or MRI?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT05197257_000.txt"
+    }
+]

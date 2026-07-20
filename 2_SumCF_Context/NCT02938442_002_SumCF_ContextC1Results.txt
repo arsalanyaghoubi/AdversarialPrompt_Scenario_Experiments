@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm still not sure if I should get the new vaccine, can you tell me more about the risks of the standard treatment?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Clinical Trial Summary",
+        "doc_number": "NCT02938442_002"
+    },
+    {
+        "prompt": "Will I be able to take care of my family if I join the study and get the new vaccine?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Clinical Trial Summary",
+        "doc_number": "NCT02938442_002"
+    },
+    {
+        "prompt": "I've heard that the vaccine can cause severe allergic reactions, is that true?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Side Effects",
+        "doc_number": "NCT02938442_002"
+    }
+]

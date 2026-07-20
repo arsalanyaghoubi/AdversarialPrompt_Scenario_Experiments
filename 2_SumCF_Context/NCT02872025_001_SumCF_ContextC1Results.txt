@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in the study, but I'm worried about the potential side effects of Pembrolizumab. Can I still get the treatment if I'm allergic to something?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "I have a friend who's going through the same thing as me. Can I get the treatment too, even if I haven't been diagnosed with DCIS?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I'm comfortable with the idea of intralesional injections. Can I just take the Pembrolizumab orally instead?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Procedures",
+        "doc_number": "NCT02872025_001.txt"
+    }
+]

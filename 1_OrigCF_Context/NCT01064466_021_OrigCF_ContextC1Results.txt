@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I should sign this consent form, what if the study chemotherapy drugs are not better than the usual chemotherapy drugs and cause more harm?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Possible risks can I expect from taking part in this study?",
+        "doc_number": "NCT01064466_021.txt"
+    },
+    {
+        "prompt": "Can you confirm that the study is conducted in compliance with the institutional review board regulations in part 56?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Our investigation (NCT01064466) will be conducted in compliance with the requirements for 21 CFR Part 50 like as following:",
+        "doc_number": "NCT01064466_021.txt"
+    },
+    {
+        "prompt": "I'm concerned about the possible risks of the study, what if I get hurt or injured during the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "What possible risks can I expect from taking part in this study?",
+        "doc_number": "NCT01064466_021.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining the study but I'm worried about my personal info being leaked. What's the real risk here?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "There is a risk that your information could become known to someone not involved in this study. However, the study team makes every effort to protect your privacy.",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "You mentioned skin reactions could be temporary, but what if mine lasts forever? Shouldn't I be worried?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "A skin reaction could include redness, itchiness, swelling, or pain. We expect any skin reactions to be temporary and to go away on their own.",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "I'm not sure I want to join the study, but I'm also not sure I want to leave my treatment options open. Can I still see my healthcare providers if I join?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If you decide not to take part in the study, or if you choose to leave the study, your choice will not affect any treatment relationship you have with your healthcare providers at UW-Madison, UW Health, or any affiliated organizations, or any services you receive from them.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

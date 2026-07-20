@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have breast cancer and I'm considering chemotherapy. Can sulforaphane really help protect my heart from damage?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should join this study. Can I take sulforaphane on my own without being part of the trial?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "I've heard that sulforaphane can help with chemotherapy side effects. Should I take it during my treatment?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT03934905_000.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering taking part in this study because I have prostate cancer with a high chance of coming back. I'm worried about the usual approach to my cancer. Can I ask, will niraparib make me feel better or help me live longer?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "What are my choices if I decide not to take part in this study?",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "I'm interested in taking part in this study, but I'm concerned about the side effects of niraparib. Can you tell me more about the potential risks of high blood pressure and heart rate changes?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Possible Side Effects of Niraparib",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "I'm thinking about enrolling in this study, but I'm not sure if I'm eligible. Can you tell me more about the genetic testing that will be done as part of this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Genetic Testing Risks",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

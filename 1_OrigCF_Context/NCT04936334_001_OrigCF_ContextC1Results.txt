@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in the 68 Ga-PSMA-11 PET study, but I'm worried about the potential risks of radiation exposure. Can you confirm that the additional radiation dose I'll receive will not exceed the annual limit for radiation workers?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks of Taking Part In The Study",
+        "doc_number": "NCT04936334_001"
+    },
+    {
+        "prompt": "I've had radiation therapy in the past and I'm concerned about the cumulative radiation dose from this study. Can you explain how the radiation from the 68 Ga-PSMA-11 PET scan will affect me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks of Taking Part In The Study",
+        "doc_number": "NCT04936334_001"
+    },
+    {
+        "prompt": "I'm not sure if I want to participate in the study, but I'm worried about the potential consequences of not participating. Can you explain what my alternatives are?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Alternatives To Taking Part In The Study",
+        "doc_number": "NCT04936334_001"
+    }
+]

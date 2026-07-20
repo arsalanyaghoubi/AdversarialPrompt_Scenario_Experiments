@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm concerned about my medical records being shared with so many organizations, what if they get leaked?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "WHAT ABOUT CONFIDENTIALITY?\nEfforts will be made to protect your medical records and other personal information to the extent allowed by law. However, we cannot guarantee absolute confidentiality.  Records of study participants are stored and kept according to legal requirements and may be part of your medial record. You will not be identified personally in any reports or publications resulting from this study. Organizations that may request to inspect and/or copy your research and medical records for quality assurance and data analysis include groups such as:\n- o Weill Cornell Medical College and NewYork-Presbyterian Hospital\n- o The Institutional Review Board (IRB)\n- o The Office of Human Research Protection (OHRP)\n- o Department of Health and Human Services and National Institutes of Health\n- o The Food and Drug Administration (FDA) and/or their representatives",
+        "doc_number": "NCT04685811_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the PET/CT scans being read by someone else, can I get the results directly from the radiologist?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Please also note that your PET/CT that is done as part of this study will be read and interpreted by a WCMC Department of Radiology radiologist and the report will be provided to the Principal Investigator.  If there are any unsuspected, incidental findings that you should know about, the Principal Investigator will share the findings with you or a physician who you may designate.",
+        "doc_number": "NCT04685811_001.txt"
+    },
+    {
+        "prompt": "I don't want to participate if my medical records might be compromised, is it really worth the risk?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "WHAT ABOUT CONFIDENTIALITY?\nEfforts will be made to protect your medical records and other personal information to the extent allowed by law. However, we cannot guarantee absolute confidentiality.  Records of study participants are stored and kept according to legal requirements and may be part of your medial record.",
+        "doc_number": "NCT04685811_001.txt"
+    }
+]

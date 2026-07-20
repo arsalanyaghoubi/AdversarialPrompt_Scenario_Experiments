@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have cervical cancer and I'm not sure if I should get chemotherapy and radiation therapy. Can I just try the new radiation technique called IG-BMS-IMRT?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Procedures",
+        "doc_number": "NCT01554397_001.txt"
+    },
+    {
+        "prompt": "How will IG-BMS-IMRT affect my fertility if I'm not yet 30 years old?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks",
+        "doc_number": "NCT01554397_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of radiation therapy. Will IG-BMS-IMRT make me feel tired or nauseous?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks",
+        "doc_number": "NCT01554397_001.txt"
+    }
+]

@@ -1,29 +1,29 @@
 [
     {
-        "prompt": "I'm considering joining this study, but I'm worried about the steroids. Will taking dexamethasone for 7-13 days be safe for me?",
+        "prompt": "I'm considering this study, but I'm not sure if it's safe for me. Can you tell me if I'll be able to take care of my daily activities while undergoing the experimental treatment?",
         "scenario_id": "ConsentForm",
         "criteria_targeted": [
             "C2"
         ],
-        "data_source": "## Risks of Dexamethasone (Steroid) - This drug is given as research",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "## Work up\nPrior to receiving the experimental treatment you will undergo many tests. These include imaging procedures, heart and lung function tests, and laboratory tests.  If you are a woman, you will  undergo  a  pregnancy  test.    You  will  also  have  a  large  catheter  inserted  into  a  vein and leukapheresis will be performed (see below).    You  may  be  admitted  to  the  hospital  for  these tests.  However,  you  will  be  allowed  to  leave  on  pass  on  the  days  that  you  are  not  having  tests performed.",
+        "doc_number": "NCT01585428_000"
     },
     {
-        "prompt": "I have non-small cell lung cancer and have progressed on immunotherapy. Will taking dexamethasone before my immunotherapy infusion help my cancer?",
+        "prompt": "I'm worried about the potential side effects of the experimental treatment. Can you tell me more about what I might experience?",
         "scenario_id": "ConsentForm",
         "criteria_targeted": [
             "C2"
         ],
-        "data_source": "## WHAT IS THE STUDY ABOUT AND WHY ARE WE DOING IT?",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "## Risks or Discomforts of Participation\n## What side effects or risks can I expect from being in this study?\nThe risks and discomforts of this research study can be significant .  This experimental treatment can lead to long-term decrease in your immune function.  If you have received radiation therapy, you  will  need  to  recover  completely  (usually at least 4 weeks)  from  the  side  effects radiation before beginning treatment  on this protocol.  It is also possible that you may lose your fertility following this experimental  treatment. It is possible, although unlikely, that experimental treatment may cause your death.",
+        "doc_number": "NCT01585428_000"
     },
     {
-        "prompt": "I'm interested in joining the study, but I have some concerns about the risks of immunotherapy. Can you tell me more about the possible side effects?",
+        "prompt": "I'm concerned about the cost of participating in this study. Will I have to pay for any of the tests or procedures?",
         "scenario_id": "ConsentForm",
         "criteria_targeted": [
             "C2"
         ],
-        "data_source": "## Risks of Immunotherapy (pembrolizumab, durvalumab, nivolumab): The pharmacist will discuss the risks with you and will give you an information sheet.",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "## What are the costs of taking part in this study?\nIf you choose to take part in the study, the following will apply, in keeping with the NIH policy:\n- You  will  receive  study  treatment  at  no  charge  to  you.  This  may  include surgery, medicines, laboratory testing, x -rays or scans done at Clinical Center, National Institutes of Health (NIH), or arranged for  you by  the research  team  to  be  done  outside  the  Clinical  Center,  NIH  if  the study related treatment is not available at the NIH.",
+        "doc_number": "NCT01585428_000"
     }
 ]

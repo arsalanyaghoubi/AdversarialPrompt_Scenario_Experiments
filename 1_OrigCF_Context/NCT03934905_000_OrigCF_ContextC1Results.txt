@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in the Phase II trial of Sulforaphane on Doxorubicin-Associated Cardiac Dysfunction. Can I stop taking the study pills if I experience any side effects?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Section 7: What are the risks and/or discomforts to me if I join this study?",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "Will the study pills harm my heart in any way?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Section 1: Why is this study being done?",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "Can I get a copy of my medical records from the study if I leave the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Section 19: What if I have questions?",
+        "doc_number": "NCT03934905_000.txt"
+    }
+]

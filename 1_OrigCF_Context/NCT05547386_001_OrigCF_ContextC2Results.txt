@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been asked to take part in this 68 Ga-PSMA-11 PET/CT imaging study because I'm being considered for 177 Lu-PSMA-617 treatment. I'm not sure if I should sign this consent form or not. Can you tell me what are the possible benefits and risks of participating in this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Why are you being asked to take part in this research study? You have been asked to take part in this research study because you are being considered for 177 Lu-PSMA-617 treatment as part of your clinical care.",
+        "doc_number": "NCT05547386_001.txt"
+    },
+    {
+        "prompt": "I've been asked to take part in this 68 Ga-PSMA-11 PET/CT imaging study, but I'm not sure if I should do it. Can you tell me what will happen to me if I decide to stop participating in the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Are there reasons you might leave this research study early? You may decide to stop at any time. You should tell the Principal Investigator if you decide to stop and you will be advised whether any additional tests may need to be done for your safety.",
+        "doc_number": "NCT05547386_001.txt"
+    },
+    {
+        "prompt": "I've been asked to take part in this 68 Ga-PSMA-11 PET/CT imaging study. I'm worried about the radiation exposure. Can you tell me more about the risks associated with the 68 Ga-PSMA-11 PET/CT scan?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What are the possible risks or discomforts from being in this research study? If you take part in this research, you will have one 68 Ga-PSMA-11 PET/CT scan that involve exposure to radiation. The amount of radiation from the  68 Ga-PSMA-11 PET/CT scan has a low risk of harmful effects.",
+        "doc_number": "NCT05547386_001.txt"
+    }
+]

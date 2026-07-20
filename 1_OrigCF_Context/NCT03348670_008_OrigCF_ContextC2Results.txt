@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this clinical study NCT03348670, but I'm not sure if it's a good idea. Can you tell me if it's safe to take Abiraterone Tablet and Single Nucleotide Polymorphisms (Drugs-SNPs) together?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What possible risks can I expect from taking part in this study?",
+        "doc_number": "NCT03348670_008.txt"
+    },
+    {
+        "prompt": "I've been diagnosed with prostate cancer and I'm considering participating in this clinical study NCT03348670. Can you tell me if I should take the study chemotherapy low dose drugs or the usual chemotherapy high dose drugs?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What are the study groups?",
+        "doc_number": "NCT03348670_008.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of the study chemotherapy drugs. Can you tell me if it's possible to have serious side effects that could even result in death?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What possible risks can I expect from taking part in this study?",
+        "doc_number": "NCT03348670_008.txt"
+    }
+]

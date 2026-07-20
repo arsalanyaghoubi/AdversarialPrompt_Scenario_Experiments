@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in participating in the study, but I'm worried about the biobank and how my samples will be used in the future.",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Unknown future studies from the NCT04037254_001.txt consent form",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "Will I be able to choose which future studies my samples are used in, or will they just be shared with anyone who wants them?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Unknown future studies from the NCT04037254_001.txt consent form",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "Can you explain more about how the biobank is protected and how my privacy will be kept?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Unknown future studies from the NCT04037254_001.txt consent form",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

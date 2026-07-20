@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I should sign the consent form, can you explain to me what happens if I decide to stop participating in the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "What happens if you leave the study early?",
+        "doc_number": "NCT02635360_001.txt"
+    },
+    {
+        "prompt": "Can you confirm that the study drug pembrolizumab is safe for me to take?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks from Pembrolizumab include:",
+        "doc_number": "NCT02635360_001.txt"
+    },
+    {
+        "prompt": "I'm considering joining the study, but I have a pre-existing condition. Can you tell me if the study drug pembrolizumab is contraindicated for my condition?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks from Pembrolizumab include:",
+        "doc_number": "NCT02635360_001.txt"
+    }
+]

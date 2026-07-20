@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering the potential benefits of this trial, but what if I have a family history of liver disease?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Exclusion Criteria",
+        "doc_number": "NCT04372927_000.txt"
+    },
+    {
+        "prompt": "Do you think the risks associated with durvalumab are worth it if I'm not sure if this treatment will work for me?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks",
+        "doc_number": "NCT04372927_000.txt"
+    },
+    {
+        "prompt": "I've heard that immunotherapy can be really effective, but what if I'm not eligible for this trial?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Inclusion Criteria",
+        "doc_number": "NCT04372927_000.txt"
+    }
+]

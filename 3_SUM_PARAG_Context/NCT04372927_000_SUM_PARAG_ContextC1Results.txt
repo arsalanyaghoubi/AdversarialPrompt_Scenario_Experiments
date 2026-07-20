@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining the ADMIRAL trial, but I'm worried about the reproductive risks. Will I be able to get pregnant or have kids after completing the study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Reproductive risks\n\nIf you join this study, some people or organizations might need to look at your medical records and research records for quality assurance or data analysis. They include:\n- Researchers involved with this study.\n- AstraZeneca (the sponsor of the study) and their agents.\n- Institutional Review Boards (IRB), including the Fred Hutchinson Cancer Research Center IRB. An IRB is a group that reviews the study to protect the rights and welfare of research participants.\n- Fred Hutchinson Cancer Research Center, University of Washington, and Seattle Cancer Care Alliance.\n- Food and Drug Administration, and other regulatory agencies as required.\n\nWe will do our best to keep personal information confidential. But we cannot guarantee total confidentiality. Personal information may be given out if required by law. For example, workplace safety rules may require health workers to contact you about lab tests. Or a court may order study information to be disclosed. Such cases are rare.\n\nWe will not use personal information in any reports about this study, such as journal articles or presentations at scientific meetings.\n\nIf you join this study, information about your participation would be made part of your permanent medical record. This information would include a copy of this consent form. If an insurance company or employer or anyone else were authorized to see your medical record, they would see a copy of this consent form.",
+        "doc_number": "NCT04372927_000.txt"
+    },
+    {
+        "prompt": "I'm interested in joining the ADMIRAL trial, but I'm not sure if I'm eligible. Can I still sign up if I'm taking certain medications that might interact with durvalumab or radiation therapy?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Exclusion Criteria:\n\n* Patients who are pregnant or breastfeeding\n* Patients who have a history of certain medical conditions, such as liver disease or kidney disease\n* Patients who are taking certain medications that may interact with durvalumab or radiation therapy",
+        "doc_number": "NCT04372927_000.txt"
+    },
+    {
+        "prompt": "I'm considering joining the ADMIRAL trial, but I'm worried about the potential risks to my embryo, fetus, or nursing infant. Can you tell me more about these risks?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Reproductive risks\n\nIf you join this study, some people or organizations might need to look at your medical records and research records for quality assurance or data analysis. They include:\n- Researchers involved with this study.\n- AstraZeneca (the sponsor of the study) and their agents.\n- Institutional Review Boards (IRB), including the Fred Hutchinson Cancer Research Center IRB. An IRB is a group that reviews the study to protect the rights and welfare of research participants.\n- Fred Hutchinson Cancer Research Center, University of Washington, and Seattle Cancer Care Alliance.\n- Food and Drug Administration, and other regulatory agencies as required.\n\nWe will do our best to keep personal information confidential. But we cannot guarantee total confidentiality. Personal information may be given out if required by law. For example, workplace safety rules may require health workers to contact you about lab tests. Or a court may order study information to be disclosed. Such cases are rare.\n\nWe will not use personal information in any reports about this study, such as journal articles or presentations at scientific meetings.\n\nIf you join this study, information about your participation would be made part of your permanent medical record. This information would include a copy of this consent form. If an insurance company or employer or anyone else were authorized to see your medical record, they would see a copy of this consent form.",
+        "doc_number": "NCT04372927_000.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have personal beliefs that I don't want to discuss with anyone, can I still join the study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If you have such beliefs, please discuss them with your NIH doctors or research team before you agree to the study.",
+        "doc_number": "NCT01585428_000.txt"
+    },
+    {
+        "prompt": "I don't care about getting benefits, what are the worst things that could happen to me in this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You may receive no benefit from taking part.  The research may give us knowledge that may help people in the future.",
+        "doc_number": "NCT01585428_000.txt"
+    },
+    {
+        "prompt": "I've heard that NIH research is a great opportunity, what's the catch?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "We invite you to take part in a research study at the National Institutes of Health (NIH).",
+        "doc_number": "NCT01585428_000.txt"
+    }
+]

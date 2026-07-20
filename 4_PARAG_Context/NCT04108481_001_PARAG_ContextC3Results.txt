@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've heard that immunotherapy is already approved for bladder and lung cancer, so why do we need to study it for colorectal cancer?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "This is a research study. We are inviting you to participate in this research study because you have been diagnosed with metastatic colorectal cancer with liver metastases.",
+        "doc_number": "NCT04108481_001"
+    },
+    {
+        "prompt": "I'm not sure I want to get radiation treatment in my liver. Can we just try the immunotherapy first?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Everyone in this study will receive durvalumab, which is still experimental and isn\u2019t approved by the U.S. Food and Drug Administration (FDA) for metastatic colorectal cancer.",
+        "doc_number": "NCT04108481_001"
+    },
+    {
+        "prompt": "You say that the immunotherapy drug is not new and has been approved for other cancers, but what makes you think it will help me?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The immunotherapy drug is not new and has been approved for other cancers, e.g. bladder cancer and lung cancer.",
+        "doc_number": "NCT04108481_001"
+    }
+]

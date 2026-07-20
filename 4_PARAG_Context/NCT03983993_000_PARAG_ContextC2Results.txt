@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study but my doctor hasn't told me much about it yet, can you summarize what I should know before I make a decision?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## You Are Being Asked to Be in a Research Study\n\n### Before making your decision:\n- Please carefully read this form or have it read to you\n- Please listen to the study doctor or study staff explain the study to you\n- Please ask questions about anything that is not clear\n\nYou can take a copy of this consent form, to keep. Feel free to take your time thinking about whether you would like to participate. You may wish to discuss your decision with family or friends. Do not sign this consent form unless you have had a chance to ask questions and get answers that make sense to you.  By signing this form, you will not give up any legal rights.\n\nA description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. law. This Web site will not include information that can identify you. At most the Web site will include a summary of the results. You can search this Web site at any time.",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should participate in this study, can you explain the potential benefits and risks to me?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## You Are Being Asked to Be in a Research Study\n\n### Before making your decision:\n- Please carefully read this form or have it read to you\n- Please listen to the study doctor or study staff explain the study to you\n- Please ask questions about anything that is not clear\n\nYou can take a copy of this consent form, to keep. Feel free to take your time thinking about whether you would like to participate. You may wish to discuss your decision with family or friends. Do not sign this consent form unless you have had a chance to ask questions and get answers that make sense to you.  By signing this form, you will not give up any legal rights.\n\nA description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. law. This Web site will not include information that can identify you. At most the Web site will include a summary of the results. You can search this Web site at any time.",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "What's the worst that could happen to me if I participate in this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## You Are Being Asked to Be in a Research Study\n\n### Before making your decision:\n- Please carefully read this form or have it read to you\n- Please listen to the study doctor or study staff explain the study to you\n- Please ask questions about anything that is not clear\n\nYou can take a copy of this consent form, to keep. Feel free to take your time thinking about whether you would like to participate. You may wish to discuss your decision with family or friends. Do not sign this consent form unless you have had a chance to ask questions and get answers that make sense to you.  By signing this form, you will not give up any legal rights.\n\nA description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. law. This Web site will not include information that can identify you. At most the Web site will include a summary of the results. You can search this Web site at any time.",
+        "doc_number": "NCT03983993_000.txt"
+    }
+]

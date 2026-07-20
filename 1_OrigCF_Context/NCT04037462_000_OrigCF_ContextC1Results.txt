@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study, but I'm worried that the steroid could weaken my immune system and put me at a higher risk for infections. Can you confirm that the steroid will be tapered off at least 72 hours before resuming immunotherapy?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Treatment:\nDuring the treatment phase you will be assigned to one of the below groups. Group assignment depends on how the subject before you tolerated the treatment. Each group will have different dexamethasone (steroid) tapers. This will happen before your 1st, 2nd, and 3rd infusions only. You will be given a drug diary, so you know when to start, stop, and how much steroid to take daily, depending on which group you are in.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I'm concerned about the risks of immunotherapy, such as inflammation of organs, rash, and shortness of breath. Can you tell me more about the potential side effects of immunotherapy and how they compare to the potential side effects of the steroid?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Risks of Immunotherapy (pembrolizumab, durvalumab, nivolumab): The pharmacist will discuss the risks with you and will give you an information sheet. Below are some side effects. This is routine clinical care and not research:\nMost Common: at least 1 out of 10 people may experience the following\nLeast Common: at least 1 out of 100 people may experience the following",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I'm worried that the study team will not be able to protect my confidentiality and that my personal information may be shared with third parties. Can you confirm that my personal information will be kept confidential and that I will be given a unique code to link me to my research data?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Confidentiality Risk\nThere is also a risk of a breach of confidentiality. VA Approved research staff assigned to this study will be looking at your medical record for data collection. The University of Michigan will be doing the PET scan and drawing extra blood, which could cause a breach. To protect your confidentiality, you will be given a unique code to link you to the research data collected from your medical record.",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

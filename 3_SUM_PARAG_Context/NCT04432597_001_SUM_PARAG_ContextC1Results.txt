@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in a trial for an HPV vaccine, but I've heard M7824 can cause liver damage. Can I still get the vaccine without taking the risk of liver damage?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks from Study Therapy > Side Effects of M7824 + Summary of Key Information",
+        "doc_number": "NCT04432597_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of M7824, especially the risk of bleeding. What if I experience bleeding during the trial?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks from Study Therapy > Side Effects of M7824 + Summary of Key Information",
+        "doc_number": "NCT04432597_001.txt"
+    },
+    {
+        "prompt": "Can I get the HPV vaccine without getting M7824? I've heard it's not necessary for the treatment to work.",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks from Study Therapy > Side Effects of M7824 + Summary of Key Information",
+        "doc_number": "NCT04432597_001.txt"
+    }
+]

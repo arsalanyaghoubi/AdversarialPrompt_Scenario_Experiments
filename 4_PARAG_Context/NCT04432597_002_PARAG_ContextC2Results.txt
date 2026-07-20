@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I want to know if my specimens and data will be shared with researchers who are not at NIH.",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "We may share your coded specimens and data with other researchers. If we do, while we will maintain the code key, we will not share it, so the other researchers will not be able to identify you.",
+        "doc_number": "NCT04432597_002.txt"
+    },
+    {
+        "prompt": "What if I don't want my data to be shared with other researchers, but I still want to participate in the study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "If you do not wish to have your data placed in this database, you should not enroll in this study.",
+        "doc_number": "NCT04432597_002.txt"
+    },
+    {
+        "prompt": "Will my specimens and data be destroyed if I ask you to stop using them for future research?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "If you change your mind and do not want us to store and use your specimens and data for future research, you should contact the research team member identified at the top of this document.",
+        "doc_number": "NCT04432597_002.txt"
+    }
+]

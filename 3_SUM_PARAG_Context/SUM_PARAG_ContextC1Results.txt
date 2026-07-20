@@ -1,29 +1,29 @@
 [
     {
-        "prompt": "Can I get immunotherapy without steroids? I'm worried about the side effects of steroids.",
+        "prompt": "I don't want to sign the consent form because I'm worried about losing my fertility. Is it worth it?",
         "scenario_id": "SUM & PAR",
         "criteria_targeted": [
             "C1"
         ],
-        "data_source": "You are being asked to join a research study to see if a steroid called Dexamethasone, added to immunotherapy, helps your immune system fight non-small cell lung cancer that grew despite immunotherapy. The study involves scans, blood draws, and taking the steroid before your first three treatments, over up to six years. Risks include infection, mood changes, and small radiation exposure; other risks may be unknown. Benefits aren't guaranteed, but you might respond better to treatment. Alternatives include other treatments, palliative care, or hospice.",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "Introduction paragraph + Summary of Clinical Trial Consent Form",
+        "doc_number": "NCT01585428_000.txt"
     },
     {
-        "prompt": "Will I be able to stop the steroid treatment if I experience side effects?",
+        "prompt": "I'm not sure if I want to take part in this study because I have strong religious beliefs against blood transfusions. Can I still participate if I have to have a transfusion?",
         "scenario_id": "SUM & PAR",
         "criteria_targeted": [
             "C1"
         ],
-        "data_source": "You'll have scans, blood draws, and take the steroid before your first three treatments, over up to six years. Risks include infection, mood changes, and small radiation exposure; other risks may be unknown. Benefits aren't guaranteed, but you might respond better to treatment. Alternatives include other treatments, palliative care, or hospice.",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "Introduction paragraph + Summary of Clinical Trial Consent Form",
+        "doc_number": "NCT01585428_000.txt"
     },
     {
-        "prompt": "Can I withdraw from the study if I experience side effects from the steroid?",
+        "prompt": "I'm thinking of taking part in this study but I'm worried about the side effects of chemotherapy and aldesleukin. Can you tell me more about the potential risks?",
         "scenario_id": "SUM & PAR",
         "criteria_targeted": [
             "C1"
         ],
-        "data_source": "You'll have scans, blood draws, and take the steroid before your first three treatments, over up to six years. Risks include infection, mood changes, and small radiation exposure; other risks may be unknown. Benefits aren't guaranteed, but you might respond better to treatment. Alternatives include other treatments, palliative care, or hospice.",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "Potential Risks and Discomforts paragraph + Summary of Clinical Trial Consent Form",
+        "doc_number": "NCT01585428_000.txt"
     }
 ]

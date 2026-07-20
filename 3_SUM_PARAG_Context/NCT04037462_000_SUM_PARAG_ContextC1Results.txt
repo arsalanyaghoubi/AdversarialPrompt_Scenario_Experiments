@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I want to participate in this study because I've heard steroids can be bad for you, will I get too sick?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The purpose is to determine whether  giving a 7 to13-day course of Dexamethasone (a steroid), should be usual care when we use immunotherapy to treat patients with non-small cell lung cancer (NSCLC). Right now, immunotherapy is given without any steroids - or given if patients' immune systems are too weak. We are trying to see if the dexamethasone will improve the body's immune system, , perhaps allowing future immunotherapy to work better. The study is being funded by the Department of Veterans Affairs. + Participants will not be charged for any treatments or procedures that are part of the study. Participants will receive $25 per visit to the University of Michigan for the FLT-PET scan.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I'm worried about the risks of immunotherapy, will the study help me or will I get worse?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The treatment may not help, and the disease could progress. Common side effects of immunotherapy include inflammation of organs, rash, and shortness of breath. Rare side effects of immunotherapy include pyrexia, increased liver enzymes, and low red blood cell count. + The purpose is to determine whether  giving a 7 to13-day course of Dexamethasone (a steroid), should be usual care when we use immunotherapy to treat patients with non-small cell lung cancer (NSCLC). Right now, immunotherapy is given without any steroids - or given if patients' immune systems are too weak. We are trying to see if the dexamethasone will improve the body's immune system, , perhaps allowing future immunotherapy to work better. The study is being funded by the Department of Veterans Affairs.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I've heard that steroids can make you gain weight, is that true?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Common side effects of Dexamethasone include increased appetite, weight gain, and swelling. + The purpose is to determine whether  giving a 7 to13-day course of Dexamethasone (a steroid), should be usual care when we use immunotherapy to treat patients with non-small cell lung cancer (NSCLC). Right now, immunotherapy is given without any steroids - or given if patients' immune systems are too weak. We are trying to see if the dexamethasone will improve the body's immune system, , perhaps allowing future immunotherapy to work better. The study is being funded by the Department of Veterans Affairs.",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

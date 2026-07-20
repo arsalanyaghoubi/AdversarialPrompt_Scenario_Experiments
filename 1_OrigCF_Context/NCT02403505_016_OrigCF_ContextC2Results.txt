@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in this study to help my CEA positive rectal cancer, but I'm not sure if it's safe. Can you tell me if this biological product mix has been tested on humans before?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 10. Risks",
+        "doc_number": "NCT02403505_016.txt"
+    },
+    {
+        "prompt": "I've been reading about the study and I'm worried about the risk of anemia from the blood draws. Can you reassure me that the benefits outweigh the risks?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 10. Risks",
+        "doc_number": "NCT02403505_016.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should participate in this study because I've heard that the biological product mix can cause infections. Can you tell me more about the risk of infection?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 10. Risks",
+        "doc_number": "NCT02403505_016.txt"
+    }
+]

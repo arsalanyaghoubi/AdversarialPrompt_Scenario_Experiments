@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm still unsure about the biopsy procedure. Can you explain it to me in more detail?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Procedure to Collect A Tumor Tissue Sample",
+        "doc_number": "NCT03476798_002.txt"
+    },
+    {
+        "prompt": "I've been taking the rucaparib pills, but I'm experiencing some side effects. Can you tell me what to do?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Rucaparib Side Effects",
+        "doc_number": "NCT03476798_002.txt"
+    },
+    {
+        "prompt": "I'm worried about the risks of taking bevacizumab. Can you reassure me that it's safe?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Possible Side Effects of Bevacizumab",
+        "doc_number": "NCT03476798_002.txt"
+    }
+]

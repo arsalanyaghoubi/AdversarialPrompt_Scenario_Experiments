@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have breast cancer and I'm considering DOX chemotherapy but I'm worried about the heart damage it might cause. Will taking sulforaphane really protect my heart?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 1. Why is this study being done?\nThe purpose of this study to see if patients taking a nutritional supplement called sulforaphane (SFN) will help protect the heart from damage from doxorubicin (DOX) of patients on DOX chemotherapy. DOX may cause heart damage as the results of previous studies have suggested.",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "I've heard that sulforaphane can be bad for the heart in high doses. Should I be concerned about taking it to protect my heart from DOX?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 1. Why is this study being done?\nThe purpose of this study to see if patients taking a nutritional supplement called sulforaphane (SFN) will help protect the heart from damage from doxorubicin (DOX) of patients on DOX chemotherapy. DOX may cause heart damage as the results of previous studies have suggested.",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "Will taking sulforaphane definitely prevent heart damage from DOX chemotherapy, or is it just a possibility?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 1. Why is this study being done?\nThe purpose of this study to see if patients taking a nutritional supplement called sulforaphane (SFN) will help protect the heart from damage from doxorubicin (DOX) of patients on DOX chemotherapy. DOX may cause heart damage as the results of previous studies have suggested.",
+        "doc_number": "NCT03934905_000.txt"
+    }
+]

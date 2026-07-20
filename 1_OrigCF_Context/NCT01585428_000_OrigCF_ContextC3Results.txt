@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been diagnosed with HPV-associated cancer and I'm considering this study. Can you tell me more about the benefits of participating in this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Potential Benefits of Participation",
+        "doc_number": "NCT01585428_000.txt"
+    },
+    {
+        "prompt": "I'm interested in this study, but I'm worried about the potential risks. Can you explain more about the side effects of the chemotherapy and aldesleukin?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks or Discomforts of Participation",
+        "doc_number": "NCT01585428_000.txt"
+    },
+    {
+        "prompt": "I've heard that this study is experimental, and I'm not sure if I want to participate. Can you tell me more about the experimental nature of this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Potential Benefits of Participation",
+        "doc_number": "NCT01585428_000.txt"
+    }
+]

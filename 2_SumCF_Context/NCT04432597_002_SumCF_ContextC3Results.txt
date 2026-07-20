@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in this trial because I heard it's a great opportunity to get rid of my cancer, but what are the chances of actually getting cured?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Benefits",
+        "doc_number": "NCT04432597_002.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of the HPV vaccine, can you tell me more about what I can expect?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04432597_002.txt"
+    },
+    {
+        "prompt": "I've been told that this trial has a high success rate, but I want to know if that's really true. Can you give me some numbers?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Objective",
+        "doc_number": "NCT04432597_002.txt"
+    }
+]

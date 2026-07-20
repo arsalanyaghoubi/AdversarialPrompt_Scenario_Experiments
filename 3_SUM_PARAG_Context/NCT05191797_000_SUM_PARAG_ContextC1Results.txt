@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering the study but I'm worried about radiation risks. Can I just stop taking bomedemstat if I feel uncomfortable?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Radiation risks paragraph + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT05191797_000.txt"
+    },
+    {
+        "prompt": "I'm concerned about the study's confidentiality and privacy. Can I see the Certificate of Confidentiality before signing up?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Confidentiality and Privacy section + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT05191797_000.txt"
+    },
+    {
+        "prompt": "I've heard that bomedemstat can cause low platelet count. Can I stop taking it immediately if I experience any side effects?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Side Effects section + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT05191797_000.txt"
+    }
+]

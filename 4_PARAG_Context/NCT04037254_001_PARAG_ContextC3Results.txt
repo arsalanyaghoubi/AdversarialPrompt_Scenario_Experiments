@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in this study but I'm worried about my privacy, can you tell me if I'll have any control over what researchers do with my samples in the future?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Unknown future studies",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "Will I still be able to get my test results or medicine records even if I join this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Unknown future studies",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "I'm concerned that researchers will try to sell my medical data or use it for profit, can you reassure me that this won't happen?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Unknown future studies",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

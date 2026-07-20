@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in participating in this study, but I'm concerned about how my health information will be shared with my primary physician. Can I opt-out of that part?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The Researchers may use and share your health information with: ... Your primary physician will be contacted if the researcher, in the course of the project, learns of a medical condition that needs immediate attention.",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "If I revoke the authorization to share my health information, will I still be able to participate in the study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "After signing the form, you can change your mind and NOT let the researcher(s) collect or release your health information (revoke the Authorization). ... Your protected health information may still be used and released should you have a bad reaction (adverse event).",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "How long will my health information be shared with the researchers, and can I request to stop it at any time?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The use and sharing of your information has no time limit.",
+        "doc_number": "NCT04428203_001.txt"
+    }
+]

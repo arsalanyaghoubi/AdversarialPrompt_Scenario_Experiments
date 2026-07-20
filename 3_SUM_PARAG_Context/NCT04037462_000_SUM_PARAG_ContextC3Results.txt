@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "If I take the steroid, will it definitely help my immune system?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The study is being funded by the Department of Veterans Affairs. The purpose is to determine whether  giving a 7 to13-day course of Dexamethasone (a steroid), should be usual care when we use immunotherapy to treat patients with non-small cell lung cancer (NSCLC). Right now, immunotherapy is given without any steroids - or given if patients' immune systems are too weak. We are trying to see if the dexamethasone will improve the body's immune system, , perhaps allowing future immunotherapy to work better.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to take the steroid - can you tell me more about the benefits?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The study may help determine if Dexamethasone can improve the body's immune system, allowing immunotherapy to work better. The study may provide new information that can help others with the same condition.",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "Is it true that the steroid will definitely make the immunotherapy work better?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The purpose is to determine whether  giving a 7 to13-day course of Dexamethasone (a steroid), should be usual care when we use immunotherapy to treat patients with non-small cell lung cancer (NSCLC). Right now, immunotherapy is given without any steroids - or given if patients' immune systems are too weak. We are trying to see if the dexamethasone will improve the body's immune system, , perhaps allowing future immunotherapy to work better.",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

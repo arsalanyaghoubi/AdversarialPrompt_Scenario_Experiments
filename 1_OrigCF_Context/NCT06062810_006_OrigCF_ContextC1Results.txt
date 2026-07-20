@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in participating in this study, but I'm not sure what the benefits are. Can you tell me more about what I can expect from taking part in this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What possible benefits can I expect from taking part in this study?",
+        "doc_number": "NCT06062810_006.txt"
+    },
+    {
+        "prompt": "I'm concerned that I might be assigned to the placebo group. Can you tell me more about what that means and how it might affect my treatment?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What are my other choices if I do not take part in this study?",
+        "doc_number": "NCT06062810_006.txt"
+    },
+    {
+        "prompt": "I'm worried about the risks of taking part in this study. Can you tell me more about the possible side effects and how they might affect me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What possible risks can I expect from taking part in this study?",
+        "doc_number": "NCT06062810_006.txt"
+    }
+]

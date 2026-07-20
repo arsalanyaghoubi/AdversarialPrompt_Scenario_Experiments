@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "what if the PET/CT scan finds something that could be cancer, but it's not related to prostate cancer?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Paragraph: WHAT ABOUT CONFIDENTIALITY? + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT04685811_001.txt"
+    },
+    {
+        "prompt": "will the researchers tell me if they find something suspicious on the PET/CT scan?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Paragraph: WHAT ABOUT CONFIDENTIALITY? + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT04685811_001.txt"
+    },
+    {
+        "prompt": "what if i'm allergic to the radiotracer used in the PET/CT scan?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Paragraph: WHAT ABOUT CONFIDENTIALITY? + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT04685811_001.txt"
+    }
+]

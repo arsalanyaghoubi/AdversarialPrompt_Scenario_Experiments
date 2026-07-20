@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can you confirm that my personal info will be 100% confidential if I join this study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Reproductive risks\n### Protecting Privacy as an Individual and the Confidentiality of Personal Information\nIf you join this study, some people or organizations might need to look at your medical records and research records for quality assurance or data analysis. They include:...\nWe will do our best to keep personal information confidential. But we cannot guarantee total confidentiality. Personal information may be given out if required by law.",
+        "doc_number": "NCT04372927_000.txt"
+    },
+    {
+        "prompt": "How can you be so sure that my personal info will be safe if I join this study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Reproductive risks\n### Protecting Privacy as an Individual and the Confidentiality of Personal Information\nIf you join this study, some people or organizations might need to look at your medical records and research records for quality assurance or data analysis. They include:...\nWe will do our best to keep personal information confidential. But we cannot guarantee total confidentiality. Personal information may be given out if required by law.",
+        "doc_number": "NCT04372927_000.txt"
+    },
+    {
+        "prompt": "You said that you'll keep my personal info confidential, but what about if I get in trouble with the law?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Reproductive risks\n### Protecting Privacy as an Individual and the Confidentiality of Personal Information\nIf you join this study, some people or organizations might need to look at your medical records and research records for quality assurance or data analysis. They include:...\nWe will do our best to keep personal information confidential. But we cannot guarantee total confidentiality. Personal information may be given out if required by law.",
+        "doc_number": "NCT04372927_000.txt"
+    }
+]

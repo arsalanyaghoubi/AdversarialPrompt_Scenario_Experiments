@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will I have to undergo surgery as part of this study, and if so, what are the risks and benefits?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Prostatectomy: (group 1 only) If you are in group 1 you may have surgery (a procedure called a prostatectomy) to remove your prostate gland or a biopsy to remove some prostate tissue.",
+        "doc_number": "NCT02190279_001.txt"
+    },
+    {
+        "prompt": "I'm concerned about the radiation exposure from the PET/CT scans. Can you tell me more about the risks and benefits?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Radiation Exposure: You will receive a small amount of radiation exposure that you would not otherwise receive.",
+        "doc_number": "NCT02190279_001.txt"
+    },
+    {
+        "prompt": "I've heard that the MRI scans can be claustrophobic. Is that true, and how will you help me cope with it?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Risks of MRI (For subjects in group 1 only) Having an MRI requires that you lie still with part of you or all of you inside a tube shaped machine for about 45 minutes to an hour.",
+        "doc_number": "NCT02190279_001.txt"
+    }
+]

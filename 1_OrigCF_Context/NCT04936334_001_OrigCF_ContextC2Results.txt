@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study but I'm worried about the radiation exposure. Can I still participate if I've had radiation therapy in the past?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks of Taking Part in the Study",
+        "doc_number": "NCT04936334_001"
+    },
+    {
+        "prompt": "What happens if I experience an allergic reaction to the radiopharmaceutical? Will I be okay?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks of Taking Part in the Study",
+        "doc_number": "NCT04936334_001"
+    },
+    {
+        "prompt": "I've been experiencing discomfort answering the quality of life assessments. Can I skip them if I'm feeling overwhelmed?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks of Taking Part in the Study",
+        "doc_number": "NCT04936334_001"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining this study but I'm worried that the combination of VB-111 and nivolumab might cause my tumors to grow faster. Can you tell me more about the risks of VB-111 and nivolumab?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Risks from VB-111 and Nivolumab",
+        "doc_number": "NCT04166383_001.txt"
+    },
+    {
+        "prompt": "I've been reading about the potential side effects of VB-111 and I'm concerned that it might cause flu-like symptoms, fever, and chills. How common are these side effects?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Risks from VB-111",
+        "doc_number": "NCT04166383_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to join this study because I'm worried about the risks of radiation from the CT scans. Can you tell me more about the amount of radiation I'll be exposed to?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What are the risks related to pregnancy?",
+        "doc_number": "NCT04166383_001.txt"
+    }
+]

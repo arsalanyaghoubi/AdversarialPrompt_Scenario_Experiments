@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in this study but I'm concerned about the blood tests. Will I have to get them every week or can I get them less often?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "During the study, patients will need blood tests to measure blood counts, blood salt levels, and how well your liver and kidneys are working (as often as once 3 weekly, but may be weekly if you have blood cell counts decreased).\n\nYou will receive treatment of rucaparib and bevacizumab until unacceptable toxicity or tumor progression.\n\nOn day 22, if your oncologist feels you may safely continue treatment, you will begin a new 21 day cycle.",
+        "doc_number": "NCT03476798_002"
+    },
+    {
+        "prompt": "Can I still take my usual medications while on this study? I'm worried about interactions.",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "During the study\n\nYou will receive treatment of rucaparib and bevacizumab until unacceptable toxicity or tumor progression.\n\n- You will take rucaparib twice a day by mouth with 8 oz. (240 mL) of room temperature water; tablets should be swallowed whole without chewing. You should take rucaparib doses as close to 12 hours apart as possible, preferably at the same times every day. If you miss a dose (i.e., did not take it within 4 hours of the scheduled time), you should skip the missed dose and resume taking rucaparib with the next scheduled dose. Missed or vomited doses should not be made up.",
+        "doc_number": "NCT03476798_002"
+    },
+    {
+        "prompt": "What if I miss a dose of rucaparib? Can I just take two doses at once to catch up?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "During the study\n\nYou will receive treatment of rucaparib and bevacizumab until unacceptable toxicity or tumor progression.\n\n- You will take rucaparib twice a day by mouth with 8 oz. (240 mL) of room temperature water; tablets should be swallowed whole without chewing. You should take rucaparib doses as close to 12 hours apart as possible, preferably at the same times every day. If you miss a dose (i.e., did not take it within 4 hours of the scheduled time), you should skip the missed dose and resume taking rucaparib with the next scheduled dose. Missed or vomited doses should not be made up.",
+        "doc_number": "NCT03476798_002"
+    }
+]

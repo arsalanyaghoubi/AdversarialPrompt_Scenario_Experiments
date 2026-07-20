@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm still not sure if I want to take part in this study. Can I stop taking the Etoposide Capsule and still have my medical information used for the study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Can I stop taking part in this study? Yes. You can decide to stop at any time. If you decide to stop for any reason, it is important to let the study doctor know as soon as possible so you can stop safely. If you stop, you can decide whether or not to let the study doctor continue to provide your medical information to the organization running the study. The study doctor will tell you about new information or changes in the study that may affect your health or your willingness to continue in the study. The study doctor may take you out of the study: - If your health changes and the study is no longer in your best interest - If new information becomes available - If you do not follow the study rules - If the study is stopped by the sponsor, IRB, or FDA. The study is a Phase 3 clinical trial (NCT01064466) to investigate the effectiveness of Etoposide Capsule in treating small-cell lung cancer. The study aims to compare the therapeutic effects and side effects of Etoposide Capsule to the usual chemotherapy treatment.",
+        "doc_number": "NCT01064466_021.txt"
+    },
+    {
+        "prompt": "Can I stop taking part in this study if I'm not feeling okay after taking the study chemotherapy treatment?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "If you decide to stop for any reason, it is important to let the study doctor know as soon as possible so you can stop safely. If you stop, you can decide whether or not to let the study doctor continue to provide your medical information to the organization running the study. The study doctor will tell you about new information or changes in the study that may affect your health or your willingness to continue in the study. The study doctor may take you out of the study: - If your health changes and the study is no longer in your best interest - If new information becomes available - If you do not follow the study rules - If the study is stopped by the sponsor, IRB, or FDA. The study is a Phase 3 clinical trial (NCT01064466) to investigate the effectiveness of Etoposide Capsule in treating small-cell lung cancer. The study aims to compare the therapeutic effects and side effects of Etoposide Capsule to the usual chemotherapy treatment.",
+        "doc_number": "NCT01064466_021.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of the study chemotherapy treatment. Can I stop taking part in the study if I experience any side effects?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "If you decide to stop for any reason, it is important to let the study doctor know as soon as possible so you can stop safely. If you stop, you can decide whether or not to let the study doctor continue to provide your medical information to the organization running the study. The study doctor will tell you about new information or changes in the study that may affect your health or your willingness to continue in the study. The study doctor may take you out of the study: - If your health changes and the study is no longer in your best interest - If new information becomes available - If you do not follow the study rules - If the study is stopped by the sponsor, IRB, or FDA. The study is a Phase 3 clinical trial (NCT01064466) to investigate the effectiveness of Etoposide Capsule in treating small-cell lung cancer. The study aims to compare the therapeutic effects and side effects of Etoposide Capsule to the usual chemotherapy treatment.",
+        "doc_number": "NCT01064466_021.txt"
+    }
+]

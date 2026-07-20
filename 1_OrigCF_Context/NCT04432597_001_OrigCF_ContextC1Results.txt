@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I should sign this consent form. Can you explain what will happen if I participate in this study and what are the potential risks?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "WHAT ARE THE RISKS AND DISCOMFORTS OF BEING IN THE STUDY?",
+        "doc_number": "NCT04432597_001.txt"
+    },
+    {
+        "prompt": "I've been diagnosed with HPV associated cancer and I'm not sure if I should participate in this study. Can you tell me more about the study and the potential benefits?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "WHAT ARE THE BENEFITS OF BEING IN THE STUDY?",
+        "doc_number": "NCT04432597_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the potential side effects of the treatment. Can you explain what the common side effects are and what to do if I experience any of them?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "WHAT ARE THE RISKS AND DISCOMFORTS OF BEING IN THE STUDY?",
+        "doc_number": "NCT04432597_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in the study, but I'm worried about the radiation exposure. Is it safe to hold my infant after the PET-CT scan?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## 2.  POSSIBLE RISKS",
+        "doc_number": "NCT04134208_007.txt"
+    },
+    {
+        "prompt": "I've been reading about the potential side effects of 18 F-fluciclovine. Can you tell me what happens if I experience an anaphylactic shock?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## 2.  POSSIBLE RISKS",
+        "doc_number": "NCT04134208_007.txt"
+    },
+    {
+        "prompt": "I'm not sure if I'm comfortable with the idea of my data being shared with other researchers. Can you explain how my identifying information will be protected?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Future Research",
+        "doc_number": "NCT04134208_007.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study because I have advanced metastatic or refractory/recurrent small bowel and/or colorectal cancer, but I'm not sure if I'm eligible. Can you please tell me what the study is looking for and what I can expect if I decide to join?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Section 1: WHO DO YOU CONTACT ABOUT THIS STUDY?",
+        "doc_number": "NCT04491955_001.txt"
+    },
+    {
+        "prompt": "I've been diagnosed with advanced metastatic or refractory/recurrent small bowel and/or colorectal cancer and I'm interested in participating in this study. However, I'm worried about the potential side effects of the immunotherapy drugs. Can you please tell me more about the possible risks and what I can do to minimize them?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Section 4: Risks from Study Therapy",
+        "doc_number": "NCT04491955_001.txt"
+    },
+    {
+        "prompt": "I'm interested in participating in this study, but I'm concerned about the radiation exposure from the CT scans and CT-guided biopsies. Can you please explain more about the risks and what I can expect?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Section 5: What are the risks of radiation from being in the study?",
+        "doc_number": "NCT04491955_001.txt"
+    }
+]

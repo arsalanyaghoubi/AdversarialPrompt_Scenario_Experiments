@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What are the chances that the radiation sensitizing drug IPdR will be more effective than capecitabine in treating my rectal cancer?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Purpose and Risks and Benefits sections",
+        "doc_number": "NCT04406857_001.txt"
+    },
+    {
+        "prompt": "Can I still participate in the study if I have had previous surgery for rectal cancer?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Eligibility Criteria section",
+        "doc_number": "NCT04406857_001.txt"
+    },
+    {
+        "prompt": "How will the study doctors ensure that the side effects from IPdR are not too severe for me?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Benefits section",
+        "doc_number": "NCT04406857_001.txt"
+    }
+]

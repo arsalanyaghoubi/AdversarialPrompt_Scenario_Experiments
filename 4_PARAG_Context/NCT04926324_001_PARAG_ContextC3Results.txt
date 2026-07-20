@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I still get treatment if I don't let you use my health info?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Your healthcare provider will obtain your permission for the research team to access or create 'protected health information' about you for purposes of this research study. Protected health information is information that personally identifies you and relates to your past, present, or future physical or mental health condition or care.",
+        "doc_number": "NCT04926324_001.txt"
+    },
+    {
+        "prompt": "Will my health info be shared with anyone else besides my doctor?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "We may share your health information related to this study with other parties including federal government regulatory agencies, the University of Iowa Institutional Review Boards and support staff, GlaxoSmithKline (GSK), the Holden Comprehensive Cancer Center, the U.S. Food and Drug Administration, and the National Cancer Institute.",
+        "doc_number": "NCT04926324_001.txt"
+    },
+    {
+        "prompt": "Is there a deadline for when I can stop giving you permission to use my health info?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Your permission for us to access or create protected health information about you for purposes of this study has no expiration date.",
+        "doc_number": "NCT04926324_001.txt"
+    }
+]

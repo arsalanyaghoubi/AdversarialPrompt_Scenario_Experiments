@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study but I'm concerned about the radiation exposure. Can I be in the study even if I have a pacemaker?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks of Having an MRI",
+        "doc_number": "NCT05197257_000.txt"
+    },
+    {
+        "prompt": "What if I'm not comfortable with the MRI machine? Can I still be in the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks of Having an MRI",
+        "doc_number": "NCT05197257_000.txt"
+    },
+    {
+        "prompt": "I have diabetes. Will the MRI contrast solution be safe for me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks of Having an MRI",
+        "doc_number": "NCT05197257_000.txt"
+    }
+]

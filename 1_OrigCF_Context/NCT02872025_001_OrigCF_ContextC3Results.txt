@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will I definitely get better if I join this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## ARE THERE BENEFITS TO TAKING PART IN THE STUDY?",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "I've been thinking about joining this study, but I'm worried about the side effects. Can you tell me more about what might happen?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## What side effects could the study drug cause?",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "I've been diagnosed with high risk DCIS and I'm considering this study. Can you tell me more about the study drug pembrolizumab?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## What is known about the study drug?",
+        "doc_number": "NCT02872025_001.txt"
+    }
+]

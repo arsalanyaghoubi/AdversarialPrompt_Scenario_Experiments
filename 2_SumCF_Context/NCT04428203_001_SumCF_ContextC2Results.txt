@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What happens if I stop taking Epidiolex during the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts section",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "Can I still father a baby while on this study? What if I'm already planning a pregnancy?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts section",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "How will you use my blood and urine samples, and can I see the results?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Key Information section",
+        "doc_number": "NCT04428203_001.txt"
+    }
+]

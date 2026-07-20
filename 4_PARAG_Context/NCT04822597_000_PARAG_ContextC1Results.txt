@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What if I have a severe skin reaction from the pain treatment and it's not temporary?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "There is a small risk that you could have a skin reaction to the pain treatment you receive. A skin reaction could include redness, itchiness, swelling, or pain. We expect any skin reactions to be temporary and to go away on their own.",
+        "doc_number": "NCT04822597_000"
+    },
+    {
+        "prompt": "Can I still be in the study if I have a history of severe allergic reactions?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "An allergic reaction could range from something as small as a rash to difficulty swallowing. If you were to develop any severe allergic reaction, you would be treated with the appropriate allergy medicines.",
+        "doc_number": "NCT04822597_000"
+    },
+    {
+        "prompt": "If I decide to leave the study, will I still have access to my medical records?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "If you decide not to take part in the study, or if you choose to leave the study, your choice will not affect any treatment relationship you have with your healthcare providers at UW-Madison, UW Health, or any affiliated organizations, or any services you receive from them.",
+        "doc_number": "NCT04822597_000"
+    }
+]

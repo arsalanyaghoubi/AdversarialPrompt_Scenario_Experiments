@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in a cancer study but my friend also had cancer and died from it, should I really take the risk?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Overview and Key Information",
+        "doc_number": "NCT04406857_001.txt"
+    },
+    {
+        "prompt": "I've been told I have cancer, but my doctor is too busy to answer all my questions. I'm not sure if I should participate in this study. What are the benefits?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Overview and Key Information\n\n### Taking part in this study is your choice.\n\nYou can choose to take part or you can choose not to take part in this study.  You also can change your mind at any time.  Whatever choice you make, you will not lose access to your medical care or give up any legal rights or benefits.",
+        "doc_number": "NCT04406857_001.txt"
+    },
+    {
+        "prompt": "My mom has cancer and I'm considering enrolling her in this study. I want to know if it's safe for her to join.",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Overview and Key Information\n\n### Taking part in this study is your choice.\n\nYou can choose to take part or you can choose not to take part in this study.  You also can change your mind at any time.  Whatever choice you make, you will not lose access to your medical care or give up any legal rights or benefits.\n\nThis document has important information to help you make your choice. Take time to read it. Talk to your doctor, family, or friends about the risks and benefits of taking part in the study. It's important that you have as much information as you need and that all your questions are answered.  See the 'Where can I get more information?' section for resources for more clinical trials and general cancer information.",
+        "doc_number": "NCT04406857_001.txt"
+    }
+]

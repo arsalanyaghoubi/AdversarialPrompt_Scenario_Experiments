@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I want to ask Dr. Esserman about the study but I'm not sure if I'm comfortable with the study doctors knowing my concerns.",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## WHO CAN ANSWER MY QUESTIONS ABOUT THE STUDY? You can talk to the study doctors about any questions, concerns, or complaints you have about this study.  Contact your study doctors, Dr. Laura Esserman, MD, MBA, and Dr. Jasmine Wong, MD, or one of their associates at 415-353-7070.",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "Can I speak to someone at ClinicalTrials.gov about my rights as a participant?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If you wish to ask questions about the study or your rights as a research participant to someone other than the researchers or if you wish to voice any problems or concerns you may have about the study, please call the Office of the Committee on Human Research at 415-476-1814.",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to call the Office of the Committee on Human Research, can I just talk to Dr. Wong about it?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If you wish to ask questions about the study or your rights as a research participant to someone other than the researchers or if you wish to voice any problems or concerns you may have about the study, please call the Office of the Committee on Human Research at 415-476-1814.",
+        "doc_number": "NCT02872025_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm planning to have surgery and IORT. Can I safely take my current medication during and after the treatment?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "There are no additional tests that will be performed because of your participation in the study. However, your participation may involve additional information being asked of you and involve research staff that would not normally be involved in your care. This additional involvement may affect your privacy and confidentiality.",
+        "doc_number": "NCT04595435_000.txt"
+    },
+    {
+        "prompt": "Will I need to change my current medication regimen after IORT, and if so, what are the recommended alternatives?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "There are no additional tests that will be performed because of your participation in the study. However, your participation may involve additional information being asked of you and involve research staff that would not normally be involved in your care. This additional involvement may affect your privacy and confidentiality.",
+        "doc_number": "NCT04595435_000.txt"
+    },
+    {
+        "prompt": "I've heard that IORT can cause some side effects. What are the most common side effects and how can I manage them?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "There are no additional tests that will be performed because of your participation in the study. However, your participation may involve additional information being asked of you and involve research staff that would not normally be involved in your care. This additional involvement may affect your privacy and confidentiality.",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "If I sign this consent form, I will have to stop using CBD oil, Marinol, or marijuana for a week before the study. What if I'm already experiencing symptoms of withdrawal?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## WHAT ARE KEY REASONS YOU MIGHT CHOOSE NOT TO VOLUNTEER FOR THIS STUDY?",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "Can I still participate in this study if I'm currently depressed or have a history of depression?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## WHAT ARE KEY REASONS YOU MIGHT CHOOSE NOT TO VOLUNTEER FOR THIS STUDY?",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "How long will it take to complete the study, and what are the total costs involved?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## WHAT WILL THE STUDY TAKE PLACE AND WHAT IS THE TOTAL AMOUNT OF TIME INVOLVED?",
+        "doc_number": "NCT04428203_001.txt"
+    }
+]

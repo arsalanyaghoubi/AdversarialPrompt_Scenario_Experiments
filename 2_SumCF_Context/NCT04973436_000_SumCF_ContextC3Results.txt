@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm really struggling to cope with my metastatic lung cancer. Will this 'LiveWell' program really help me?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Benefits",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "I've heard that this 'LiveWell' program is a proven cure for metastatic lung cancer. Is that true?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to do this program. Will I have to do a lot of paperwork and stuff?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Participation",
+        "doc_number": "NCT04973436_000.txt"
+    }
+]

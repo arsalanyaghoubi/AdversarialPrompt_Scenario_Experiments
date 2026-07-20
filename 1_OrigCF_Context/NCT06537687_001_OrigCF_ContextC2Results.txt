@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study, but I'm worried about the risks. Can you tell me if there's anything I can do to reduce the risk of my confidentiality being compromised?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Confidentiality\nAll information collected about you during the course of this study will be kept confidential to the extent permitted by law.",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "I've been diagnosed with cervical/vaginal dysplasia or cancer and I'm receiving care at the Karmanos Cancer Institute. Can I still participate in this study even though I'm already receiving treatment?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Key Information about this Study\nYou are being asked to participate in this research study because you are a patient with a diagnosis of cervical/vaginal dysplasia or cancer and are receiving care at the Karmanos Cancer Institute (KCI) or Stephenson Cancer Center (SCC).",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "I'm interested in participating in this study, but I'm not sure if it's worth the time. Can you tell me how long the study will take and what I'll be doing during the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Study Procedures\nIf you agree to take part in this research study, we will schedule time to meet with you before you see your oncologist. During this meeting, we will ask you to complete a survey on a personal tablet (e.g., iPad).",
+        "doc_number": "NCT06537687_001.txt"
+    }
+]

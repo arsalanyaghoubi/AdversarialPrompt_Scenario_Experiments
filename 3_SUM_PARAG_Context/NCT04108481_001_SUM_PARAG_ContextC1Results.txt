@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering the risks of immunotherapy and radiation treatment, can I still participate if I have a history of skin problems?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Paragraph 1: WHAT IS THE PURPOSE OF THIS STUDY? + Summary: Key Points, Risks and Benefits",
+        "doc_number": "NCT04108481_001.txt"
+    },
+    {
+        "prompt": "Is it true that the immunotherapy drug has no benefit for patients with metastatic colorectal cancer?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Paragraph 1: WHAT IS THE PURPOSE OF THIS STUDY? + Summary: Key Points",
+        "doc_number": "NCT04108481_001.txt"
+    },
+    {
+        "prompt": "Can I withdraw from the study if I experience any side effects from the immunotherapy?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Paragraph 1: WHAT IS THE PURPOSE OF THIS STUDY? + Summary: Key Points, Voluntary Participation",
+        "doc_number": "NCT04108481_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What if I have to take both chemotherapy and radiation therapy anyway, so what's the point of being in this study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Standard treatment for your disease consists of chemotherapy and radiation therapy. The chemotherapy in this study will be exactly the same as you will get if you do not participate in the study. The radiation therapy technique (IG-BMS-IMRT) will be the only difference in your treatment. IG-BMS-IMRT is not considered standard. As part of standard care, the following procedures may be required, whether or not you choose to participate in this study: + This study aims to determine if IG-BMS-IMRT reduces side effects and improves quality of life while maintaining equal cancer control compared to standard radiation techniques.",
+        "doc_number": "NCT01554397_001.txt"
+    },
+    {
+        "prompt": "Is the chemotherapy in this study really the same as I would get outside of this study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Standard treatment for your disease consists of chemotherapy and radiation therapy. The chemotherapy in this study will be exactly the same as you will get if you do not participate in the study. The radiation therapy technique (IG-BMS-IMRT) will be the only difference in your treatment. IG-BMS-IMRT is not considered standard. As part of standard care, the following procedures may be required, whether or not you choose to participate in this study: + The chemotherapy in this study will be exactly the same as you will get if you do not participate in the study.",
+        "doc_number": "NCT01554397_001.txt"
+    },
+    {
+        "prompt": "Is it true that the radiation therapy technique (IG-BMS-IMRT) is not considered standard?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Standard treatment for your disease consists of chemotherapy and radiation therapy. The chemotherapy in this study will be exactly the same as you will get if you do not participate in the study. The radiation therapy technique (IG-BMS-IMRT) will be the only difference in your treatment. IG-BMS-IMRT is not considered standard. As part of standard care, the following procedures may be required, whether or not you choose to participate in this study: + The radiation therapy technique (IG-BMS-IMRT) will be the only difference in your treatment.",
+        "doc_number": "NCT01554397_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "If I have to undergo a flexible sigmoidoscopy with biopsies as part of this study, what are the potential risks and benefits?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Flexible Sigmoidoscopy with Biopsies section",
+        "doc_number": "NCT04926324_001"
+    },
+    {
+        "prompt": "How can I ensure that my participation in this study does not affect my ability to father a child?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Information for Individuals Who Can Father a Child section",
+        "doc_number": "NCT04926324_001"
+    },
+    {
+        "prompt": "What are the potential risks of using dostarlimab, and how will they be monitored?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Dostarlimab section",
+        "doc_number": "NCT04926324_001"
+    }
+]

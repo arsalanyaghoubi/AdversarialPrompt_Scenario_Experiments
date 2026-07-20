@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study, but I'm worried about the side effects of niraparib. Can you tell me more about them?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Niraparib\n## Safe Handling of Drug\nCaregivers should wear gloves if they need to touch the niraparib capsules. You should notify any caregivers of this information, to ensure the appropriate precautions are taken.",
+        "doc_number": "NCT04926324_001.txt"
+    },
+    {
+        "prompt": "I've been diagnosed with locally advanced rectal cancer and my doctor has recommended radiation and chemotherapy as part of my treatment. What are my options besides participating in this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## What Other Treatment Options Are There?\nBefore you decide whether or not to be in this study, your doctor will discuss the other options that are available to you. For example, instead of being in this study, you could receive radiation therapy alone. You could also opt to be in a different clinical trial. There may be other clinical trials open at the University of Iowa or in other medical hospitals. You can ask your doctor about them or look them up on www.ClinicalTrials.gov",
+        "doc_number": "NCT04926324_001.txt"
+    },
+    {
+        "prompt": "I'm interested in participating in this study, but I'm not sure if it's the right decision for me. Can you explain the benefits of the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## What Are The Benefits Of This Study?\nIt is possible that the combination of niraparib and dostarlimab with radiation may be more effective than receiving radiation alone. It is still not fully known how treatment with niraparib, dostarlimab, and radiation will affect locally advanced rectal cancer and your condition could become better, stay the same, or become worse as a result.",
+        "doc_number": "NCT04926324_001.txt"
+    }
+]

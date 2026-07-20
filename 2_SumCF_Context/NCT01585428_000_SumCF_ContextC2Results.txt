@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in this study but I'm not sure if I'm a good candidate. Can I still sign up if I've had some previous treatment for my cancer?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Eligibility Criteria",
+        "doc_number": "NCT01585428_000.txt"
+    },
+    {
+        "prompt": "I've been experiencing a lot of side effects from my current treatment. Will this study's treatment be any better?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Potential Risks and Discomforts",
+        "doc_number": "NCT01585428_000.txt"
+    },
+    {
+        "prompt": "My friend had a similar treatment and it worked great for them. Will this treatment work for me too?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Potential Benefits",
+        "doc_number": "NCT01585428_000.txt"
+    }
+]

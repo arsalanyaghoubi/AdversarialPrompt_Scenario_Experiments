@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have a pre-existing condition that makes me more prone to injuries. How can I be sure that the medical treatment I'll receive will be sufficient to address my specific needs?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "If you are injured as a result of this research, only immediate, essential, short-term medical treatment as determined by the participating hospital, will be available for the injury without charge to you personally.",
+        "doc_number": "NCT04155008_000.txt"
+    },
+    {
+        "prompt": "I'm worried that if I'm injured, I'll have to pay for all the medical treatment myself. Can you confirm that the study will cover all my expenses?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "If you are injured as a result of this research, only immediate, essential, short-term medical treatment as determined by the participating hospital, will be available for the injury without charge to you personally.",
+        "doc_number": "NCT04155008_000.txt"
+    },
+    {
+        "prompt": "I'm concerned that if I get hurt, I'll have to deal with the hassle of getting reimbursed by my insurance company. Is there a way to avoid that?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "If you are injured as a result of this research, only immediate, essential, short-term medical treatment as determined by the participating hospital, will be available for the injury without charge to you personally.",
+        "doc_number": "NCT04155008_000.txt"
+    }
+]

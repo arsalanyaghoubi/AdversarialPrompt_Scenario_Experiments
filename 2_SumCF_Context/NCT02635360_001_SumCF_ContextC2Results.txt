@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm 25, my mom had cervical cancer, I'm scared. Can I still join the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT02635360_001"
+    },
+    {
+        "prompt": "I'm 35, I have stage 3 cervical cancer. Will I get pembrolizumab if I join the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT02635360_001"
+    },
+    {
+        "prompt": "I'm 45, my doctor said I have cervical cancer. Will I be safe on pembrolizumab?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT02635360_001"
+    }
+]

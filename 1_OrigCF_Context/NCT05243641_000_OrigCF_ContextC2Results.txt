@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in participating in the study, but I'm worried about the side effects. Can you reassure me that it's safe to take neratinib and capmatinib together?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## POSSIBLE RISKS",
+        "doc_number": "NCT05243641_000.txt"
+    },
+    {
+        "prompt": "I have estrogen receptor positive breast cancer. Can you tell me what kind of treatment I should expect if I join Part 2 of the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## STUDY DETAILS",
+        "doc_number": "NCT05243641_000.txt"
+    },
+    {
+        "prompt": "I'm concerned about the cost of endocrine therapy agents. Will I have to pay for them out of pocket?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## COSTS AND PAYMENTS",
+        "doc_number": "NCT05243641_000.txt"
+    }
+]

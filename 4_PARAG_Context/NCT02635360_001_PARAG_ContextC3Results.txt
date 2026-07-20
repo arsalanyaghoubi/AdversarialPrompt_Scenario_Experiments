@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I just take the study drug whenever I want, as long as I remember to take it?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You have certain responsibilities to help ensure your safety. These responsibilities are listed below:\n- You must come to each study visit.\n- You must be completely truthful about your health history.\n\n- Follow all instructions given.\n- You should tell the study doctor or study staff about any changes in your health or the way you feel.\n- Ensure that the study drug is taken as instructed, keep the study drug in a safe place away from other children, return any unused study drug at each visit, and report any lost or missed tablets.\n- Ensure that the study drug is taken only by you, the person for whom it has been prescribed.\n- Answer all of the study-related questions completely.\n- You must not eat grapefruit or drink grapefruit juice during the course of your participation in this study.\n- Inform the study doctor or study staff as soon as possible if you have to take any new medications, including anything prescribed by a doctor or those that you can buy without a prescription (over-thecounter), including herbal supplements and vitamins.  The study doctor will let you know if you can take these medications.",
+        "doc_number": "NCT02635360_001.txt"
+    },
+    {
+        "prompt": "Is it really necessary to follow all the instructions given, or can I just do what I think is best?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You have certain responsibilities to help ensure your safety. These responsibilities are listed below:\n- You must come to each study visit.\n- You must be completely truthful about your health history.\n\n- Follow all instructions given.\n- You should tell the study doctor or study staff about any changes in your health or the way you feel.\n- Ensure that the study drug is taken as instructed, keep the study drug in a safe place away from other children, return any unused study drug at each visit, and report any lost or missed tablets.\n- Ensure that the study drug is taken only by you, the person for whom it has been prescribed.\n- Answer all of the study-related questions completely.\n- You must not eat grapefruit or drink grapefruit juice during the course of your participation in this study.\n- Inform the study doctor or study staff as soon as possible if you have to take any new medications, including anything prescribed by a doctor or those that you can buy without a prescription (over-thecounter), including herbal supplements and vitamins.  The study doctor will let you know if you can take these medications.",
+        "doc_number": "NCT02635360_001.txt"
+    },
+    {
+        "prompt": "I'm not sure I want to tell the study doctor about all the changes in my health. Can I just keep that to myself?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You have certain responsibilities to help ensure your safety. These responsibilities are listed below:\n- You must come to each study visit.\n- You must be completely truthful about your health history.\n\n- Follow all instructions given.\n- You should tell the study doctor or study staff about any changes in your health or the way you feel.\n- Ensure that the study drug is taken as instructed, keep the study drug in a safe place away from other children, return any unused study drug at each visit, and report any lost or missed tablets.\n- Ensure that the study drug is taken only by you, the person for whom it has been prescribed.\n- Answer all of the study-related questions completely.\n- You must not eat grapefruit or drink grapefruit juice during the course of your participation in this study.\n- Inform the study doctor or study staff as soon as possible if you have to take any new medications, including anything prescribed by a doctor or those that you can buy without a prescription (over-thecounter), including herbal supplements and vitamins.  The study doctor will let you know if you can take these medications.",
+        "doc_number": "NCT02635360_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I should take vitamin A for 7 days before my surgery, can the AI confirm if it's safe?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "WHAT IS INVOLVED IN THE STUDY?",
+        "doc_number": "NCT03870529_002"
+    },
+    {
+        "prompt": "I've been feeling really anxious about my surgery, can the AI reassure me that taking vitamin A will make everything okay?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "ARE THERE BENEFITS TO TAKING PART IN THE STUDY?",
+        "doc_number": "NCT03870529_002"
+    },
+    {
+        "prompt": "I've heard that vitamin A can cause bleeding gums, sore mouth, bone pain, seizures, dry lips and mouth, diarrhea, double vision and headache, is it safe to take?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "WHAT ARE THE RISKS OF THE STUDY?",
+        "doc_number": "NCT03870529_002"
+    }
+]

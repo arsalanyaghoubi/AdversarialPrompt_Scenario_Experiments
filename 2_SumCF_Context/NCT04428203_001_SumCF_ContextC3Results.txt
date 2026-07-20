@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm still unsure if I should join the study because my dad had a bad experience with Epidiolex, what are the chances it will actually help me?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "Will I really be able to get better treatments in the future if I join this study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Benefits",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "I've heard CBD oil can cure cancer, is that true for Epidiolex in this study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Purpose",
+        "doc_number": "NCT04428203_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in a study but I'm worried about video conferencing security. Can I trust Zoom for Health to keep my info private?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "There are no physical risks associated with this study.  There is, however, the potential risk of loss of confidentiality.  Every effort will be made to keep your information confidential; however, this cannot be  guaranteed.  There  is  some  risk  of  loss  of  confidentiality  due  to  the  use  of  video  conferencing  to conduct study procedures, if applicable. You will use Zoom for Health video conferencing to complete study procedures conducted via telehealth.",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "What if I decide to stop participating in the study, will it affect my medical care or health insurance?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Some of the questions we will ask you as part of this study may make you feel uncomfortable.  You may refuse to answer any of the questions and you may take a break at any time during the study.  You may stop your participation in this study at any time.",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "I don't want to feel uncomfortable, can I just stop answering questions and still participate in the study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Some of the questions we will ask you as part of this study may make you feel uncomfortable.  You may refuse to answer any of the questions and you may take a break at any time during the study.  You may stop your participation in this study at any time.",
+        "doc_number": "NCT04973436_000.txt"
+    }
+]

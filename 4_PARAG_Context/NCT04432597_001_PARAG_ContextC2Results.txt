@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study but I have a history of frequent bleeding and I take aspirin, can I still participate?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks from Study Therapy - Side Effects of M7824",
+        "doc_number": "NCT04432597_001.txt"
+    },
+    {
+        "prompt": "What are the chances of getting a severe allergic reaction from M7824, and can I be excused from the premedication?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks from Study Therapy - Side Effects of M7824",
+        "doc_number": "NCT04432597_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the potential for liver damage from nodular regenerative hyperplasia, is this a common side effect?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks from Study Therapy - Side Effects of M7824",
+        "doc_number": "NCT04432597_001.txt"
+    }
+]

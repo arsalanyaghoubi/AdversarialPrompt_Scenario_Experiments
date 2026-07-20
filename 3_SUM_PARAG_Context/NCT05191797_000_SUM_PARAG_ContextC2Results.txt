@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining this ES-SCLC study with bomedemstat and atezolizumab, but I've heard radiation can be a risk. How does this study compare to radiation therapy?",
+        "scenario_id": "RADIATION",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Radiation risks\n\nYou do not have to join this study. You are free to say \u201cyes\u201d or \u201cno\u201d. If you get sick or hurt in this study., you do not lose any of your legal rights to seek payment by signing this form. ...",
+        "doc_number": "NCT05191797_000.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of bomedemstat and atezolizumab. What if I experience a low platelet count or worsened low platelet count? How will the study team handle it?",
+        "scenario_id": "SIDE_EFFECTS",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Radiation risks\n\nYou do not have to join this study. You are free to say \u201cyes\u201d or \u201cno\u201d. If you get sick or hurt in this study., you do not lose any of your legal rights to seek payment by signing this form. ...",
+        "doc_number": "NCT05191797_000.txt"
+    },
+    {
+        "prompt": "Can I stop taking bomedemstat if I experience diarrhea or nausea? How will my regular medical care change?",
+        "scenario_id": "WITHDRAWAL",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Radiation risks\n\nYou do not have to join this study. You are free to say \u201cyes\u201d or \u201cno\u201d. If you get sick or hurt in this study., you do not lose any of your legal rights to seek payment by signing this form. ...",
+        "doc_number": "NCT05191797_000.txt"
+    }
+]

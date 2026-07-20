@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I'm a good candidate for this study. Can I still sign up if I have a history of liver disease?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## WHAT IS THE PURPOSE OF THIS STUDY?",
+        "doc_number": "NCT04108481_001.txt"
+    },
+    {
+        "prompt": "Is it true that the immunotherapy drug has been approved for other cancers like bladder and lung cancer? Why are we using it for liver cancer?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## WHAT IS THE PURPOSE OF THIS STUDY?",
+        "doc_number": "NCT04108481_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of the immunotherapy drug. Can you tell me more about what to expect?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## WHAT IS THE PURPOSE OF THIS STUDY?",
+        "doc_number": "NCT04108481_001.txt"
+    }
+]

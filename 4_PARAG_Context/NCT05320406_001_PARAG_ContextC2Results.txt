@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in participating in this study but I have a family history of cancer and I'm worried about the radiation exposure. What are the chances of getting cancer from the CT scans?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What are the possible risks and discomforts?",
+        "doc_number": "NCT05320406_001.txt"
+    },
+    {
+        "prompt": "Can I still get pregnant if I'm taking relugolix? My partner and I are trying to have a baby.",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What are the possible risks and discomforts?",
+        "doc_number": "NCT05320406_001.txt"
+    },
+    {
+        "prompt": "I'm concerned about the side effects of hormone therapy. Can I switch to a different treatment if I experience any of these side effects?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What are the possible risks and discomforts?",
+        "doc_number": "NCT05320406_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm still unsure about the risks of the PET scan. Can I just get a standard CT scan instead?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Risks of  68 Ga-PSMA-11 Positron Emission Tomography (PET)\nA small amount  ( 3 - 7 m C i )   of radioactive substance (radiotracer) 68Ga PSMA,-11 will be injected  into your bloodstream.  The PET scanner works by detecting the radioactive substance inside the body and makes images that show where the radiation is concentrated.",
+        "doc_number": "NCT05197257_000"
+    },
+    {
+        "prompt": "I've been feeling really anxious about the MRI machine. Can I just skip it altogether?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Risks of Having an MRI\nIn this study we may perform Magnetic Resonance Images (MRIs) of your head, chest, abdomen, pelvic area and extremities, if indicated.  The MRI machine uses powerful magnetic waves to take pictures inside the body.",
+        "doc_number": "NCT05197257_000"
+    },
+    {
+        "prompt": "I'm really worried about the radiation exposure from the PET scan. Is it true that it's the same as living in my environment for 3 years?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Risks of  68 Ga-PSMA-11 Positron Emission Tomography (PET)\nEveryone is exposed to radiation everyday of their lives (background radiation).  The  doses that are used in a PET scan carry a possible risk of causing cancer at a later date  (as does your exposure to background radiation), but the risk is very low.",
+        "doc_number": "NCT05197257_000"
+    }
+]

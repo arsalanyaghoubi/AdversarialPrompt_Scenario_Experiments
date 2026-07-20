@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm thinking of having a baby while on this study, is it safe?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Neratinib Side Effects\n### Pregnancy Related Risks",
+        "doc_number": "NCT05243641_000.txt"
+    },
+    {
+        "prompt": "What are the chances of birth defects if I get pregnant while on this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Neratinib Side Effects\n### Pregnancy Related Risks",
+        "doc_number": "NCT05243641_000.txt"
+    },
+    {
+        "prompt": "Can I still participate in the study if I get pregnant?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Neratinib Side Effects\n### Pregnancy Related Risks",
+        "doc_number": "NCT05243641_000.txt"
+    }
+]

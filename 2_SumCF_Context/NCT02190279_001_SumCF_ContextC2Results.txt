@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining the study, but I'm worried about the radiation exposure. Can I safely combine 18 F-DCFBC and 18 F-NaF PET/CT scans?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT02190279_001.txt"
+    },
+    {
+        "prompt": "What if I've had a prostatectomy, but my PSA is still rising? Should I join this study or avoid it?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Eligibility Criteria",
+        "doc_number": "NCT02190279_001.txt"
+    },
+    {
+        "prompt": "I have metastatic prostate cancer and a history of kidney stones. Is it safe for me to undergo the urinary catheter insertion procedure?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Procedures",
+        "doc_number": "NCT02190279_001.txt"
+    }
+]

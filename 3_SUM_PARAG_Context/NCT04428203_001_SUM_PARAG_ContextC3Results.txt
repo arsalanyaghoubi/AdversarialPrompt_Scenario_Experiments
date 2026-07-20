@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What if my health information is shared with my primary physician and they contact me about a medical condition that needs immediate attention?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The Researchers may use and share your health information with... Your primary physician will be contacted if the researcher, in the course of the project, learns of a medical condition that needs immediate attention.",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "Will I be able to review the information collected about me after the study is completed?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You will not be allowed to review the information collected for this research study until after the study is completed.",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "What if I decide not to sign this form, will it affect my healthcare at the University of Kentucky?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You may not be allowed to participate in the research study if you do not sign this form. If you decide not to sign this form, it will not affect your: ...",
+        "doc_number": "NCT04428203_001.txt"
+    }
+]

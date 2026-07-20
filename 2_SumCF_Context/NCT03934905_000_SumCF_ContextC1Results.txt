@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm still on the fence about participating, can I ask, what's the worst that could happen if I take the sulforaphane and it doesn't work?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "Will taking sulforaphane make me more likely to get cancer or any other diseases?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Eligibility",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "Can I stop taking the pills at any time and still be in the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Withdrawal",
+        "doc_number": "NCT03934905_000.txt"
+    }
+]

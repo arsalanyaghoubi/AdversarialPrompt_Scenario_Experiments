@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in the study, but I'm worried about the side effects of the study chemotherapy drugs. Can I ask my doctor to review the list of possible side effects before I make a decision?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What possible risks can I expect from taking part in this study?",
+        "doc_number": "NCT03348670_008.txt"
+    },
+    {
+        "prompt": "Will I be able to stop taking the study chemotherapy drugs if I experience severe side effects?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Can I stop taking part in this study?",
+        "doc_number": "NCT03348670_008.txt"
+    },
+    {
+        "prompt": "I've read that the study chemotherapy drugs may affect how different parts of my body work, such as my liver, kidneys, heart, and blood. Can I get more information about this?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What possible risks can I expect from taking part in this study?",
+        "doc_number": "NCT03348670_008.txt"
+    }
+]

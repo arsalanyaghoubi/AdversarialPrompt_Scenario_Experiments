@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I still participate in this study if I have a history of anxiety?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "Will I have to pay for anything if I join this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Costs",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "If I do the survey and then leave, will that be okay?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Voluntary Participation/Withdrawal",
+        "doc_number": "NCT06537687_001.txt"
+    }
+]

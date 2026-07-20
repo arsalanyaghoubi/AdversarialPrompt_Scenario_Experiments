@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I should get the Buzzy device with ice on my breast or just the lidocaine patch. Can I talk to Dr. Neuman about my concerns?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Benefits and Risks",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "I'm worried about the radioactive tracer. Is it safe? Can I opt out of it if I'm not comfortable?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Groups",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "I don't like the idea of my name being replaced with a number. Can I keep my name anonymous but still participate in the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Confidentiality and Data Protection",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

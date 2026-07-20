@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'd like to know more about the biobank and how my samples will be used. Can I still say no to future studies if I'm already participating in this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "If you choose to take part in this optional study, a sample of tissue from your previous biopsy, along with blood and urine will be collected and stored.",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "What if I decide to withdraw from the study in the future? Will my samples still be used in research?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Right now, we don't know what research may be done in the future using your tissue, blood, and urine samples.",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "Can I see the list of researchers who have access to my samples and data in the biobank?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The biobank is a public research resource. It has controlled access.",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

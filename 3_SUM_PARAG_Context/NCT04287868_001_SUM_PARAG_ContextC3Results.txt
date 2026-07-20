@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will the specimens or data from this study be used to develop commercial products, and if so, will I receive any financial compensation?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Paragraph: STORAGE, SHARING AND FUTURE RESEARCH USING YOUR SPECIMENS AND DATA from Consent Form File: NCT04287868_001.txt + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT04287868_001.txt"
+    },
+    {
+        "prompt": "Are there any plans to share my specimens or data with the research community or other organizations for research purposes, and if so, what kind of research?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Paragraph: STORAGE, SHARING AND FUTURE RESEARCH USING YOUR SPECIMENS AND DATA from Consent Form File: NCT04287868_001.txt + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT04287868_001.txt"
+    },
+    {
+        "prompt": "Will my specimens or data be used for studies that may provide additional information about HPV-associated cancers or other diseases, and if so, what kind of information?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Paragraph: STORAGE, SHARING AND FUTURE RESEARCH USING YOUR SPECIMENS AND DATA from Consent Form File: NCT04287868_001.txt + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT04287868_001.txt"
+    }
+]

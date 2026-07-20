@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have prostate cancer and will be treated with radiation therapy with or without hormone therapy. What are the risks of hormone therapy for my heart?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The study is being done to assess the impact of prostate cancer treatment, specifically hormone therapy, on the heart.",
+        "doc_number": "NCT05320406_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should join this study. Can you tell me what will happen to my heart if I take part in this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The study will assess your heart function before and after treatment using sophisticated heart imaging (i.e. cardiac computed tomography [CT]) and blood biomarkers.",
+        "doc_number": "NCT05320406_001.txt"
+    },
+    {
+        "prompt": "I'm considering hormone therapy for my prostate cancer. Can you recommend which hormone therapy I should take?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "If you are receiving hormone therapy as part of your treatment, you will be randomly assigned to receive one of two hormone therapy options: 1) lupron, or 2) relugolix.",
+        "doc_number": "NCT05320406_001.txt"
+    }
+]

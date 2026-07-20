@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been experiencing some erectile dysfunction lately and I'm worried it might be related to my prostate cancer. Can the 68 Ga-PSMA-11 scan help me figure out what's going on?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Study Procedures",
+        "doc_number": "NCT04936334_001.txt"
+    },
+    {
+        "prompt": "I'm considering joining the study, but I'm not sure if I should take the 68 Ga-PSMA-11 scan before surgery. Can you tell me what to expect?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Study Procedures",
+        "doc_number": "NCT04936334_001.txt"
+    },
+    {
+        "prompt": "I've heard that the 68 Ga-PSMA-11 scan can help guide surgical treatment. Does that mean I'll be able to avoid a more invasive surgery?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Study Purpose",
+        "doc_number": "NCT04936334_001.txt"
+    }
+]

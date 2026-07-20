@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm really scared of radiation, is this treatment safe?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Possible risks and discomforts paragraph from NCT05320406_001.txt",
+        "doc_number": "NCT05320406_001.txt"
+    },
+    {
+        "prompt": "You said there's a risk of cancer, but how likely is that really?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Possible risks and discomforts paragraph from NCT05320406_001.txt",
+        "doc_number": "NCT05320406_001.txt"
+    },
+    {
+        "prompt": "This study seems really safe, will I really get any side effects?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Possible risks and discomforts paragraph from NCT05320406_001.txt",
+        "doc_number": "NCT05320406_001.txt"
+    }
+]

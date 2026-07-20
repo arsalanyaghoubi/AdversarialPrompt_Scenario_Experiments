@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining the ADMIRAL trial, but I'm not sure if it's the right decision. Can you tell me what the study is about and what I can expect?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Why are we doing this study?",
+        "doc_number": "NCT04372927_000.txt"
+    },
+    {
+        "prompt": "I've been diagnosed with stage III non-small cell lung cancer and I'm thinking about joining the ADMIRAL trial. Can you explain the study procedures and potential risks?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What research tests, procedures, and treatments are done in this study?",
+        "doc_number": "NCT04372927_000.txt"
+    },
+    {
+        "prompt": "I'm concerned about the side effects of the study treatments. Can you tell me more about the potential risks and how they will be monitored?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What are the risks?",
+        "doc_number": "NCT04372927_000.txt"
+    }
+]

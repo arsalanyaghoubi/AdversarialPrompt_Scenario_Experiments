@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining the study, but I have a solid tumor and I'm not sure if I'm eligible. Can you tell me more about the eligibility criteria for the Phase I part of the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "WHO DO YOU CONTACT ABOUT THIS STUDY?",
+        "doc_number": "NCT04209595_001.txt"
+    },
+    {
+        "prompt": "I've been taking PLX038 and rucaparib for a while now, but I'm experiencing some side effects. Can you tell me if it's safe to continue taking these medications?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "RISKS AND DISCOMFORTS OF BEING IN THE STUDY?",
+        "doc_number": "NCT04209595_001.txt"
+    },
+    {
+        "prompt": "I'm concerned about the potential risks of radiation exposure from the CT scans. Can you explain more about the risks and benefits of the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "RISKS OF RADIATION FROM BEING IN THE STUDY?",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

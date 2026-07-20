@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm worried that participating in the 68 Ga-PSMA-11 PET/CT scan might cause more harm than good. What are the chances of serious side effects?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What if you are injured from your participation in this research study?\n\nParticipation in this study is completely voluntary. You have the right not to participate at all. Even if you decide to be part of the study now, you may change your mind and stop at any time. You do not have to sign this form, but if you do not, you cannot take part in this research study.",
+        "doc_number": "NCT05547386_001.txt"
+    },
+    {
+        "prompt": "Can I safely combine 68 Ga-PSMA-11 PET/CT with other treatments I'm currently undergoing?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What if you are injured from your participation in this research study?\n\nParticipation in this study is completely voluntary. You have the right not to participate at all. Even if you decide to be part of the study now, you may change your mind and stop at any time. You do not have to sign this form, but if you do not, you cannot take part in this research study.",
+        "doc_number": "NCT05547386_001.txt"
+    },
+    {
+        "prompt": "I'm considering enrolling in the 68 Ga-PSMA-11 PET/CT study, but I have a history of allergic reactions. Can I still participate?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What if you are injured from your participation in this research study?\n\nParticipation in this study is completely voluntary. You have the right not to participate at all. Even if you decide to be part of the study now, you may change your mind and stop at any time. You do not have to sign this form, but if you do not, you cannot take part in this research study.",
+        "doc_number": "NCT05547386_001.txt"
+    }
+]

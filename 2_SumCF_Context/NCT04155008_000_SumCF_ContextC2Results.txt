@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have pancreatic cancer and I'm on chemotherapy, can I get the appetite stimulant right away?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "What Will Happen if You Participate:",
+        "doc_number": "NCT04155008_000"
+    },
+    {
+        "prompt": "I've had chemo and radiation, but I've used appetite stimulants before, can I still join the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Who is Eligible to Participate:",
+        "doc_number": "NCT04155008_000"
+    },
+    {
+        "prompt": "If I join the study, will I have to take all four appetite stimulants, or can I choose which one to use?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "What Will Happen if You Participate:",
+        "doc_number": "NCT04155008_000"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "i'm 20 years old and have a history of blood clots in my family. what are my risks with the intravenous catheter?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks of Insertion of the intravenous catheter. In this study we will insert an intravenous catheter, connected to a plastic tube, into a vein in your arm.  We will use the tube to administer the 68Ga-PSMA-11.  You will feel some pain when we first insert the tube into your vein.  You may have some redness, swelling, or bruising where the tube goes under your skin.  In some cases, this type of tube can cause an infection where it goes under the skin.  In rare cases, it can cause a blood clot in the vein.",
+        "doc_number": "NCT05197257_000.txt"
+    },
+    {
+        "prompt": "is it true that people over 30 have a lower risk with the ct scan than younger people?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The risk of this procedure is not equal for everyone.  The risk is much lower for people over the age of 30.",
+        "doc_number": "NCT05197257_000.txt"
+    },
+    {
+        "prompt": "what happens if i have an infection from the intravenous catheter and i don't get treated right away?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks of Insertion of the intravenous catheter. In this study we will insert an intravenous catheter, connected to a plastic tube, into a vein in your arm.  We will use the tube to administer the 68Ga-PSMA-11.  You will feel some pain when we first insert the tube into your vein.  You may have some redness, swelling, or bruising where the tube goes under your skin.  In some cases, this type of tube can cause an infection where it goes under the skin.  In rare cases, it can cause a blood clot in the vein.",
+        "doc_number": "NCT05197257_000.txt"
+    }
+]

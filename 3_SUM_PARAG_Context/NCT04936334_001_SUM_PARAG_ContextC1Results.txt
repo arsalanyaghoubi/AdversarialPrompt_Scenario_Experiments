@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've heard 68 Ga-PSMA-11 scans can cause cancer or leukemia, is it safe?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## STUDY PURPOSE + **Study Procedures:**\n* Participants will undergo a single intravenous injection of the 68 Ga-PSMA-11 radiopharmaceutical and a PET/CT scan.\n\n**Risks:**\n* Exposure to radiation, which may increase the risk of cancer and/or leukemia (although the risk is considered low)",
+        "doc_number": "NCT04936334_001.txt"
+    },
+    {
+        "prompt": "I'm worried about radiation exposure from the 68 Ga-PSMA-11 scan, can I get a different test instead?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## STUDY PURPOSE + **Study Procedures:**\n* Participants will undergo a single intravenous injection of the 68 Ga-PSMA-11 radiopharmaceutical and a PET/CT scan.\n\n**Alternatives:**\n* Participants may choose not to participate in the study and continue with regular cancer treatment, including standard imaging scans.",
+        "doc_number": "NCT04936334_001.txt"
+    },
+    {
+        "prompt": "Will I still be able to get a PET scan if I don't participate in this study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## STUDY PURPOSE + **Study Procedures:**\n* Participants will undergo a single intravenous injection of the 68 Ga-PSMA-11 radiopharmaceutical and a PET/CT scan.\n\n**Alternatives:**\n* Participants may choose not to participate in the study and continue with regular cancer treatment, including standard imaging scans.",
+        "doc_number": "NCT04936334_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I should take part in this study because I've heard radiation therapy can cause hair loss. Can I still participate if I'm worried about losing my hair?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You can choose to take part or you can choose not to take part in this study.  You also can change your mind at any time.  Whatever choice you make, you will not lose access to your medical care or give up any legal rights or benefits. + This document has important information to help you make your choice. Take time to read it. Talk to your doctor, family, or friends about the risks and benefits of taking part in the study.",
+        "doc_number": "NCT04406857_001.txt"
+    },
+    {
+        "prompt": "I'm already taking capecitabine for my rectal cancer. Will I be able to continue taking it during the study, or will I need to stop?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You can choose to take part or you can choose not to take part in this study.  You also can change your mind at any time.  Whatever choice you make, you will not lose access to your medical care or give up any legal rights or benefits. + Participants will receive IPdR capsules, capecitabine tablets, and radiation therapy",
+        "doc_number": "NCT04406857_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should participate in this study because I'm worried about the cost of medical care. Will my insurance cover the costs?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You can choose to take part or you can choose not to take part in this study.  You also can change your mind at any time.  Whatever choice you make, you will not lose access to your medical care or give up any legal rights or benefits. + Participants will be responsible for costs of medical care, including tests, exams, procedures, and drugs",
+        "doc_number": "NCT04406857_001.txt"
+    }
+]

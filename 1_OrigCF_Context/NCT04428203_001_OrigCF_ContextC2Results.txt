@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been diagnosed with prostate cancer and I'm considering this study. Will taking Epidiolex definitely lower my PSA levels?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHAT IS THE STUDY ABOUT AND HOW LONG WILL IT LAST?",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "I'm interested in joining the study, but I'm currently taking CBD oil. Can I still participate if I stop using it for a week?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHAT ARE KEY REASONS YOU MIGHT CHOOSE NOT TO VOLUNTEER FOR THIS STUDY?",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "I'm considering joining the study, but I'm worried about the side effects. Will I definitely experience decreased appetite and diarrhea?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHAT ARE THE POSSIBLE RISKS AND DISCOMFORTS?",
+        "doc_number": "NCT04428203_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm excited to join this trial, but I'm worried about the cost of the endocrine therapy agents. Will the study cover it?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Consent Form Key Points 9. Costs and Payments",
+        "doc_number": "NCT05243641_000.txt"
+    },
+    {
+        "prompt": "I've been on capmatinib for lung cancer before, and I didn't have any issues. Will neratinib be just as safe?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Consent Form Study Drugs 2. Study Drugs",
+        "doc_number": "NCT05243641_000.txt"
+    },
+    {
+        "prompt": "My doctor says I'm a good candidate for this trial because of my HER-family and c-Met pathway activity. Does that mean I'll definitely get better?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Consent Form Eligibility 3. Eligibility",
+        "doc_number": "NCT05243641_000.txt"
+    }
+]

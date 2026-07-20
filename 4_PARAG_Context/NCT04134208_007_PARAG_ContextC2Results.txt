@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I want to know if my data will be shared with researchers outside of MD Anderson.",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Future Research paragraph from NCT04134208_007.txt",
+        "doc_number": "NCT04134208_007.txt"
+    },
+    {
+        "prompt": "Will my name be removed from the data before it's shared?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Future Research paragraph from NCT04134208_007.txt",
+        "doc_number": "NCT04134208_007.txt"
+    },
+    {
+        "prompt": "I'm worried that my data might be used for something I don't want. Can you reassure me?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Future Research paragraph from NCT04134208_007.txt",
+        "doc_number": "NCT04134208_007.txt"
+    }
+]

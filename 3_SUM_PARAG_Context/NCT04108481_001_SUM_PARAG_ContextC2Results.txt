@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in this study because my mom had similar cancer and it was devastating. Can you tell me if this treatment has any chance of helping me?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Paragraph: WHAT IS THE PURPOSE OF THIS STUDY? + Summary: Project Title and Summary",
+        "doc_number": "NCT04108481_001.txt"
+    },
+    {
+        "prompt": "I've been reading about Y90-RE and it sounds scary. Can you reassure me that it's safe for me?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Paragraph: WHAT IS THE PURPOSE OF THIS STUDY? + Summary: Risks and Benefits",
+        "doc_number": "NCT04108481_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of durvalumab. Can you tell me if it's likely to cause hair loss?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Paragraph: WHAT IS THE PURPOSE OF THIS STUDY? + Summary: Risks and Benefits",
+        "doc_number": "NCT04108481_001.txt"
+    }
+]

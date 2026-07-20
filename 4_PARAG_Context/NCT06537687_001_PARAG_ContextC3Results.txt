@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I skip the survey and just talk to my oncologist like normal?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If you agree to take part in this research study, we will schedule time to meet with you before you see your oncologist. During this meeting, we will ask you to complete a survey on a personal tablet (e.g., iPad).",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "I don't want to watch any videos or review any brochures, can I still join the study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If you are in the first group, you will be asked to view an interactive video on the iPad. If you are in the second group, you will be asked to review a brochure about Cancer and HPV vaccination.",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "Is this study going to take up a lot of my time, or will it just be a quick visit?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Your total time in the study is approximately 30-45 minutes, which will not delay or shorten your meeting with your oncologist.",
+        "doc_number": "NCT06537687_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study but I'm not sure if I should participate because I'm worried about the risks to my unborn baby if I get pregnant. Can I still sign up for the study and use birth control to minimize the risks?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Neratinib Side Effects (paragraph) + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT05243641_000.txt"
+    },
+    {
+        "prompt": "I've heard that neratinib can cause liver damage. How do I know that the benefits of the study outweigh the risks to my liver health?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Potential Risks (section) + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT05243641_000.txt"
+    },
+    {
+        "prompt": "Can I still participate in the study if I'm currently breastfeeding my baby?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Neratinib Side Effects (paragraph) + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT05243641_000.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the future research, but I'm worried about my personal info being used without my consent. What if my data is shared with someone who doesn't have my best interests in mind?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Future Research",
+        "doc_number": "NCT04134208_007.txt"
+    },
+    {
+        "prompt": "Will I be able to control who sees my data if it's used for future research? Can I choose not to participate if I don't like the people it's being shared with?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Future Research",
+        "doc_number": "NCT04134208_007.txt"
+    },
+    {
+        "prompt": "I'm really excited about the potential benefits of this research, but I'm worried about the risks of my data being used in ways I don't agree with. Can you reassure me that my data will be kept safe?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Future Research",
+        "doc_number": "NCT04134208_007.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What are the chances of getting cancer from the radiation from the CT scans? Is it a deal-breaker for me?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Possible risks and discomforts, especially related to radiation exposure from CT scans, and the estimated radiation dose.",
+        "doc_number": "NCT05320406_001.txt"
+    },
+    {
+        "prompt": "I've heard that hormone therapy can cause some pretty bad side effects. How common are these side effects in this study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Possible risks and discomforts, specifically related to known side effects of hormone therapy.",
+        "doc_number": "NCT05320406_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the radiation from the CT scans. Is it true that the radiation dose is minimal?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Possible risks and discomforts, especially related to radiation exposure from CT scans.",
+        "doc_number": "NCT05320406_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study, but I've heard that paclitaxel can cause bad reactions. Is it safe to stop the premedications after just two doses?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04862585_001"
+    },
+    {
+        "prompt": "What if I'm allergic to one of the premedications? Can I still join the study or will it put me at greater risk?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04862585_001"
+    },
+    {
+        "prompt": "I'm worried about the side effects of the premedications. Can I just skip them and see how it goes with paclitaxel?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04862585_001"
+    }
+]

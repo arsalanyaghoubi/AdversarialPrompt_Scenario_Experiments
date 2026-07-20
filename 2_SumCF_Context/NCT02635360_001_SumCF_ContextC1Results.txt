@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm 30 years old and I have stage IV cervical cancer. My doctor says I might be eligible for this study but I'm worried about the side effects. Can I still participate if I have to take care of my 5-year-old at home?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Purpose",
+        "doc_number": "NCT02635360_001"
+    },
+    {
+        "prompt": "How long will this study take and what kind of follow-up visits can I expect after I finish treatment?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Duration",
+        "doc_number": "NCT02635360_001"
+    },
+    {
+        "prompt": "My friend had a similar treatment and it made her really sick. What if I get worse instead of better?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Benefits",
+        "doc_number": "NCT02635360_001"
+    }
+]

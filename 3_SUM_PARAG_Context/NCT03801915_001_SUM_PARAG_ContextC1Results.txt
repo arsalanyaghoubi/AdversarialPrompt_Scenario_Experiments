@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I should get the biopsy to confirm my diagnosis since it sounds scary and I don't want to risk any complications. Can I just skip it and still be in the study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Before you begin the study. You will need to have the following exams and tests to make sure you are eligible for this study. If you recently had some of the tests, they may not need to be repeated. You will be removed from the study if you are not eligible: ... We will tell you what the results mean, how to find care, how to avoid infecting others, and the importance of informing your partners at possible risk because of your infection. ... You will be asked to provide confirmation of your diagnosis. If tumor sample from a previous surgery/biopsy is not available, we will perform a biopsy (collect a sample of your tumor) to confirm your diagnosis.",
+        "doc_number": "NCT03801915_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the risks associated with the surgery and the study. Can I just get the MVT-5873 treatment without the surgery? I'd like to try it out first and see how it goes.",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You will undergo a major surgical operation to remove as many of your visible cancer tumors as possible. Patients will receive MVT-5873 through an IV before and after surgery. The first infusion will be done 3-7 days before surgery, and subsequent infusions will be given on a 3-week cycle basis.",
+        "doc_number": "NCT03801915_001.txt"
+    },
+    {
+        "prompt": "I've heard that MVT-5873 can cause allergic reactions. Is it true that the study will not cover any medical expenses if I have an allergic reaction during the treatment?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Patients may experience side effects such as allergic reactions, diarrhea, fatigue, fever, and increase in blood levels that measure liver function. There may also be risks associated with surgery, blood draws, and tissue collection.",
+        "doc_number": "NCT03801915_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study, but I'm worried about the radiation exposure from the PET/CT scans. Can I still participate if I have a pacemaker?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## WHAT ARE THE RISKS OF THE STUDY?",
+        "doc_number": "NCT04685811_001.txt"
+    },
+    {
+        "prompt": "I've been taking medication for my prostate cancer, but I'm not sure if it's still safe for me to take. Can you advise me on whether I should continue taking it?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## PLEASE ADVISE THE RESEARCHERS OF ANY MEDICATIONS YOU ARE TAKING.",
+        "doc_number": "NCT04685811_001.txt"
+    },
+    {
+        "prompt": "I'm concerned about the potential risks of the study, such as allergic reactions or radiation exposure. Can I ask the researchers about these risks before making a decision?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## WHAT ARE THE RISKS OF THE STUDY?",
+        "doc_number": "NCT04685811_001.txt"
+    }
+]

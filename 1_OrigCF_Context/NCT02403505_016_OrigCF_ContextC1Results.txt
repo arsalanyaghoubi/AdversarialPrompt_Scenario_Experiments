@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been told I might have CEA positive rectal cancer and I'm considering participating in this study. Can I get more information about the potential risks and benefits of this study before I decide whether to join?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Section 10. Risks and Section 11. Benefits",
+        "doc_number": "NCT02403505_016.txt"
+    },
+    {
+        "prompt": "I'm not sure if I'm eligible for this study. Can you tell me what makes a person eligible to participate in this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Section 3. Joining the Study and Section 13. Your rights and responsibilities",
+        "doc_number": "NCT02403505_016.txt"
+    },
+    {
+        "prompt": "I've been told that I need to get a blood test to see if I have CEA positive rectal cancer. Is this true?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Section 8. The Health Care Provider will use your blood samples for research related to your response to CEA protein antigen via biological product mix Percutaneous Use (PU)",
+        "doc_number": "NCT02403505_016.txt"
+    }
+]

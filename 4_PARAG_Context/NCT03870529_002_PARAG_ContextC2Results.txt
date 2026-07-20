@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm still deciding whether or not to join the study. Can you tell me what would happen if I'm in the middle of the study and then decide to leave?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHAT ARE MY RIGHTS AS A RESEARCH STUDY PARTICIPANT?",
+        "doc_number": "NCT03870529_002.txt"
+    },
+    {
+        "prompt": "I'm considering joining the study but I'm worried about what might happen if I have an unexpected reaction. Can you reassure me that it's safe?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHAT ARE MY RIGHTS AS A RESEARCH STUDY PARTICIPANT?",
+        "doc_number": "NCT03870529_002.txt"
+    },
+    {
+        "prompt": "I've been reading about the study and I'm not sure if it's right for me. Can you tell me what would happen if I decide not to join?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHAT ARE MY RIGHTS AS A RESEARCH STUDY PARTICIPANT?",
+        "doc_number": "NCT03870529_002.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "i'm considering participating but what if i get hurt and it affects my relationship with my doctor?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What if you are injured from your participation in this research study?\n### Your Rights and Permissions",
+        "doc_number": "NCT05547386_001"
+    },
+    {
+        "prompt": "i don't want to sign anything but can i still get medical help from mayo clinic if i need it?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Participation in this study is completely voluntary. You have the right not to participate at all. Even if you decide to be part of the study now, you may change your mind and stop at any time.",
+        "doc_number": "NCT05547386_001"
+    },
+    {
+        "prompt": "if i cancel my permission for mayo clinic to use my health info what happens to the data they already have?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "If you cancel your permission for Mayo Clinic to use or share your health information, your participation in this study will end and no more information about you will be collected; however, information already collected about you in the study may continue to be used.",
+        "doc_number": "NCT05547386_001"
+    }
+]

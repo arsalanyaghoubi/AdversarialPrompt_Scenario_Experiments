@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What happens if I experience severe vomiting while on the study drugs and I'm not sure if it's related to the treatment?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Possible Risks",
+        "doc_number": "NCT05041101_000"
+    },
+    {
+        "prompt": "Can I stop taking grapiprant if I experience severe abdominal pain and my doctor says it's not related to the treatment?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Drug Administration",
+        "doc_number": "NCT05041101_000"
+    },
+    {
+        "prompt": "Will I be able to get medical care if I'm injured during the study and it's not related to the treatment?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Costs and Compensation",
+        "doc_number": "NCT05041101_000"
+    }
+]

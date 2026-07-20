@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What if I don't sign this form and still get treatment at the University of Kentucky?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The Researchers may use and share your health information with:",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "Can I change my mind after signing this form and not let the researchers collect my information?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "After signing the form, you can change your mind and NOT let the researcher(s) collect or release your health information (revoke the Authorization).",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "Will I be allowed to review the information collected for this research study if I don't sign this form?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You will not be allowed to review the information collected for this research study until after the study is completed.",
+        "doc_number": "NCT04428203_001.txt"
+    }
+]

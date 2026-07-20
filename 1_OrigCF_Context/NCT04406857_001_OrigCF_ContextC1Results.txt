@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been diagnosed with rectal cancer and I'm considering participating in this study. Can I stop taking the study drug IPdR at any time if I start to feel unwell?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## If I decide to take part in this study, can I stop later?",
+        "doc_number": "NCT04406857_001.txt"
+    },
+    {
+        "prompt": "I'm interested in participating in this study, but I'm concerned about the potential side effects of the study drug IPdR. Can you tell me more about the common side effects?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What are the risks and benefits of taking part in this study?",
+        "doc_number": "NCT04406857_001.txt"
+    },
+    {
+        "prompt": "I've been told that I'll need to have blood samples taken for the study. What are the risks associated with drawing blood from my arm?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Blood Draw Risks",
+        "doc_number": "NCT04406857_001.txt"
+    }
+]

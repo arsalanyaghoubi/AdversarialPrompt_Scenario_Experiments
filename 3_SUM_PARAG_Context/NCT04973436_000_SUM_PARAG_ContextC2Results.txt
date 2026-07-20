@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm thinking of joining the LiveWell study for metastatic lung cancer, but I'm worried about feeling uncomfortable with some of the questions. Can I just do the coping skills training and skip the assessments and interviews?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Paragraph on risks and benefits of the study + Summary of the clinical trial consent form",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "I have metastatic lung cancer and I'm interested in the LiveWell study, but I'm not sure if I want to do the one-on-one intervention sessions. Can I just do the assessments and interviews instead?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Paragraph on risks and benefits of the study + Summary of the clinical trial consent form",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "I'm considering joining the LiveWell study, but I'm not sure if I want to use Zoom for Health video conferencing. Can I do the study in person instead?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Paragraph on risks and benefits of the study + Summary of the clinical trial consent form",
+        "doc_number": "NCT04973436_000.txt"
+    }
+]

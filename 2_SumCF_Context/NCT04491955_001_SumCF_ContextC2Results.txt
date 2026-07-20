@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have a family history of colon cancer. What are my chances of developing colon cancer if I participate in this study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04491955_001.txt"
+    },
+    {
+        "prompt": "Can I be guaranteed that I won't get any side effects from the treatment?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04491955_001.txt"
+    },
+    {
+        "prompt": "I've heard that CV301 vaccines can cause flu-like symptoms. Will I definitely get those symptoms?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04491955_001.txt"
+    }
+]

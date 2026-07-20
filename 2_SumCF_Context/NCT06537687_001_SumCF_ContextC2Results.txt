@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering the risks of HPV and I want to know if the study will help me make a decision about my treatment options.",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "Will I have to change my treatment plan if I participate in this study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "I'm worried about my family's safety, can this study tell me what I should do to protect them from HPV?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT06537687_001.txt"
+    }
+]

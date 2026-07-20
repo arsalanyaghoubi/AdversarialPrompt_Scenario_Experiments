@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study on [ 18 F]F-ARAG pharmacokinetics, but I'm worried about the risks. Can you tell me what might happen if I get pregnant or breastfeed while in the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "What about Birth Control? Contraception Requirements for Women",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to participate in the optional part of the study. Can you explain what would happen if I say yes to the second PET/CT scan?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Are there any optional parts of the study?",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "I'm concerned about the radiation exposure in this study. Can you tell me more about the risks and what I can do to minimize them?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Is there anyway being in this study could be bad for me?",
+        "doc_number": "NCT04678440_001.txt"
+    }
+]

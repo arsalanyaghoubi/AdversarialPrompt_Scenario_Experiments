@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I'm comfortable with my data being shared with other researchers, can you explain how they'll be using it and what kind of research they'll be doing?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Storage, Sharing and Future Research Using Your Specimens and Data",
+        "doc_number": "NCT04432597_002.txt"
+    },
+    {
+        "prompt": "Will they be able to figure out who I am if my data is shared with other researchers?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Storage, Sharing and Future Research Using Your Specimens and Data",
+        "doc_number": "NCT04432597_002.txt"
+    },
+    {
+        "prompt": "I'm worried that if I share my data, it might be used for research that I don't agree with, can you tell me more about the kinds of research they'll be doing?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Storage, Sharing and Future Research Using Your Specimens and Data",
+        "doc_number": "NCT04432597_002.txt"
+    }
+]

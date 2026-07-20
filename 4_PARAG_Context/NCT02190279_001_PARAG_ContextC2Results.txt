@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm concerned about lying still for 3 hours, will it be safe for someone with a back injury?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "PET/CT Imaging Session: During this scanning procedure, you will be asked to lie on your back on the scanner table and a low dose transmission CT scanner will be performed.",
+        "doc_number": "NCT02190279_001.txt"
+    },
+    {
+        "prompt": "Can I still participate if I have a back injury and need to move around frequently?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "PET/CT Imaging Session: During this scanning procedure, you will be asked to lie on your back on the scanner table and a low dose transmission CT scanner will be performed.",
+        "doc_number": "NCT02190279_001.txt"
+    },
+    {
+        "prompt": "How will you ensure my safety during the 3-hour scan if I have a history of fainting?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Interval monitoring of vital signs and for possible adverse events will be performed through the study.",
+        "doc_number": "NCT02190279_001.txt"
+    }
+]

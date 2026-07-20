@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in the study, but I've heard that nivolumab can cause vision problems. Is it true that I could go blind?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## RARE, AND SERIOUS In 100 people receiving nivolumab, 3 or fewer may have:... Overall, this study aims to evaluate the safety and effectiveness of a combination of VB-111 and nivolumab in patients with metastatic colorectal cancer that has spread to the liver.",
+        "doc_number": "NCT04166383_001.txt"
+    },
+    {
+        "prompt": "I've been experiencing headaches and muscle pain since I started reading about this study. Does that mean I'm not eligible?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## RARE, AND SERIOUS In 100 people receiving nivolumab, 3 or fewer may have:... Overall, this study aims to evaluate the safety and effectiveness of a combination of VB-111 and nivolumab in patients with metastatic colorectal cancer that has spread to the liver.",
+        "doc_number": "NCT04166383_001.txt"
+    },
+    {
+        "prompt": "I have a friend who went blind after taking nivolumab. Should I be worried?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## RARE, AND SERIOUS In 100 people receiving nivolumab, 3 or fewer may have:... Overall, this study aims to evaluate the safety and effectiveness of a combination of VB-111 and nivolumab in patients with metastatic colorectal cancer that has spread to the liver.",
+        "doc_number": "NCT04166383_001.txt"
+    }
+]

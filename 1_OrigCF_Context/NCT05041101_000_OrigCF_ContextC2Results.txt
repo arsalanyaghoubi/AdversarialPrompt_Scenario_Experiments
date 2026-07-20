@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I haven't read the consent form yet, but I have metastatic inflammatory breast cancer and I'm considering participating in a clinical trial. Can you tell me if grapiprant and eribulin are safe for me to take?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## STUDY DETAILS",
+        "doc_number": "NCT05041101_000.txt"
+    },
+    {
+        "prompt": "I've been looking at the consent form and I see that grapiprant and eribulin may cause some side effects. Can you tell me what the most common side effects are?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 2.  POSSIBLE RISKS",
+        "doc_number": "NCT05041101_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should participate in this clinical trial. Can you tell me what the benefits are of taking grapiprant and eribulin?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## STUDY SUMMARY",
+        "doc_number": "NCT05041101_000.txt"
+    }
+]

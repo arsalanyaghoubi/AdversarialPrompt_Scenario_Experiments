@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm worried about the PET/CT scan not being reviewed by a real doctor, what if they miss something?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The PET/CT images created for this study are for research and are not meant to judge the level of your health, as they would be if they were part of your medical care.  The images will not receive the usual clinical review by radiologists who interpret PET/CT scans.",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "Will I be able to trust the results of this study if they're not shared with me?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "We will create radiation dose reports from your PET/CT scans and we will give you a copy if you ask for it.  The results of this research will not be shared with you.",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "I'm hesitant to participate because I don't want to deal with any potential medical problems that might be found, can you reassure me?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If a member of the study team, while reviewing your images, notices any findings they will share this with the Study Radiologist.  If the Study Radiologist thinks a medical problem might be present, we will contact you within 8 weeks to discuss the possible medical problems or immediately if it appears urgent to the Study Radiologist.",
+        "doc_number": "NCT04678440_001.txt"
+    }
+]

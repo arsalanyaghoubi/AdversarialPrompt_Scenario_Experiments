@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "If I don't want my specimens and data shared for future research, can I still consent to this study and have the specimens and data stored?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Storage, sharing and future research using your specimens and data paragraph from NCT04432597_002.txt + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT04432597_002.txt"
+    },
+    {
+        "prompt": "Will my specimens and data be destroyed if I withdraw from the study or request it to be destroyed?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Storage, sharing and future research using your specimens and data paragraph from NCT04432597_002.txt + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT04432597_002.txt"
+    },
+    {
+        "prompt": "If my specimens and data are anonymized, can they still be used in future research without my permission?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Storage, sharing and future research using your specimens and data paragraph from NCT04432597_002.txt + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT04432597_002.txt"
+    }
+]

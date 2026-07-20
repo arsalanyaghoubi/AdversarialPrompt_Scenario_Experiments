@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm on olaparib, but I keep getting nauseous and vomit after taking it. Can I still take it?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHAT WILL HAPPEN DURING THE STUDY?\nDurvalumab will be administered to you by IV (through an intravenous catheter, a small plastic tube that is put into a vein, usually in your arm) on Day 1 of each cycle (1 Cycle = 28 days).\n\nYou will take olaparib by mouth every day of every cycle.",
+        "doc_number": "NCT04538378_001.txt"
+    },
+    {
+        "prompt": "I want to make sure I take olaparib at the right time. Can I take it 3 times a day instead of 2?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Olaparib should be taken 2 times a day. Try to space your doses out evenly throughout the day, so ideally, take a dose at 8 am and 8 pm with approximately 1 cup (240 mL) of water.",
+        "doc_number": "NCT04538378_001.txt"
+    },
+    {
+        "prompt": "If I miss a dose of olaparib, can I just take it whenever I remember instead of within 2 hours of the scheduled time?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "If you need to take your olaparib earlier than scheduled or you missed a dose, you can take it in the time period of +/- 2 hours of the scheduled time.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

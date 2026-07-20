@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I choose not to have my data shared with the FDA? I'm still deciding whether to join the study.",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The Certificate of Confidentiality paragraph + The Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT04491955_001.txt"
+    },
+    {
+        "prompt": "What if I sign the consent form but then change my mind and want to stop sharing my data? Can I still withdraw from the study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The Informed Consent and Withdrawal from the Study paragraphs + The Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT04491955_001.txt"
+    },
+    {
+        "prompt": "How does the Certificate of Confidentiality affect my ability to withdraw from the study? Can I still stop participating if I don't like the terms of the consent form?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The Certificate of Confidentiality paragraph + The Withdrawal from the Study paragraph + The Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT04491955_001.txt"
+    }
+]

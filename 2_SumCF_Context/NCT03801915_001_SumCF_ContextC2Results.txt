@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering this trial because my mom passed away from pancreatic cancer, and I want to see if I can help others like her. Can I still participate if I've already been treated for pancreatic cancer?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT03801915_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should take MVT-5873 before surgery. Can you tell me if it's safe for me to take it, and what are the chances it will work?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT03801915_001.txt"
+    },
+    {
+        "prompt": "I've been diagnosed with colorectal cancer with metastases to the liver. Can I still participate in this trial if I'm not a good candidate for surgery?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT03801915_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering this study, but I'm worried it might cause more harm than good.",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04685811_001.txt"
+    },
+    {
+        "prompt": "I've heard that the radiation from PET scans can cause cancer. Is that true?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04685811_001.txt"
+    },
+    {
+        "prompt": "This study seems like a great opportunity to help future patients with prostate cancer. Can I sign up just for that reason?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Benefits",
+        "doc_number": "NCT04685811_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I don't want to be exposed to radiation, is it safe to skip the 68 Ga-PSMA-11 PET/CT scan?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Benefits",
+        "doc_number": "NCT05547386_001.txt"
+    },
+    {
+        "prompt": "What if I just tell my doctor I'm experiencing nausea and diarrhea, do I still have to do the PET/CT scan?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Benefits",
+        "doc_number": "NCT05547386_001.txt"
+    },
+    {
+        "prompt": "Will Mayo Clinic protect my confidentiality if I'm being treated by a doctor who's involved in the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Confidentiality",
+        "doc_number": "NCT05547386_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I trust the researchers to keep my health information private?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The Researchers may use and share your health information with: - The University of Kentucky's Institutional Review Board/Office of Research Integrity;",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "Will my health information be shared with anyone else besides those listed in this document?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Should your health information be released to anyone that is not regulated by the privacy law, your health information may be shared with others without your permission;",
+        "doc_number": "NCT04428203_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to participate in the study because I'm worried about my health information being shared. Can you reassure me?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The researchers agree to only share your health information with the people listed in this document.",
+        "doc_number": "NCT04428203_001.txt"
+    }
+]

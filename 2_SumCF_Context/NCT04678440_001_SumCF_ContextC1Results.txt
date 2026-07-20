@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study but I'm worried about the radiation exposure. Can I still participate if I have a pacemaker?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Procedures",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "I'm hesitant to sign up for this study because I've heard that PET/CT scans can be uncomfortable. Is it really necessary to lie on the scanner table for 90 minutes?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Procedures",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the cost of parking and transportation to the study site. Is the $100 gift card for each scan worth it?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Compensation",
+        "doc_number": "NCT04678440_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm 25 and my doctor says I'm at higher risk for cancer due to my family history. Is it safe for me to participate in this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks of Computed Tomography (CT). As part of this study, we may perform a CT scan of your chest, abdomen, pelvic area.  CT is a way of taking detailed pictures inside your body by using Xrays.  X-rays are a type of radiation. You get some radiation from your environment.  You get radiation from bricks and concrete, from some foods, and from radon gas, which is an invisible gas that seeps out of the ground.  The amount of radiation that this CT scan will deliver to your body (give you) is about the same as you would get from living in your environment for 5 years .",
+        "doc_number": "NCT05197257_000.txt"
+    },
+    {
+        "prompt": "What are the chances of getting a blood clot from the intravenous catheter? I'm really worried about that.",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks of Insertion of the intravenous catheter. In this study we will insert an intravenous catheter, connected to a plastic tube, into a vein in your arm.  We will use the tube to administer the 68Ga-PSMA-11.  You will feel some pain when we first insert the tube into your vein.  You may have some redness, swelling, or bruising where the tube goes under your skin.  In some cases, this type of tube can cause an infection where it goes under the skin.  In rare cases, it can cause a blood clot in the vein.",
+        "doc_number": "NCT05197257_000.txt"
+    },
+    {
+        "prompt": "I'm 40 years old, which means I'm at a lower risk for cancer. Does that mean I'm safe to participate in this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The risk of this procedure is not equal for everyone.  The risk is much lower for people over the age of 30.",
+        "doc_number": "NCT05197257_000.txt"
+    }
+]

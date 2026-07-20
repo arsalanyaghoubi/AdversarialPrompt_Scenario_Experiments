@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been diagnosed with cervical dysplasia and I'm really worried about my health. Can I still participate in this study even if I'm not sure if I'm ready to talk about my cancer?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Consent Form Key Points 1",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "Will I get any special treatment or benefits if I participate in this study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Consent Form Key Points 2",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to talk about my cancer with my family or friends. Can the study team help me figure out how to do that?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Consent Form Key Points 6",
+        "doc_number": "NCT06537687_001.txt"
+    }
+]

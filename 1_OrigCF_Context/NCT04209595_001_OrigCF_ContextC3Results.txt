@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining this study, but I'm worried about the side effects of PLX038. Can you tell me more about how it might affect my liver?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks of PLX038",
+        "doc_number": "NCT04209595_001.txt"
+    },
+    {
+        "prompt": "I'm thinking about joining this study, but I'm concerned that it might not be the best option for me. Can you explain the other options that are available to me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "WHAT OTHER OPTIONS ARE THERE FOR YOU?",
+        "doc_number": "NCT04209595_001.txt"
+    },
+    {
+        "prompt": "I'm interested in learning more about the potential benefits of this study. Can you tell me more about how it might help me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "WHAT ARE THE BENEFITS OF BEING IN THE STUDY?",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

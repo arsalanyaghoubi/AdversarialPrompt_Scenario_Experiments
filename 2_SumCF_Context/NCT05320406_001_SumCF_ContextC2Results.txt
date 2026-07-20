@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What if I have a history of heart problems and am worried about radiation exposure from the CT scans?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT05320406_001.txt"
+    },
+    {
+        "prompt": "Can I still donate sperm while on hormone therapy with leuprolide or relugolix?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT05320406_001.txt"
+    },
+    {
+        "prompt": "How will you ensure that my heart health improves after radiation treatment, and what are the chances of it getting worse?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Objective",
+        "doc_number": "NCT05320406_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm worried about getting hurt during the study and having to pay for treatment. Is it really true that I'll have to pay for medical expenses if I get injured?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If you are injured as a result of this research, only immediate, essential, short-term medical treatment as determined by the participating hospital, will be available for the injury without charge to you personally.",
+        "doc_number": "NCT04155008_000.txt"
+    },
+    {
+        "prompt": "I've heard of studies where participants got hurt and got a lot of money for it. Will I get paid if I get injured in this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "No monetary compensation will be offered.",
+        "doc_number": "NCT04155008_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should join the study because I'm worried about the risks. Can you tell me more about what kind of medical treatment I'll get if I get hurt?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If additional treatment is required as a result of a physical injury related to the research, necessary medical treatment will be provided to you and billed to your insurance company or to you as part of your medical expenses.",
+        "doc_number": "NCT04155008_000.txt"
+    }
+]

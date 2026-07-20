@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering the study, but I'm worried about the steroids. What if I'm one of the ones who gets a weakened immune system?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Potential Risks",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "Can I still have my treatment if I don't do the extra blood draws? I don't like needles.",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Procedures",
+        "doc_number": "NCT04037462_000.txt"
+    },
+    {
+        "prompt": "How long will it take before I start feeling the side effects of the immunotherapy?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Potential Risks",
+        "doc_number": "NCT04037462_000.txt"
+    }
+]

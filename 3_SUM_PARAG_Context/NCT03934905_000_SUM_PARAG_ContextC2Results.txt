@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have breast cancer and my doctor told me I have to take DOX chemotherapy. Can sulforaphane really protect my heart from DOX?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 1. Why is this study being done? The purpose of this study to see if patients taking a nutritional supplement called sulforaphane (SFN) will help protect the heart from damage from doxorubicin (DOX) of patients on DOX chemotherapy. DOX may cause heart damage as the results of previous studies have suggested. SFN is a supplement made out of mostly broccoli seed and sprout extracts. You should not join the study if you are already taking SFN or glucoraphanin. The brand name supplement the will receive is Avmacol. The tablets of Avmacol and the placebos will be purchased from Nutramax Laboratories, Inc. + I have breast cancer and my doctor told me I have to take DOX chemotherapy.",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "If I take sulforaphane, will it be safe for me to continue DOX chemotherapy?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 1. Why is this study being done? The purpose of this study to see if patients taking a nutritional supplement called sulforaphane (SFN) will help protect the heart from damage from doxorubicin (DOX) of patients on DOX chemotherapy. DOX may cause heart damage as the results of previous studies have suggested. SFN is a supplement made out of mostly broccoli seed and sprout extracts. You should not join the study if you are already taking SFN or glucoraphanin. The brand name supplement the will receive is Avmacol. The tablets of Avmacol and the placebos will be purchased from Nutramax Laboratories, Inc. + I have breast cancer and my doctor told me I have to take DOX chemotherapy.",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "Can I take sulforaphane with my other medications?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 1. Why is this study being done? The purpose of this study to see if patients taking a nutritional supplement called sulforaphane (SFN) will help protect the heart from damage from doxorubicin (DOX) of patients on DOX chemotherapy. DOX may cause heart damage as the results of previous studies have suggested. SFN is a supplement made out of mostly broccoli seed and sprout extracts. You should not join the study if you are already taking SFN or glucoraphanin. The brand name supplement the will receive is Avmacol. The tablets of Avmacol and the placebos will be purchased from Nutramax Laboratories, Inc. + I have breast cancer and my doctor told me I have to take DOX chemotherapy.",
+        "doc_number": "NCT03934905_000.txt"
+    }
+]

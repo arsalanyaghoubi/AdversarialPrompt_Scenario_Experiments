@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study but I'm worried about the pain treatment causing a skin reaction. Can I get a guarantee that it won't happen?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Are there any risks to me?...You can choose to take back your authorization for researchers to use your health information. You can do this at any time before or during your participation in the study.",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should join the study. Can you tell me what would happen if I experience a severe allergic reaction to the pain treatment?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Are there any risks to me?...If you were to develop any severe allergic reaction, you would be treated with the appropriate allergy medicines.",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "Will I be able to stop the pain treatment if I experience any discomfort?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Are there any risks to me?...If you experience significant discomfort from the pain treatment, let your care team know, and the pain treatment can be immediately stopped.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

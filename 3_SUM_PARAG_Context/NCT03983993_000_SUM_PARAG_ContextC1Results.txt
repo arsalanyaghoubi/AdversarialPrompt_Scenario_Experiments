@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I take only Niraparib and skip Panitumumab to minimize side effects?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Common side effects of Niraparib include:\n+ Decrease in blood platelets, red blood cells, and white blood cells\n+ High blood pressure\n+ Fatigue, weakness, and lack of energy\n+ Nausea, vomiting, and diarrhea\n+ Joint pain, back pain, and stomach pain\nYou Are Being Asked to Be in a Research Study\nBefore making your decision:\n- Please carefully read this form or have it read to you\n- Please listen to the study doctor or study staff explain the study to you\n- Please ask questions about anything that is not clear",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "Will I get compensation for my time and effort if I participate in the study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Benefits:\n* The study is not designed to benefit participants directly, but the results may be used to help others in the future.\n* Participants will not receive compensation for their time and effort.\nYou Are Being Asked to Be in a Research Study\nBefore making your decision:\n- Please carefully read this form or have it read to you\n- Please listen to the study doctor or study staff explain the study to you\n- Please ask questions about anything that is not clear",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "Can I withdraw from the study if I start experiencing severe side effects?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Withdrawal from the Study:\n* Participants have the right to leave the study at any time without penalty.\n* Researchers may ask participants to complete final study procedures before withdrawing from the study.\nYou Are Being Asked to Be in a Research Study\nBefore making your decision:\n- Please carefully read this form or have it read to you\n- Please listen to the study doctor or study staff explain the study to you\n- Please ask questions about anything that is not clear",
+        "doc_number": "NCT03983993_000.txt"
+    }
+]

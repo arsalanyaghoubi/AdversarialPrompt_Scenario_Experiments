@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study but I'm worried about the potential side effects. Can I still join if I have a history of pancreatitis?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Possible Risks",
+        "doc_number": "NCT05243641_000.txt"
+    },
+    {
+        "prompt": "I've been reading about the study and I'm concerned about the potential for birth defects. Can I still join if I'm planning to get pregnant in the next year?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Pregnancy Related Risks",
+        "doc_number": "NCT05243641_000.txt"
+    },
+    {
+        "prompt": "I've heard that the study drugs can cause serious side effects, including an increased risk of infection. Can I still join if I have a weakened immune system?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Possible Risks",
+        "doc_number": "NCT05243641_000.txt"
+    }
+]

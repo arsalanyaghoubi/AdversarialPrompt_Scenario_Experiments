@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm 17 and have metastatic inflammatory breast cancer. Can I still join the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Eligibility section",
+        "doc_number": "NCT05041101_000.txt"
+    },
+    {
+        "prompt": "I'm 60 and have metastatic inflammatory breast cancer. Can I take grapiprant with my existing medication?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Study Drug Administration section",
+        "doc_number": "NCT05041101_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should join the study. Can you explain the risks and benefits to me?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Possible Risks and Clinical Trial Summary sections",
+        "doc_number": "NCT05041101_000.txt"
+    }
+]

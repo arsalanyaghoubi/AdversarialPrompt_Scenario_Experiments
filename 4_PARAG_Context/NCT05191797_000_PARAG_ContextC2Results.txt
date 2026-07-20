@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been reading about the radiation risks in this study and I'm worried about my health. Can I join if I have a history of cancer?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Radiation risks\n\n- You do not have to join this study. You are free to say \u201cyes\u201d or \u201cno\u201d.",
+        "doc_number": "NCT05191797_000.txt"
+    },
+    {
+        "prompt": "I'm interested in joining the study, but I'm not sure if I can stop at any time. Can you explain how that works?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "- If you join this study, you would not have to stay in it. You could stop at any time (even\nbefore you start).",
+        "doc_number": "NCT05191797_000.txt"
+    },
+    {
+        "prompt": "I'm concerned about the potential risks of radiation and I'm not sure if it's safe for me. Can you tell me more about the safety of the study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Radiation risks\n\n- During the study, we might learn new information that you need to know.",
+        "doc_number": "NCT05191797_000.txt"
+    }
+]

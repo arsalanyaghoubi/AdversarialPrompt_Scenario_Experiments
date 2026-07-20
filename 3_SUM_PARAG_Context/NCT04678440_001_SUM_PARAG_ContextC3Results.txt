@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can you confirm that getting two PET/CT scans is safe and won't affect my cancer treatment?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The study aims to understand how the radiotracer enters and leaves the body over time, and how it accumulates in tumors and non-malignant tissues.  We will create radiation dose reports from your PET/CT scans and we will give you a copy if you ask for it.  The results of this research will not be shared with you.  However, you and your primary care doctor will be notified if any incidental findings are detected as described below.",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "Will I get a copy of my PET/CT images if I request it?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The PET/CT images created for this study are for research and are not meant to judge the level of your health, as they would be if they were part of your medical care.  The images will not receive the usual clinical review by radiologists who interpret PET/CT scans. This means that some findings may be overlooked or misinterpreted.",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "Is it true that some findings might be overlooked or misinterpreted in the PET/CT images?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The PET/CT images created for this study are for research and are not meant to judge the level of your health, as they would be if they were part of your medical care.  The images will not receive the usual clinical review by radiologists who interpret PET/CT scans. This means that some findings may be overlooked or misinterpreted.",
+        "doc_number": "NCT04678440_001.txt"
+    }
+]

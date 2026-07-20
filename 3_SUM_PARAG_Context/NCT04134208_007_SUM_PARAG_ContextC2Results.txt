@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will I have to give up my identifying information if I participate in future research studies?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Future Research paragraph + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT04134208_007.txt"
+    },
+    {
+        "prompt": "I want to know if the researchers at MD Anderson will be able to see my identifying information in future studies. Can you confirm?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Future Research paragraph + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT04134208_007.txt"
+    },
+    {
+        "prompt": "How do I know if the researchers will be able to use my data for future studies without my permission?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Future Research paragraph + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT04134208_007.txt"
+    }
+]

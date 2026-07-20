@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if it's worth it, what are the chances that this treatment will actually work?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and Side Effects",
+        "doc_number": "NCT04926324_001"
+    },
+    {
+        "prompt": "I've heard that the side effects are pretty bad, how do you know this treatment won't ruin my life?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and Side Effects",
+        "doc_number": "NCT04926324_001"
+    },
+    {
+        "prompt": "I'm worried about the radiation therapy, won't that give me cancer later?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Potential risks",
+        "doc_number": "NCT04926324_001"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this vaccine trial, but I'm worried about the potential risks. Can you tell me more about the vaccine and why it's not approved by the FDA yet?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The purpose of this research is to compare the effect on your cancer of using a new experimental breast cancer vaccine (used to stimulate immune cell production) with chemotherapy and surgery versus the usual treatment of chemotherapy and surgery.",
+        "doc_number": "NCT02938442_002"
+    },
+    {
+        "prompt": "I've heard that the vaccine can cause serious side effects, including anaphylaxis and Guillain-Barre Syndrome. Is it true that the study doctors are not adequately prepared to handle these side effects?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and side effects related to the vaccine: Severe allergic reactions (anaphylaxis) can result in shock and even death. Over activation of your immune system. Guillain-Barre Syndrome: a condition resulting in severe weakness to the point of not being able to walk or breathe.",
+        "doc_number": "NCT02938442_002"
+    },
+    {
+        "prompt": "I'm not sure if I want to participate in this trial because I'm worried about the potential risks to my unborn baby if I become pregnant while on the study. Can you reassure me that the study doctors will do everything they can to prevent this from happening?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You should not become pregnant or have a baby while on this study and for 18 months after the last dose of the vaccine because the vaccine in this study may affect an unborn baby.",
+        "doc_number": "NCT02938442_002"
+    }
+]

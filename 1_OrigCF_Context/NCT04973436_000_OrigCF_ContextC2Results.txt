@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study, but I'm not sure if I'm eligible. Can you explain the eligibility criteria to me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "WHO WILL BE MY DOCTOR ON THIS STUDY? section",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "What if I have another medical condition that I haven't mentioned yet? Will that affect my participation in the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "WHAT ABOUT MY OTHER HEALTH CONDITIONS? section",
+        "doc_number": "NCT04973436_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to participate in the study, but I'm curious about the potential benefits. Can you tell me more about how this study might help me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "ARE THERE BENEFITS TO TAKING PART IN THE STUDY? section",
+        "doc_number": "NCT04973436_000.txt"
+    }
+]

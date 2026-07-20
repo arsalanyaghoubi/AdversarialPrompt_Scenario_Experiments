@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study, but I'm worried about the pain. Will I definitely be able to control it with the treatments?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## What is the purpose of the study?",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "Can you explain to me why I shouldn't be worried about the pain? You're experts, after all.",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Are there any risks to me?",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to participate. Can you tell me about the benefits of the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Are there any benefits to me?",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

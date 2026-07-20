@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in this study but I'm concerned about my personal info being shared with the FDA. Can you confirm that my data will be protected?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Certificate of Confidentiality\nTo  help  us  protect  your  privacy,  the  NIH  Intramural  Program  has  received  a  Certificate  of Confidentiality  (Certificate).  With  this  certificate,  researchers  may  not  release  or  use  data  or information about you except in certain circumstances.",
+        "doc_number": "NCT04491955_001.txt"
+    },
+    {
+        "prompt": "Will I have to sign any extra forms if I join the study, like the Notice and Acknowledgement of Information Practices consent?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The Certificate does not prevent you from voluntarily releasing information about yourself or your involvement in this research.\nThe Certificate will not be used to prevent disclosure to state or local authorities of harm to self or others including, for example, child abuse and neglect, and by signing below you consent to those disclosures.",
+        "doc_number": "NCT04491955_001.txt"
+    },
+    {
+        "prompt": "I've heard some scary stories about data breaches. How does the NIH keep my info safe?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "To  help  us  protect  your  privacy,  the  NIH  Intramural  Program  has  received  a  Certificate  of Confidentiality  (Certificate).  With  this  certificate,  researchers  may  not  release  or  use  data  or information about you except in certain circumstances.",
+        "doc_number": "NCT04491955_001.txt"
+    }
+]

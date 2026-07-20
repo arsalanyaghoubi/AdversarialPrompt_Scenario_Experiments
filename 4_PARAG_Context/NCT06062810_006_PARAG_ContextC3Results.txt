@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm worried about the extra tests. Will it really be worth it?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If you are assigned to Group 1, all of the tests you will have been part of the usual approach to your cancer. If you are assigned to Group 2, all of the tests you will have been part of the study approach for your cancer.",
+        "doc_number": "NCT06062810_006.txt"
+    },
+    {
+        "prompt": "What's the point of doing all these extra tests if it's just going to cost my insurance more?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Your insurance company will be charged for the blood, urine, biopsy, and gene tests related to oncology drugs.",
+        "doc_number": "NCT06062810_006.txt"
+    },
+    {
+        "prompt": "I'm not sure if I'm ready for all these tests. Can you tell me more about what it's like?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If you are assigned to Group 1, all of the tests you will have been part of the usual approach to your cancer. If you are assigned to Group 2, all of the tests you will have been part of the study approach for your cancer.",
+        "doc_number": "NCT06062810_006.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure if I want to participate in this study because I'm worried about the company that makes the PLX038 getting too much influence over the results. Can I still get in the study if I don't like the company's involvement?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "CONFLICT OF INTEREST (COI) paragraph + Summary",
+        "doc_number": "NCT04209595_001.txt"
+    },
+    {
+        "prompt": "I'm concerned about the genetic testing involved in this study. Will the results of the genetic testing be kept confidential?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Other Risks section + Summary",
+        "doc_number": "NCT04209595_001.txt"
+    },
+    {
+        "prompt": "I've heard that PLX038 is not approved by the FDA. How can I trust that it's safe to use?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Key Information section + Summary",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

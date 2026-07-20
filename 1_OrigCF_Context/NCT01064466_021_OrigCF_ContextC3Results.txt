@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering taking part in this study. Can you tell me more about the potential benefits and risks of the study chemotherapy?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "What possible benefits can I expect from taking part in this study?",
+        "doc_number": "NCT01064466_021.txt"
+    },
+    {
+        "prompt": "What are the chances that I'll experience side effects from the study chemotherapy?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "What possible risks can I expect from taking part in this study?",
+        "doc_number": "NCT01064466_021.txt"
+    },
+    {
+        "prompt": "Will taking part in this study affect my ability to get a job or insurance in the future?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "What are the possible risks?",
+        "doc_number": "NCT01064466_021.txt"
+    }
+]

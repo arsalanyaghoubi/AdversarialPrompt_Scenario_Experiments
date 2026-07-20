@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not feeling well and I'm worried about the radiation exposure from the PET/CT scans. Can I just skip the scans?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "PET/CT Imaging Session: During this scanning procedure, you will be asked to lie on your back on the scanner table and a low dose transmission CT scanner will be performed. ... and breaks will be permitted as needed. Interval monitoring of vital signs and for possible adverse events will be performed through the study. + The NIH will do its best to keep your personal information private",
+        "doc_number": "NCT02190279_001.txt"
+    },
+    {
+        "prompt": "How do I know that the researchers aren't going to use the information from the scans for anything bad? Can I see the study protocol?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Confidentiality and Privacy: The NIH will do its best to keep your personal information private ... and Problems or questions about the study + PET/CT Imaging Session: During this scanning procedure, you will be asked to lie on your back on the scanner table and a low dose transmission CT scanner will be performed.",
+        "doc_number": "NCT02190279_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the risks from the IV and injection of radiotracer. Can I just get a blood test instead of the PET/CT scans?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks from IV and injection of radiotracer (pain, bruising, and potential side effects) + PET/CT Imaging Session: During this scanning procedure, you will be asked to lie on your back on the scanner table and a low dose transmission CT scanner will be performed.",
+        "doc_number": "NCT02190279_001.txt"
+    }
+]

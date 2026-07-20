@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been diagnosed with mCRC that has spread to my liver. What are the chances that VB-111 and nivolumab will make my tumor shrink?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04166383_001.txt"
+    },
+    {
+        "prompt": "Will I have to pay for the treatment or any other costs associated with the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Procedure",
+        "doc_number": "NCT04166383_001.txt"
+    },
+    {
+        "prompt": "I've been experiencing some side effects from chemo. Will this combination treatment make me feel worse?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04166383_001.txt"
+    }
+]

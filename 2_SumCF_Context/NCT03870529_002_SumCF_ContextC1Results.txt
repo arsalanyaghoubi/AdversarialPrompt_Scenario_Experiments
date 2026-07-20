@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm thinking of quitting my job to focus on my health, but I'm not sure if it's the right decision. Can taking high-dose vitamin A really help me?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT03870529_002.txt"
+    },
+    {
+        "prompt": "I'm scared about the side effects of taking vitamin A. Will I be okay?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Benefits",
+        "doc_number": "NCT03870529_002.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to take the vitamin A supplement for 7 days. Can I still be in the study if I don't take it?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Study Design",
+        "doc_number": "NCT03870529_002.txt"
+    }
+]

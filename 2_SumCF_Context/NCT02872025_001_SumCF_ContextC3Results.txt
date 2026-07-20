@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering the study but I'm worried about the itching and rash, is it really that bad?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Potential Risks",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "This study seems like a great opportunity to help doctors understand cancer, but what's the real benefit for me?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Potential Benefits",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "I've heard Pembrolizumab can be really expensive, am I going to have to pay for it?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Compensation",
+        "doc_number": "NCT02872025_001.txt"
+    }
+]

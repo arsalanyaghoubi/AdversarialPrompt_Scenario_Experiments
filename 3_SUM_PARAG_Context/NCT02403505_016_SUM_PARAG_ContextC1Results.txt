@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've heard rumors about the Biological Product causing severe side effects, is it safe to use?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The Biological Product is a combination of CEA protein antigen and BCG Vaccine, administered through a percutaneous route with a multiple puncture device. Participants will be asked to complete online questionnaires and report on their symptoms every day for 90 days. Participants may experience side effects such as bruising, pain, and bleeding from blood-drawing or other medical procedures.",
+        "doc_number": "NCT02403505_016.txt"
+    },
+    {
+        "prompt": "Can I withdraw from the study at any time if I feel uncomfortable with the Biological Product?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Participants are free to leave the study at any time and for any reason. The study will not pay for treatment costs or provide compensation for injuries related to the study.",
+        "doc_number": "NCT02403505_016.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to participate in the study, can I get a copy of the study records to review?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The study records and samples will be kept confidential and labeled with a code number, not the participant's name or other personal information. Participants will receive a receipt document for each study visit completed.",
+        "doc_number": "NCT02403505_016.txt"
+    }
+]

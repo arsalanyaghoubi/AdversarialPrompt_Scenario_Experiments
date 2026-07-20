@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm excited to learn about this study on sulforaphane and its effects on heart damage from doxorubicin. Can you tell me more about the potential benefits of participating in this trial?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Paragraph 1: Why is this study being done? + Summary: Purpose: To investigate whether taking a nutritional supplement called sulforaphane (SFN) can help protect the heart from damage caused by doxorubicin (DOX) chemotherapy in patients with breast cancer.",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "I'm a bit worried about the potential risks of sulforaphane. Can you reassure me that it's safe and effective?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Paragraph 1: Why is this study being done? + Summary: Risks and Discomforts: Side effects of sulforaphane (vomiting, abdominal pain, constipation, increased appetite)",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "I've heard great things about sulforaphane and its potential health benefits. Will I definitely get the sulforaphane supplement if I participate in this trial?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Paragraph 1: Why is this study being done? + Summary: Benefits: None guaranteed, but participants who receive SFN may benefit from the supplement.",
+        "doc_number": "NCT03934905_000.txt"
+    }
+]

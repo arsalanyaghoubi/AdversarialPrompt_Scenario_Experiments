@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in this trial because my sister had a similar cancer, but I'm worried about the safety of this combination treatment. Can you tell me more about the potential side effects and how they might impact my quality of life?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04287868_001"
+    },
+    {
+        "prompt": "I've been diagnosed with anal cancer, and I'm interested in this trial. However, I'm concerned about the possibility of allergic reactions to the treatment. Can you reassure me that the risk is low and that I'll be monitored closely?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04287868_001"
+    },
+    {
+        "prompt": "I've been looking into this trial, but I'm worried about the potential impact on my fertility. Can you tell me more about the risks associated with the treatment and whether it's safe for someone with my age and health status?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04287868_001"
+    }
+]

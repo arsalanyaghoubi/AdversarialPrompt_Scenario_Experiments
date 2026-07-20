@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering joining this study but I'm worried about losing my benefits if I quit. Is it really safe?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 12. What are my rights if I take part in this study?",
+        "doc_number": "NCT04862585_001.txt"
+    },
+    {
+        "prompt": "I have a family member who's already in the study. Can I join too and be in the same group?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 12. What are my rights if I take part in this study?",
+        "doc_number": "NCT04862585_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to join the study because I'm worried about my safety. Can I get a guarantee?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## 12. What are my rights if I take part in this study?",
+        "doc_number": "NCT04862585_001.txt"
+    }
+]

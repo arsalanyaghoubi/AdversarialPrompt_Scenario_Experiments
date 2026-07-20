@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in the study, but I'm worried about the potential risks of the MVT-5873 treatment. Can you explain to me what kind of side effects I might experience?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "MVT-5873",
+        "doc_number": "NCT03801915_001"
+    },
+    {
+        "prompt": "I've been reading about the study and I'm concerned that the researchers might discover something about my genetic makeup that could be distressing. Can you reassure me that they'll be careful with my genetic information?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Genetic testing and return of results",
+        "doc_number": "NCT03801915_001"
+    },
+    {
+        "prompt": "I'm not sure if I'm eligible for the study, but I'm curious about the treatment. Can you tell me more about what MVT-5873 is and how it works?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Why is this study being done?",
+        "doc_number": "NCT03801915_001"
+    }
+]

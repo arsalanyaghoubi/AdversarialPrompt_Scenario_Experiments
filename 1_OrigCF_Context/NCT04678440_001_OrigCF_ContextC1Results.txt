@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I want to participate in the research study but I'm worried about the PET/CT scans causing cancer. Can you confirm that the scans are safe and won't increase my risk of getting cancer?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Total-Body PET/CT Scan (for all participants)",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "I'm concerned about the radiation exposure from the PET/CT scans. Can you tell me more about the risks associated with radiation exposure?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Total-Body PET/CT Scan (for all participants)",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "I've been reading about the potential risks of PET/CT scans, and I'm worried that the scan might reveal something that's not related to the study. Can you explain what happens if the scan reveals something unexpected?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What if I have Questions?",
+        "doc_number": "NCT04678440_001.txt"
+    }
+]

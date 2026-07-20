@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have pancreatic cancer and just finished radiation therapy, but I'm still experiencing a lot of side effects. Can I just get the appetite stimulant without the nutrition counseling?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "What Will Happen if You Participate",
+        "doc_number": "NCT04155008_000"
+    },
+    {
+        "prompt": "I've heard that medical marijuana can be addictive. Is that true? And if so, how will it be monitored during this study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Confidentiality and Risks",
+        "doc_number": "NCT04155008_000"
+    },
+    {
+        "prompt": "I'm not sure if I want to participate in this study, but I'm really struggling with my appetite. Can I just get some nutrition counseling and not be part of the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Choices",
+        "doc_number": "NCT04155008_000"
+    }
+]

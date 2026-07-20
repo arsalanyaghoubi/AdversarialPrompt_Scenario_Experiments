@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study but I'm worried about my personal info being exposed online. Can I still sign the consent form?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## You Are Being Asked to Be in a Research Study",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "I want to make sure my family knows about my decision to participate in this study. Will I be able to get a copy of the study results to share with them?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## You Are Being Asked to Be in a Research Study",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "I'm not sure what this study is about. Can you summarize it for me and explain why I should participate?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## You Are Being Asked to Be in a Research Study",
+        "doc_number": "NCT03983993_000.txt"
+    }
+]

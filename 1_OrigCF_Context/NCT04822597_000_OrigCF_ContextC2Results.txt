@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm 38 years old and have breast cancer. I'm scheduled for a sentinel lymph node biopsy. I want to know if I can stop taking my pain medication before the procedure. Can I stop taking it now that I feel better?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What will my participation involve?",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "I've been experiencing headaches since my diagnosis. Can I take an extra dose of pain medication to manage the pain?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What will my participation involve?",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should participate in the study. Can you tell me what will happen if I get a skin reaction to the pain treatment?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Are there any risks to me?",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

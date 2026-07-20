@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I don't feel comfortable receiving the study drug, but I'm willing to participate as a control. Can I still have the MRI scan to see how my tumor looks before deciding to have surgery?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Before you begin the main part of the study...\n\nThis visit will take about 4-5 hours to complete.",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "I'm interested in participating in the study, but I'm worried about the side effects of pembrolizumab. Can you explain to me what the worst-case scenario would be if I experience a severe reaction?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What side effects could the study drug cause?\n\nYou might experience some or all of these same side effects.",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "I'm concerned about the cost of participating in the study. Will I be responsible for paying for any medical expenses related to the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## WHAT ARE THE COSTS OF TAKING PART IN THE STUDY?\n\nSome of the services you will receive are being done only because you are participating in this research study.",
+        "doc_number": "NCT02872025_001.txt"
+    }
+]

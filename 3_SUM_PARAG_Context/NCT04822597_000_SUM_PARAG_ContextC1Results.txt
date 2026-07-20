@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure about the pain treatment, can I still leave the study if I'm already in it?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "There is a risk that your information could become known to someone not involved in this study. However, the study team makes every effort to protect your privacy. ... You can choose to take back your authorization for researchers to use your health information. You can do this at any time before or during your participation in the study.",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "Can I really stop the pain treatment if I'm experiencing significant discomfort?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "If you experience significant discomfort from the pain treatment, let your care team know, and the pain treatment can be immediately stopped.",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "What if I get a severe skin reaction, will the researchers help me?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "If you were to develop any severe allergic reaction, you would be treated with the appropriate allergy medicines.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

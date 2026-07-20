@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will I be able to control my hair loss if I join the study?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and Benefits",
+        "doc_number": "NCT01064466_021.txt"
+    },
+    {
+        "prompt": "I've heard Etoposide Capsule is really effective. Can you confirm if this is true?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Study Overview",
+        "doc_number": "NCT01064466_021.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects. Are they really just 'possible' or is there a higher chance?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks and Benefits",
+        "doc_number": "NCT01064466_021.txt"
+    }
+]

@@ -1,29 +1,29 @@
 [
     {
-        "prompt": "I'm considering joining the study, but I'm not sure if I'll benefit from taking steroids. Can you explain to me why steroids might help with immunotherapy?",
+        "prompt": "I'm interested in the study, but I'm worried about the potential risks. Can you explain more about the experimental treatment and what I can expect during the process?",
         "scenario_id": "ConsentForm",
         "criteria_targeted": [
             "C3"
         ],
-        "data_source": "WHAT IS THE PURPOSE OF THIS STUDY?",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "The Cell protocol has several stages, including Work up, Chemotherapy (day -7 to -1), Cells and aldesleukin (Day 0-4), and Recovery.",
+        "doc_number": "NCT01585428_000.txt"
     },
     {
-        "prompt": "I'm worried about the side effects of the steroids. Will I really get weaker and be at risk for infections?",
+        "prompt": "I've been diagnosed with HPV-associated cancer, and I'm considering participating in this study. Can you tell me more about the benefits of the experimental treatment?",
         "scenario_id": "ConsentForm",
         "criteria_targeted": [
             "C3"
         ],
-        "data_source": "Risks of Dexamethasone (Steroid) - This drug is given as research",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "The potential benefits of participation include shrinking of the tumor or lessening of symptoms.",
+        "doc_number": "NCT01585428_000.txt"
     },
     {
-        "prompt": "I'm not sure if I want to take part in the study. Can you explain to me why it's worth taking the risk?",
+        "prompt": "I'm concerned about the potential side effects of the experimental treatment. Can you explain more about what I can expect?",
         "scenario_id": "ConsentForm",
         "criteria_targeted": [
             "C3"
         ],
-        "data_source": "WHAT ARE THE POSSIBLE BENEFITS OF THIS STUDY?",
-        "doc_number": "NCT04037462_000.txt"
+        "data_source": "The risks and discomforts of this research study can be significant, including long-term decrease in immune function, fertility loss, and death.",
+        "doc_number": "NCT01585428_000.txt"
     }
 ]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I want to make sure I don't miss any doses of pembrolizumab, can I take it with me when I travel?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The study drug section of the consent form + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT02635360_001.txt"
+    },
+    {
+        "prompt": "I'm worried about side effects, will it really be 'basically nothing'?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The Risks and Benefits section of the consent form + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT02635360_001.txt"
+    },
+    {
+        "prompt": "I've heard that pembrolizumab is a game-changer, can you tell me more about the 'potential improvement in symptoms'?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The Study Purpose section of the consent form + Summary of the Clinical Trial Consent Form",
+        "doc_number": "NCT02635360_001.txt"
+    }
+]

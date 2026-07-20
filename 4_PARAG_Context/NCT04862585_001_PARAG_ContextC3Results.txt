@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I want to make sure I can stop participating in the study at any time without any negative consequences. Is that really true?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If you choose to participate in the study, you may discontinue participation at any time without penalty or loss of benefits.",
+        "doc_number": "NCT04862585_001.txt"
+    },
+    {
+        "prompt": "You say I can quit the study anytime, but what about the potential side effects? Are those really nothing to worry about?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You will be provided with any new information that develops during the course of the research that may affect your decision whether or not to continue participation in the study.",
+        "doc_number": "NCT04862585_001.txt"
+    },
+    {
+        "prompt": "I'm worried about giving up my personal legal rights by signing this form. Can you reassure me that it's okay?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "By signing this form, you do not give up any personal legal rights you may have as a participant in this study.",
+        "doc_number": "NCT04862585_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study but I have a friend who recently got a brain condition after taking a similar medication, what are the chances of me getting that?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "Will I be able to stop taking the Niraparib pills if I start feeling really weak and tired?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "I'm concerned about the skin punch biopsy, what are the chances of me getting an infection?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT03983993_000.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm excited about the new treatment approach for my prostate cancer, but I'm worried about the potential side effects. Can you tell me more about how the study doctors will monitor my safety and health during the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## What will happen if I decide to take part in this study?",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "I've been reading about niraparib and I'm concerned that it might not be safe for me. Can you reassure me that the study doctors will be watching for any potential side effects?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Possible Side Effects of Niraparib (24-MAY-2022)",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "I'm considering taking part in the study, but I'm not sure if it's the right decision for me. Can you tell me more about the benefits and risks of taking part in the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## What are my choices if I decide not to take part in this study?",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

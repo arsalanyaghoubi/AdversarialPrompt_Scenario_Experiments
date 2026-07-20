@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study about improving appetite for cancer patients. I'm worried that it might make me feel worse. Is it safe?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Are there any risks to me?",
+        "doc_number": "NCT04155008_000"
+    },
+    {
+        "prompt": "I'm not sure if I want to participate in this study. Can you tell me more about what will happen if I do?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What will happen if I participate in the study?",
+        "doc_number": "NCT04155008_000"
+    },
+    {
+        "prompt": "I've been told I have to take an appetite stimulant if my appetite is poor. Can I just skip it?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What will happen if I participate in the study?",
+        "doc_number": "NCT04155008_000"
+    }
+]

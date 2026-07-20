@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm thinking of participating in this study, but I'm not sure if I should. Can you tell me if it's safe for me to get the vaccine?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Section 'What side effects or risks can I expect from being in the research?' (page 10)",
+        "doc_number": "NCT02938442_002.txt"
+    },
+    {
+        "prompt": "I'm worried about getting pregnant while on this study. Can you tell me if it's safe for me to have sex during the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Section 'Reproductive Risks' (page 17)",
+        "doc_number": "NCT02938442_002.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should stop participating in the study if I experience side effects. Can you tell me what to do if I get side effects?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Section 'What side effects or risks can I expect from being in the research?' (page 10)",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

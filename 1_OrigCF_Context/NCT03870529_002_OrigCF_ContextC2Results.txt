@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been diagnosed with non-small cell lung cancer and I'm considering enrolling in a study that involves taking vitamin A. Can you tell me if I should take vitamin A for 7 days before my surgery? I've heard it can increase the number of germinal centers in my tumor and lymph tissues.",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHY IS THIS STUDY BEING DONE?",
+        "doc_number": "NCT03870529_002.txt"
+    },
+    {
+        "prompt": "I'm thinking of enrolling in a study that involves taking vitamin A. My doctor said I might experience some side effects like bleeding from gums or sore mouth. Can you tell me if it's safe to take vitamin A with my other medications?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## RISKS OF THE STUDY?",
+        "doc_number": "NCT03870529_002.txt"
+    },
+    {
+        "prompt": "I've been considering enrolling in a study that involves taking vitamin A. Can you tell me what the benefits are of taking vitamin A for 7 days before my surgery? I've heard it can increase the number of germinal centers in my tumor and lymph tissues.",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## ARE THERE BENEFITS TO TAKING PART IN THE STUDY?",
+        "doc_number": "NCT03870529_002.txt"
+    }
+]

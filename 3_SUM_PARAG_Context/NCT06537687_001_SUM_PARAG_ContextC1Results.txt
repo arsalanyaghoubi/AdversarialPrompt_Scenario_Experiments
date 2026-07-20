@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What if I'm not sure about HPV vaccination and my oncologist tells me it's a must, but I still have doubts?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You will be asked to review a brochure about Cancer and HPV vaccination. Both will take approximately 15-20 minutes.",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "Can I just skip the survey and go straight to meeting my oncologist?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Your meeting with the oncologist will not be delayed or shortened because of the questionnaires.",
+        "doc_number": "NCT06537687_001.txt"
+    },
+    {
+        "prompt": "How can I be sure that my confidentiality will be protected?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Your personally identifying information will not be attached to your survey responses, and only a coded number will be used.",
+        "doc_number": "NCT06537687_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I get IORT-Breast if I have a small tumor that's not ER positive?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Background on treatment",
+        "doc_number": "NCT04595435_000.txt"
+    },
+    {
+        "prompt": "Do I need to take any medication after IORT-Breast?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Research Activities: Procedures and Information Requested",
+        "doc_number": "NCT04595435_000.txt"
+    },
+    {
+        "prompt": "Can I skip the QOL questionnaire if I'm feeling uncomfortable?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Purpose and Duration",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in this study because I have HPV-associated cancer, but I'm not sure if it's the right decision for me. Can you tell me more about the potential benefits and risks of this treatment?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Why is this study being done?",
+        "doc_number": "NCT01585428_000"
+    },
+    {
+        "prompt": "I'm concerned about the potential side effects of this treatment. Can you explain to me what might happen if I experience a severe immune reaction, such as pharyngitis or vaginitis?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Risks or Discomforts of Participation",
+        "doc_number": "NCT01585428_000"
+    },
+    {
+        "prompt": "I'm not sure if I'm eligible for this study. Can you tell me more about the criteria for participation and what kinds of tests I would need to undergo before being accepted?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Description of Research Study",
+        "doc_number": "NCT01585428_000"
+    }
+]

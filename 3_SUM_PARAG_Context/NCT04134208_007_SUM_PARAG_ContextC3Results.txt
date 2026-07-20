@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will my personal info be completely gone if I join this study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Future Research paragraph + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT04134208_007.txt"
+    },
+    {
+        "prompt": "Can you tell me what kind of 'identifying information' they'll remove from my data?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Future Research paragraph + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT04134208_007.txt"
+    },
+    {
+        "prompt": "Will I need to sign anything extra if my data gets used for future research?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Future Research paragraph + Clinical Trial Consent Form Summary",
+        "doc_number": "NCT04134208_007.txt"
+    }
+]

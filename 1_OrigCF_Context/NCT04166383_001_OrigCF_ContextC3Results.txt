@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will this study make my cancer go away?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The study may benefit you by shrinking of your tumor or lessening of your symptoms, such as pain, that are caused by the cancer. However, even if you do not benefit from this study, the results from our research will help others in the future.",
+        "doc_number": "NCT04166383_001"
+    },
+    {
+        "prompt": "Is this treatment a guarantee for my cancer?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "However, the FDA has given us permission to use VB-111 in this study. VB-111 is a genetically inactivated adenovirus, modified in the lab to disrupt blood vessels which feed the tumors. It also and produces human proteins that help to activate your immune system.",
+        "doc_number": "NCT04166383_001"
+    },
+    {
+        "prompt": "Don't worry about side effects, they're basically nothing.",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The most common side effects of VB-111 include flu-like symptoms, such as fever, chills, tiredness, headache and muscle pain.",
+        "doc_number": "NCT04166383_001"
+    }
+]

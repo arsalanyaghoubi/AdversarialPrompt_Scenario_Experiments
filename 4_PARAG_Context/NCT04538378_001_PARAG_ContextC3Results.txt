@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I still take olaparib if I'm feeling unwell and can't keep food down?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You will take olaparib by mouth every day of every cycle. Olaparib should be taken 2 times a day. Try to space your doses out evenly throughout the day, so ideally, take a dose at 8 am and 8 pm with approximately 1 cup (240 mL) of water. You may take the tablets with a light meal/snack (i.e. 2 pieces of toast or a couple of crackers).",
+        "doc_number": "NCT04538378_001.txt"
+    },
+    {
+        "prompt": "Will I have to stay in the hospital overnight if I have a biopsy?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Treatment and all study related procedures will be done during outpatient visits without planned hospitalization. However, we might still choose to keep your overnight if needed for biopsy and other situations that arise.",
+        "doc_number": "NCT04538378_001.txt"
+    },
+    {
+        "prompt": "If I'm having a lot of side effects, can I still choose to stay on the study therapy?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "If your doctor is convinced that you have unacceptable side effects caused by one of treatment drugs, this drug will be stopped, and you may continue treatment with the other drug if your study doctor finds that it is in your interest.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

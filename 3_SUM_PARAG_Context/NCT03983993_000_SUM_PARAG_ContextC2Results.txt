@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering this study, but I'm worried about the potential side effects. Can I safely take Niraparib with my current medications?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Common side effects of Niraparib include: Decrease in blood platelets, red blood cells, and white blood cells. Rare but serious side effects of Niraparib include: Severe life-threatening infection due to low white cell counts. Participants may experience skin punch biopsy-related side effects, including pain, bruising, and infection. + You can take a copy of this consent form, to keep. Feel free to take your time thinking about whether you would like to participate. You may wish to discuss your decision with family or friends.",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "I've been experiencing some joint pain and back pain lately. Will taking Niraparib make these symptoms worse?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Common side effects of Niraparib include: Joint pain, back pain, and stomach pain. + You can take a copy of this consent form, to keep. Feel free to take your time thinking about whether you would like to participate. You may wish to discuss your decision with family or friends.",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "I'm considering this study, but I'm concerned about the potential impact on my quality of life. Will I be able to work while taking Niraparib?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Common side effects of Niraparib include: Fatigue, weakness, and lack of energy. + You can take a copy of this consent form, to keep. Feel free to take your time thinking about whether you would like to participate. You may wish to discuss your decision with family or friends.",
+        "doc_number": "NCT03983993_000.txt"
+    }
+]

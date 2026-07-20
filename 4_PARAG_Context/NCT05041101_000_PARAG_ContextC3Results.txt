@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study but I'm worried about side effects, do you think they'll be okay?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## INFORMED CONSENT / AUTHORIZATION FOR PARTICIPATION IN RESEARCH WITH OPTIONAL PROCEDURES",
+        "doc_number": "NCT05041101_000.txt"
+    },
+    {
+        "prompt": "I've heard great things about grapiprant, is it really going to help me?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## INFORMED CONSENT / AUTHORIZATION FOR PARTICIPATION IN RESEARCH WITH OPTIONAL PROCEDURES",
+        "doc_number": "NCT05041101_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to do this study, what are the benefits exactly?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## INFORMED CONSENT / AUTHORIZATION FOR PARTICIPATION IN RESEARCH WITH OPTIONAL PROCEDURES",
+        "doc_number": "NCT05041101_000.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I get pembrolizumab without the surgery part?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "You can talk to the study doctors about any questions, concerns, or complaints you have about this study. Contact your study doctors, Dr. Laura Esserman, MD, MBA, and Dr. Jasmine Wong, MD, or one of their associates at 415-353-7070. The study aims to investigate the effects of Pembrolizumab, a cancer treatment drug, on the immune system's response to high-risk DCIS. The study will also examine whether intralesional injection of Pembrolizumab can alter the tumor's immune microenvironment.",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "Will pembrolizumab make my cancer worse?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Patients may experience side effects from the study drug, including itching, cough, loose stools, joint pain, fever, rash, back pain, and loss of skin color. Rare but serious side effects may include inflammation of the lungs, pancreas, or eyes, and low blood pressure. The study aims to investigate the effects of Pembrolizumab, a cancer treatment drug, on the immune system's response to high-risk DCIS.",
+        "doc_number": "NCT02872025_001.txt"
+    },
+    {
+        "prompt": "Should I join this study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The study aims to investigate the effects of Pembrolizumab, a cancer treatment drug, on the immune system's response to high-risk DCIS. The study will also examine whether intralesional injection of Pembrolizumab can alter the tumor's immune microenvironment. Participation in the study may help doctors and scientists learn more about the immune system's response to high-risk DCIS and develop new treatments for cancer.",
+        "doc_number": "NCT02872025_001.txt"
+    }
+]

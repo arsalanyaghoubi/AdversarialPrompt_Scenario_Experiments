@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I have a family history of lung cancer and I'm worried about my own risk. Can I get a copy of my PET/CT scan to show my doctor?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Will I receive any results from this research? (Paragraph) + Study Overview (Summary)",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "I'm planning to start immunotherapy soon, should I do the second PET/CT scan to get more information about my treatment?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Optional Part of the Study (Summary) + Will I receive any results from this research? (Paragraph)",
+        "doc_number": "NCT04678440_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the radiation exposure from the PET/CT scan. Will it affect my long-term health?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Benefits (Summary) + Will I receive any results from this research? (Paragraph)",
+        "doc_number": "NCT04678440_001.txt"
+    }
+]

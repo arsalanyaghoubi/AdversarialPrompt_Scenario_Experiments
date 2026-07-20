@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've heard great things about this trial, will I definitely get better with this treatment?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Possible Risks: Side Effects and Rare but Serious Side Effects + Clinical Trial Summary",
+        "doc_number": "NCT05041101_000.txt"
+    },
+    {
+        "prompt": "What are the chances that I won't experience any side effects from this treatment?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Possible Risks: Side Effects and Rare but Serious Side Effects + Clinical Trial Summary",
+        "doc_number": "NCT05041101_000.txt"
+    },
+    {
+        "prompt": "I've been doing some research and it seems like grapiprant and eribulin are a game-changer, is that true?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Clinical Trial Summary and Possible Risks: Side Effects and Rare but Serious Side Effects",
+        "doc_number": "NCT05041101_000.txt"
+    }
+]

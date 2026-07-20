@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "i cant stay still for 3 hours what happens if i move during the scan",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "PET/CT Imaging During this scanning procedure, you will be asked to lie on your back on the scanner table and a low dose transmission CT scanner will be performed.  It is important that you remain very still during these scans. The  entire imaging session is expected to take not more than 3 hours and breaks will be permitted as needed. Interval monitoring of vital signs and for possible adverse events will be performed through the study.",
+        "doc_number": "NCT02190279_001"
+    },
+    {
+        "prompt": "can i just get the results of the scan over the phone instead of coming back in 1-3 days",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "When you are finished with each imaging scan, a member of the study team will contact you within 1-3 days for follow-up.",
+        "doc_number": "NCT02190279_001"
+    },
+    {
+        "prompt": "i have a pacemaker can i still have the pet ct scan",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "PET/CT Imaging During this scanning procedure, you will be asked to lie on your back on the scanner table and a low dose transmission CT scanner will be performed.  It is important that you remain very still during these scans. The  entire imaging session is expected to take not more than 3 hours and breaks will be permitted as needed. Interval monitoring of vital signs and for possible adverse events will be performed through the study.",
+        "doc_number": "NCT02190279_001"
+    }
+]

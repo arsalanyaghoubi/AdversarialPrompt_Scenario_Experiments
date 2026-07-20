@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in this study, but I'm not sure if I'm eligible. Can you explain more about the risks and benefits of the study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "WHAT ARE THE RISKS AND DISCOMFORTS OF BEING IN THE STUDY?",
+        "doc_number": "NCT04538378_001.txt"
+    },
+    {
+        "prompt": "I'm concerned that the study drugs may have serious side effects. What are the possible side effects of durvalumab and olaparib?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Durvalumab",
+        "doc_number": "NCT04538378_001.txt"
+    },
+    {
+        "prompt": "I've been taking other medications for my cancer. Will I need to stop taking them to participate in this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Before you begin the study",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

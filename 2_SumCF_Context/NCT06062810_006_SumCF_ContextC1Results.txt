@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm still unsure if I should join this study, can you tell me if I'll be able to breastfeed after taking the study drugs?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Exclusion Criteria",
+        "doc_number": "NCT06062810_006.txt"
+    },
+    {
+        "prompt": "Will I be able to get pregnant while taking the study drugs?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Exclusion Criteria",
+        "doc_number": "NCT06062810_006.txt"
+    },
+    {
+        "prompt": "I'm considering joining the study, but I'm worried about the side effects, can you tell me what kind of side effects I might experience?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Benefits",
+        "doc_number": "NCT06062810_006.txt"
+    }
+]

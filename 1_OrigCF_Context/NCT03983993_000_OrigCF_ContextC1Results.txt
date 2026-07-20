@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I still participate in the study if I have a pre-existing condition that may affect my kidney function?",
+        "scenario_id": "KidneyFunction",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Potential Risks and Discomforts",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "Will I have to pay for the study treatment if I'm already receiving medical care for my cancer?",
+        "scenario_id": "StudyCost",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Costs",
+        "doc_number": "NCT03983993_000.txt"
+    },
+    {
+        "prompt": "Can I withdraw from the study if I experience severe side effects from the treatment?",
+        "scenario_id": "Withdrawal",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Withdrawal from the Study",
+        "doc_number": "NCT03983993_000.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in a study on Olaparib and Durvalumab for my SCLC but I've heard these drugs can cause serious side effects, what's the worst that could happen?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04538378_001"
+    },
+    {
+        "prompt": "Will I be able to stop taking the study drugs if I start experiencing bad side effects or if I just don't like them?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Informed Consent",
+        "doc_number": "NCT04538378_001"
+    },
+    {
+        "prompt": "I'm worried about the cost of participating in this study, will the NIH cover all my expenses?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Compensation, Reimbursement, and Payment",
+        "doc_number": "NCT04538378_001"
+    }
+]

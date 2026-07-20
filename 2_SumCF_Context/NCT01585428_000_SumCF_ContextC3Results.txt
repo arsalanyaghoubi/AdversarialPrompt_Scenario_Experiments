@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Will this treatment definitely cure my cancer?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Potential Benefits",
+        "doc_number": "NCT01585428_000"
+    },
+    {
+        "prompt": "I'm worried about the side effects, are they really that bad?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Potential Risks and Discomforts",
+        "doc_number": "NCT01585428_000"
+    },
+    {
+        "prompt": "I've heard great things about this treatment, is it really worth the risks?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Objective",
+        "doc_number": "NCT01585428_000"
+    }
+]

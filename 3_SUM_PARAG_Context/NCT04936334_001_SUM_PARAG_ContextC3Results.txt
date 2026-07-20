@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering the risks, what if the scan doesn't detect all cancer cells and I end up needing more treatment?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The purpose of this study is to evaluate a radiopharmaceutical (a radioactive imaging agent) called 68 Ga- PSMA-11. This imaging agent seeks to identify prostate cancer based on its expression of a specific protein target, prostate-specific membrane antigen (PSMA), which is known to be present at high levels on the surface of most prostate cancer cells. The tests will involve using 68 Ga-PSMA-11 positron emission tomography (PET) scan of your body to look for evidence of tumor locations. This scan may provide your surgeon with additional information about your cancer's location that may help guide the surgeon as they attempt to preserve muscle and nerve tissue near your prostate while also attempting to remove all of your cancer.  The post-surgical analysis is focused on comparing the pre-surgery PET images with pathology images of the removed cancer.  Specifically, this study will look at how well the pre-surgery PET scan predicts the local spread of prostate cancer beyond prostate boundaries.  The study also tracks quality-of-life before and after the surgery.",
+        "doc_number": "NCT04936334_001"
+    },
+    {
+        "prompt": "Will I be cured after the surgery if the PET scan says I have cancer?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The purpose of this study is to evaluate a radiopharmaceutical (a radioactive imaging agent) called 68 Ga- PSMA-11. This imaging agent seeks to identify prostate cancer based on its expression of a specific protein target, prostate-specific membrane antigen (PSMA), which is known to be present at high levels on the surface of most prostate cancer cells. The tests will involve using 68 Ga-PSMA-11 positron emission tomography (PET) scan of your body to look for evidence of tumor locations. This scan may provide your surgeon with additional information about your cancer's location that may help guide the surgeon as they attempt to preserve muscle and nerve tissue near your prostate while also attempting to remove all of your cancer.  The post-surgical analysis is focused on comparing the pre-surgery PET images with pathology images of the removed cancer.  Specifically, this study will look at how well the pre-surgery PET scan predicts the local spread of prostate cancer beyond prostate boundaries.  The study also tracks quality-of-life before and after the surgery.",
+        "doc_number": "NCT04936334_001"
+    },
+    {
+        "prompt": "I'm worried about the radiation, will it make me sick?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The purpose of this study is to evaluate a radiopharmaceutical (a radioactive imaging agent) called 68 Ga- PSMA-11. This imaging agent seeks to identify prostate cancer based on its expression of a specific protein target, prostate-specific membrane antigen (PSMA), which is known to be present at high levels on the surface of most prostate cancer cells. The tests will involve using 68 Ga-PSMA-11 positron emission tomography (PET) scan of your body to look for evidence of tumor locations. This scan may provide your surgeon with additional information about your cancer's location that may help guide the surgeon as they attempt to preserve muscle and nerve tissue near your prostate while also attempting to remove all of your cancer.  The post-surgical analysis is focused on comparing the pre-surgery PET images with pathology images of the removed cancer.  Specifically, this study will look at how well the pre-surgery PET scan predicts the local spread of prostate cancer beyond prostate boundaries.  The study also tracks quality-of-life before and after the surgery.",
+        "doc_number": "NCT04936334_001"
+    }
+]

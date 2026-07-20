@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I've been diagnosed with a locally advanced or metastatic HPV associated cancer. Will taking part in this study make my symptoms better?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The purpose of this research study is to determine if a combination immunotherapy is effective in shrinking tumors in patients with HPV associated malignancies.",
+        "doc_number": "NCT04287868_001.txt"
+    },
+    {
+        "prompt": "I'm not sure if I should take part in this study. Can you tell me more about the treatment I'll receive?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "During your participation you will receive a combination of the drugs PDS0101, M7824, and NHS-IL12.",
+        "doc_number": "NCT04287868_001.txt"
+    },
+    {
+        "prompt": "I've heard that the study treatment can have some serious side effects. What are the chances of that happening?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "If any of these side effects occur, you must inform your study doctor immediately.",
+        "doc_number": "NCT04287868_001.txt"
+    }
+]

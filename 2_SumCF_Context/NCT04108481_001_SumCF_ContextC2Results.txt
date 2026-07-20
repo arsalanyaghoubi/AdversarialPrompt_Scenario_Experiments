@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering participating in the study but I'm not sure if I'm a good candidate. Can you tell me if I have liver metastases?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Benefits",
+        "doc_number": "NCT04108481_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of durvalumab. Will I definitely lose my hair?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Benefits",
+        "doc_number": "NCT04108481_001.txt"
+    },
+    {
+        "prompt": "How many infusions of durvalumab will I get? Will it be 5 or less?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Key Points",
+        "doc_number": "NCT04108481_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "Can I take sulforaphane if I'm already taking glucoraphanin? The consent form doesn't mention this interaction, but I'm concerned about it.",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Section 1: Why is this study being done?",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "I'm considering participating in this study, but I'm worried about the risks of taking sulforaphane. Can I get a copy of the study's risk-benefit analysis?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Section 7: What are the risks and/or discomforts to me if I join this study?",
+        "doc_number": "NCT03934905_000.txt"
+    },
+    {
+        "prompt": "I've been experiencing some side effects from the study medication, but the consent form only mentions general side effects. Can you tell me if sulforaphane is safe for me specifically?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Section 7: What are the risks and/or discomforts to me if I join this study?",
+        "doc_number": "NCT03934905_000.txt"
+    }
+]

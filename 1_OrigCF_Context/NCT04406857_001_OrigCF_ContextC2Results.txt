@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm considering enrolling in this study because I have locally advanced rectal cancer. Can I safely take the study drug, IPdR, with my current chemotherapy treatment and radiation therapy?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "What are my choices if I decide not to take part in this study?",
+        "doc_number": "NCT04406857_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the side effects of the study drug, IPdR. Will I be able to take it with my usual chemotherapy treatment and radiation therapy without any problems?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "What are the risks and benefits of taking part in this study?",
+        "doc_number": "NCT04406857_001.txt"
+    },
+    {
+        "prompt": "I've already had chemotherapy for my rectal cancer. Can I still take part in this study and receive the study drug, IPdR, with my radiation therapy?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "What is the usual approach to my rectal cancer?",
+        "doc_number": "NCT04406857_001.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "What are the chances of getting pregnant while taking rucaparib and bevacizumab?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Exclusion Criteria",
+        "doc_number": "NCT03476798_002.txt"
+    },
+    {
+        "prompt": "I've had kidney disease before. Is it safe for me to participate in this trial?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Exclusion Criteria",
+        "doc_number": "NCT03476798_002.txt"
+    },
+    {
+        "prompt": "Can I take this treatment while I'm still breastfeeding?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Exclusion Criteria",
+        "doc_number": "NCT03476798_002.txt"
+    }
+]

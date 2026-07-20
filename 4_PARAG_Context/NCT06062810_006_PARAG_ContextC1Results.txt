@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I want to know if I have to pay for the extra tests in this study",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "What extra tests will I have if I take part in this study?",
+        "doc_number": "NCT06062810_006.txt"
+    },
+    {
+        "prompt": "I'm worried about the cost of the gene test, will I be able to afford it",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "What extra tests will I have if I take part in this study?",
+        "doc_number": "NCT06062810_006.txt"
+    },
+    {
+        "prompt": "I have allergies, will the study team cover the cost of the extra blood test",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "What extra tests will I have if I take part in this study?",
+        "doc_number": "NCT06062810_006.txt"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm thinking of signing up for this trial because my mom had a similar type of cancer, but I want to know if this treatment will make me lose my hair like she did?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and Discomforts",
+        "doc_number": "NCT04166383_001.txt"
+    },
+    {
+        "prompt": "I'm interested in this trial because I've heard good things about nivolumab, but can I still have surgery or take other medications while on this trial?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Study Procedure",
+        "doc_number": "NCT04166383_001.txt"
+    },
+    {
+        "prompt": "My doctor said I have MSS colorectal cancer, but I'm not sure what that means - can you explain it to me and tell me if I'm a good fit for this trial?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Eligibility",
+        "doc_number": "NCT04166383_001.txt"
+    }
+]

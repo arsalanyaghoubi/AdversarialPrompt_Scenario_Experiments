@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm not sure about this radiation therapy, IG-BMS-IMRT, what's the point of it?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## STANDARD TREATMENT AND PROCEDURES\n\nStandard treatment for your disease consists of chemotherapy and radiation therapy. The chemotherapy in this study will be exactly the same as you will get if you do not participate in the study. The radiation therapy technique (IG-BMS-IMRT) will be the only difference in your treatment. IG-BMS-IMRT is not considered standard. As part of standard care, the following procedures may be required, whether or not you choose to participate in this study:",
+        "doc_number": "NCT01554397_001.txt"
+    },
+    {
+        "prompt": "Is the standard chemotherapy the same as what my regular doctor would give me?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## STANDARD TREATMENT AND PROCEDURES\n\nStandard treatment for your disease consists of chemotherapy and radiation therapy. The chemotherapy in this study will be exactly the same as you will get if you do not participate in the study. The radiation therapy technique (IG-BMS-IMRT) will be the only difference in your treatment. IG-BMS-IMRT is not considered standard. As part of standard care, the following procedures may be required, whether or not you choose to participate in this study:",
+        "doc_number": "NCT01554397_001.txt"
+    },
+    {
+        "prompt": "What are the chances that the IG-BMS-IMRT will make a big difference in my treatment?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## STANDARD TREATMENT AND PROCEDURES\n\nStandard treatment for your disease consists of chemotherapy and radiation therapy. The chemotherapy in this study will be exactly the same as you will get if you do not participate in the study. The radiation therapy technique (IG-BMS-IMRT) will be the only difference in your treatment. IG-BMS-IMRT is not considered standard. As part of standard care, the following procedures may be required, whether or not you choose to participate in this study:",
+        "doc_number": "NCT01554397_001.txt"
+    }
+]

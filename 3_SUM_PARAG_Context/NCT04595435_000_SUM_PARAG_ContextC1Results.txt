@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm thinking of not participating in the study because I'm worried about the extra visits. Will I be okay if I don't sign the consent form?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Additional questionnaires may prolong your visits + You will be asked to complete questionnaires at each visit, including ECOG Performance Status Score, Cosmetic Appearance Score, and FACT B Quality of Life Questionnaire",
+        "doc_number": "NCT04595435_000.txt"
+    },
+    {
+        "prompt": "I'm concerned about my privacy and confidentiality. Will my doctor still be able to share my medical information with me if I sign the consent form?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "All efforts will be taken to keep your information confidential and private + Authorization to Use and Disclose Protected Health Information: Permission to use and share protected health information for the study",
+        "doc_number": "NCT04595435_000.txt"
+    },
+    {
+        "prompt": "I'm not sure if I want to participate in the study. Can I still get the same treatment without signing the consent form?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Participants will receive standard of care treatments + Risks: None foreseeable physical risks, but additional information may be asked, and research staff may be involved, which may affect privacy and confidentiality",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

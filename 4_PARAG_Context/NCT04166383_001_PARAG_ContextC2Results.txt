@@ -1,0 +1,29 @@
+[
+    {
+        "prompt": "I'm interested in the study but I've been having some issues with my eyesight lately. Can I still participate if I have dry eyes?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "In 100 people receiving nivolumab, 3 or fewer may have: Dry eyes",
+        "doc_number": "NCT04166383_001.txt"
+    },
+    {
+        "prompt": "I have a friend who's been on nivolumab and they had some problems with their eyes. Should I be worried about my own vision if I join the study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Nivolumab may cause your immune system to attack normal organs and cause side effects in many parts of the body. These problems may include but are not limited to: o Visual disturbances which may cause double vision, blurred vision, or loss of vision with a chance of blindness",
+        "doc_number": "NCT04166383_001.txt"
+    },
+    {
+        "prompt": "I'm a bit concerned about the potential side effects of nivolumab. Can you tell me if it's safe for people with kidney problems?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "o Kidney problems, including nephritis and kidney failure requiring dialysis. Signs of kidney problems may include: decrease in the amount of urine, blood in your urine, ankle swelling.",
+        "doc_number": "NCT04166383_001.txt"
+    }
+]
