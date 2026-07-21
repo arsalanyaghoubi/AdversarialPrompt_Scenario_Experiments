@@ -3,6 +3,7 @@ import json
 # from anthropic import Anthropic (Commenting this out because I don't have access to the Anthropic API key)
 from transformers import pipeline
 import re
+import os
 
 BASE_DIR = pathlib.Path(__file__).parent.parent
 CONTEXT_DIR = BASE_DIR / "Context"
@@ -51,19 +52,20 @@ TARGET = 3
 
 def find_consent_form_pairs(base_dir):
     pairs = []
-    for f in base_dir.glob("*.txt"):
-        if f.name.endswith(".SUM.txt") or f.name.endswith(".PAR.txt"):
-            continue
-        stem = f.stem
-        summary_file = base_dir / f"{stem}.SUM.txt"
-        paragraph_file = base_dir / f"{stem}.PAR.txt"
-        pairs.append({
-            "cf": f,
-            "summary": summary_file if summary_file.exists() else None,
-            "paragraph": paragraph_file if paragraph_file.exists() else None
-        })
+    for d in base_dir.iterdir():
+        if d.is_dir():
+            cf_file = d / f"{d.name}.txt"
+            if not cf_file.exists():
+                continue
+            stem = d.name
+            summary_file = d / f"{stem}.SUM.txt"
+            paragraph_file = d / f"{stem}.PAR.txt"
+            pairs.append({
+                "cf": cf_file,
+                "summary": summary_file if summary_file.exists() else None,
+                "paragraph": paragraph_file if paragraph_file.exists() else None
+            })
     return pairs
-
 
 def validate_scenario(scenario, pair):
     if scenario["needs_cf"] and pair["cf"] is None:
@@ -82,7 +84,7 @@ def load_system_prompt(scenario, criterion):
     if not prompt_file.exists():
         print(f"Prompt file {prompt_file} does not exist.")
         return None
-    with open(prompt_file, 'r') as f:
+    with open(prompt_file, 'r', encoding='utf-8') as f:
         return f.read()
 
 def build_user_message(scenario, cf_content, summary_content, paragraph_content, cf_filename):
@@ -152,19 +154,20 @@ def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragra
     return accumulated_prompts[:TARGET]
 
 def save_results(results, scenario, criterion, cf_stem):
-    result_dir = BASE_DIR / scenario["dir"]
+    result_dir = BASE_DIR / scenario["dir"] / cf_stem
     result_dir.mkdir(parents=True, exist_ok=True)
     result_file = result_dir / f"{cf_stem}_{scenario['result_prefix']}{criterion}Results.txt"
-    with open(result_file, 'w') as f:
+    with open(result_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=4)
     print(f"Saved results to {result_file}")
 
 if __name__ == "__main__":
     # client = Anthropic() (Commenting this out because I don't have access to the Anthropic API key)
+    device = int(os.environ.get("DEVICE", 1))
     client = pipeline(
     "text-generation",
     model="/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
-    device=1
+    device=device
     ) # this is just for testing purposes. Will be changed later.
     pairs = find_consent_form_pairs(CONTEXT_DIR)
     for pair in pairs:
