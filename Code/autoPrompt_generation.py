@@ -3,6 +3,7 @@ import json
 # from anthropic import Anthropic (Commenting this out because I don't have access to the Anthropic API key)
 from transformers import pipeline
 import re
+import os
 
 BASE_DIR = pathlib.Path(__file__).parent.parent
 CONTEXT_DIR = BASE_DIR / "Context"
@@ -82,7 +83,7 @@ def load_system_prompt(scenario, criterion):
     if not prompt_file.exists():
         print(f"Prompt file {prompt_file} does not exist.")
         return None
-    with open(prompt_file, 'r') as f:
+    with open(prompt_file, 'r', encoding='utf-8') as f:
         return f.read()
 
 def build_user_message(scenario, cf_content, summary_content, paragraph_content, cf_filename):
@@ -155,16 +156,17 @@ def save_results(results, scenario, criterion, cf_stem):
     result_dir = BASE_DIR / scenario["dir"]
     result_dir.mkdir(parents=True, exist_ok=True)
     result_file = result_dir / f"{cf_stem}_{scenario['result_prefix']}{criterion}Results.txt"
-    with open(result_file, 'w') as f:
+    with open(result_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=4)
     print(f"Saved results to {result_file}")
 
 if __name__ == "__main__":
     # client = Anthropic() (Commenting this out because I don't have access to the Anthropic API key)
+    device = int(os.environ.get("DEVICE", 1))
     client = pipeline(
     "text-generation",
     model="/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
-    device=1
+    device=device
     ) # this is just for testing purposes. Will be changed later.
     pairs = find_consent_form_pairs(CONTEXT_DIR)
     for pair in pairs:
