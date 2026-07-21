@@ -6,6 +6,20 @@ from transformers import pipeline as hf_pipeline
 from preprocess import find_consent_forms, fix_bold_headings, generate_summary, generate_paragraph, save_file, CONTEXT_DIR
 from autoPrompt_generation import find_consent_form_pairs, validate_scenario, accumulate_prompts, save_results, SCENARIOS, CRITERIA
 
+class GroqClient:
+    def __init__(self, model="llama-3.1-8b-instant"):
+        from groq import Groq
+        self.client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+        self.model = model
+
+    def __call__(self, messages, max_new_tokens=2048, **kwargs):
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=messages,
+            max_tokens=max_new_tokens
+        )
+        return [{"generated_text": messages + [{"role": "assistant", "content": response.choices[0].message.content}]}]
+
 def run_preprocess(client):
     consent_forms = find_consent_forms(CONTEXT_DIR)
     for cf_file in consent_forms:
@@ -91,12 +105,19 @@ if __name__ == '__main__':
     print("3. Run both")
     choice = input("Enter 1, 2, or 3: ").strip()
     if choice in ("1", "3"):
-        device = int(os.environ.get("DEVICE", 1))
-        client = hf_pipeline(
-            "text-generation",
-            model="/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
-            device=device
-        )
+        print("Which model?")
+        print("1. Llama 8B (local GPU)")
+        print("2. Groq (Llama 8B via API)")
+        model_choice = input("Enter 1 or 2: ").strip()
+        if model_choice == "1":
+            device = int(os.environ.get("DEVICE", 1))
+            client = hf_pipeline(
+                "text-generation",
+                model="/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
+                device=device
+            )
+        else:
+            client = GroqClient()
         print("=== Step 1: Preprocessing ===")
         run_preprocess(client)
         print("=== Step 2: Generating Adversarial Prompts ===")
