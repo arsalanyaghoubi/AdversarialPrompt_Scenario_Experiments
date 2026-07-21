@@ -3,27 +3,23 @@ import random
 from transformers import pipeline
 from markdown_tree_parser.parser import parse_string
 import re
+import os
 
+N_SECTIONS = 15
 BASE_DIR = pathlib.Path(__file__).parent.parent
 CONTEXT_DIR = BASE_DIR / "Context"
-
-client = pipeline(
-    "text-generation",
-    model=pathlib.Path("/home1/shared/Models/Llama/Llama-3.1-8B-Instruct"),
-    device=1
-)
 
 def find_consent_forms(context_dir):
     consent_forms = []
     for f in context_dir.glob("*.txt"):
-        if not f.name.startswith("SUM_") and not f.name.startswith("PAR_"):
+        if not f.name.endswith(".SUM.txt") and not f.name.endswith(".PAR.txt"):
             consent_forms.append(f)
     return consent_forms
 
 def generate_summary(cf_content, client):
     response = client(
         [
-            {"role": "system", "content": "You are a medical research assistant. Summarize the following clinical trial consent form clearly and concisely."},
+            {"role": "system", "content": "As an intelligent principal investigator of a clinical trial, you must provide a clear summary using the consent form text.\nThe summary should include a statement that explain the Purpose of the Research, Procedures, Risks or Discomforts, Benefits, Alternatives, Confidentiality, Compensation & Treatment for Injury, Voluntariness & Withdrawal, Contact Information, Eligibility, Unknown Risks, Termination Criteria, Significant New Findings, Costs to Subject, Use of Data/Samples in Future Research, Compensation for Participation and Time.\n\nUse the following guidelines to create a summary in a paragraph style:\n- Summary must be at most 150 words\n- Simplify any complex terms or concepts\n- Make the summary highly understandable, recommended for eighth-grade level audience\n- Use respectful and empowering language for patients\n- Spell out acronyms upon first use\n- Include all relevant information without adding extra details\n- Use active voice\n- Keep the summary concise and to the point"},
             {"role": "user", "content": cf_content}
         ],
         max_new_tokens=1024,
@@ -31,13 +27,22 @@ def generate_summary(cf_content, client):
     )
     return response[0]["generated_text"][-1]["content"]
 
-def decomposer(sections, n=15):
+def decomposer(sections, n=N_SECTIONS):
     def count_sentences(text):
         sentences = re.split(r'(?<=[.!?])\s+', text.strip())
-        return len([s for s in sentences if s.strip()])
-    scored = [(section, count_sentences(section)) for section in sections]
+        non_empty = []
+        for s in sentences:
+            if s.strip():
+                non_empty.append(s)
+        return len(non_empty)
+    scored = []
+    for section in sections:
+        count = count_sentences(section)
+        scored.append((section, count))
     scored.sort(key=lambda x: x[1], reverse=True)
-    top_n = [section for section, count in scored[:n]]
+    top_n = []
+    for section, count in scored[:n]:
+        top_n.append(section)
     return random.choice(top_n)
 
 def generate_paragraph(cf_content):
@@ -58,11 +63,15 @@ def generate_paragraph(cf_content):
             content = f"## {heading.text}\n{heading.source}"
         sections.append(content)
     if not sections:
-        paragraphs = [p.strip() for p in cf_content.split("\n\n") if p.strip()]
+        paragraphs = []
+        for p in cf_content.split("\n\n"):
+            p = p.strip()
+            if p:
+                paragraphs.append(p)
         if paragraphs:
-            return decomposer(paragraphs, n=15)
+            return decomposer(paragraphs, n=N_SECTIONS)
         return ""
-    return decomposer(sections, n=15)
+    return decomposer(sections, n=N_SECTIONS)
 
 def fix_bold_headings(cf_content):
     lines = cf_content.split("\n")
@@ -82,20 +91,38 @@ def fix_bold_headings(cf_content):
     return "\n".join(fixed_lines)
 
 def save_file(content, output_path):
-    with open(output_path, 'w') as f:
+    with open(output_path, 'w', encoding='utf-8') as f:
         f.write(content)
 
 if __name__ == "__main__":
+    device = int(os.environ.get("DEVICE", 1))
+    client = pipeline(
+    "text-generation",
+    model = "/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
+    device=device
+    )
     consent_forms = find_consent_forms(CONTEXT_DIR)
     for cf_file in consent_forms:
         print(f"Processing {cf_file.name}...")
-        with open(cf_file, 'r') as f:
+        with open(cf_file, 'r', encoding='utf-8') as f:
             cf_content = f.read()
         cf_content = fix_bold_headings(cf_content)
-        summary_content = generate_summary(cf_content, client)
-        paragraph_content = generate_paragraph(cf_content)
-        summary_filename = CONTEXT_DIR / f"SUM_{cf_file.name}"
-        paragraph_filename = CONTEXT_DIR / f"PAR_{cf_file.name}"
-        save_file(summary_content, summary_filename)
-        save_file(paragraph_content, paragraph_filename)
+        try:
+            summary_content = generate_summary(cf_content, client)
+        except Exception as e:
+            print(f"Error generating summary for {cf_file.name}: {e}")
+            summary_content = None
+        try:
+            paragraph_content = generate_paragraph(cf_content)
+        except Exception as e:
+            print(f"Error generating paragraph for {cf_file.name}: {e}")
+            paragraph_content = None
+        summary_filename = CONTEXT_DIR / f"{cf_file.stem}.SUM.txt"
+        paragraph_filename = CONTEXT_DIR / f"{cf_file.stem}.PAR.txt"
+        if summary_content:
+            save_file(summary_content, summary_filename)
+        if paragraph_content:
+            save_file(paragraph_content, paragraph_filename)
+        else:
+            print(f"Skipping empty paragraph for {cf_file.name}")
         print(f"Processed {cf_file.name}: Summary saved to {summary_filename}, Paragraph saved to {paragraph_filename}")
