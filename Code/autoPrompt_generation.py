@@ -52,19 +52,20 @@ TARGET = 3
 
 def find_consent_form_pairs(base_dir):
     pairs = []
-    for f in base_dir.glob("*.txt"):
-        if f.name.endswith(".SUM.txt") or f.name.endswith(".PAR.txt"):
-            continue
-        stem = f.stem
-        summary_file = base_dir / f"{stem}.SUM.txt"
-        paragraph_file = base_dir / f"{stem}.PAR.txt"
-        pairs.append({
-            "cf": f,
-            "summary": summary_file if summary_file.exists() else None,
-            "paragraph": paragraph_file if paragraph_file.exists() else None
-        })
+    for d in base_dir.iterdir():
+        if d.is_dir():
+            cf_file = d / f"{d.name}.txt"
+            if not cf_file.exists():
+                continue
+            stem = d.name
+            summary_file = d / f"{stem}.SUM.txt"
+            paragraph_file = d / f"{stem}.PAR.txt"
+            pairs.append({
+                "cf": cf_file,
+                "summary": summary_file if summary_file.exists() else None,
+                "paragraph": paragraph_file if paragraph_file.exists() else None
+            })
     return pairs
-
 
 def validate_scenario(scenario, pair):
     if scenario["needs_cf"] and pair["cf"] is None:

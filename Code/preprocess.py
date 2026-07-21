@@ -11,9 +11,11 @@ CONTEXT_DIR = BASE_DIR / "Context"
 
 def find_consent_forms(context_dir):
     consent_forms = []
-    for f in context_dir.glob("*.txt"):
-        if not f.name.endswith(".SUM.txt") and not f.name.endswith(".PAR.txt"):
-            consent_forms.append(f)
+    for d in context_dir.iterdir():
+        if d.is_dir():
+            cf_file = d / f"{d.name}.txt"
+            if cf_file.exists():
+                consent_forms.append(cf_file)
     return consent_forms
 
 def generate_summary(cf_content, client):
@@ -117,8 +119,8 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"Error generating paragraph for {cf_file.name}: {e}")
             paragraph_content = None
-        summary_filename = CONTEXT_DIR / f"{cf_file.stem}.SUM.txt"
-        paragraph_filename = CONTEXT_DIR / f"{cf_file.stem}.PAR.txt"
+        summary_filename = cf_file.parent / f"{cf_file.stem}.SUM.txt"
+        paragraph_filename = cf_file.parent / f"{cf_file.stem}.PAR.txt"
         if summary_content:
             save_file(summary_content, summary_filename)
         if paragraph_content:
