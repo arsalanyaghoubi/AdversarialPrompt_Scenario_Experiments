@@ -154,7 +154,7 @@ def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragra
     return accumulated_prompts[:TARGET]
 
 def save_results(results, scenario, criterion, cf_stem):
-    result_dir = BASE_DIR / scenario["dir"]
+    result_dir = BASE_DIR / scenario["dir"] / cf_stem
     result_dir.mkdir(parents=True, exist_ok=True)
     result_file = result_dir / f"{cf_stem}_{scenario['result_prefix']}{criterion}Results.txt"
     with open(result_file, 'w', encoding='utf-8') as f:
