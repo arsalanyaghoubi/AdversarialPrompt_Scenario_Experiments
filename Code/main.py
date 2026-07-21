@@ -6,6 +6,28 @@ from transformers import pipeline as hf_pipeline
 from preprocess import find_consent_forms, fix_bold_headings, generate_summary, generate_paragraph, save_file, CONTEXT_DIR
 from autoPrompt_generation import find_consent_form_pairs, validate_scenario, accumulate_prompts, save_results, SCENARIOS, CRITERIA
 
+class ClaudeClient:
+    def __init__(self, model="claude-sonnet-4-6"):
+        from anthropic import Anthropic
+        self.client = Anthropic()
+        self.model = model
+
+    def __call__(self, messages, max_new_tokens=2048, **kwargs):
+        system = None
+        user_messages = []
+        for msg in messages:
+            if msg["role"] == "system":
+                system = msg["content"]
+            else:
+                user_messages.append(msg)
+        response = self.client.messages.create(
+            model=self.model,
+            max_tokens=max_new_tokens,
+            system=system,
+            messages=user_messages
+        )
+        return [{"generated_text": messages + [{"role": "assistant", "content": response.content[0].text}]}]
+
 class GroqClient:
     def __init__(self, model="llama-3.1-8b-instant"):
         from groq import Groq
@@ -108,7 +130,8 @@ if __name__ == '__main__':
         print("Which model?")
         print("1. Llama 8B (local GPU)")
         print("2. Groq (Llama 8B via API)")
-        model_choice = input("Enter 1 or 2: ").strip()
+        print("3. Claude API")
+        model_choice = input("Enter 1, 2, or 3: ").strip()
         if model_choice == "1":
             device = int(os.environ.get("DEVICE", 1))
             client = hf_pipeline(
@@ -116,8 +139,10 @@ if __name__ == '__main__':
                 model="/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
                 device=device
             )
-        else:
+        elif model_choice == "2":
             client = GroqClient()
+        else:
+            client = ClaudeClient()
         print("=== Step 1: Preprocessing ===")
         run_preprocess(client)
         print("=== Step 2: Generating Adversarial Prompts ===")
