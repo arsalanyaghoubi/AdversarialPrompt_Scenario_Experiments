@@ -8,6 +8,15 @@ import os
 BASE_DIR = pathlib.Path(__file__).parent.parent
 CONTEXT_DIR = BASE_DIR / "Context"
 
+with open(BASE_DIR / "config.json") as f:
+    CONFIG = json.load(f)
+
+CF_TARGET = CONFIG["targets"]["CF"]
+SUM_TARGET = CONFIG["targets"]["SUM"]
+PAR_TARGET = CONFIG["targets"]["PAR"]
+SUM_PAR_TARGET = CONFIG["targets"]["SUM_PAR"]
+N_PARAGRAPHS = CONFIG["n_paragraphs"]
+
 SCENARIOS = [
     {
         "dir": "1_OrigCF_Context",
@@ -16,7 +25,8 @@ SCENARIOS = [
         "needs_summary": False,
         "needs_paragraph": False,
         "prompt_prefix": "CF_Adversarial_Prompt",      
-        "result_prefix": "OrigCF_Context",             
+        "result_prefix": "OrigCF_Context", 
+        "target": CF_TARGET,            
     },
     {
         "dir": "2_SumCF_Context",
@@ -25,16 +35,19 @@ SCENARIOS = [
         "needs_summary": True,
         "needs_paragraph": False,
         "prompt_prefix": "CF_SUM_Adversarial_Prompt",  
-        "result_prefix": "SumCF_Context",              
+        "result_prefix": "SumCF_Context",
+        "target": SUM_TARGET,   
     },
     {
         "dir": "3_SUM_PARAG_Context",
         "scenario_id": "SUM & PAR",          
         "needs_cf": False,
-        "needs_summary": True,
-        "needs_paragraph": True,
+        "needs_summary": False,
+        "needs_paragraph": False,
+        "needs_sum_par": True,
         "prompt_prefix": "SUM_PAR_Adversarial_Prompt", 
-        "result_prefix": "SUM_PARAG_Context",          
+        "result_prefix": "SUM_PARAG_Context",
+        "target": SUM_PAR_TARGET,          
     },
     {
         "dir": "4_PARAG_Context",            
@@ -43,12 +56,12 @@ SCENARIOS = [
         "needs_summary": False,
         "needs_paragraph": True,
         "prompt_prefix": "PARAG_Adversarial_Prompt",   
-        "result_prefix": "PARAG_Context",  
+        "result_prefix": "PARAG_Context",
+        "target": PAR_TARGET,  
     },
 ]
 
 CRITERIA = ["C1", "C2", "C3"]
-TARGET = 3
 
 def find_consent_form_pairs(base_dir):
     pairs = []
@@ -59,11 +72,20 @@ def find_consent_form_pairs(base_dir):
                 continue
             stem = d.name
             summary_file = d / f"{stem}.SUM.txt"
-            paragraph_file = d / f"{stem}.PAR.txt"
+            paragraphs = []
+            sum_paragraphs = []
+            for i in range (1,N_PARAGRAPHS + 1):
+                sum_par_file = d / f"{stem}.SUM_PAR{i}.txt"
+                if sum_par_file.exists():
+                    sum_paragraphs.append(sum_par_file)
+                par_file = d / f"{stem}.PAR{i}.txt"
+                if par_file.exists():
+                    paragraphs.append(par_file)
             pairs.append({
                 "cf": cf_file,
                 "summary": summary_file if summary_file.exists() else None,
-                "paragraph": paragraph_file if paragraph_file.exists() else None
+                "paragraphs": paragraphs,
+                "sum_paragraphs": sum_paragraphs
             })
     return pairs
 
@@ -74,8 +96,11 @@ def validate_scenario(scenario, pair):
     if scenario["needs_summary"] and pair["summary"] is None:
         print(f"Scenario {scenario['scenario_id']} requires a summary, but none was found for {pair}.")
         return False
-    if scenario["needs_paragraph"] and pair["paragraph"] is None:
+    if scenario["needs_paragraph"] and not pair["paragraphs"]:
         print(f"Scenario {scenario['scenario_id']} requires a paragraph, but none was found for {pair}.")
+        return False
+    if scenario.get("needs_sum_par") and not pair["sum_paragraphs"]:
+        print(f"Scenario {scenario['scenario_id']} requires a summary paragraph, but none was found for {pair}.")
         return False
     return True
 
@@ -85,7 +110,8 @@ def load_system_prompt(scenario, criterion):
         print(f"Prompt file {prompt_file} does not exist.")
         return None
     with open(prompt_file, 'r', encoding='utf-8') as f:
-        return f.read()
+        content = f.read()
+    return content.replace("{n_prompts}", str(scenario["target"]))
 
 def build_user_message(scenario, cf_content, summary_content, paragraph_content, cf_filename):
     if scenario["needs_cf"] and scenario["needs_summary"]:
@@ -98,6 +124,8 @@ def build_user_message(scenario, cf_content, summary_content, paragraph_content,
         return f"Consent Form File: {cf_filename}\n\nSummary:\n{summary_content}"
     elif scenario["needs_paragraph"]:
         return f"Consent Form File: {cf_filename}\n\nParagraph:\n{paragraph_content}"
+    elif scenario.get("needs_sum_par"):
+        return f"Consent Form File: {cf_filename}\n\nContext:\n{summary_content}"
     else:
         return "Generate the adversarial prompts without context."
 
@@ -141,7 +169,7 @@ def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragra
     accumulated_prompts = []
     max_retries = 20
     retries = 0
-    while len(accumulated_prompts) < TARGET:
+    while len(accumulated_prompts) < scenario["target"]:
         if retries >= max_retries:
             print(f"Max retries reached for {scenario['scenario_id']} {criterion}, skipping...")
             break
@@ -151,12 +179,15 @@ def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragra
         else:
             retries = 0
             accumulated_prompts.extend(new_prompts)
-    return accumulated_prompts[:TARGET]
+    return accumulated_prompts[:scenario["target"]]
 
-def save_results(results, scenario, criterion, cf_stem):
+def save_results(results, scenario, criterion, cf_stem, paragraph_index=None):
     result_dir = BASE_DIR / scenario["dir"] / cf_stem
     result_dir.mkdir(parents=True, exist_ok=True)
-    result_file = result_dir / f"{cf_stem}_{scenario['result_prefix']}{criterion}Results.txt"
+    if paragraph_index is not None:
+        result_file = result_dir / f"{cf_stem}_PAR{paragraph_index}_{scenario['result_prefix']}{criterion}Results.txt"
+    else:
+        result_file = result_dir / f"{cf_stem}_{scenario['result_prefix']}{criterion}Results.txt"
     with open(result_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=4)
     print(f"Saved results to {result_file}")
@@ -171,14 +202,35 @@ if __name__ == "__main__":
     ) # this is just for testing purposes. Will be changed later.
     pairs = find_consent_form_pairs(CONTEXT_DIR)
     for pair in pairs:
-        cf_content = pair["cf"].read_text(encoding="utf-8") if pair["cf"] else None
-        cf_filename = pair["cf"].name if pair["cf"] else None
-        cf_stem = pair["cf"].stem if pair["cf"] else None
-        summary_content = pair["summary"].read_text(encoding="utf-8") if pair["summary"] else None
-        paragraph_content = pair["paragraph"].read_text(encoding="utf-8") if pair["paragraph"] else None
+        if pair["cf"]:
+            cf_content = pair["cf"].read_text(encoding="utf-8")
+            cf_filename = pair["cf"].name
+            cf_stem = pair["cf"].stem
+        else:
+            cf_content = None
+            cf_filename = None
+            cf_stem = None
+
+        if pair["summary"]:
+            summary_content = pair["summary"].read_text(encoding="utf-8")
+        else:
+            summary_content = None
         for scenario in SCENARIOS:
             if not validate_scenario(scenario, pair):
                 continue
-            for criterion in CRITERIA:
-                results = accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client)
-                save_results(results, scenario, criterion, cf_stem)
+            if scenario["needs_paragraph"]:
+                for i, par_file in enumerate(pair["paragraphs"], start=1):
+                    paragraph_content = par_file.read_text(encoding="utf-8")
+                    for criterion in CRITERIA:
+                        results = accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client)
+                        save_results(results, scenario, criterion, cf_stem, paragraph_index=i)
+            elif scenario.get("needs_sum_par"):
+                for i, sum_par_file in enumerate(pair["sum_paragraphs"], start=1):
+                    sum_par_content = sum_par_file.read_text(encoding="utf-8")
+                    for criterion in CRITERIA:
+                        results = accumulate_prompts(scenario, criterion, cf_content, sum_par_content, None, cf_filename, client)
+                        save_results(results, scenario, criterion, cf_stem, paragraph_index=i)
+            else:
+                for criterion in CRITERIA:
+                    results = accumulate_prompts(scenario, criterion, cf_content, summary_content, None, cf_filename, client)
+                    save_results(results, scenario, criterion, cf_stem)

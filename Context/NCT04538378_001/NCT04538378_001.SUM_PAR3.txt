@@ -1,0 +1,29 @@
+Here's a summary of the clinical trial in a paragraph style:
+
+You are being asked to participate in a research study at the National Institutes of Health (NIH) to see if a combination of durvalumab and olaparib can cause your tumors to shrink. The study is for people with EGFR-mutated non-small-cell lung carcinoma (NSCLC) that has transformed to small cell lung carcinoma or another neuroendocrine tumor. You will receive the study drugs durvalumab and olaparib, and we will collect samples from you for research purposes. The study may benefit you by shrinking your tumor or lessening your symptoms. However, there are risks and discomforts associated with the study, including side effects from the study drugs, such as diarrhea, rash, and fatigue. You will be asked to provide documentation to confirm your diagnosis, and you will undergo regular physical exams, blood and urine tests, and imaging scans. You will also be asked to provide samples of your tumors from previous surgeries or biopsies if available. The study will last for about 28 days, and you will need to come for study treatments every 28 days until your disease gets worse or you have unacceptable side effects. You can stop taking part in the study at any time, and you will not lose any benefits to which you are otherwise entitled. The study team will provide additional information on what methods may be used for birth control during the study, and you will need to use one highly effective birth control method and your partner will need to use a male condom or practice total/true abstinence throughout the study treatment and for at least 6 months after last dose of study drugs. Your specimens and data may be stored by the NIH indefinitely, and you may be asked to participate in future research studies. You will not receive compensation for participation in this study, but the NIH will cover the cost for some of your expenses, and you will be reimbursed after you have paid. Your medical information will be kept private, and the NIH follows applicable laws and policies to keep your identifying information private to the extent possible. The NIH has received a Certificate of Confidentiality to protect your privacy, and the information collected for this study is protected by the Privacy Act.
+
+## During the study
+
+### Additional research testing
+
+In addition to the tests that we will conduct to determine whether you are having side effects or if you are responding to the study therapy, we will also collect samples from you for purposes of research only. The samples are being done to look at the effects of therapy on your immune system and markers of tumor activity. This will include collecting and testing tumor cells.
+
+-  Blood samples will be collected before treatment, on day 1 of every cycle and day 15 of cycle 1. Samples will be used to study how well your tumor responds to treatment, and to look at all of your genes and how well they are working.
+-  We will ask you to provide samples of your tumors from previous surgeries or biopsies if available. We also may perform three optional tumor biopsies: One before treatment, one on day 15 of cycle 1 and one if your disease gets worse. Please see Risks from Biopsy for the possible risks of biopsy. You will be asked to sign a separate consent each time you agree to have an optional biopsy. You can participate in the study even if you decide not to undergo the biopsy procedures. Samples will be used to study all of your tumor genes and how well they are working.
+
+Tumor and blood samples collected for research purposes on this study may be used to look for specific changes in the DNA in tumors that could be used to develop new ways of diagnosing and treating cancer. DNA (also called deoxyribonucleic acid) in the cells carries genetic information and passes it from one generation of cells to the next - like an instruction manual. Normal tissue contains the DNA (instructions) that you were born with, DNA in tumor cells has changed - or mutated - and we think that change in the DNA is what causes tumors to form and to grow. RNA (also called ribonucleic acid) carries the instructions from the DNA to the parts of your cells that make proteins.
+
+To look at your DNA and RNA, we may use do what is called 'DNA or RNA sequencing.' This is where we will do special tests in the lab to look at the sequence, or order, of how your DNA or RNA are put together. This is what makes you unique.
+
+To determine which parts of the DNA or RNA have mutated, we will compare the DNA or RNA in your tumor cells to DNA or RNA from normal cells. We will then analyze the results from similar tumors to see if there are any changes in the DNA or RNA that are common to a particular type of tumor.
+
+However, you should know that the analyses that we perform in our laboratory are for research purposes only; they are not nearly as sensitive as the tests that are performed in a laboratory that is certified to perform genetic testing or testing for routine clinical care. For these reasons, we will not give you the results of the research tests done on your research samples in most cases. There
+
+
+
+
+
+
+
+
+may be exceptions to what we share with you and this is described later in this consent form in the section for 'Return of research results'.
