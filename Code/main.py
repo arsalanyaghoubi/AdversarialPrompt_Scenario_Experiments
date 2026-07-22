@@ -43,7 +43,7 @@ class GroqClient:
         return [{"generated_text": messages + [{"role": "assistant", "content": response.choices[0].message.content}]}]
 
 def run_preprocess(client):
-    consent_forms = find_consent_forms(CONTEXT_DIR)
+    consent_forms = find_consent_forms(CONTEXT_DIR)[:5]  # just for testing
     for cf_file in consent_forms:
         print(f"Preprocessing {cf_file.name}...")
         with open(cf_file, 'r', encoding='utf-8') as f:
@@ -58,46 +58,68 @@ def run_preprocess(client):
             paragraph_content = generate_paragraph(cf_content)
         except Exception as e:
             print(f"Error generating paragraph for {cf_file.name}: {e}")
-            paragraph_content = None
+            paragraph_content = []
         if summary_content:
             save_file(summary_content, cf_file.parent / f"{cf_file.stem}.SUM.txt")
         if paragraph_content:
-            save_file(paragraph_content, cf_file.parent / f"{cf_file.stem}.PAR.txt")
+            for i, par in enumerate(paragraph_content, start=1):
+                save_file(par, cf_file.parent / f"{cf_file.stem}.PAR{i}.txt")
         else:
-            print(f"Skipping empty paragraph for {cf_file.name}")
+            print(f"Skipping empty paragraphs for {cf_file.name}")
+        if summary_content and paragraph_content:
+            for i, par in enumerate(paragraph_content, start=1):
+                combined = summary_content + "\n\n" + par
+                sum_par_filename = cf_file.parent / f"{cf_file.stem}.SUM_PAR{i}.txt"
+                save_file(combined, sum_par_filename)
 
 def run_autoprompt(client):
-    pairs = find_consent_form_pairs(CONTEXT_DIR)
+    pairs = find_consent_form_pairs(CONTEXT_DIR)[:5] # just for testing
     for pair in pairs:
-        cf_content = pair["cf"].read_text(encoding="utf-8") if pair["cf"] else None
-        cf_filename = pair["cf"].name if pair["cf"] else None
-        cf_stem = pair["cf"].stem if pair["cf"] else None
-        summary_content = pair["summary"].read_text(encoding="utf-8") if pair["summary"] else None
-        paragraph_content = pair["paragraph"].read_text(encoding="utf-8") if pair["paragraph"] else None
+        if pair["cf"]:
+            cf_content = pair["cf"].read_text(encoding="utf-8")
+            cf_filename = pair["cf"].name
+            cf_stem = pair["cf"].stem
+        else:
+            cf_content = None
+            cf_filename = None
+            cf_stem = None
+        if pair["summary"]:
+            summary_content = pair["summary"].read_text(encoding="utf-8")
+        else:
+            summary_content = None
         for scenario in SCENARIOS:
             if not validate_scenario(scenario, pair):
                 continue
-            for criterion in CRITERIA:
-                results = accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client)
-                save_results(results, scenario, criterion, cf_stem)
+            if scenario["needs_paragraph"]:
+                for i, par_file in enumerate(pair["paragraphs"], start=1):
+                    paragraph_content = par_file.read_text(encoding="utf-8")
+                    for criterion in CRITERIA:
+                        results = accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client)
+                        save_results(results, scenario, criterion, cf_stem, paragraph_index=i)
+            elif scenario.get("needs_sum_par"):
+                for i, sum_par_file in enumerate(pair["sum_paragraphs"], start=1):
+                    sum_par_content = sum_par_file.read_text(encoding="utf-8")
+                    for criterion in CRITERIA:
+                        results = accumulate_prompts(scenario, criterion, cf_content, sum_par_content, None, cf_filename, client)
+                        save_results(results, scenario, criterion, cf_stem, paragraph_index=i)
+            else:
+                for criterion in CRITERIA:
+                    results = accumulate_prompts(scenario, criterion, cf_content, summary_content, None, cf_filename, client)
+                    save_results(results, scenario, criterion, cf_stem)
 
 def encoder_(folder_link):
     folder_link = pathlib.Path(folder_link)
-    # 1. Clear out old CSV files first
     for file in folder_link.iterdir():
         if file.is_file() and file.suffix == ".csv":
             print(f"Deleting file: {file.name}")
             file.unlink()
-    target_csv_file = ""
-    for file in folder_link.iterdir():
-        if file.is_file() and file.name.endswith("Results.txt"):
-            if target_csv_file == "":
-                target_csv_file = folder_link / f"{file.name.strip('.txt').replace('C1','').replace('C2','').replace('C3', '')}.csv"
-            print(40*"*")
-            print(f"Processing {file.name}")
-            print(f"File directory: {file}")
-            print(f"Saving to: {target_csv_file.name}")
-            process_and_append_to_csv(file, target_csv_file)
+    target_csv_file = folder_link / f"{folder_link.name}.csv"
+    for file in sorted(folder_link.rglob("*Results.txt")):
+        print(40*"*")
+        print(f"Processing {file.name}")
+        print(f"File directory: {file}")
+        print(f"Saving to: {target_csv_file.name}")
+        process_and_append_to_csv(file, target_csv_file)
 
 def process_and_append_to_csv(txt_file_path, output_csv_path):
     txt_file_path = pathlib.Path(txt_file_path)

@@ -1,13 +1,18 @@
 import pathlib
-import random
+import json
 from transformers import pipeline
 from markdown_tree_parser.parser import parse_string
 import re
 import os
 
-N_SECTIONS = 15
 BASE_DIR = pathlib.Path(__file__).parent.parent
 CONTEXT_DIR = BASE_DIR / "Context"
+
+with open(BASE_DIR / "config.json") as f:
+    CONFIG = json.load(f)
+
+N_SECTIONS = CONFIG["n_sections"]
+N_PARAGRAPHS = CONFIG["n_paragraphs"]
 
 def find_consent_forms(context_dir):
     consent_forms = []
@@ -42,10 +47,8 @@ def decomposer(sections, n=N_SECTIONS):
         count = count_sentences(section)
         scored.append((section, count))
     scored.sort(key=lambda x: x[1], reverse=True)
-    top_n = []
-    for section, count in scored[:n]:
-        top_n.append(section)
-    return random.choice(top_n)
+    new_score = scored[:n]
+    return new_score
 
 def generate_paragraph(cf_content):
     parsed = parse_string(cf_content)
@@ -71,9 +74,17 @@ def generate_paragraph(cf_content):
             if p:
                 paragraphs.append(p)
         if paragraphs:
-            return decomposer(paragraphs, n=N_SECTIONS)
-        return ""
-    return decomposer(sections, n=N_SECTIONS)
+            top_sections = decomposer(paragraphs, n=N_SECTIONS)
+            result = []
+            for section, count in top_sections[:N_PARAGRAPHS]:
+                result.append(section)
+            return result
+        return []
+    top_sections = decomposer(sections, n=N_SECTIONS) # assuming this is normal like ##
+    result = []
+    for section, count in top_sections[:N_PARAGRAPHS]:
+        result.append(section)
+    return result
 
 def fix_bold_headings(cf_content):
     lines = cf_content.split("\n")
@@ -118,13 +129,19 @@ if __name__ == "__main__":
             paragraph_content = generate_paragraph(cf_content)
         except Exception as e:
             print(f"Error generating paragraph for {cf_file.name}: {e}")
-            paragraph_content = None
+            paragraph_content = []
         summary_filename = cf_file.parent / f"{cf_file.stem}.SUM.txt"
-        paragraph_filename = cf_file.parent / f"{cf_file.stem}.PAR.txt"
         if summary_content:
             save_file(summary_content, summary_filename)
         if paragraph_content:
-            save_file(paragraph_content, paragraph_filename)
+            for i, par in enumerate(paragraph_content, start=1):
+                par_filename = cf_file.parent / f"{cf_file.stem}.PAR{i}.txt"
+                save_file(par, par_filename)
         else:
-            print(f"Skipping empty paragraph for {cf_file.name}")
-        print(f"Processed {cf_file.name}: Summary saved to {summary_filename}, Paragraph saved to {paragraph_filename}")
+            print(f"Skipping empty paragraphs for {cf_file.name}")
+        if summary_content and paragraph_content:
+            for i, par in enumerate(paragraph_content, start=1):
+                combined = summary_content + "\n\n" + par
+                sum_par_filename = cf_file.parent / f"{cf_file.stem}.SUM_PAR{i}.txt"
+                save_file(combined, sum_par_filename)
+        print(f"Processed {cf_file.name}: Summary saved to {summary_filename}")

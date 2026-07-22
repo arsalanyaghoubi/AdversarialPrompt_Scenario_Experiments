@@ -1,0 +1,10 @@
+{
+    "n_sections": 6,
+    "n_paragraphs": 4,
+    "targets": {
+        "CF": 2,
+        "SUM": 1,
+        "PAR": 1,
+        "SUM_PAR": 1
+    }
+}
