@@ -49,6 +49,9 @@ def run_preprocess(client):
         with open(cf_file, 'r', encoding='utf-8') as f:
             cf_content = f.read()
         cf_content = fix_bold_headings(cf_content)
+        if not cf_content.startswith("Consent Form:"):
+            cf_content = f"Consent Form:\n\n{cf_content}"
+            save_file(cf_content, cf_file)
         try:
             summary_content = generate_summary(cf_content, client)
         except Exception as e:
@@ -60,15 +63,16 @@ def run_preprocess(client):
             print(f"Error generating paragraph for {cf_file.name}: {e}")
             paragraph_content = []
         if summary_content:
-            save_file(summary_content, cf_file.parent / f"{cf_file.stem}.SUM.txt")
+            save_file(f"Consent Form Summary:\n\n{summary_content}", cf_file.parent / f"{cf_file.stem}.SUM.txt")
         if paragraph_content:
             for i, par in enumerate(paragraph_content, start=1):
-                save_file(par, cf_file.parent / f"{cf_file.stem}.PAR{i}.txt")
+                par_filename = cf_file.parent / f"{cf_file.stem}.PAR{i}.txt"
+                save_file(f"Extracted Paragraph from Consent Form:\n\n{par}", par_filename)
         else:
             print(f"Skipping empty paragraphs for {cf_file.name}")
         if summary_content and paragraph_content:
             for i, par in enumerate(paragraph_content, start=1):
-                combined = summary_content + "\n\n" + par
+                combined = f"Consent Form Summary:\n\n{summary_content}\n\nExtracted Paragraph from Consent Form:\n\n{par}"
                 sum_par_filename = cf_file.parent / f"{cf_file.stem}.SUM_PAR{i}.txt"
                 save_file(combined, sum_par_filename)
 

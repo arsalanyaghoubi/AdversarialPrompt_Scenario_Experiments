@@ -55,18 +55,11 @@ def generate_paragraph(cf_content):
     parsed = parse_string(cf_content)
     children = parsed.children
     sections = []
-    current_parent = None
     for heading in children:
         source = (heading.source or "").strip()
         if not source:
-            current_parent = heading
             continue
-        if heading.text.isupper():
-            current_parent = None
-        if current_parent is not None:
-            content = f"## {current_parent.text}\n\n### {heading.text}\n{heading.source}"
-        else:
-            content = f"## {heading.text}\n{heading.source}"
+        content = f"## {heading.text}\n{heading.source}"
         sections.append(content)
     if not sections:
         paragraphs = []
@@ -121,6 +114,9 @@ if __name__ == "__main__":
         with open(cf_file, 'r', encoding='utf-8') as f:
             cf_content = f.read()
         cf_content = fix_bold_headings(cf_content)
+        if not cf_content.startswith("Consent Form:"):
+            cf_content = f"Consent Form:\n\n{cf_content}"
+            save_file(cf_content, cf_file)
         try:
             summary_content = generate_summary(cf_content, client)
         except Exception as e:
@@ -133,16 +129,16 @@ if __name__ == "__main__":
             paragraph_content = []
         summary_filename = cf_file.parent / f"{cf_file.stem}.SUM.txt"
         if summary_content:
-            save_file(summary_content, summary_filename)
+            save_file(f"Consent Form Summary:\n\n{summary_content}", cf_file.parent / f"{cf_file.stem}.SUM.txt")
         if paragraph_content:
             for i, par in enumerate(paragraph_content, start=1):
                 par_filename = cf_file.parent / f"{cf_file.stem}.PAR{i}.txt"
-                save_file(par, par_filename)
+                save_file(f"Extracted Paragraph from Consent Form:\n\n{par}", par_filename)
         else:
             print(f"Skipping empty paragraphs for {cf_file.name}")
         if summary_content and paragraph_content:
             for i, par in enumerate(paragraph_content, start=1):
-                combined = summary_content + "\n\n" + par
+                combined = f"Consent Form Summary:\n\n{summary_content}\n\nExtracted Paragraph from Consent Form:\n\n{par}"
                 sum_par_filename = cf_file.parent / f"{cf_file.stem}.SUM_PAR{i}.txt"
                 save_file(combined, sum_par_filename)
         print(f"Processed {cf_file.name}: Summary saved to {summary_filename}")
