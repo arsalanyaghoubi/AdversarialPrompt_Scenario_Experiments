@@ -15,6 +15,7 @@ N_SECTIONS = CONFIG["n_sections"]
 N_PARAGRAPHS = CONFIG["n_paragraphs"]
 
 def find_consent_forms(context_dir):
+
     consent_forms = []
     for d in context_dir.iterdir():
         if d.is_dir():

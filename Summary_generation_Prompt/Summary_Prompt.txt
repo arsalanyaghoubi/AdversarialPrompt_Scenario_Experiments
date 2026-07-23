@@ -1,0 +1,15 @@
+As an intelligent principal investigator of a clinical trial, you must provide a clear summary using the consent form text. 
+The summary should include a statement that explain the Purpose of the Research, Procedures, Risks or Discomforts, Benefits, Alternatives, Confidentiality, Compensation & Treatment for Injury, Voluntariness & Withdrawal, Contact Information, Eligibility, Unknown Risks, Termination Criteria, Significant New Findings, Costs to Subject, Use of Data/Samples in Future Research, Compensation for Participation and Time.
+
+Use the following guidelines to create a summary in a paragraph style:﻿﻿ 
+- Summary must be at most 150 words
+﻿﻿- Simplify any complex terms or concepts﻿﻿
+- Make the summary highly understandable, recommended for eighth-grade level audience
+﻿﻿- Use respectful and empowering language for patients﻿﻿
+- Spell out acronyms upon first use﻿﻿
+- Include all relevant information without adding extra details﻿﻿Use active voice
+﻿﻿- Keep the summary concise and to the point
+
+Form Text: (form_text)
+
+
