@@ -11,7 +11,6 @@ CONTEXT_DIR = BASE_DIR / "Context"
 with open(BASE_DIR / "config.json") as f:
     CONFIG = json.load(f)
 
-N_SECTIONS = CONFIG["n_sections"]
 N_PARAGRAPHS = CONFIG["n_paragraphs"]
 
 def find_consent_forms(context_dir):
@@ -35,7 +34,7 @@ def generate_summary(cf_content, client):
     )
     return response[0]["generated_text"][-1]["content"]
 
-def decomposer(sections, n=N_SECTIONS):
+def decomposer(sections, n=N_PARAGRAPHS):
     def count_sentences(text):
         sentences = re.split(r'(?<=[.!?])\s+', text.strip())
         non_empty = []
@@ -68,15 +67,15 @@ def generate_paragraph(cf_content):
             if p:
                 paragraphs.append(p)
         if paragraphs:
-            top_sections = decomposer(paragraphs, n=N_SECTIONS)
+            top_sections = decomposer(paragraphs, n=N_PARAGRAPHS)
             result = []
-            for section, count in top_sections[:N_PARAGRAPHS]:
+            for section, count in top_sections:
                 result.append(section)
             return result
         return []
-    top_sections = decomposer(sections, n=N_SECTIONS) # assuming this is normal like ##
+    top_sections = decomposer(sections, n=N_PARAGRAPHS) # assuming this is normal like ##
     result = []
-    for section, count in top_sections[:N_PARAGRAPHS]:
+    for section, count in top_sections:
         result.append(section)
     return result
 
