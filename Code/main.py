@@ -143,11 +143,11 @@ def process_and_append_to_csv(txt_file_path, output_csv_path):
         print(f"Created a brand new file and saved data to {output_csv_path.name}\n")
 
 if __name__ == '__main__':
-    print("What would you like to do?")
+    print("What would you like to do?") # use arg parsers and sert default values
     print("1. Run full pipeline (preprocess + generate prompts)")
     print("2. Encode results to CSV")
     print("3. Run both")
-    choice = input("Enter 1, 2, or 3: ").strip()
+    choice = input("Enter 1, 2, or 3: ").strip() #default to api
     if choice in ("1", "3"):
         print("Which model?")
         print("1. Llama 8B (local GPU)")
