@@ -5,5 +5,7 @@
         "SUM": 1,
         "PAR": 1,
         "SUM_PAR": 1
-    }
+    },
+    "sum_model_path": "/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
+    "ap_model_path": "/home1/shared/Models/Llama/Llama-3.1-8B-Instruct"
 }

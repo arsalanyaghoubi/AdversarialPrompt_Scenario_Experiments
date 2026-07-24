@@ -1,46 +1,8 @@
-import pathlib
-import json
 import pandas as pd
-import os
+import os, json, pathlib, api_models
 from transformers import pipeline as hf_pipeline
 from preprocess import find_consent_forms, fix_bold_headings, generate_summary, generate_paragraph, save_file, CONTEXT_DIR
 from autoPrompt_generation import find_consent_form_pairs, validate_scenario, accumulate_prompts, save_results, SCENARIOS, CRITERIA
-
-class ClaudeClient:
-    def __init__(self, model="claude-sonnet-4-6"):
-        from anthropic import Anthropic
-        self.client = Anthropic()
-        self.model = model
-
-    def __call__(self, messages, max_new_tokens=2048, **kwargs):
-        system = None
-        user_messages = []
-        for msg in messages:
-            if msg["role"] == "system":
-                system = msg["content"]
-            else:
-                user_messages.append(msg)
-        response = self.client.messages.create(
-            model=self.model,
-            max_tokens=max_new_tokens,
-            system=system,
-            messages=user_messages
-        )
-        return [{"generated_text": messages + [{"role": "assistant", "content": response.content[0].text}]}]
-
-class GroqClient:
-    def __init__(self, model="llama-3.1-8b-instant"):
-        from groq import Groq
-        self.client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
-        self.model = model
-
-    def __call__(self, messages, max_new_tokens=2048, **kwargs):
-        response = self.client.chat.completions.create(
-            model=self.model,
-            messages=messages,
-            max_tokens=max_new_tokens
-        )
-        return [{"generated_text": messages + [{"role": "assistant", "content": response.choices[0].message.content}]}]
 
 def run_preprocess(client):
     consent_forms = find_consent_forms(CONTEXT_DIR)[5:6]  # just for testing
@@ -147,6 +109,9 @@ def process_and_append_to_csv(txt_file_path, output_csv_path):
         print(f"Created a brand new file and saved data to {output_csv_path.name}\n")
 
 if __name__ == '__main__':
+    BASE_DIR = pathlib.Path(__file__).parent.parent
+    with open(BASE_DIR / "config.json") as f:
+        CONFIG = json.load(f)
     print("What would you like to do?")
     print("1. Preprocess only")
     print("2. Generate prompts only")
@@ -164,13 +129,15 @@ if __name__ == '__main__':
             device = int(os.environ.get("DEVICE", 1))
             client = hf_pipeline(
                 "text-generation",
-                model="/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
+                model=CONFIG["sum_model_path"],
                 device=device
             )
         elif model_choice == "2":
-            client = GroqClient()
+            groc_obj = api_models.GroqClient
+            client = groc_obj()
         else:
-            client = ClaudeClient()
+            claude_obj = api_models.ClaudeClient
+            client = claude_obj()
     if choice in ("1", "3", "5"):
         print("=== Preprocessing ===")
         run_preprocess(client)
