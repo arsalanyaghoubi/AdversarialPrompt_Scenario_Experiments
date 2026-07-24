@@ -43,7 +43,7 @@ class GroqClient:
         return [{"generated_text": messages + [{"role": "assistant", "content": response.choices[0].message.content}]}]
 
 def run_preprocess(client):
-    consent_forms = find_consent_forms(CONTEXT_DIR)[:5]  # just for testing
+    consent_forms = find_consent_forms(CONTEXT_DIR)[5:6]  # just for testing
     for cf_file in consent_forms:
         print(f"Preprocessing {cf_file.name}...")
         with open(cf_file, 'r', encoding='utf-8') as f:
@@ -77,7 +77,7 @@ def run_preprocess(client):
                 save_file(combined, sum_par_filename)
 
 def run_autoprompt(client):
-    pairs = find_consent_form_pairs(CONTEXT_DIR)[:5] # just for testing
+    pairs = find_consent_form_pairs(CONTEXT_DIR)[5:6] # just for testing
     for pair in pairs:
         if pair["cf"]:
             cf_content = pair["cf"].read_text(encoding="utf-8")
@@ -147,12 +147,14 @@ def process_and_append_to_csv(txt_file_path, output_csv_path):
         print(f"Created a brand new file and saved data to {output_csv_path.name}\n")
 
 if __name__ == '__main__':
-    print("What would you like to do?") # use arg parsers and sert default values
-    print("1. Run full pipeline (preprocess + generate prompts)")
-    print("2. Encode results to CSV")
-    print("3. Run both")
-    choice = input("Enter 1, 2, or 3: ").strip() #default to api
-    if choice in ("1", "3"):
+    print("What would you like to do?")
+    print("1. Preprocess only")
+    print("2. Generate prompts only")
+    print("3. Run full pipeline (preprocess + generate)")
+    print("4. Encode results to CSV")
+    print("5. Run everything")
+    choice = input("Enter 1, 2, 3, 4, or 5: ").strip()
+    if choice in ("1", "2", "3", "5"):
         print("Which model?")
         print("1. Llama 8B (local GPU)")
         print("2. Groq (Llama 8B via API)")
@@ -169,11 +171,12 @@ if __name__ == '__main__':
             client = GroqClient()
         else:
             client = ClaudeClient()
-        print("=== Step 1: Preprocessing ===")
+    if choice in ("1", "3", "5"):
+        print("=== Preprocessing ===")
         run_preprocess(client)
-        print("=== Step 2: Generating Adversarial Prompts ===")
+    if choice in ("2", "3", "5"):
+        print("=== Generating Adversarial Prompts ===")
         run_autoprompt(client)
-        print("=== Pipeline Done ===")
-    if choice in ("2", "3"):
+    if choice in ("4", "5"):
         pathdir = input("Please enter the directory path: \n")
         encoder_(pathdir)
