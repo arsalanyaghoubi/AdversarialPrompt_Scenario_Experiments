@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering participating in the pain control study, but I'm worried about my personal info being shared with the National Cancer Institute. Is that something I should be concerned about?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Consent form paragraph 2: How will my confidentiality be protected? + Summary of consent form",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

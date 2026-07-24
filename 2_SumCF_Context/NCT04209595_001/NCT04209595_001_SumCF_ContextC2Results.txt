@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I have small cell lung cancer and my doctor told me about this study. I'm not sure if I should join it because I'm already feeling pretty tired all the time.",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

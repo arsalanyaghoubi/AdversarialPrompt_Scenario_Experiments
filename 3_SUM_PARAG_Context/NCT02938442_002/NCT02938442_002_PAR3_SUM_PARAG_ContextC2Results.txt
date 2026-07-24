@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "What are the chances that someone will identify me after my genetic information is sent to the National Institutes of Health database?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Risks and side effects related to the vaccine: Genetic Testing Risks + You're being asked to participate in a clinical trial to test a new vaccine for triple negative breast cancer.",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

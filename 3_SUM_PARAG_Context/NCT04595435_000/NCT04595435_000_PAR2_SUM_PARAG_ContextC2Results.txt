@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm thinking about getting IORT-Breast, but I'm worried about my appearance after the surgery. Will I still look normal?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "You are being asked to participate in a research study about intraoperative radiation therapy for breast cancer. This study will follow women who receive this treatment at Navicent Health for 10 years after their surgery. You will be asked to complete questionnaires about your quality of life, how you feel about your appearance, and how your surgery has affected you. The researchers want to understand how this treatment works and how it affects women's lives. There are no additional benefits to you for participating, but the information collected may help doctors in the future. You will not receive any payment for participating. You can withdraw from the study at any time without affecting your treatment. If you have questions or concerns, please contact the study investigator or the Institutional Review Board. Your participation is voluntary, and your choice will not affect the care you receive.\n\nThis research study is an observational registry. There is NO experimental treatments. Participants will be treated according to standard of care practices by their doctors.\n\nAll participants will receive standard of care treatments.",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

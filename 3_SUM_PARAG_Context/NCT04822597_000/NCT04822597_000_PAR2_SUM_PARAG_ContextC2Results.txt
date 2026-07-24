@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm thinking about participating in this study but I'm worried about the pain of the injection, what if I get really bad pain and need to go to the hospital?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "We  have  strict  rules  to  protect  your  personal  information  and  protected  health information (PHI). We will limit who has access to your name, address, phone number, and other information that can identify you. We will also store this information securely. We may publish and present what we learn from this study, but none of this information will identify you directly without your permission. + You are invited to participate in a research study about pain control for injections of radioactive tracer before sentinel lymph node biopsy for breast cancer treatment.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

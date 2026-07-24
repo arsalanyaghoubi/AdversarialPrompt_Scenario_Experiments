@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Will my medical information be shared with anyone if I join this vaccine trial?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "NCT02938442_002.txt (Risks and side effects related to the vaccine section) + Summary of the research study",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

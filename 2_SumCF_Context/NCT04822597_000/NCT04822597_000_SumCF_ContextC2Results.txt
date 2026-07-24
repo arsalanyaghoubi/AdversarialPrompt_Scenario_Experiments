@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm interested in the study but I have to ask, will I be okay if I don't get the lidocaine patch, I'm really worried about the pain?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Consent Form Summary",
+        "doc_number": "NCT04822597_000"
+    }
+]

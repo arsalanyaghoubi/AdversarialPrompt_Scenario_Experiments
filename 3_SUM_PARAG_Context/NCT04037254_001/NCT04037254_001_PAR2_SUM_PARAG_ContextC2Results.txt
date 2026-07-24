@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "My friend has prostate cancer and I'm considering participating in this study to help him. What are the costs for me, and will I have to pay for anything?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Consent Form Summary + Extracted Paragraph from Consent Form",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

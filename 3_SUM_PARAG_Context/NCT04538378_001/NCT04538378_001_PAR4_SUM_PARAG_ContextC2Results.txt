@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm worried about the rash and diarrhea from the study drugs. Can I just stop taking olaparib if I get a rash?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Olaparib should be taken 2 times a day. Try to space your doses out evenly throughout the day, so ideally, take a dose at 8 am and 8 pm with approximately 1 cup (240 mL) of water. You may take the tablets with a light meal/snack (i.e. 2 pieces of toast or a couple of crackers). If you need to take your olaparib earlier than scheduled or you missed a dose, you can take it in the time period of +/- 2 hours of the scheduled time. If you vomit after taking olaparib, please, do not immediately take  another  tablet  unless  the  tablet  is  visible.  You  should  simply  proceed  with  next  dose  as scheduled. + The study team will provide additional information on what methods may be used for birth control during the study, and you will need to use one highly effective birth control method and your partner will need to use a male condom or practice total/true abstinence throughout the study treatment and for at least 6 months after last dose of study drugs.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

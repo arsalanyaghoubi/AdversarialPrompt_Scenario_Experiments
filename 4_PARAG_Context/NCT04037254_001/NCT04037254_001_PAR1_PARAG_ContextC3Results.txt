@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "What are the chances that someone will find out my name and use my genetic information against me in the future?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "NCT04037254_001.txt",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

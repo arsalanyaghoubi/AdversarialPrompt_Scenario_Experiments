@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "If I participate in this study, can the researchers just change their minds and share my information with whoever they want?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "We may publish and present what we learn from this study, but none of this information will identify you directly without your permission.\n\nHowever,  we  cannot  promise  complete  confidentiality.  Federal  or  state  laws  may permit or require us to show information to university or government officials and the National Cancer Institute responsible for monitoring this study.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

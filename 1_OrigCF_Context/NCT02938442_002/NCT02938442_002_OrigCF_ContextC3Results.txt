@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I've heard that this vaccine has already helped many women with triple negative breast cancer. Is it really worth the risks?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "**Risks and side effects related to the vaccine:**\n\nLikely\n- Localized itching, redness, stinging at the site of the injection of the vaccine\n- A decrease in energy\n- Temporary swelling, tenderness of the glands (lymph nodes)\n- Discomfort from needles used for blood work\n\nLess Likely\n- Flu-like symptoms including muscle ache, joint aches, fever, chills, nausea and diarrhea\n\nRare but serious\n- Severe allergic reactions (anaphylaxis) can result in shock and even death\n- Over activation of your immune system\n- Guillain-Barre Syndrome: a condition resulting in severe weakness to the point of not being able to walk or breathe. In extreme cases, it can require a breathing machine. It can be treated and most people recover.",
+        "doc_number": "NCT02938442_002.txt"
+    },
+    {
+        "prompt": "I've read online that the vaccine has some amazing benefits. Can you tell me more about how it will help me?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "**Are there benefits to taking part in the research?**\n\nTaking part in this research may or may not directly benefit your health. While doctors hope a breast cancer vaccine will be more useful against breast cancer as compared to the usual treatment, there is no proof of this yet. We do know that the information from this research will help doctors learn more about breast cancer treatment. This information could help future breast cancer patients.",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "My mom just had this IORT-Breast treatment and it was a huge weight off her shoulders, so I'm pretty sure I'm going to love it too.",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The researchers would like to follow as many women as possible who receive this treatment during the first FIVE years that this treatment is offered and to assess your satisfaction and success for TEN years after receiving treatment. + You are being asked to participate in a research study about intraoperative radiation therapy for breast cancer.",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I have EGFR-mutated NSCLC that's transformed to small cell lung carcinoma. Will taking durvalumab and olaparib definitely shrink my tumors?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The study is for people with EGFR-mutated non-small-cell lung carcinoma (NSCLC) that has transformed to small cell lung carcinoma or another neuroendocrine tumor. The purpose of this study is to see if combination of durvalumab and olaparib will cause your tumors to shrink.",
+        "doc_number": "NCT04538378_001"
+    }
+]

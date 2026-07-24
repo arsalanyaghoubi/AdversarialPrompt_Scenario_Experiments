@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "What if I have a breast cancer recurrence after 5 years, can I still get the same treatment again?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "This study will follow women who receive this treatment at Navicent Health for 10 years after their surgery. You will be asked to complete questionnaires about your quality of life, how you feel about your appearance, and how your surgery has affected you. The researchers want to understand how this treatment works and how it affects women's lives. There are no additional benefits to you for participating, but the information collected may help doctors in the future. You will not receive any payment for participating. You can withdraw from the study at any time without affecting your treatment. If you have questions or concerns, please contact the study investigator or the Institutional Review Board. Your participation is voluntary, and your choice will not affect the care you receive.",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

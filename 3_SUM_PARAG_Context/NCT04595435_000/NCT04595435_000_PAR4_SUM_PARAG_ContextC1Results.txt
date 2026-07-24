@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm not sure I want to have radiation therapy during my surgery, is it really safe?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Background on treatment... recently been introduced at the Medical Center, Navicent Health. The researchers would like to follow as many women as possible who receive this treatment during the first FIVE years that this treatment is offered and to assess your satisfaction and success for TEN years after receiving treatment. + You are being asked to participate in a research study about intraoperative radiation therapy for breast cancer. This study will follow women who receive this treatment at Navicent Health for 10 years after their surgery.",
+        "doc_number": "NCT04595435_000"
+    }
+]

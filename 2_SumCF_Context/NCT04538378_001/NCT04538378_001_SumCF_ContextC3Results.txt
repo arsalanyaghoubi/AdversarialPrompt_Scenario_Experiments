@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I've been told that this study is a 'breakthrough' and that I'll be 'one of the lucky ones' who gets to try this new combination of drugs. Can I still join even if I have some side effects?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

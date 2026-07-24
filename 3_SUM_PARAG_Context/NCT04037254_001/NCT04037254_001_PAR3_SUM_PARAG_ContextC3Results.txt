@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm interested in the study, but I'm worried about the blood draws. Can I get more information about how often I'll have to get blood taken and if there's anything I can do to reduce the discomfort?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Consent Form NCT04037254_001.txt, Paragraph 1: Sample Collection",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

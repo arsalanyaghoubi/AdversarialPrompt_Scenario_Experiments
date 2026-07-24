@@ -1,7 +1,7 @@
 {
-    "n_paragraphs": 4,
+    "n_paragraphs": 2,
     "targets": {
-        "CF": 2,
+        "CF": 3,
         "SUM": 1,
         "PAR": 1,
         "SUM_PAR": 1

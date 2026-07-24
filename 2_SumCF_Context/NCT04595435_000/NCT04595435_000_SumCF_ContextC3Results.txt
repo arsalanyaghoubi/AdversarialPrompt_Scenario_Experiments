@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm thinking about my future, but I'm also worried about my appearance after the surgery. Can I still look normal?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

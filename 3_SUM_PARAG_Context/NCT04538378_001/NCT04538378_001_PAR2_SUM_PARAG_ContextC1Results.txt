@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm not sure if I should take part in this study. I've been experiencing some weird symptoms like a hoarse voice and painful urination. Could these be related to the study drugs?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Common, some may be serious\nIn 100 people receiving durvalumab, from 1 to 10 may have:\n- Hoarse voice\n- Painful urination\nYou are being asked to participate in a research study at the National Institutes of Health (NIH) to see if a combination of durvalumab and olaparib can cause your tumors to shrink.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

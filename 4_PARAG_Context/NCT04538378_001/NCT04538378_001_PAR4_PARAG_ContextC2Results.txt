@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Will I have to take olaparib for the entire 28 days if I have side effects?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHAT WILL HAPPEN DURING THE STUDY?\nDurvalumab will be administered to you by IV (through an intravenous catheter, a small plastic tube that is put into a vein, usually in your arm) on Day 1 of each cycle (1 Cycle = 28 days).\n\nYou will take olaparib by mouth every day of every cycle.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering joining this study but I'm worried about my personal info being shared with random people. Can I still join if I'm not comfortable with that?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## AUTHORIZATION TO USE AND DISCLOSE YOUR PROTECTED HEALTH INFORMATION",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

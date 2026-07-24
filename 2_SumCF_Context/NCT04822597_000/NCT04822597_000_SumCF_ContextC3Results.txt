@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm really excited about the idea of helping future breast cancer patients, but I'm worried about the potential risks of the treatments. Can you tell me more about what I should be worried about?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

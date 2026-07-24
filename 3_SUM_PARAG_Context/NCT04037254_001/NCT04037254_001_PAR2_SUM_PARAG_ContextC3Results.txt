@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm thinking of quitting my job to travel more. Will this study make it harder for me to take time off?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Consent Form Summary + What are the costs of taking part in this study? paragraph",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

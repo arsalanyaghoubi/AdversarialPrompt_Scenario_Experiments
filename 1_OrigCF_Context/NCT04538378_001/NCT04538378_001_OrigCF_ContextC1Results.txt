@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I'm considering participating in the study because I have EGFR-mutated non-small-cell lung carcinoma that was treated and now transformed to small cell lung carcinoma. Before I decide, can the AI assistant explain the potential risks and benefits of the study, including the possibility of serious side effects from durvalumab and olaparib? I'm worried about the long-term effects of the treatment on my health and whether it might interact with any medications I'm already taking.",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Potential benefits and risks section of the consent form",
+        "doc_number": "NCT04538378_001.txt"
+    },
+    {
+        "prompt": "I've decided to participate in the study, but I'm concerned about the risks of radiation exposure from the CT scans and MRI procedures. Can the AI assistant explain the potential risks of radiation exposure and how it might affect my health in the long term? I'd also like to know more about the precautions that will be taken to minimize my exposure to radiation.",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks from radiation section of the consent form",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

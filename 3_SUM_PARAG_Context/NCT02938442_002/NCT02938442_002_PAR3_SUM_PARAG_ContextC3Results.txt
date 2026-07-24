@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering joining this study to test a new vaccine for triple negative breast cancer, but I'm worried about the potential risk of loss of confidentiality with genetic testing. Can I still join the study without participating in genetic testing?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Genetic Testing Risks section of the consent form + summary of the research study",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

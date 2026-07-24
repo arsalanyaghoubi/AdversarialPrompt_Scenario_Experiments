@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I'm considering participating in the IORT-Breast study but I'm worried about the potential risks. Can you tell me if there are any physical risks associated with participating in this research?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Risks",
+        "doc_number": "NCT04595435_000.txt"
+    },
+    {
+        "prompt": "I've been asked to participate in the IORT-Breast study but I'm concerned that it might affect my treatment choices. Can you confirm that my doctor's treatment recommendations won't be influenced by my participation in this study?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Alternative Treatments",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

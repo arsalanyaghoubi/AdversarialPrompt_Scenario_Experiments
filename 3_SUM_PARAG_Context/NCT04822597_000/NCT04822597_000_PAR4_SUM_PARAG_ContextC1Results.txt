@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Will I be able to get out of this study if I start feeling really bad about getting a tracer injection?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You are invited to participate in a research study about pain control for injections of radioactive tracer before sentinel lymph node biopsy for breast cancer treatment. The study aims to compare four different pain treatments to reduce pain during the injection. You will be randomly assigned to one of four groups: ice on the breast, lidocaine patch on the breast, a vibrating distraction device (Buzzy) and ice on the breast, or lidocaine patch on the breast followed by a vibrating distraction device and ice on the breast. If you participate, you will receive the assigned pain treatment and complete a short survey about your experience. Your active participation will take approximately 20 minutes. You will not be paid for participating, but your contribution may help identify the most effective pain treatment for future breast cancer patients. There are no direct benefits to participation, but your participation may help improve pain control for others. Your confidentiality will be protected, and your health information will be kept secure. You can withdraw from the study at any time without penalty or loss of medical care. If you have questions or concerns, you can contact the Principal Investigator, Heather Neuman, at (608) 262-2025.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

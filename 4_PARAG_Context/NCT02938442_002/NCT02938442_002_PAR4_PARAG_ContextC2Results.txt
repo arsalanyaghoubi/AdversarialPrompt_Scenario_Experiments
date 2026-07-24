@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "If I get injured from the vaccine, can I still get my regular medical care at UAMS?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Risks and side effects related to the vaccine:\n\n### What are my rights if I take part in this research?\n\nTaking part in this research is your choice. You may choose either to take part or not to take part\nin the research. If you decide to take part in this study, you may leave the study at any time. No\nmatter what decision you make, there will be no penalty to you and you will not lose any of your\nregular benefits. Your relationship with your doctor or with UAMS will not be affected by not\nparticipating or leaving the research. Leaving the research will not affect your medical care. You\ncan still get your medical care from our institution.",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

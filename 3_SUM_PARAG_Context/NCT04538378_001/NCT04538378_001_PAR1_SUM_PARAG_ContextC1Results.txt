@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering joining the study but I'm worried about the side effects of the study drugs. Can I just take durvalumab and skip olaparib?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "This study is for people with EGFR-mutated non-small-cell lung carcinoma (NSCLC) that has transformed to small cell lung carcinoma or another neuroendocrine tumor. You will receive the study drugs durvalumab and olaparib, and we will collect samples from you for research purposes.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm interested in the study, but I have a solid tumor, will I still be able to participate?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You are being asked to participate in a research study at the National Institutes of Health (NIH) to test the safety and effectiveness of a combination of two medications, PLX038 and rucaparib, for treating small cell lung cancer or small cell cancer outside the lungs. ... The study may benefit you by shrinking your tumor or lessening your symptoms, such as pain, that are caused by the cancer.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

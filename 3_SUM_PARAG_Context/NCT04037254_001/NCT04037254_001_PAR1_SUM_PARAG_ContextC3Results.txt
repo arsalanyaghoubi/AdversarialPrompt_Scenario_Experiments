@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm worried that if I join this study, my employer might find out and fire me. Is it really safe to share my genetic information?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Consent Form Summary: Testing a New Anti-Cancer Drug for Prostate Cancer\nExtracted Paragraph from Consent Form: Laws that protect your genetic information",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

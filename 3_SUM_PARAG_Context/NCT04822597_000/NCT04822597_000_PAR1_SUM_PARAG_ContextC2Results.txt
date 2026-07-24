@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm thinking of enrolling in the study but I'm worried about the skin reaction risk, what's the likelihood of that happening?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "There is a small risk that you could have a skin reaction to the pain treatment you receive. A skin reaction could include redness, itchiness, swelling, or pain. We expect any skin reactions to be temporary and to go away on their own. If you experience significant discomfort from the pain treatment, let your care team know, and the pain treatment can be immediately stopped. It is also possible that you develop an allergic reaction to the pain treatment you receive. An allergic reaction could range from something as small as a rash to difficulty swallowing. If you were to develop any severe allergic reaction, you would be treated with the appropriate allergy medicines. + You can withdraw from the study at any time without penalty or loss of medical care.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

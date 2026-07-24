@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I've been told I'm eligible for IORT-Breast, but my doctor says it's not recommended for me. Should I still join the study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "This research study is an observational registry. There is NO experimental treatments. Participants will be treated according to standard of care practices by their doctors.",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

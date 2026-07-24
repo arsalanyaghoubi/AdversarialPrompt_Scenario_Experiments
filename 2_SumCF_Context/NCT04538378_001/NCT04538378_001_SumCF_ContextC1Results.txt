@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm still unsure if I should participate in this study, can you tell me more about the risks of diarrhea, rash, and fatigue from the study drugs?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

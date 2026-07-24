@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I have a tumor that's been growing for months, what are the chances that this study will actually make it shrink?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm not sure if I should take rucaparib with food or not. Can I take it with a large meal instead of a small meal?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You will take rucaparib by mouth on Day 6 of Cycle 1 and continue for 14 days with the last doses on Day 19 followed by seven days without rucaparib treatment. You will continue this schedule of rucaparib dosing on days 6-19 of every 21 days cycle. If you need to take your rucaparib earlier than scheduled or you missed a dose, you can take it in the time period of +/- 2 hours of the scheduled time. ...You may take the tablets with or without food.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

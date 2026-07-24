@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering participating in this study but I'm worried about what will happen to my tumor cells. Will I be able to see the results of the DNA sequencing tests?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The paragraph discussing the DNA sequencing tests and the consent form's section on 'Return of research results'",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

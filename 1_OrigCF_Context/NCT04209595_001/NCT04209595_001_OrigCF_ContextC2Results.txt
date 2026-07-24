@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I'm considering participating in this study because I have small cell lung cancer, but I'm not sure if it's safe for me to take PLX038 and rucaparib. Can you tell me more about the potential risks and benefits of the treatment?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHY IS THIS STUDY BEING DONE? This is a research study. The purpose of this study is to find safe combination of PLX038 and rucaparib and see if this combination will cause your tumors to shrink.",
+        "doc_number": "NCT04209595_001.txt"
+    },
+    {
+        "prompt": "I'm worried about the potential side effects of PLX038 and rucaparib. Can you tell me more about what I might experience?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## WHAT ARE THE RISKS AND DISCOMFORTS OF BEING IN THE STUDY?",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

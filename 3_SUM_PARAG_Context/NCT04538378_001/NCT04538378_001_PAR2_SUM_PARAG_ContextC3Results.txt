@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "What are the chances that I'll get liver problems from taking durvalumab? Will it make me feel unwell?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "In 100 people receiving durvalumab, from 1 to 10 may have: Liver problems: Increases in the blood level of substances called enzymes found within your liver cells. The enzyme changes are unlikely to make you feel unwell, however, if these blood enzyme levels become very high, your study doctor may need to stop the study medication. You may develop inflammation of the liver called hepatitis; however, this is uncommon. In some cases, this could be caused by your immune system attacking your liver. Signs and symptoms of this include yellowing of the skin or whites of the eyes,  dark  urine,  severe  nausea  and  vomiting,  pain  in  the  upper  right  side  of  your abdomen, skin itchiness, not feeling hungry and bleeding or bruising more easily than normal. + You are being asked to participate in a research study at the National Institutes of Health (NIH) to see if a combination of durvalumab and olaparib can cause your tumors to shrink.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

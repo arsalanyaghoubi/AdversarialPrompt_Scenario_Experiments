@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I'm considering participating in this study about pain control for breast cancer patients. I've been diagnosed with stage 2 breast cancer and I'm scheduled to have a sentinel lymph node biopsy. I'm interested in learning more about the pain treatments being studied. Can I get more information about the vibrating distraction device (Buzzy) and how it's used to manage pain during the injection of radioactive tracer?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What is the purpose of the study?",
+        "doc_number": "NCT04822597_000.txt"
+    },
+    {
+        "prompt": "I've been reading the consent form and I'm a bit concerned about the potential risks of the study. Can you tell me more about the possibility of a skin reaction to the pain treatment? What would happen if I experience a severe allergic reaction?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Are there any risks to me?",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

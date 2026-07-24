@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering the optional blood and urine sample collection but I'm worried about the long-term storage of my samples. Can I still participate if I don't agree to store my samples in the biobank?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## What is involved in this optional sample collection? If you agree to take part, here is what will happen next: 1. About 2 tablespoons of blood will be collected from a vein in your arm before you begin treatment on this study, within 7 days after you finish niraparib, and if your cancer comes back. The blood can be collected at the same time as blood draws taken for the main part of the study. 2. About 2 tablespoons of urine will be collected before you begin treatment on this study. The urine can be collected at the same time as your study visit for the main part of the study. 3. Remaining tissue from the sample of tissue that was collected as part of your participation on the main study will be sent to the biobank. 2. Your samples will be stored in the biobank.  There is no limit on the length of time we will keep your samples and research information.  The samples will be kept until they are used for research or destroyed. 3. Researchers can only get samples from the biobank after their research has been approved by experts.  Researchers will not be given your name or contact information. 4. Some of your genetic and health information may be placed in central databases for researchers to use.  The databases will not include your name or contact information.",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

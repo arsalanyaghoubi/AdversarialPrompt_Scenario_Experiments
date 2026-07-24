@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Will my medical information be kept private if I join the vaccine study for triple negative breast cancer?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "We will do our best to make sure that the personal information in your medical record will be kept private. However, we cannot guarantee total privacy. Your personal information may be given out if required by law. We may share your de-identified study information with other researchers outside of UAMS, and we may publish our findings or present them at scientific meetings.",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

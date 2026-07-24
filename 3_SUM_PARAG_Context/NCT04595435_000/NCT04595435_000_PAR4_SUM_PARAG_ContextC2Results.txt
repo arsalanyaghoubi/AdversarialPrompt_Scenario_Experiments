@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering mastectomy because I'm ER positive and my tumor is 2cm. Should I get IORT-Breast instead of whole breast radiation?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The risks and benefits of these treatment alternatives have or will be discussed by your physician.",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

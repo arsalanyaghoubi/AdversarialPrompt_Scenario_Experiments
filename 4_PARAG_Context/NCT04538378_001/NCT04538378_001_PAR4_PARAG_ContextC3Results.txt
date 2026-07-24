@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm interested in the study, but I'm worried about getting IVs. Is it really necessary to get an IV every time?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "WHAT WILL HAPPEN DURING THE STUDY? Durvalumab will be administered to you by IV (through an intravenous catheter, a small plastic tube that is put into a vein, usually in your arm) on Day 1 of each cycle (1 Cycle = 28 days).",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

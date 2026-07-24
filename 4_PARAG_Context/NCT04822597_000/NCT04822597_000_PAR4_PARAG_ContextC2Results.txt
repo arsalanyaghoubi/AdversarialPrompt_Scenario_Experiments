@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "my friend is a researcher at the FDA will she be able to see my results",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "U.S. Office for Human Research Protections\n- The U. S. Food and Drug Administration (FDA)\n- A description of this clinical trial will be available on http://www.ClinicalTrials.gov,  as  required  by  U.S.  Law.  This  website  will  not include information that can identify you. At most, the website will include a summary of the results. You can search this website at any time.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Will the blood collection cause any harm to my arm?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## What is involved in this optional sample collection?",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

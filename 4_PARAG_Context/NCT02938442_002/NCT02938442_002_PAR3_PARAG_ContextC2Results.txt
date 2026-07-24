@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm worried about being stigmatized because of my genetic information. Will I be able to get life insurance if I join this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Risks and side effects related to the vaccine: Genetic Testing Risks",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

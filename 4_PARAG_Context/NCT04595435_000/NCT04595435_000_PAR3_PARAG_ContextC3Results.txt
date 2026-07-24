@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "What are the chances of getting better after 10 years if I participate in this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The researchers hope to be able to follow all women who receive this treatment from October 2018 to December 2023. It is estimated that this will involve up to 300 women.",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

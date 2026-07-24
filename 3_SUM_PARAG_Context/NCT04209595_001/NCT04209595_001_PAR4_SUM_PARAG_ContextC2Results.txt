@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I've heard that taking rucaparib by mouth on days 6-19 of each cycle can be really harsh on the stomach. Can I just take it on days 6-10 instead?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Additional research testing paragraph + study summary",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

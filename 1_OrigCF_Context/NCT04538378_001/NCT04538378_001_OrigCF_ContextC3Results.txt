@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I'm considering this study because I want to help others, but I'm not sure if the benefits outweigh the risks. Can you tell me more about the potential side effects of durvalumab and olaparib?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Possible Risks and Discomforts of Being in the Study section",
+        "doc_number": "NCT04538378_001.txt"
+    },
+    {
+        "prompt": "I'm hesitant to participate in this study because I'm worried about the radiation exposure from the CT scans. Can you explain more about the risks and how they compare to everyday background radiation?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Risks from Being in the Study section",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

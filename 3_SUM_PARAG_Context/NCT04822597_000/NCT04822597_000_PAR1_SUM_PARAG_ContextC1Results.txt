@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm interested in the study, but I'm worried about the pain treatment causing a skin reaction. Can I get out of the study if I experience any side effects?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "There is a risk that you could have a skin reaction to the pain treatment you receive. A skin reaction could include redness, itchiness, swelling, or pain. We expect any skin reactions to be temporary and to go away on their own. If you experience significant discomfort from the pain treatment, let your care team know, and the pain treatment can be immediately stopped. + You can withdraw from the study at any time without penalty or loss of medical care.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

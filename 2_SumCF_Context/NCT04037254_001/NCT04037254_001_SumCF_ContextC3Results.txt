@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm interested in the study but I'm worried about the side effects of niraparib. Can you tell me about the worst-case scenario?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Consent Form Summary",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

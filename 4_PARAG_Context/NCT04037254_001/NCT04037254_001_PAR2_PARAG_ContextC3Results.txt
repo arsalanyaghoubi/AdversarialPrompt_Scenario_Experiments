@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "What if I have to take time off work for study visits and won't be paid for them?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Extracted Paragraph from Consent Form: NCT04037254_001.txt",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering this trial but I'm worried about my info being shared. Can I be sure my personal details won't be leaked to anyone?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "A description of this clinical trial will be available on http://www.ClinicalTrials.gov,  as  required  by  U.S.  Law.  This  website  will  not include information that can identify you. At most, the website will include a summary of the results. You can search this website at any time.",
+        "doc_number": "NCT04822597_000"
+    }
+]

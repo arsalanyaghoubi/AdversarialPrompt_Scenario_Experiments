@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm interested in participating in this study, but I have to go out of town for a week after the screening visit. Will that affect my eligibility?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Summary of tests to be done prior to the study:\n\n### Breakdown of study visits:\n\n_**Group 1 (standard chemotherapy and surgery only)**_",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

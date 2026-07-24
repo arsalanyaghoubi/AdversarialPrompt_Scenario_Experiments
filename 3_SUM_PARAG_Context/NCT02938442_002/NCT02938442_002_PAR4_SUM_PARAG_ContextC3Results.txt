@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I've heard that this vaccine has been shown to completely cure triple negative breast cancer, is that true?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The purpose of this study is to compare the effect of the vaccine on cancer treatment with standard chemotherapy and surgery. The vaccine is a small protein that helps your body's immune system fight cancer. You'll be randomly assigned to one of two groups: Group 1 will receive standard chemotherapy and surgery, and Group 2 will receive the vaccine in addition to standard chemotherapy and surgery.",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

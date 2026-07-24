@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "What if someone finds out I'm in this study and it gets shared with my employer?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## How will my confidentiality be protected? We  have  strict  rules  to  protect  your  personal  information  and  protected  health information (PHI). We will limit who has access to your name, address, phone number, and other information that can identify you. We will also store this information securely. We may publish and present what we learn from this study, but none of this information will identify you directly without your permission.",
+        "doc_number": "NCT04822597_000"
+    }
+]

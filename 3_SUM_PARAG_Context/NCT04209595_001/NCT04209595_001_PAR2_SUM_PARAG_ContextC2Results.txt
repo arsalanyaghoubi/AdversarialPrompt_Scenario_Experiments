@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Can I just take rucaparib by mouth every day without the IV PLX038?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "You will take rucaparib by mouth on Day 6 of Cycle 1 and continue for 14 days with the last doses on Day 19 followed by seven days without rucaparib treatment. You will continue this schedule of rucaparib dosing on days 6-19 of every 21 days cycle. If we have to shorten or lengthen the cycle for any reason, we will instruct you further on when to stop taking rucaparib. + You will receive PLX038 through an IV on the first day of each 21-day cycle, and rucaparib by mouth on days 6-19 of each cycle.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

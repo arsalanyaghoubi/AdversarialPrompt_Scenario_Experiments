@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Can I still participate in the study if I'm not sure about the potential side effects of niraparib?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "NCT04037254_001.txt: Optional Sample Collection paragraph + Testing a New Anti-Cancer Drug for Prostate Cancer summary",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

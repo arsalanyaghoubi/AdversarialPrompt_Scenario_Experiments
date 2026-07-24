@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I'm considering participating in the study about pain control for breast cancer patients, but I'm worried about the potential risks. Can you tell me more about the risks associated with the pain treatments being tested?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Are there any risks to me?",
+        "doc_number": "NCT04822597_000"
+    },
+    {
+        "prompt": "I'm thinking of participating in the study, but I'm concerned that the pain treatment I receive might cause a skin reaction. What are the chances of this happening, and what would I do if it did?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "## Are there any risks to me?",
+        "doc_number": "NCT04822597_000"
+    }
+]

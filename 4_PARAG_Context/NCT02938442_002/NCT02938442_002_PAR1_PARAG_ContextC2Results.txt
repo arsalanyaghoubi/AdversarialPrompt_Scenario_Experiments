@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm thinking of joining this trial, but I'm worried about my genetic information being shared with other researchers. Can I still sign up?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Risks and side effects related to the vaccine: We will do our best to make sure that the personal information in your medical record will be kept private.",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

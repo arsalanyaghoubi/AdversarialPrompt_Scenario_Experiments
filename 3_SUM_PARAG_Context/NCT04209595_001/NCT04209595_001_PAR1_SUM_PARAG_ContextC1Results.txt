@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering joining the study, but I'm worried about the side effects of PLX038 and rucaparib. Can I still join if I have a solid tumor?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "The purpose of this study is to find safe combination of PLX038 and rucaparib and see if this combination will cause your tumors to shrink. If you become pregnant, there may be unknown risks to the fetus or unborn child, or risks that we did not anticipate. There may be long-term effects of the treatment being studied that could increase the risk of harm to a fetus. If you are capable of becoming pregnant, you will need to use appropriate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry, for the duration of study treatment and up to 6 months after the last dose of the study drug (s).",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

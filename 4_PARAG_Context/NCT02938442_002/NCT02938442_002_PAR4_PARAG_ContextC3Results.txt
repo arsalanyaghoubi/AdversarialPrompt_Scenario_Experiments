@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm not sure if I should take part in this study because I'm worried about the side effects of the vaccine. Can you reassure me that it's worth it?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Risks and side effects related to the vaccine: ... You may choose either to take part or not to take part in the research.",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

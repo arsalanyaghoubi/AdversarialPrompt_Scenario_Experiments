@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm only interested in this study if it can definitely cure my cancer. Can I still participate if I have a chance at a cure?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The study may benefit you by shrinking your tumor or lessening your symptoms. However, there are risks and discomforts associated with the study, including side effects from the study drugs, such as diarrhea, rash, and fatigue.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

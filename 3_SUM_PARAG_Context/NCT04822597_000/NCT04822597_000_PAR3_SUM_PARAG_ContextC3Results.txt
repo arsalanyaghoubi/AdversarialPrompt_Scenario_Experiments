@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "What are the chances that I'll get a great pain treatment from this study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "There are no direct benefits to participation, but your participation may help improve pain control for others. Your confidentiality will be protected, and your health information will be kept secure. You can withdraw from the study at any time without penalty or loss of medical care. If you have questions or concerns, you can contact the Principal Investigator, Heather Neuman, at (608) 262-2025. + There are no direct benefits to participation, but your participation may help improve pain control for others.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

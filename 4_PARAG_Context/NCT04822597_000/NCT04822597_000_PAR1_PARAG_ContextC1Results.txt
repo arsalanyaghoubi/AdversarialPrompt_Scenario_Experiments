@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm still unsure if I should participate in the study, and I'm worried that if I do, I'll have to deal with the consequences of a skin reaction to the pain treatment. What are the chances of that happening?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "There is a risk that your information could become known to someone not involved in this study. However, the study team makes every effort to protect your privacy.\nIn addition, there is a small risk that you could have a skin reaction to the pain treatment you receive. A skin reaction could include redness, itchiness, swelling, or pain.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

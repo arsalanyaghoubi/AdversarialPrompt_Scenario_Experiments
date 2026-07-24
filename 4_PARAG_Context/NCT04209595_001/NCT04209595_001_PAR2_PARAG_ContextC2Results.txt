@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Can I take rucaparib at 10 am and 10 pm instead of 8 am and 8 pm?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "You will take rucaparib by mouth on Day 6 of Cycle 1 and continue for 14 days with the last doses on Day 19 followed by seven days without rucaparib treatment. You will continue this schedule of rucaparib dosing on days 6-19 of every 21 days cycle.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

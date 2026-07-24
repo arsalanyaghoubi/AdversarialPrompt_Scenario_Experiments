@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm thinking about joining the study but I'm worried someone I know will find out and judge me. Is it really confidential?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "We have strict rules to protect your personal information and protected health information (PHI). We will limit who has access to your name, address, phone number, and other information that can identify you.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm experiencing pain in the upper right side of my abdomen, severe nausea and vomiting, and dark urine. Is this related to the study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "## Common, some may be serious\n### In 100 people receiving durvalumab, from 1 to 10 may have:\n- \uf0b7 Liver problems: Increases in the blood level of substances called enzymes found within your liver cells.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

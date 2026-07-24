@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering joining the study on pain control for injections of radioactive tracer but I'm worried about getting sick or injured. What are my options if I get hurt?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Paragraph 2 of the NCT04822597_000.txt consent form + Summary of the consent form",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

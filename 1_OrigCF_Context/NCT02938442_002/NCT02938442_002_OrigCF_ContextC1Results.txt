@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I'm considering participating in this breast cancer vaccine trial, but I'm not sure if I'm a good candidate. Can I get a list of all the medical procedures I'll be required to undergo before and during the trial?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary of tests to be done prior to the study",
+        "doc_number": "NCT02938442_002.txt"
+    },
+    {
+        "prompt": "I'm really interested in this vaccine trial, but I'm concerned about the potential side effects. Can you tell me more about the risks associated with the vaccine and the MONTANIDE ISA 51 VG, and how they might affect my health?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Risks and side effects related to the vaccine",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

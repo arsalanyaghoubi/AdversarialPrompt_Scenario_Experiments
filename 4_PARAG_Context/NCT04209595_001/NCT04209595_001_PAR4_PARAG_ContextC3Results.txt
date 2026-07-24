@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Will I have to get a lot of blood drawn if I join this study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "During the study\n\nAdditional research testing\n\nIn addition to the tests that we will conduct to determine whether you are having side effects or if you are responding to the study therapy, we will also collect samples from you for purposes of research only. The samples are being done to look at the effects of therapy on your immune system and markers of tumor activity, including collecting and testing tumor cells.\n\nThe samples included for these studies include:\n\n- \uf0b7 Blood samples to study:\n- \uf0d8 drugs levels in your blood on day 1, day 6 and day 8 (optional) of cycle 1 and on day 1 of cycles 2-4 (up to a little more than 1 tablespoon at each timepoint).\n- \uf0b7 Blood and hair to study:\n- \uf0d8 how well your tumor responds to treatment on day 1, 6 and 7 of cycle 1 and on day 1 of cycle 2 (hair samples).\n\n- \uf0d8 how your body responds to treatment on day 1, day 6, day 7 of cycle 1, on day 1 of cycle  2  and  when  your  disease  progresses  (blood  sample  -  up  to  3  and  a  half tablespoons at each timepoint). Blood for certain tests may not be collected if no hair sample was obtained.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

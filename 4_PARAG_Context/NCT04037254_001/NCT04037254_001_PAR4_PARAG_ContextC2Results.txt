@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm thinking of participating in this study but I'm worried about the side effects. Will I be able to have children if I get the radiation treatment?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Side Effect Risks",
+        "doc_number": "NCT04037254_001"
+    }
+]

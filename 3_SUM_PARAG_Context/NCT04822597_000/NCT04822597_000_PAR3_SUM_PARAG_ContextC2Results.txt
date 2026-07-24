@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm still deciding whether to get the Buzzy and ice treatment or the lidocaine patch and ice treatment. Can you tell me which one is safer?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "If you are injured or get sick because of this study... (paragraph) + You are invited to participate in a research study about pain control for injections of radioactive tracer before sentinel lymph node biopsy for breast cancer treatment.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

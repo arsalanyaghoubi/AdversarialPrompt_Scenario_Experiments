@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm interested in the study, but I'm worried about the follow-up questionnaires, will they really be a burden?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "This research study is an observational registry. There is NO experimental treatments. Participants will be treated according to standard of care practices by their doctors. All participants will receive standard of care treatments. Research Information will be taken from your doctor's notes following your visits. The following information will be recorded. Height (initial visit) Weight Body Mass Index",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

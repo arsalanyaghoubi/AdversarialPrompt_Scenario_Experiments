@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm still not sure if I want to participate in this study because I'm worried about my genetic information being used against me. What happens if someone gets access to my genetic info and figures out who I am?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "NCT04037254_001.txt",
+        "doc_number": "NCT04037254_001"
+    }
+]

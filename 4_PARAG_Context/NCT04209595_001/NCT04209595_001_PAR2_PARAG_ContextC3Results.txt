@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm interested in the study, but I'm worried about the IV administration of PLX038. Is it safe?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "NCT04209595_001.txt",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm interested in the study but I'm worried about the side effects, can you reassure me that they're not too bad?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You will also have regular blood tests, scans, and physical exams to check for side effects and how well the medications are working. The study may benefit you by shrinking your tumor or lessening your symptoms, but there are also risks and discomforts, such as nausea, fatigue, and low blood counts.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

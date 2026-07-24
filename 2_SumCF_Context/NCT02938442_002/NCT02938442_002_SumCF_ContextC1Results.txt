@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering the risks, but I'm worried the vaccine will interact with my other medications. Can I still sign up for the trial?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

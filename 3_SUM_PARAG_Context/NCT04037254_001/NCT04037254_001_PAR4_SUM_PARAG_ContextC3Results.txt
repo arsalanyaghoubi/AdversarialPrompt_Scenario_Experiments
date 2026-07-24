@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I've heard that the new drug niraparib has amazing results for prostate cancer, can I really trust the study doctors to make sure I'm safe on this trial?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Consent Form Summary + Side Effect Risks paragraph from NCT04037254_001.txt",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Can I participate in this study if I have a history of severe allergic reactions to medications?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "You are being asked to participate in a research study at the National Institutes of Health (NIH) to test the safety and effectiveness of a combination of two medications, PLX038 and rucaparib, for treating small cell lung cancer or small cell cancer outside the lungs. ... You will not receive compensation for participating in this study, but your expenses may be reimbursed. If you have any questions or concerns, please contact the Principal Investigator, Anish Thomas, M.D., at anish.thomas@nih.gov or 240-760-7343.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm worried about my liver, will I really be okay if I have some enzyme changes?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "NCT04538378_001.txt, Common, some may be serious section",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

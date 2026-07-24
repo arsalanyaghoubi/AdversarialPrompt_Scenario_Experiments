@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I've been in cancer treatment for a while and I'm not sure if I want to try something new. Will this study be able to cure my cancer?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## KEY INFORMATION ABOUT THIS RESEARCH\nThis consent form describes a research study and is designed to help you decide if you would like to be a part of the research study.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

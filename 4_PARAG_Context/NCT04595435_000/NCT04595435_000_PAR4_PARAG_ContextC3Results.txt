@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I've heard that this IORT-Breast treatment is a miracle cure for breast cancer. Is that true?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Intraoperative radiation therapy using low energy x-rays using Xoft (IORT-Breast) is an FDA approved treatment, after lumpectomy, for early stage low, risk breast cancer.",
+        "doc_number": "NCT04595435_000"
+    }
+]

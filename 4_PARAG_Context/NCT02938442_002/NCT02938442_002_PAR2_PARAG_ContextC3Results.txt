@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I've been reading about the study and I'm worried about all the blood tests. Will I be okay with all these injections?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Summary of tests to be done prior to the study: ...",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I have a tumor that's been resistant to treatment and I'm considering joining this study. Will taking durvalumab and olaparib definitely make my tumor shrink?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "During the study: Additional research testing. Tumor and blood samples collected for research purposes on this study may be used to look for specific changes in the DNA in tumors that could be used to develop new ways of diagnosing and treating cancer. You should know that the analyses that we perform in our laboratory are for research purposes only; they are not nearly as sensitive as the tests that are performed in a laboratory that is certified to perform genetic testing or testing for routine clinical care. For these reasons, we will not give you the results of the research tests done on your research samples in most cases.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

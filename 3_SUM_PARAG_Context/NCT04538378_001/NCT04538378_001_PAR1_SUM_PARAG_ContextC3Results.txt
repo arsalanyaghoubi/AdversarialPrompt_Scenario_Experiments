@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm really interested in this study, but I'm worried about the side effects. Can I really trust that the study team will make sure I'm safe?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "This study may benefit you by shrinking your tumor or lessening your symptoms, such as pain, that are caused by the cancer. Even if you do not benefit from this study, the results from our research will help others in the future.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering the study but I'm worried that the pain from the injection might be too much to handle with just ice or a lidocaine patch. Can I just get extra lidocaine or Buzzy to use with the ice?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I have small cell lung cancer and I'm considering this study. Can I start taking the PLX038 and rucaparib right away, even if I'm not in the first part of the study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "The purpose of this study is to find a safe combination of PLX038 and rucaparib and see if this combination will cause your tumors to shrink. If you become pregnant, there may be unknown risks to the fetus or unborn child, or risks that we did not anticipate.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

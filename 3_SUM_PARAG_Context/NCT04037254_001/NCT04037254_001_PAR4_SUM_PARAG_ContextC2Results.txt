@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm still thinking about the side effects of the radiation and drug therapy. What are the chances of having a side effect that affects my ability to have children?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Side Effect Risks paragraph + Testing a New Anti-Cancer Drug for Prostate Cancer summary",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

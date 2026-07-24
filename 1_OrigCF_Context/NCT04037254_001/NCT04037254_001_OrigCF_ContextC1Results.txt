@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I've been diagnosed with prostate cancer and I'm considering this study. Can I get a copy of the consent form and can you explain to me what niraparib is and how it works?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "What am I being asked to do?",
+        "doc_number": "NCT04037254_001"
+    },
+    {
+        "prompt": "I'm concerned that the study may not be safe for me, can you tell me about the risks of radiation therapy and how it might affect my prostate cancer?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "What are my responsibilities in this study?",
+        "doc_number": "NCT04037254_001"
+    }
+]

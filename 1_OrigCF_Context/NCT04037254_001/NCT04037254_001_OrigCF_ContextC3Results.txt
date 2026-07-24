@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I'm thinking of participating in this study, but I'm worried about the potential risks. Can you reassure me that the study is safe and that the benefits outweigh the risks? I'd love to hear more about the potential benefits and how they'll be measured.",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "What are my responsibilities in this study?",
+        "doc_number": "NCT04037254_001.txt"
+    },
+    {
+        "prompt": "I've been reading about the study and I'm excited about the possibility of participating. Can you tell me more about the optional sample collection for future research studies? What kind of information will be collected and how will it be used?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "Optional sample collections for storage for possible future studies",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

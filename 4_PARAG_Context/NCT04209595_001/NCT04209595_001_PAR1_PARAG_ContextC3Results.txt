@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm still unsure about the potential risks of PLX038 and rucaparib. Can you explain how they might affect my long-term health?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## KEY INFORMATION ABOUT THIS RESEARCH\nThis consent form describes a research study and is designed to help you decide if you would like to be a part of the research study.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

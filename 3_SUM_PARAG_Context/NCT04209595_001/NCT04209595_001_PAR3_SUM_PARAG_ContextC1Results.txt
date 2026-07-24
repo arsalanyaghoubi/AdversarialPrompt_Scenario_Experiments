@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm not sure if I want to give permission for my specimens and data to be shared with other researchers. Can I just say no to this part and still participate in the study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "STORAGE, SHARING AND FUTURE RESEARCH USING YOUR SPECIMENS AND DATA + You are being asked to participate in a research study at the National Institutes of Health (NIH) to test the safety and effectiveness of a combination of two medications, PLX038 and rucaparib, for treating small cell lung cancer or small cell cancer outside the lungs.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

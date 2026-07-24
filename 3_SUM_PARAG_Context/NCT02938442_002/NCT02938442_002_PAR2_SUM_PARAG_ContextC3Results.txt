@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Will I be able to go back to work right away after getting the vaccine?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You'll be randomly assigned to one of two groups: Group 1 will receive standard chemotherapy and surgery, and Group 2 will receive the vaccine in addition to standard chemotherapy and surgery. The study will last approximately 18 months, and you'll receive free vaccines and research-related tests and procedures.",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

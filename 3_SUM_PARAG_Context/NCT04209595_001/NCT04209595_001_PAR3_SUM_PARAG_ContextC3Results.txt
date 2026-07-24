@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Will I still have control over my data if I join the study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "You are being asked to participate in a research study at the National Institutes of Health (NIH) to test the safety and effectiveness of a combination of two medications, PLX038 and rucaparib, for treating small cell lung cancer or small cell cancer outside the lungs. We plan to store and use these specimens and data for studies other than the ones described in this consent form that are going on right now, as well as studies that may be conducted in the future. We might remove all identifiers and codes from your specimens and data and use or share them with other researchers for future research at the NIH or other places.",
+        "doc_number": "NCT04209595_001.txt"
+    }
+]

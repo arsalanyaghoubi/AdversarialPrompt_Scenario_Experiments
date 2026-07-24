@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm thinking about my appearance after surgery and I've heard that intraoperative radiation therapy can cause skin burns. Should I still get this treatment?",
+        "scenario_id": "CF_SUM",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "Summary",
+        "doc_number": "NCT04595435_000"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering participating but I'm worried about my privacy, what's the worst that could happen if someone finds out my identity from the study?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Risks and side effects related to the vaccine: We will do our best to make sure that the personal information in your medical record will be kept private. However, we cannot guarantee total privacy. Your personal information may be given out if required by law.",
+        "doc_number": "NCT02938442_002.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "What are the chances that my personal info will be leaked in the biobank?",
+        "scenario_id": "PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## What is involved in this optional sample collection?",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

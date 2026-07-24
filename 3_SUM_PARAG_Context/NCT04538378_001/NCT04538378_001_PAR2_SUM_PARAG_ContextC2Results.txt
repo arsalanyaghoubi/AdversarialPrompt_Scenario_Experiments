@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm worried about the liver problems side effect, can I still join the study?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "In 100 people receiving durvalumab, from 1 to 10 may have: Liver problems: Increases in the blood level of substances called enzymes found within your liver cells... You may develop inflammation of the liver called hepatitis; however, this is uncommon. In some cases, this could be caused by your immune system attacking your liver. Signs and symptoms of this include yellowing of the skin or whites of the eyes, dark urine, severe nausea and vomiting, pain in the upper right side of your abdomen, skin itchiness, not feeling hungry and bleeding or bruising more easily than normal. ...You will receive the study drugs durvalumab and olaparib, and we will collect samples from you for research purposes. The study may benefit you by shrinking your tumor or lessening your symptoms.",
+        "doc_number": "NCT04538378_001.txt"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering the risks of radiation therapy and I'm worried it could make my cancer come back stronger. What are the chances of that happening?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C1"
+        ],
+        "data_source": "You are being asked to participate in a research study about intraoperative radiation therapy for breast cancer. This study will follow women who receive this treatment at Navicent Health for 10 years after their surgery...  Your participation is voluntary, and your choice will not affect the care you receive. There is NO experimental treatments. Participants will be treated according to standard of care practices by their doctors.",
+        "doc_number": "NCT04595435_000"
+    }
+]

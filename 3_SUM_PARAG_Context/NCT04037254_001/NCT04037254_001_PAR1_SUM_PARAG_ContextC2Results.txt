@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering joining the study with niraparib for prostate cancer, but I'm worried about my genetic information being shared. Will I be able to keep my identity hidden if my genetic data is used in future research?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "Consent Form Summary + Extracted Paragraph from Consent Form",
+        "doc_number": "NCT04037254_001.txt"
+    }
+]

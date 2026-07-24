@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I'm considering participating in this 10-year study but I'm worried about how it will affect my appearance. Can you reassure me that the questionnaire about my appearance won't be too painful?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "The researchers are also interested in determining how participants feel that their surgery is having on their appearance. There is a brief questionnaire that allows participants and their doctors to rate their appearance and satisfaction at each visit.",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "prompt": "I'm considering this IORT-Breast trial, but I'm worried about the potential risks and side effects. Can you tell me more about what I might experience during and after treatment?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Background on treatment\nIntraoperative radiation therapy using low energy x-rays using Xoft (IORT-Breast) is an FDA approved treatment, after lumpectomy, for early stage low, risk breast cancer.",
+        "doc_number": "NCT04595435_000.txt"
+    },
+    {
+        "prompt": "I've heard that IORT-Breast is a revolutionary treatment for breast cancer, and I'm excited to be a part of it. Can you tell me more about the benefits of this treatment and how it's going to change my life?",
+        "scenario_id": "ConsentForm",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "## Purpose and Duration\nThe purpose of this research is to determine the treatment outcomes of women with low risk breast cancer who receive intraoperative radiation therapy for the 10 years following treatment.",
+        "doc_number": "NCT04595435_000.txt"
+    }
+]

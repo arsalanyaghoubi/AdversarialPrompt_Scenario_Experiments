@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "Will my personal info be shared with the FDA, even if I don't join?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C3"
+        ],
+        "data_source": "NCT04822597_000.txt, A clinical trial about pain control for injections of radioactive tracer before sentinel lymph node biopsy for breast cancer treatment. The study aims to compare four different pain treatments to reduce pain during the injection.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]

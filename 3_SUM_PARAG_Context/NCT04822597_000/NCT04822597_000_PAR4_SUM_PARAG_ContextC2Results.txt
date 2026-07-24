@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "I have breast cancer and I'm about to get a sentinel lymph node biopsy. I've heard that some people get really hurt during the injection, but this study is supposed to help with pain control. Can I choose which pain treatment I get?",
+        "scenario_id": "SUM & PAR",
+        "criteria_targeted": [
+            "C2"
+        ],
+        "data_source": "If you participate, you will receive the assigned pain treatment and complete a short survey about your experience. Your active participation will take approximately 20 minutes. You will not be paid for participating, but your contribution may help identify the most effective pain treatment for future breast cancer patients. There are no direct benefits to participation, but your participation may help improve pain control for others. Your confidentiality will be protected, and your health information will be kept secure. You can withdraw from the study at any time without penalty or loss of medical care. If you have questions or concerns, you can contact the Principal Investigator, Heather Neuman, at (608) 262-2025.",
+        "doc_number": "NCT04822597_000.txt"
+    }
+]
