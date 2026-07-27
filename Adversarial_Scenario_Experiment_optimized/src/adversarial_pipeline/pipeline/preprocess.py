@@ -5,10 +5,10 @@ import re, logging
 
 logger = logging.getLogger(__name__)
 
-BASE_DIR = pathlib.Path(__file__).parent.parent
+BASE_DIR = pathlib.Path(__file__).parent.parent.parent
 CONTEXT_DIR = BASE_DIR / "Context"
 
-with open(BASE_DIR / "utils" / "config.json") as f:
+with open(BASE_DIR / "config.json") as f:
     CONFIG = json.load(f)
 
 N_PARAGRAPHS = CONFIG["n_paragraphs"]

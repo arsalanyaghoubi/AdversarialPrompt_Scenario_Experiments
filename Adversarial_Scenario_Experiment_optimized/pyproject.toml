@@ -12,3 +12,5 @@ dependencies = [
     "transformers",
     "pandas",
 ]
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,8 +1,8 @@
-import logging
-import os, json, pathlib, api_models
+import os, json, pathlib, logging
 from transformers import pipeline as hf_pipeline
-from pre_process import run_preprocess
-from auto_prompt import run_autoprompt
+from adversarial_pipeline.pipeline.preprocess import run_preprocess
+from adversarial_pipeline.pipeline.prompt_gen import run_autoprompt
+from adversarial_pipeline.clients import ClaudeClient, GroqClient
 from adversarial_pipeline.utils.logging import setup_logging
 from adversarial_pipeline.utils.io import encoder_
 
@@ -17,8 +17,8 @@ TASK_NEEDS_CLIENT     = TASK_RUNS_PREPROCESS | TASK_RUNS_AUTOPROMPT
 MODEL_CHOICES = {"llama", "groq", "claude"}
 
 if __name__ == '__main__':
-    BASE_DIR = pathlib.Path(__file__).parent.parent
-    with open(BASE_DIR / "utils" / "config.json") as f:
+    BASE_DIR = pathlib.Path(__file__).parent
+    with open(BASE_DIR / "config.json") as f:
         CONFIG = json.load(f)
 
     task  = CONFIG["task"]
@@ -38,9 +38,9 @@ if __name__ == '__main__':
                 device=device
             )
         elif model == "groq":
-            client = api_models.GroqClient()
+            client = GroqClient()
         else:
-            client = api_models.ClaudeClient()
+            client = ClaudeClient()
         logger.info("Using model: %s", model)
 
     if task in TASK_RUNS_PREPROCESS:
