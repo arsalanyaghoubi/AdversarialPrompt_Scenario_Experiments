@@ -208,25 +208,8 @@ def save_results(results, scenario, criterion, cf_stem, paragraph_index=None):
         json.dump(results, f, indent=4)
     logger.info("Saved results to %s", result_file)
 
-
-if __name__ == "__main__":
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-        datefmt="%Y-%m-%d %H:%M:%S",
-        handlers=[
-            logging.StreamHandler(),
-            logging.FileHandler("experiment.log"),
-        ],
-    )
-
-    device = int(os.environ.get("DEVICE", 1))
-    client = pipeline(
-        "text-generation",
-        model="/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
-        device=device
-    )
-    pairs = find_consent_form_pairs(CONTEXT_DIR)
+def run_autoprompt(client):
+    pairs = find_consent_form_pairs(CONTEXT_DIR)[5:6]
     for pair in pairs:
         if pair["cf"]:
             cf_content = pair["cf"].read_text(encoding="utf-8")
@@ -236,12 +219,10 @@ if __name__ == "__main__":
             cf_content = None
             cf_filename = None
             cf_stem = None
-
         if pair["summary"]:
             summary_content = pair["summary"].read_text(encoding="utf-8")
         else:
             summary_content = None
-
         for scenario in SCENARIOS:
             if not validate_scenario(scenario, pair):
                 continue

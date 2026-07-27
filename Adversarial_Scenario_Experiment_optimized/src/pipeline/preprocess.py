@@ -2,8 +2,9 @@ import pathlib
 import json
 from transformers import pipeline
 from markdown_tree_parser.parser import parse_string
-import re
-import os
+import re, os, logging
+
+logger = logging.getLogger(__name__)
 
 BASE_DIR = pathlib.Path(__file__).parent.parent
 CONTEXT_DIR = BASE_DIR / "Context"
@@ -100,16 +101,11 @@ def save_file(content, output_path):
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(content)
 
-if __name__ == "__main__":
-    device = int(os.environ.get("DEVICE", 1))
-    client = pipeline(
-    "text-generation",
-    model = "/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
-    device=device
-    )
-    consent_forms = find_consent_forms(CONTEXT_DIR)
+
+def run_preprocess(client):
+    consent_forms = find_consent_forms(CONTEXT_DIR)[5:6]
     for cf_file in consent_forms:
-        print(f"Processing {cf_file.name}...")
+        logger.info("Preprocessing %s...", cf_file.name)
         with open(cf_file, 'r', encoding='utf-8') as f:
             cf_content = f.read()
         cf_content = fix_bold_headings(cf_content)
@@ -119,14 +115,13 @@ if __name__ == "__main__":
         try:
             summary_content = generate_summary(cf_content, client)
         except Exception as e:
-            print(f"Error generating summary for {cf_file.name}: {e}")
+            logger.exception("Error generating summary for %s: %s", cf_file.name, e)
             summary_content = None
         try:
             paragraph_content = generate_paragraph(cf_content)
         except Exception as e:
-            print(f"Error generating paragraph for {cf_file.name}: {e}")
+            logger.exception("Error generating paragraph for %s: %s", cf_file.name, e)
             paragraph_content = []
-        summary_filename = cf_file.parent / f"{cf_file.stem}.SUM.txt"
         if summary_content:
             save_file(f"Consent Form Summary:\n\n{summary_content}", cf_file.parent / f"{cf_file.stem}.SUM.txt")
         if paragraph_content:
@@ -134,10 +129,9 @@ if __name__ == "__main__":
                 par_filename = cf_file.parent / f"{cf_file.stem}.PAR{i}.txt"
                 save_file(f"Extracted Paragraph from Consent Form:\n\n{par}", par_filename)
         else:
-            print(f"Skipping empty paragraphs for {cf_file.name}")
+            logger.warning("Skipping empty paragraphs for %s", cf_file.name)
         if summary_content and paragraph_content:
             for i, par in enumerate(paragraph_content, start=1):
                 combined = f"Consent Form Summary:\n\n{summary_content}\n\nExtracted Paragraph from Consent Form:\n\n{par}"
                 sum_par_filename = cf_file.parent / f"{cf_file.stem}.SUM_PAR{i}.txt"
                 save_file(combined, sum_par_filename)
-        print(f"Processed {cf_file.name}: Summary saved to {summary_filename}")
