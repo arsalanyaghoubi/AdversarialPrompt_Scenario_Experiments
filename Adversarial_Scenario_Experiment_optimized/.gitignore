@@ -1,1 +1,4 @@
 Context/
+*.tar.gz
+*.log
+*_comparison.csv
