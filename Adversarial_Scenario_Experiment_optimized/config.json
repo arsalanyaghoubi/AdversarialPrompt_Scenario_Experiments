@@ -1,6 +1,8 @@
 {
+    "task": "full_pipeline_and_csv_encoder",
+    "model": "llama",
+    "encoder_dir": "/path/to/results",
     "n_paragraphs": 2,
-    "task": 5,
     "targets": {
         "CF": 3,
         "SUM": 1,
