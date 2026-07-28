@@ -1,6 +1,7 @@
 import pathlib
 import json
 import re, logging
+from adversarial_pipeline.utils.thinking import parse_thinking_output
 
 logger = logging.getLogger(__name__)
 
@@ -164,6 +165,7 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
         max_new_tokens=2048
     )
     result_text = response[0]["generated_text"][-1]["content"].strip()
+    result_text = parse_thinking_output(result_text)["answer"]
     results = []
     start = result_text.find('[')
     end = result_text.rfind(']')
