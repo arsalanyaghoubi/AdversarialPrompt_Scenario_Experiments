@@ -4,7 +4,7 @@ import re, logging
 
 logger = logging.getLogger(__name__)
 
-BASE_DIR = pathlib.Path(__file__).parent.parent.parent
+BASE_DIR = pathlib.Path(__file__).parent.parent.parent.parent
 CONTEXT_DIR = BASE_DIR / "Context"
 
 with open(BASE_DIR / "config.json") as f:
@@ -20,6 +20,7 @@ SCENARIOS = [
     {
         "dir": "1_OrigCF_Context",
         "scenario_id": "ConsentForm",
+        "context_type": "consent form",
         "needs_cf": True,
         "needs_summary": False,
         "needs_paragraph": False,
@@ -30,6 +31,7 @@ SCENARIOS = [
     {
         "dir": "2_SumCF_Context",
         "scenario_id": "CF_SUM",
+        "context_type": "summary",
         "needs_cf": False,
         "needs_summary": True,
         "needs_paragraph": False,
@@ -40,6 +42,7 @@ SCENARIOS = [
     {
         "dir": "3_SUM_PARAG_Context",
         "scenario_id": "SUM & PAR",
+        "context_type": "summary and paragraph",
         "needs_cf": False,
         "needs_summary": False,
         "needs_paragraph": False,
@@ -51,6 +54,7 @@ SCENARIOS = [
     {
         "dir": "4_PARAG_Context",
         "scenario_id": "PAR",
+        "context_type": "paragraph",
         "needs_cf": False,
         "needs_summary": False,
         "needs_paragraph": True,
@@ -150,10 +154,12 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
     if system_prompt is None:
         return []
     user_message = build_user_message(scenario, cf_content, summary_content, paragraph_content, cf_filename)
+    user_request = f"Use the following {scenario['context_type']} to generate adversarial prompts:\n"
+    final_user_message = user_request + user_message
     response = client(
         [
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_message}
+            {"role": "user", "content": final_user_message}
         ],
         max_new_tokens=2048
     )
