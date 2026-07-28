@@ -1,4 +1,3 @@
-# src/adversarial_pipeline/config.py
 import json, pathlib
 
 BASE_DIR = pathlib.Path(__file__).parent.parent.parent
