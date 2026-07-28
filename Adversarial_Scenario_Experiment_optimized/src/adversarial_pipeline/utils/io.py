@@ -25,7 +25,7 @@ def process_and_append_to_csv(txt_file_path, output_csv_path):
         df_new.to_csv(output_csv_path, mode='a', index=False, header=False, encoding='utf-8-sig')
         logger.info("Appended %d items to existing %s", len(df_new), output_csv_path.name)
     else:
-        df_new.to_csv(output_csv_path, mode='w', index=False, header=True, encoding='utf-8')
+        df_new.to_csv(output_csv_path, mode='w', index=False, header=True, encoding='utf-8-sig')
         logger.info("Created new file and saved data to %s", output_csv_path.name)
 
 
@@ -37,7 +37,6 @@ def encoder_(folder_link):
             file.unlink()
     target_csv_file = folder_link / f"{folder_link.name}.csv"
     for file in sorted(folder_link.rglob("*Results.txt")):
-        logger.debug("*" * 40)
         logger.info("Processing %s", file.name)
         logger.debug("File directory: %s", file)
         logger.debug("Saving to: %s", target_csv_file.name)
