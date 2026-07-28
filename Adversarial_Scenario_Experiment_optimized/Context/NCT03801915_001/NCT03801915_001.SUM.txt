@@ -1,0 +1,27 @@
+This clinical trial consent form is for a study investigating the safety and efficacy of MVT-5873, a fully human monoclonal antibody against a CA 19-9 epitope, in patients with operable CA 19-9 producing pancreatic cancers, cholangiocarcinomas, and metastatic colorectal cancers. 
+
+**Key Points:**
+
+1. **Study Purpose:** The study aims to evaluate the safety of MVT-5873 when given before and after surgery to remove the tumor and determine if it can increase the time it takes for the disease to worsen.
+
+2. **Study Design:** The study has two parts: a safety part to find the highest dose of MVT-5873 that patients can tolerate, and an efficacy part to see if the recommended dose can increase the time it takes for the disease to worsen.
+
+3. **Eligibility:** Patients with pancreatic cancer, bile duct cancer, or colorectal cancer with metastases to the liver, and a certain level of CA 19-9 in their blood are eligible for the study.
+
+4. **Treatment:** Patients will receive MVT-5873 through an IV before and after surgery. The first infusion will be done 3-7 days before surgery, and subsequent infusions will be given on a 3-week cycle basis.
+
+5. **Surgery:** Patients will undergo a major surgical operation to remove as many of their visible cancer tumors as possible.
+
+6. **Follow-up:** Patients will have regular follow-up visits for research purposes, including blood tests, imaging assessments, and genetic testing.
+
+7. **Risks and Discomforts:** Patients may experience side effects such as allergic reactions, diarrhea, fatigue, fever, and increase in blood levels that measure liver function. There may also be risks associated with surgery, blood draws, and tissue collection.
+
+8. **Benefits:** The study aims to see if MVT-5873 can increase the time it takes for the disease to worsen, and may provide personal benefits such as shrinking of the tumor or lessening of symptoms.
+
+9. **Confidentiality:** The NIH will do its best to keep personal information private, but cannot guarantee total privacy. The study will be registered on ClinicalTrials.gov, and results will be reported.
+
+10. **Compensation:** Patients will not receive compensation for participation in the study, but may be reimbursed for travel, lodging, or meals while participating in the research.
+
+**Informed Consent:**
+
+The patient has the right to refuse participation in the study or withdraw from the study at any time. The patient's decision will not affect their access to medical care or benefits to which they are otherwise entitled. The patient will be informed of any changes to the study or any new information that may affect their participation.

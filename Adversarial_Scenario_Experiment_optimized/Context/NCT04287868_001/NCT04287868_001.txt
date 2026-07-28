@@ -1,0 +1,677 @@
+PRINCIPAL INVESTIGATOR:
+
+Charalampos Floudas, MD, DMSc, MS
+
+STUDY TITLE:
+
+Phase I/II Trial of Combination Immunotherapy in Subjects with Advanced
+
+HPV Associated Malignancies
+
+STUDY SITE:
+
+NIH Clinical Center (CC)
+
+Cohort:
+
+Affected Participants
+
+Consent Version:
+
+05/12/2023
+
+## WHO DO YOU CONTACT ABOUT THIS STUDY?
+
+Principal Investigator
+
+:  Charalampos Floudas, MD, DMSc, MS
+
+Phone: 240-858-3032
+
+Email: charalamposfloudas@nih.gov
+
+## KEY INFORMATION ABOUT THIS RESEARCH
+
+This consent form describes a research study and is designed to help you decide if you would like to be a part of the research study.
+
+You are being asked to take part in a research study at the National Institutes of Health (NIH). This section provides the information we believe is most helpful and important to you in making your decision about participating in this study. Additional information that may help you make a decision can be found in other sections of the document. Taking part in research at the NIH is your choice.
+
+You are being asked to take part in this study because you have been diagnosed with a locally advanced or metastatic HPV associated cancer, such as cervical cancers, P16+ oropharyngeal cancers, anal cancers, vulvar, vaginal, penile, and squamous cell rectal cancers, or other locally advanced or metastatic solid tumors (e.g., lung, esophagus) that are known HPV+ cancers.
+
+The purpose of this research study is to determine if a combination of immunotherapy drugs is effective  in  patients  with  HPV  associated  malignancies.  These  immunotherapy  drugs  are designed to help the immune system fight cancer.
+
+The use of PDS0101, M7824, and NHS-IL12 in this study is considered investigational, which means that this combination has not been approved by the U.S. Food and Drug Administration (FDA) to treat HPV associated malignancies. However, the FDA has given us permission to use the combination of PDS0101, M7824, and NHS-IL12 in this study.
+
+There are other drugs that may be used to treat your disease, and these can be prescribed/given by your regular cancer doctor if you choose not to be a part of this study. The way in which treatment is given in this study is similar to what you might receive as standard care.
+
+If you decide to join this study, here are some of the most important things that you should know that will happen:
+
+
+
+
+
+
+
+
+- We will  first  perform  some  tests  and  procedures  to  find  out  if  you  meet  the  study requirements. We will also confirm the status of your disease. You must have already received treatment for this cancer unless you are not eligible to receive standard therapy or you decline standard treatment.
+- You will receive a combination of the drugs PDS0101, M7824, and NHS-IL12 for up to one year. Each study treatment will be given in the Oncology Outpatient Center and will take approximately 2-4 hours. This allows time to give the study treatment and monitor you before and after. You are expected to receive a total of 8 doses of PDS0101, 26 doses of M7824 and 13 doses of NHS-IL12 over the course of one year.
+- You will be seen multiple times during study treatment. You will be asked to come to the NIH every two weeks. Visits usually take about 5-6 hours, but will take no longer than 8 hours.
+- o PDS0101 will be given by injection under the skin once every 4 weeks for 6 doses followed by every three months for an additional two doses.
+- o NHS-IL12 will be given by injection under the skin every four weeks.
+- o M7824 will be given by intravenous infusion (a needle inserted into a vein allowing the solution to be administered over a period of time) every two weeks. The infusion will take approximately one hour, but could take more or less time.
+- Participants with cervical cancer with previous radiation or brachytherapy boost may receive reduced doses of NHSIL12 and M7824 to help minimize the potential for serious bladder bleeding.
+- You may experience side effects from taking part in this study. Some can be mild or very serious,  temporary,  long-lasting,  or  permanent,  and  may  include  death.  Examples  of some of the side effects that you may have include: fatigue, nausea, diarrhea, chills, anemia, increased blood sugar, flu-like symptoms. A more complete list of possible side effects is described later in this consent. It is important that you read and understand the possible risks.
+- You will be seen regularly during the study. You will have clinical,  laboratory,  and imaging tests to see how you are doing and to see if your disease is responding to the study treatment. We will also collect required samples from you (such as blood and tumor biopsies) for both clinical and research purposes.
+
+- M7824 has been tried in other types cancers. Recently, the manufacturer of the drug closed 3 large studies because the drug was not shown to help those patients more than standard therapies. However, the type of cancer treated in those studies was not the same as your cancer.
+
+After the study treatment has ended we will contact you for long term follow-up every 3 months for one year and then every 6 months after the first year to ask about any adverse events, further treatment of your tumor, and your survival for the rest of your life. Subjects with evidence of disease progression after completing a year of treatment will be potentially allowed retreatment. Just as we do not know what side effects you might have, we cannot know if you may benefit
+
+PATIENT IDENTIFICATION
+
+
+Consent to Participate in a Clinical Research Study
+
+
+
+
+Page 2 of 20
+
+
+
+
+from taking part in this study. If you do not benefit, this study and the results from our research will help others in the future.
+
+You are free to stop participating in the trial at any time.  If you decide to stop, the study doctor may ask you to agree to certain tests to make sure it is safe for you to stop.
+
+You should have a discussion with the Principal Investigator or a member of the study team prior to starting any new medications while you are participating on this study.
+
+The  remaining  document  will  now  describe  more  about  the  research  study.  This  information should be considered before you make your choice. Members of the study team will talk with you about the information described in this document. Some people have personal, religious, or ethical beliefs that may limit the kinds of medical or research interventions in which they would want to participate. Take the time needed to ask any questions and discuss this study with NIH staff, and with your family, friends, and personal health care providers.
+
+If the individual being asked to participate in this research study is not able to give consent to be in this study, you are being asked to give permission for this person as their decision-maker. The term 'you' refers to you as the decision-maker and/or the individual being asked to participate in this research, throughout the remainder of this document.
+
+## IT IS YOUR CHOICE TO TAKE PART IN THE STUDY
+
+You may choose not to take part in this study for any reason. If you join this study, you may change your mind and stop participating in the study at any time and for any reason. In either case, you will not lose any benefits to which you are otherwise entitled. However, to be seen at the NIH, you must be taking part in a study or are being considered for a study. If you do choose to leave the study, please inform your study team to ensure a safe withdrawal from the research.
+
+## WHY IS THIS STUDY BEING DONE?
+
+The purpose of this research study is to determine if a combination immunotherapy is effective in shrinking tumors in patients with HPV associated malignancies.
+
+We are asking you to join this research study because you have been diagnosed with a locally advanced  or  metastatic  HPV  associated  cancer,  such  as  cervical  cancers,  P16+  oropharyngeal cancers, anal cancers, vulvar, vaginal, penile, and squamous cell rectal cancers, or other locally advanced or metastatic solid tumors (e.g., lung, esophagus) that are known HPV+ cancers.
+
+PDS0101, M7824, and NHS-IL12 are considered investigational, which means that the use of this combination has not been approved by the U.S. Food and Drug Administration (FDA) to treat HPV associated malignancies.
+
+## WHAT WILL HAPPEN DURING THE STUDY?
+
+Below is a description of what will be asked of you and what will occur if you decide to take part in this study.
+
+
+
+
+
+
+
+
+## Before you begin the study
+
+To determine if you can be a part of this study, you will need to have the following tests and procedures. These will be done under a separate protocol:
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Medical history and physical examination including height, weight, and vital signs;
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Routine blood tests;
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; CT scan of the brain, chest, abdomen and pelvis;
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Pregnancy test for women who are able to have children;
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; HIV screening test;
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Hepatitis B and C screening tests;
+- o As part of this study, we will test you for infection with HIV, the virus that causes AIDS. If you are infected with HIV, you may still be able to take part in this study. We will tell you what the results mean, how to find care, how to avoid infecting others, how we report HIV infections, and the importance of informing your partners at possible risk because of your HIV infection.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Urine tests;
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Confirmation of your disease. If there is no available tumor sample or pathology report, a biopsy will be performed to confirm the diagnosis.
+
+## During the study
+
+Once we know that you are eligible and you sign the consent document agreeing to participate in the study, you may need to have some of the tests that were done at screening repeated depending on how much time has passed. Your study team will let you know if any of the above tests need to be repeated.
+
+During your participation you will receive a combination of the drugs PDS0101, M7824, and NHS-IL12.
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; You will receive PDS0101 by injection under the skin every 4 weeks for 6 doses followed by every three months (i.e., every 12 weeks) for an additional two doses.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; You  will  receive  M7824  by  IV  infusion  every  two  weeks.  The  infusion  will  take approximately one hour, but could take more or less time. Before your M7824 infusion you may receive standard pre-medication of an antihistamine and acetaminophen (Tylenol).
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; You will receive NHS-IL12 by injection under the skin every four weeks. You may recive injections with a smaller dose every two weeks if the study doctor thinks it might be better for you (for example, if it might lessen side effects).
+
+Participants  with  cervical  cancer  with  previous  radiation  or  brachytherapy  boost  may  receive reduced doses of NHSIL12 and M7824 to help minimize the potential for serious bladder bleeding.
+
+We will continue to take assessments, such as physical exam, weight, vital signs, EKG, collection of blood for testing, pregnancy test for women of childbearing age, and scans for the evaluation of your tumor, during your participation.
+
+
+
+
+
+
+
+## Additional research testing
+
+In addition to the tests that we will conduct to determine whether you are having side effects or if you are responding to the study therapy, we will also collect samples from you for purposes of research only. The samples are being tested to look at the effects of therapy on your immune system and markers of tumor activity, including collecting and testing tumor cells.
+
+The samples included for these studies include:
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Blood Tests: collected before you have taken any study drug, 1 week and 3 days after the first M7824 + NHS-IL12 dose, at weeks 3 and 7, and at some restaging visits if your study doctor thinks your blood needs to be tested. The maximum amount of blood expected to be drawn at any visit is about 7 tablespoons.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Tumor Biopsy (optional):  collected  before  you  have  taken  any  study  drug  and  at  first restaging.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Tumor Scans: every 8 weeks.
+
+In  this  study  we  will  perform  genetic  testing  on  your  DNA  and  RNA.  DNA  (also  called deoxyribonucleic acid) in the cells carries genetic information and passes it from one generation of cells to the next - like an instruction manual. RNA (ribonucleic acid) carries instructions from your DNA to the parts of the cells that makes proteins. We will perform limited genetic testing on certain immune cells in your blood and tumor samples to characterize changes in the DNA of a particular molecule located on the immune cell. We will perform further genetic testing on your blood samples, looking at how much RNA you have for certain panels genes. This helps us to learn how active the genes are.
+
+## When you are finished with treatment
+
+End of Treatment Visit
+
+If you stop participation in the study before the completion of one year of study treatment, then you will be asked to come into the clinic on the day of or within 7 days of the decision to stop study treatment for the following tests and procedures: physical examination including weight, and vital  signs;  EKG;  routine  blood  tests  to  measure  blood  chemistry  and  complete  blood  count; pregnancy test if you are a woman who can have children; and scans if you stop study therapy before your disease worsens.
+
+Safety Visit
+
+After your study treatment ends or if you stop participation in the study for any reason you will be asked to come into the clinic for a 28 day follow-up visit or telephone call following your last dose of study drug(s).
+
+During the visit the following tests and procedures will be given: physical examination including weight and vital signs; EKG; and routine blood tests; and pregnancy test if you are a woman who can have children.
+
+Long Term Follow-up
+
+
+
+
+
+
+
+
+If your disease progresses while you are being treated, then you will be followed by phone or email to  monitor your disease status, determine if further treatment is needed, and follow up on any adverse events.
+
+If  your  disease  did  not  progress  while  being  treated  then  you  will  receive  tumor  scans  until progression of your disease and will be followed by phone or email to monitor your disease status, determine if further treatment is needed, and follow up on any adverse events. If you completed one  year  of  study  treatment  then  you  may  be  asked  to  complete  an  additional  year  of  study treatment at the time of your disease progression.
+
+## HOW LONG WILL THE STUDY TAKE?
+
+If  you  agree  to  take  part  in  this  study,  the  study  treatment  portion  is  expected  to  last  for approximately one year.
+
+You will be seen multiple times during study treatment. You will be asked to come to the NIH every two weeks. Visits usually take about 5-6 hours, but will take no longer than 8 hours.
+
+## HOW MANY PEOPLE WILL PARTICIPATE IN THIS STUDY?
+
+We plan to have approximately 56 people participate in this study at the NIH.
+
+## WHAT ARE THE RISKS AND DISCOMFORTS OF BEING IN THE STUDY?
+
+Risks from Study Therapy
+
+Side effects of PDS0101
+
+The most common side effect reported has been:
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Administration site reactions (such as redness, swelling, etc.)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Malaise (feeling ill)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Other possible side effects include: Fatigue (tiredness)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Fever
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Nausea
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Diarrhea
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Vomiting
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Dizziness
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Muscle pain
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Headache
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Insomnia (sleep disturbances)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Lack of energy
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Dysmenorrhea (pain with menstruation)
+
+Side effects of M7824
+
+Common side effects (occurring in more than 5% of patients):
+
+
+
+
+
+
+
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Fatigue (tiredness and lack of energy)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Diarrhea
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Nausea
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Constipation
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Swelling of you lower legs or hands
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Vomiting
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Fever
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Loss of body fluids (dehydration)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Decreased appetite
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Skin growths called keratoacanthomas that resemble skin cancer. These usually go away after treatment and can leave a scar.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Rash, blisters, skin discoloration and other skin abnormalities.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Shortness of breath
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Cough
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Anemia: low number of red blood cells that can cause tiredness and shortness of breath. May require a transfusion.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Abdominal pain
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Itching
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Headache
+
+
+Occasional side effects (occurring in less than 5% of patients):
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Chills (feeling cold)
+
+
+Page 7 of 20
+
+
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Blood clots that form throughout the body, blocking small blood vessels. Symptoms may include chest pain, shortness of breath, leg pain, problems speaking, or problems moving parts of the body.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Easy bruising
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Infusion-related reaction, including dizziness or fainting (low blood pressure), flushing, rash, fever, shortness of breath or sick to your stomach, or pain at the site of infusion. Although usually reversible with treatment, it can be severe or life threatening.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Reaction to other drugs such as rash, anaphylaxis, and changes in blood.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Back pain
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Stroke
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Cancerous growth on the skin that can be removed
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Slow wound healing
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Thickening of the skin, nails
+
+In addition to the above, we have seen a few cases of nodular regenerative hyperplasia.  This is when small growths, or nodules, occur in the liver.  These usually do not cause symptoms, but can occasionally be associated with high blood pressure in the vein to the liver which could over time lead to liver damage.
+
+Allergic reactions or reactions in the context with the infusions might occur during study treatment. Although M7824 is a fully human protein the risk cannot be completely excluded. In general, these reactions are mild to moderate and can be handled with appropriate drugs, but in very rare cases severe to life-threatening and even fatal reactions might occur, which require advanced cardiac life support.
+
+In addition, immune-mediated side effects might be possible. These side effects are caused by over activity of your body's immune-system. The immune system normally protects you from things that are harmful; such as infections, foreign substances, and sometimes from cancer. If the immune system is overactive, it can attack normal parts of the body because it mistakenly recognizes them as foreign/harmful.
+
+Examples of these side effects are listed below. In rare cases, immune-related side effects can be life-threatening or fatal.
+
+## Types of immune related side effects:
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Inflammation of the lungs (pneumonitis): symptoms may include but are not limited to a new or worsening cough, shortness of breath possibly with fever. Preliminary data suggested that there may be the tendency of higher frequency and severity in Japanese patients compared with non-Japanese patients: tell your study doctor right away if you have any of these symptoms as it may need to be treated urgently.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Hypothyroidism (decreased function of the thyroid gland)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Thyroiditis (inflammatory disease of the thyroid gland)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Hyperthyroidism (increased function of thyroid gland)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; You may develop inflammation of the liver called hepatitis. Signs and symptoms of this include yellowing of the skin or whites of the eyes, dark urine, severe nausea and
+
+
+
+
+
+
+
+vomiting, pain in the upper right side of your abdomen, skin itchiness, not feeling hungry and bleeding or bruising more easily than normal.
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Thrombocytopenia (decrease of the blood platelets)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Diabetes mellitus (high blood sugar levels)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Uveitis (inflammation in the eye)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Problems with your adrenal glands (Adrenal Insufficiency): may cause stomach pains, vomiting, muscle weakness and fatigue, depression, low blood pressure, weight loss, kidney problems, and changes in mood and personality. These complications may be permanent and may require hormone replacement.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Myositis (inflammation of the muscles characterized by pain and tenderness)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Inflammation of the intestine (colitis). It may cause abdominal pain and diarrhea with or without blood. Fever may be present. It may require you to receive additional fluids. If left untreated, in rare occasions this may lead to a tear in the wall of the intestine which can be serious and life threatening.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Autoimmune encephalitis is a type of brain inflammation where the body's immune system attacks healthy cells and tissues in the brain or spinal cord.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Myocarditis (inflammation of the heart muscle)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Kidney problems: you may have an increase of creatinine levels in a blood test (creatinine is a protein marker that measures kidney function) but not have any symptoms or feel unwell. Uncommonly a patient may experience nephritis which is an inflammation of the kidneys that stops the kidneys from working properly.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Pemphigoid (fluid-filled blisters that can be itchy)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Problems with the pituitary gland (hypopituitarism): Hypopituitarism refers to decreased output of hormones from the pituitary gland in the brain and may be caused by inflammation of the pituitary gland (hypophysitis). Symptoms may include headaches, thirstiness, and trouble seeing or double vision, leakage of breast milk or irregular periods in women. These complications may be permanent and may require hormone replacement.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Pancreatitis (inflammation of the pancreas)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Liver problems: Increases in the blood level of substances called enzymes found within your liver cells. The enzyme changes are unlikely to make you feel unwell, however, if these blood enzyme levels become very high, your study doctor may need to stop the study medication.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Nervous system problems: symptoms can include unusual weakness of legs, arms, or face, numbness, or tingling in hands or feet. In rare situations, there is the potential for the inflammation of the nervous system to be severe.
+
+If any of these side effects occur, you must inform your study doctor immediately.
+
+## Side effects of NHS-IL12
+
+NHS-IL12 is in the early stages of development and the potential side effects are not completely known.
+
+Common side effects (occurring in more than 10% of patients):
+
+PATIENT IDENTIFICATION
+
+
+
+
+
+
+
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Decreased white blood cells (including lymphocytes and neutrophils)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Increased aspartate aminotransferase and alanine aminotransferase (liver enzymes)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Hyperglycemia (increased blood sugar)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Anemia (decreased red blood cells)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Flu-like symptoms
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Fever
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Increased alkaline phosphatase (an enzyme found in the blood)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Fatigue (tiredness)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Thrombocytopenia (decreased platelets)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Hypoalbuminemia (decreased albumin levels in the blood)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Hypophosphatemia (decreased phosphate levels in the blood)
+
+If you suffer any of these side effects (or any others not listed) or you think you are experiencing a side effect during this study, you must tell your study doctor immediately.
+
+Any side effects or other health issues occurring during the study will be followed up by the study doctor.
+
+It is possible that the symptoms of your condition will not improve during the study or may even worsen. Treatment with this study drug may also involve risks to your future health that we currently do not know about.
+
+## Risk from Blood Collection
+
+Risks  of  blood  draws  include  pain  and  bruising  in  the  area  where  the  needle  is  placed, lightheadedness, and rarely, fainting. When large amounts of blood are collected, low red blood cell count (anemia) can develop.
+
+## Risks from Biopsy
+
+Care will be taken to minimize risks that may happen during collection of a tumor sample. This procedure usually causes only brief discomfort at the site from which the biopsy is taken. You may experience some bruising around the biopsy site. Rarely, infection or bleeding may occur at the needle site.
+
+Tumor biopsies will be done by a specialist using the CT scanner or ultrasound machine to guide the biopsy needle into the tumor to ensure accuracy. To collect the optional research biopsies, you may be exposed to 2 CT scans. Your radiation exposure from this procedure is below the guidelines allowed for research subjects at the NIH. See What are the risks of radiation from being in the study? below for more details.
+
+## What are the risks related to pregnancy?
+
+If you are able to become pregnant, we will ask you to have a pregnancy test before starting this study. You will need to practice an effective form of birth control before starting study treatment, during study treatment, and for two (2) months after you finish study treatment (the restricted period). If you become pregnant, there may be unknown risks to the fetus or unborn child, or risks that we did not anticipate. There may be long-term effects of the study treatment being studied that could increase the risk of harm to the fetus. You must tell the study doctor if your birth control
+
+
+
+
+
+
+
+
+method fails during the restricted period. If you think or know you have become pregnant during the restricted period, please contact the study team soon as possible.
+
+If you are a sexually active person with a partner able to become pregnant, it is important that your partner not become pregnant during the restricted period. There may be unknown risks to the fetus or risks we did not anticipate. You and your partner must agree to use birth control if you want to take part in this study. If you think your partner has become pregnant during the restricted period, please contact the study team as soon as possible. If you and your partner plan for your partner to become pregnant after the restricted period, please discuss this with the study team.
+
+Acceptable birth control options for you and your partner include:
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Abstinence;
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; hormonal contraceptives or therapies (such as birth control pills, injections, or implants);
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; barrier methods (such as a condom or diaphragm) used with a spermicide;
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; an intrauterine device (IUD);
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; surgical sterilization (tubal ligation or vasectomy).
+
+## What are the risks of radiation from being in the study?
+
+During your participation in this research study, you will be exposed to radiation from CT scans and CT guided biopsies (optional). The amount of radiation exposure you will receive from these procedures is equal to approximately 9.4 rem. A rem is a unit of absorbed radiation.
+
+Note: The 2 CT guided biopsies are optional and depend on your decision to agree to the biopsies and their location with your study doctor.
+
+Every  day,  people  are  exposed  to  low  levels  of  radiation  that  come  from  the  sun  and  the environment around them. The average person in the United States receives a radiation exposure of 0.3 rem per year from these sources. This type of radiation is called 'background radiation.' No one knows for sure whether exposure to these low amounts of radiation is harmful to your body.
+
+The CT scans and CT guided biopsies that you get in this study will expose you to the roughly the same amount of radiation as 31.3 years' worth of background radiation. Being exposed to too much radiation can cause harmful side effects such as an increase in the risk of cancer. The risk depends on how much radiation you are exposed to. Please be aware that about 40 out of 100 people (40%) will get cancer during their lifetime, and 20 out of 100 (20%) will die from cancer. The risk of getting cancer from the radiation exposure in this study is 0.9 out of 100 (0.9%) and of getting a fatal cancer is 0.5 out of 100 (0.5%).
+
+You may not participate in this study if you are pregnant. If you are able to become pregnant, we will perform a pregnancy test before exposing you to radiation. You must tell us if you may have become pregnant within the previous 14 days because the pregnancy test is unreliable during that time.
+
+
+
+
+
+
+
+
+## Non Radiation Risks of CT Scans
+
+In addition to the radiation risks from CT scans discussed above, you may experience an allergic reaction to the dye we inject into your veins to help us view the scan better.  You might experience hives, itching, headache. More serious reactions that would include difficulty breathing, increased heart rate and swelling of your throat or other body parts.
+
+## Psychological or Social Risks Associated with Return of Incidental or Secondary Findings
+
+As part of the research study, it is possible that you could learn that you have genetic risks for another disease or disability. This may be upsetting and, depending on what you learn, might create a need to make challenging decisions about how to respond.
+
+Although your genomic information is unique to you, you share some genomic similarities with your  children,  parents,  brothers,  sisters,  and  other  blood  relatives.  Therefore,  learning  your research results could mean something about your family members and might cause you or your family distress. Before joining the study, it may be beneficial to talk with your family members about whether and how they want you to share your results with them.
+
+## Privacy Risks Associated with Genetic Testing
+
+It may be possible that genetic information could be used by law enforcement agencies or other entities to identify you or your blood relatives.
+
+## Protections against misuse of genetic information
+
+This study involves genetic testing on samples.  Some genetic information can help predict future health problems of you and your family and this information might be of interest to your employers or insurers. The Genetic Information Nondiscrimination Act (GINA) is a federal law that prohibits plans and health insurers from requesting genetic information or using genetic information. It also prohibits employment discrimination based on your health information. However, GINA does not address discrimination by companies that sell life insurance, disability insurance, or long-term care insurance. GINA also does not protect you against discrimination based on an already-diagnosed condition or disease that has a genetic component.
+
+## WHAT ARE THE BENEFITS OF BEING IN THE STUDY?
+
+You might not benefit from being in this study.
+
+However, the potential benefit to you might be a reduction in the bulk of your tumor which may or may not have favorable impact on symptoms and/or survival.
+
+## Are there any potential benefits to others that might result from the study?
+
+There is a need for beneficial treatments in patients with advanced HPV associated cancers as standard therapies often do not work. In the future, other people might benefit from this study because of the knowledge gained from the outcome of this trial using combination immunotherapy.
+
+## WHAT OTHER OPTIONS ARE THERE FOR YOU?
+
+Before you decide whether or not to be in this study, we will discuss other options that are available to you. Instead of being in this study, you could:
+
+Consent to Participate in a Clinical Research Study
+
+
+
+
+
+
+
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; choose to be treated with surgery, radiation or with drugs already approved by the FDA for your disease;
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; choose to take part in a different study, if one is available;
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; choose not to be treated for cancer but you may want to receive comfort care to relieve symptoms.
+
+You should discuss with your doctor your other choices and their risks and benefits.
+
+## DISCUSSION OF FINDINGS
+
+## New information about the study
+
+If we find out any new information that may affect your choice to participate in this study, we will get in touch with you to explain what we have learned. This may be information we have learned  while  doing  this  study  here  at  the  NIH  or  information  we  have  learned  from  other scientists doing similar research in other places.
+
+## Return of research results
+
+When we are examining your DNA, it is possible that we could identify possible changes in other parts of your DNA that are not related to this research. These are known as 'incidental medical findings'.
+
+## These include:
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Changes in genes that are related to diseases other than cancer
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Changes in genes that are not known to cause any disease. These are known as normal variations.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Changes in genes that are new and of uncertain clinical importance. This means that we do not know if they could cause or contribute to a disease or if they are normal variations.
+
+Since the analyses that we perform in our laboratory are not nearly as sensitive as the tests that are performed in a laboratory that is certified to perform genetic testing, the genetic changes that we find may or may not be valid.  Therefore, we do not plan to inform you of all of the genetic results of testing on your tissue and blood that is performed in our research lab. However, in the unlikely event that we discover a finding believed to be clinically important based on medical standards at the time we first analyze your results, we will contact you. This could be many years in the future. We will ask you to have an additional tube of blood drawn to verify the findings we have seen in our lab. If  the  results  are  verified,  you  will  be  re-contacted  and  offered  a  referral  to  a  genetic healthcare provider to discuss the results.
+
+## EARLY WITHDRAWAL FROM THE STUDY
+
+Your doctor may decide to stop your therapy for the following reasons:
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; if he/she believes that it is in your best interest
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; if you have side effects from the study treatment that your doctor thinks are too severe
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; if your disease worsens or comes back during study treatment
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; if you become pregnant
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; if PDS0101, M7824, and/or NHS-IL12 becomes unavailable
+
+
+Consent to Participate in a Clinical Research Study
+
+
+
+
+
+
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; if new information shows that another treatment would be better for you
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; if the study is stopped for any reason
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; if you do not follow the study rules
+
+In this case, you will be informed of the reason therapy is being stopped.
+
+After therapy is stopped we would like to see you for a safety visit 28 days after your last dose.
+
+You can stop taking part in the study at any time. However, if you decide to stop taking part in the study, we would like you to talk to the study doctor and your regular doctor first.
+
+If you decide at any time to withdraw your consent to participate in the trial, we will not collect any  additional  medical  information  about  you.  However,  according  to  FDA  guidelines, information collected on you up to that point may still be provided to PDS Biotechnology, EMD Serono, Inc, or designated representatives.
+
+## STORAGE, SHARING AND FUTURE RESEARCH USING YOUR SPECIMENS AND DATA
+
+## Will your Specimens or Data be saved for Use in Other Research Studies?
+
+As part of this study, we are obtaining specimens and data from you. We will remove all the identifiers, such as your name, date of birth, address, or medical record number and label your specimens and data with a code so that you cannot easily be identified. However, the code will be linked through a key to information that can identify you. We plan to store and use these specimens and data for studies other than the ones described in this consent form that are going on right now, as well as studies that may be conducted in the future. These studies may provide additional information that will be helpful in understanding HPV associated cancers or other diseases or conditions. This could include studies to develop other research tests, treatments, drugs, or devices, that may lead to the development of a commercial product by the NIH and/or its research or commercial partners. There are no plans to provide financial compensation to you if this happens. Also, it is unlikely that we will learn anything from these studies that may directly benefit you.
+
+I give permission for my coded specimens and data to be stored and used for future research as described above.
+
+- [ ] \_\_\_\_\_ Yes
+
+- [ ] \_\_\_\_\_ No
+
+Initials
+
+Initials
+
+## Will Your Specimens or Data Be Shared for Use in Other Research Studies?
+
+We may share your coded specimens and data with other researchers. If we do, while we will maintain the code key, we will not share it, so the other researchers will not be able to identify you.   They may be doing research in areas similar to this research or in other unrelated areas. These researchers may be at NIH, other research centers and institutions, or commercial entities.
+
+
+
+
+
+
+
+
+I give permission for my coded specimens and data to be shared with other researchers and used by these researchers for future research as described above.
+
+- [ ] \_\_\_\_\_ Yes
+
+- [ ] \_\_\_\_\_ No
+
+Initials
+
+Initials
+
+If you change your mind and do not want us to store and use your specimens and data for future research, you should contact the research team member identified at the top of this document. We will do our best to comply with your request but cannot guarantee that we will always be able to destroy your specimens and data. For example, if some research with your specimens and data has already been completed, the information from that research may still be used. Also, for example, if the specimens and data have been shared already with other researchers, it might not be possible to withdraw them.
+
+In addition to the planned use and sharing described above, we might remove all identifiers and codes from your specimens and data and use or share them with other researchers for future research at the NIH or other places.  When we or the other researchers access your anonymized data, there will be no way to link the specimens or data back to you.  We will not contact you to ask your permission or otherwise inform you before we do this.  We might do this even if you answered "no" to the above questions.  If we do this, we would not be able to remove your specimens or data to prevent their use in future research studies, even if you asked, because we will not be able to tell which are your specimens or data.
+
+NIH policies require that your clinical and other study data be placed in an internal NIH database that is accessible to other NIH researchers for future research. These researchers will not have access to any of your identifiers, such as your name, date of birth, address, or medical record number; and your data will be labeled with only a code. We cannot offer you a choice of whether your data to be placed in this database or not.  If you do not wish to have your data placed in this database, you should not enroll in this study.
+
+## Will Your Genomic Data Be Shared Outside of This Study?
+
+As part of this research study, we will put your genomic data in a large database for broad sharing with  the  research  community.  These  databases  are  commonly  called  data  repositories. The information  in  this  database  will  include  but  is  not  limited  to  genetic  information,  race  and ethnicity, and sex. If your individual data are placed in one of these repositories , they will be labeled with a code and not with your name or other information that could be used to easily identify you, and only qualified researchers will be able to access them. These researchers must receive prior approval from individuals or committees with authority to determine whether these researchers can access the data.
+
+NIH policies require that genomic data be placed in a repository for sharing. Therefore, we cannot offer you a choice of whether your data will be shared.  If you do not wish to have your data placed in a repository, you should not enroll in this study.
+
+
+
+
+
+
+
+
+## How Long Will Your Specimens and Data be Stored by the NIH?
+
+Your specimens and data may be stored by the NIH until they are no longer of scientific value or if you withdraw consent for their continued use, at which time they will be destroyed. Your specimens and data may be stored by the NIH indefinitely.
+
+## Risks of Storage and Sharing of Specimens and Data
+
+When we store your specimens and data , we take precautions to protect your information from others who should not have access to it. When we share your specimens and data, we will do everything we can to protect your identity, for example, when appropriate, we remove information that can identify you. Even with the safeguards we put in place, we cannot guarantee that your identity will never become known or someone may gain unauthorized access to your information. New methods may be created in the future that could make it possible to re-identify your data or samples.
+
+## COMPENSATION, REIMBURSEMENT, AND PAYMENT
+
+## Will you receive compensation for participation in the study?
+
+Some NIH Clinical Center studies offer compensation for participation in research. The amount of compensation, if any, is guided by NIH policies and guidelines.
+
+You will not receive compensation for participation in this study.
+
+## Will you receive reimbursement or direct payment by NIH as part of you participation?
+
+Some NIH Clinical Center studies offer reimbursement or payment for travel, lodging or meals while participating in the research. The amount, if any, is guided by NIH policies and guidelines.
+
+On this study, the NCI will cover the cost for some of your expenses.  Some of these costs may be paid directly by the NIH and some may be reimbursed after you have paid.  Someone will work with you to provide more information.
+
+## Will taking part in this research study cost you anything?
+
+NIH does not bill health insurance companies or participants for any research or related clinical care that you receive at the NIH Clinical Center.
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; If some tests and procedures are performed outside the NIH Clinical Center, you may have to pay for these costs if they are not covered by your insurance company.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Medicines  that  are  not  part  of  the  study  treatment  will  not  generally  be provided or paid for by the NIH Clinical Center.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Once  you  have  completed  taking  part  in  the  study,  medical  care  will  no  longer  be provided by the NIH Clinical Center.
+
+## CONFLICT OF INTEREST (COI)
+
+The National Institutes of Health (NIH) reviews NIH staff researchers at least yearly for conflicts of interest. This process is detailed in a COI Guide. You may ask your research team for a copy of the COI Guide or for more information. Members of the research team who do not work for
+
+Consent to Participate in a Clinical Research Study
+
+
+
+
+
+
+
+
+NIH are expected to follow these guidelines or the guidelines of their home institution, but they do not need to report their personal finances to the NIH.
+
+The National Institutes of Health and the research team for this study have a patent for any drug(s) dually targeting a blockade of PD-L1 and TGF beta in HPV positive malignancies. This is the mechanism being looked at in this study. This means it is possible that the results of this study could lead to payments to NIH. By law, the government is required to share such payments with the employee inventors. You will not receive any money from the development of drugs dually targeting PD-L1 and TGF beta in HPV positive malignancies.
+
+The NIH and the research team for this study are using:
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; PDS0101 developed by PDS Biotechnology, and
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; M7824 and NHS-IL12 developed by EMD Serono, Inc.
+
+through a joint study with your study team and these companies. These companies also provide financial support for this study.
+
+## CLINICAL TRIAL REGISTRATION AND RESULTS REPORTING
+
+A description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. Law. This Web site will not include information that can identify you. At most, the Web site will include a summary of the results. You can search this Web site at any time.
+
+## CONFIDENTIALITY PROTECTIONS PROVIDED IN THIS STUDY
+
+Some of your health information, and/or information about your specimen, from this study will be kept in a central database for research. Your name or contact information will not be put in the database. Your test results will be identified by a unique code and the list that links the code to your name will be kept separate from your sample and health information. Your information may be given out if required by law. For example, certain states require doctors to report to health boards if they find a disease like tuberculosis. However, the researchers will do their best to make sure that any information that is released will not identify you.
+
+## Will your medical information be kept private?
+
+We will do our best to make sure that the personal information in your medical record will be kept private. However, we cannot guarantee total privacy. Organizations that may look at and/or copy your medical records for research, quality assurance, and data analysis include:
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; The NIH and other government agencies, like the Food and Drug Administration (FDA), which are involved in keeping research safe for people.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; National Institutes of Health Intramural Institutional Review Board.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Qualified  representatives  from  PDS  Biotechnology,  the  pharmaceutical  company  who produces PDS0101, or their agent(s) .
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; The study Sponsor, NCI Center for Cancer Research, or their agent(s).
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Qualified  representatives  from  EMD  Serono,  Inc.,  the  pharmaceutical  company  who produces M7824 and NHS-IL12, or their agent(s).
+
+
+
+
+
+
+
+
+The researchers conducting this study and the NIH follow applicable laws and policies to keep your identifying information private to the extent possible.  However, there is always a chance that,  despite  our  best  efforts,  your  identity  and/or  information  about  your  participation  in  this research may be inadvertently released or improperly accessed by unauthorized persons.
+
+In most cases, the NIH will not release any identifiable information collected about you without your written permission.  However, your information may be shared as described in the section of this document on sharing of specimens and data, and as further outlined in the following sections.
+
+Further,  the  information  collected  for  this  study  is  protected  by  NIH  under  a  Certificate  of Confidentiality and the Privacy Act.
+
+## Certificate of Confidentiality
+
+To  help  us  protect  your  privacy,  the  NIH  Intramural  Program  has  received  a  Certificate  of Confidentiality  (Certificate).  With  this  certificate,  researchers  may  not  release  or  use  data  or information about you except in certain circumstances.
+
+NIH researchers must not share information that may identify you in any federal, state, or local civil, criminal, administrative, legislative, or other proceedings, for example, if requested by the court.
+
+The Certificate does not protect your information when it:
+
+1. is disclosed to people connected with the research, for example, information may be used for auditing or program evaluation internally by the NIH; or
+2. is required to be disclosed by Federal, State, or local laws, for example, when information must  be  disclosed  to  meet  the  legal  requirements  of  the  federal  Food  and  Drug Administration (FDA); or
+3. is for other research; or
+4. is disclosed with your consent.
+
+The Certificate does not prevent you from voluntarily releasing information about yourself or your involvement in this research.
+
+The Certificate will not be used to prevent disclosure to state or local authorities of harm to self or others including, for example, child abuse and neglect, and by signing below you consent to those disclosures. Other permissions for release may be made by signing NIH forms, such as the Notice and Acknowledgement of Information Practices consent.
+
+## Privacy Act
+
+The Federal Privacy Act generally protects the confidentiality of your NIH medical records we collect  under  the  authority  of  the  Public  Health  Service  Act. In  some  cases,  the  Privacy  Act protections differ from the Certificate of Confidentiality. For example, sometimes the Privacy Act allows release of information from your medical record without your permission, for example, if it is requested by Congress. Information may also be released for certain research purposes with due consideration and protection, to those engaged by the agency for research purposes, to certain federal and state agencies, for HIV partner notification, for infectious disease or abuse or neglect reporting,    to  tumor  registries,  for  quality  assessment  and  medical  audits,  or  when  the  NIH  is
+
+
+
+
+
+
+
+
+involved in a lawsuit. However, NIH will only release information from your medical record if it is permitted by both the Certificate of Confidentiality and the Privacy Act.
+
+## Policy Regarding Research-Related Injuries
+
+The NIH Clinical Center will provide short-term medical care for any injury resulting from your participation in research here. In general, no long-term medical care or financial compensation for research-related injuries will be provided by the NIH, the NIH Clinical Center, or the Federal Government. However, you have the right to pursue legal remedy if you believe that your injury justifies such action.
+
+## Problems or Questions
+
+If  you  have  any  problems  or  questions  about  this  study,  or  about  your  rights  as  a  research participant, or about any research-related injury, contact the Principal Investigator, Charalampos Floudas, MD, DMSc, MS, charalamposfloudas@nih.gov, 240-858-3032. You may also call the NIH Clinical Center Patient Representative at 301-496-2626, or the NIH Office of IRB Operations at 301-402-3713, if you have a research-related complaint or concern.
+
+## Consent Document
+
+Please keep a copy of this document in case you want to read it again.
+
+
+
+
+
+

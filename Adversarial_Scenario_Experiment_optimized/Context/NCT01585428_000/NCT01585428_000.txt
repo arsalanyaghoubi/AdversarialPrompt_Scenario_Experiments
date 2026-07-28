@@ -1,0 +1,387 @@
+## MEDICAL RECORD
+
+## CONSENT TO PARTICIPATE IN A CLINICAL RESEARCH STUDY
+
+- Adult Patient or
+
+- Parent, for Minor Patient
+
+INSTITUTE:
+
+National Cancer Institute
+
+STUDY NUMBER:
+
+12-C-0116
+
+PRINCIPAL INVESTIGATOR: Steven A. Rosenberg, M.D., Ph.D
+
+STUDY TITLE:
+
+A Phase II Study of Lymphodepletion followed by Autologous Tumor- Infiltrating Lymphocytes and High-Dose Aldesleukin for Human Papillomavirus- Associated Cancers
+
+Continuing Review Approved by the IRB on 01/11/16
+
+Amendment Approved by the IRB on 07/22/15  (J)
+
+Date posted to web:   02/05/16
+
+Standard
+
+## INTRODUCTION
+
+We invite you to take part in a research study at the National Institutes of Health (NIH).
+
+First, we want you to know that: Taking part in NIH research is entirely voluntary.
+
+You  may  choose  not  to  take  part,  or  you  may  withdraw  from  the  s tudy  at  any  time.    In either case, you will not lose any benefits to which you are otherwise entitled.  However, to receive care at the NIH, you must be taking part in a study or be under evaluation for study participation.
+
+<!-- image -->
+
+You may receive no benefit from taking part.  The research may give us knowledge that may help people in the future.
+
+Second,  some  people  have  personal,  religious or ethical beliefs that may  limit the kinds medical  or  research  treatments  they  would  want  to  receive  (such  as  blood  transfusions).    If  you have such beliefs, please discuss them with your NIH doctors or research team before you agree to the study.
+
+<!-- image -->
+
+<!-- image -->
+
+Now we will describe this  research  study.    Before  you  decide  to  take  part,  please  take  as  much time as you need to ask any questions and discuss this study with anyone at NIH, or with family, friends or your personal physician or other health professional.
+
+## Why is this study being done?
+
+We have developed an experimental therapy that involves taking cells called lymphocytes from patients' tumors, growing them in the laboratory in large numbers, and then giving the cells back to the patient.  These cells are called Young Tumor Infiltrating Lymphocytes, or Young TIL and the therapy is called cell therapy.  Before receiving the cells, the patients receive 2 chemotherapy drugs to temporarily suppress the immune system to improve the chances that the tumor fighting
+
+•
+
+Adult Patient or
+
+• Parent, for Minor Patient
+
+
+
+File in Section 4:  Protocol Consent (1)
+
+of
+
+
+
+NIH 2514-1, Consent to Participate in A Clinical Research Study NIH 2514-2, Minor Patient's Assent to Participate In A Clinical Research Study
+
+
+cells will be able to survive in the body. After the cells are given, the patients receive aldesleukin (IL-2) to help the tumor fighting cells stay alive longer.
+
+The  purpose  of  this  study  is  to  see  if  these  tumor  fighting  cells  (young  TIL)  can  cause  tumors that  are  associated  with  the  human papilloma virus (HPV) to shrink and to evaluate the toxicity of this treatment.
+
+## Why are you being asked to take part in this study?
+
+You are being asked to participate in this study because you have been diagnosed with an HPV -associated cancer such as cervical, vulvar, vaginal, penile, anal, or oropharyngeal cancer.
+
+## How many people will take part in this Study?
+
+Up to 73 patients will be enrolled in this study.
+
+## Description of Research Study
+
+## The Cell protocol has several stages:
+
+| Stage                           | Timeframe                         | Location                   | Comments &Instructions                                                                         |
+|---------------------------------|-----------------------------------|----------------------------|------------------------------------------------------------------------------------------------|
+| Work up                         | 1-2 weeks                         | Inpatient and out patient  | Scans, x-rays, labs leukapheresis other tests as needed                                        |
+| Chemotherapy (day -7 to -1)     | 1 week                            | Inpatient                  | Receive IV chemotherapy to prepare your immune system for the cells                            |
+| Cells and aldesleukin (Day 0-4) | 1-5 days                          | Inpatient and possibly ICU | Receive the TIL cells IV and then high dose aldesleukin about every 8 hours for up to 15 doses |
+| Recovery                        | 1-2 weeks                         | Inpatient unit             | Recover from the effects of treatment                                                          |
+| Follow -up                      | Ongoing until disease progression | Outpatient                 | Return to clinic for physical exam, review of side effects, labs, scans every 1-6 months.      |
+
+What will happen if you take part in this research study?
+
+## Before you begin the study
+
+## Cell harvest and growth
+
+We will be obtaining your cells for treatment from a biopsy of your tumor or during surgery, so we can grow Young TIL from your tumor cells in the laboratory.  In 1 out of 5 patients, we are not able to successfully grow the cells for this procedure.  If your cells do not grow or show HPV reactivity  to  certain  cancer  targets,  you  will  not  be  able  to  receive  the  cell infusion. If that happens, we will look at alternative treatments for you (best available care) or return  you to the care  of  your  referring  physician.    We  usually  know  after  about  4  weeks  whether  the  cells  will grow  well  enough  to  be  used  as  an  experimen tal  treatment  on  this  protocol.    At  the  time  we determine that your cells are not growing, we will inform you and discuss your options with you.
+
+
+
+
+
+
+## Work up
+
+Prior to receiving the experimental treatment you will undergo many tests. These include imaging procedures, heart and lung function tests, and laboratory tests.  If you are a woman, you will  undergo  a  pregnancy  test.    You  will  also  have  a  large  catheter  inserted  into  a  vein  and leukapheresis  will  be  performed  (see  below).    You  may  be  admitted  to  the  hospital  for  these tests.  However,  you  will  be  allowed  to  leave  on  pass  on  the  days  that  you  are  not  having  tests performed.
+
+## Catheter insertion
+
+Prior to beginning the experimental treatment, you will have an intravenous (IV) catheter placed in  your  upper  chest.  The  area  will  be  numbed  with  an  anesthetic  before  the  catheter  is  put  in. Although rare, putting these catheters in can sometimes cause collapse of a lung or bleeding.  Lung collapse is treated by putting a tube into your chest for a few days to allow your lung  to  expand.    Pressure  is  placed  on  any  area  that  might  bleed.    Other  IVs  may  be  needed  in one or both of your arms if we need to give you extra fluids, medicines, or nutrition.
+
+## Leukapheresis
+
+Leukapheresis is a procedure that allows us to remove certain types of blood cells from you and return  the  rest  of  your  blood.    It  is  a  very  common  procedure  that  is  done  routinely  here  at  the NIH with very few risks.  During leukapheresis,  blood is removed from you through a needle in your  arm,  circulated  through  a  machine  that  divides  whole  blood  into  red  cells,  plasma  (the serum part), and lymphocytes (or white cells), and then the plasma and red cells are returned to you through a second needle in your other arm.  The white blood cells may be used to  help grow the cells. In addition to the leukapheresis you will undergo as part of your work up, we will also ask  you  to  undergo  one  additional  pheresis  procedure  between  4  and  6  weeks  after  your  cell treatment  to  see  the  impact  of  this  therapy  on  the  immu ne  system  and  see  if  cells  we  gave  you are still active.
+
+## Chemotherapy Regimen (Day -7 through Day -1)
+
+After  we  have  grown  the  Young  TIL  cells  to large numbers  in  the laboratory, you  will admitted to the hospital to begin your experimental treatment. You will be given chemotherapy  medicines,  cyclophosphamide  and  fludarabine,  to  make  space  in  your  immune system  so  the  Young  TIL  can  work  without  any  interference  from  the  cells  in  your  immune system. These medicines may cause your tumor to shrink some,  but this shrinkage is anticipated to  be  only  partial  and  of  small  duration.    The  main  purpose  of  the  chemotherapy  is  to  see  if  we can make the cells more effective in fighting cancer tumors.  Animal experiments have indicated that  chemotherapy  can  make  th e  cells  more  effective  in  fighting  cancer  tumors,  but  it  is  not known whether  this  is  true  in  humans.    The  cyclophosphamide  will  be  given  into  your  catheter over 1 hour for two days (Day -7 and Day -6) and the fludarabine will be given into your catheter for  30  minutes  every  day  for  the  next  five  days  (Day -5  through  Day -1).    The  side  effects  of these medicines are described on the following pages.
+
+
+
+cause be
+
+two
+
+
+
+NIH 2514-1, Consent to Participate in A Clinical Research Study NIH 2514-2, Minor Patient's Assent to Participate In A Clinical Research Study
+
+
+## Cell Infusion and Aldesleukin Regimen (Day 0 through Day 5)
+
+All patients will be given the cells through the ir IV over 20-30 minutes one to four days after the last dose of chemotherapy.  Within 24 hours after your cell infusion you will be given high dose aldesleukin through one of the IVs.  It will be given as a 15- minute infusion about every 8 hours for  up  to five  days  after  the  cell  infusion.    Aldesleukin  is  a  cell  growth  factor  and  it  is  thought that it will help the cells live longer in your body.
+
+The  day  after  your  cells  are  infused,  we  will  give  you  G -CSF (filgrastim)  as  a  shot  or  injection under the skin every day to stimulate your blood cells until they increase to a sufficient number. We  will  watch  you  closely  during this entire time for any  side effects of this  experimental regimen. We  will discuss the side effects below and we  will include in your care all the medicines and treatments to prevent as many of these side effects as we can and to make you as comfortable as we can.
+
+## Recovery
+
+You will recover in the hospital until you are well enough to go home.  This usually takes 7-12 days  after  you  have  received  cells  or  your  last  dose  of  aldesleukin;  however,  you  may  need  to stay in the hospital for longer than this before you are well enough to go home. We will continue to  give  you  support  medications,  do  laboratory  tests,  and  watch  you  closely  for any  side  effects until we feel your condition is stable.
+
+In  addition  to  the  laboratory  tests  to  monitor  your  condition,  we  will  remove  between  1  and  9 teaspoons  of  blood  daily  to  study  the  effects  of  this  regimen  on  your  immune  system.    If  you experience side effects in you kidneys, we will collect 1 additional teaspoon of blood and about 6 teaspoons  of  urine  to  see  if  we  can  determine  the  cause  of  these  side  effects.    The  maximum amount of blood for research is approximately 2.3 cups in 8 weeks.
+
+## Follow up and Evaluation of Experimental Regimen
+
+You  will  need  to  continue  to  take  Bactrim,  an  antibiotic,  for  at  least  6  months  following  your treatment  to  prevent  you  from  catching  a  certain  type  of  pneumonia  seen  in  patients  who  have low white blood cell counts. We will ask you to return to NIH 46  weeks after completing your regimen for evaluation.  This visit will probably take 2 days.   If your tumor shows evidence of shrinking, we will ask you to return for evaluation every 4- 6 weeks for 1 year and then ev ery six months  after  that  for  up  to  5  years,  and  then  yearly  thereafter.    If  your  tumor  appears  to  be growing,  we  will  look  for  other  investigational  therapies  you  may  be  eligible  for,  or  refer  you back  to  the  care  of  your  local  physician.    At  some  of  your follow  up  visits,  you  may  undergo leukapheresis  so  that  we  can  see  the  effect  this  therapy  has  had  on  your  immune  system  and  if the cells we gave you are still alive.
+
+## Retreatment
+
+If your  tumor  shrinks  or  disappears  following  the  initial  treatment  and  th en  recurs  you  may receive one additional treatment if you tolerated the treatment well and if all the side effects have
+
+
+
+
+
+
+
+
+NIH 2514-1, Consent to Participate in A Clinical Research Study NIH 2514-2, Minor Patient's Assent to Participate In A Clinical Research Study
+
+
+resolved.  You will receive the same medications and cell infusion on the same schedule as with the first treatment.
+
+## Birth Control
+
+If  you  are  a  woman  who  is  breast  feeding  or  pregnant,  you  may  not  participate  in  the  study because we don't know how this medicine would affect your unborn child or your baby.  If you are a  woman  who  can become pregnant, or are the partner of a  woman  who  can become pregnant, you will need to practice an effective form of birth control before starting treatment,  during  study  treatment,  and  for  four  months  after  you  finish  study  treatment.    If  you think that you or your partner is pregnant, you should tell your study doctor or nurse at once.
+
+Effective forms of birth control include:
+
+- abstinence
+- intrauterine device (IUD)
+- hormonal [birth control pills, injections, or implants]
+- tubal ligation
+- vasectomy
+
+## Alternative Approaches or Treatments
+
+## What other choices do I have if I do not take part in this study?
+
+If there are effective salvage regimens (regimens used when standard regimens have failed), you will be directed to undergo these regimens before participating in this protocol.
+
+Other options for treatment of your cancer include:
+
+- Standard chemotherapies, including targeted therapies;
+- experimental vaccines;
+- experimental chemotherapies; or biotherapies;
+- other combination therapies; or
+- getting  no  treatment;  or  getting  comfort  care  which  is  also  called  palliative  care.  This type  of  care  helps  reduce  pain,  tiredness,  appetite  problems,  and  other  problems  caused by cancer. It does not treat the cancer directly, but instead tries to improve how you feel. Comfort care tries to keep you as active and comfortable as possible.
+
+Please talk to your doctor about these and other options.
+
+
+
+study
+
+
+NIH 2514-1, Consent to Participate in A Clinical Research Study NIH 2514-2, Minor Patient's Assent to Participate In A Clinical Research Study
+
+
+## Risks or Discomforts of Participation
+
+## What side effects or risks can I expect from being in this study?
+
+The risks and discomforts of this research study can be significant .  This experimental treatment can lead to long-term decrease in your immune function.  If you have received radiation therapy, you  will  need  to  recover  completely  (usually at least 4 weeks)  from  the  side  effects radiation before beginning treatment  on this protocol.  It is also possible that you may lose your fertility following this experimental  treatment. It is possible, although unlikely, that experimental treatment may cause your death.
+
+of the
+
+this
+
+We  will  discuss  the  side  effects  of  this  experimental reatment  with  you.  You  will  be  given medicines,  transfusions,  and  treatments  to  prevent  or  treat  the  side  effects  including  drugs  to prevent  and/or  treat  different  types  of  infections.    We  will  try  to  make you  as  comfortable  as possible.
+
+## Leukapheresis
+
+During the leukapheresis procedure, you may have some tingling in your face and lips due to the medicine used to keep your blood from clotting during the procedure.  The nurses may give you a calcium -containing antacid to chew that takes away this tingling . Rarely, people may experience  lightheadedness  or  dizziness.    We  ask  that  you  eat  prior  to  the  procedure  to  prevent this.    Rare  complications  of  this  procedure  are  lowered  blood  pressure,  bleeding  or  bruising where the needles are put in your arms.
+
+## Young TIL Cell Infusion
+
+All  Young  TIL  cells  will  be  given  through  your  catheter  while  we  keep  you  in  the  patient  care unit so we can watch you closely.
+
+## Potential risks include:
+
+- Fever, chills and shortness of breath, which are common and may last for a few hours
+- Lung congestion causing shortness of breath
+- Immune-type reaction, such as pharyngitis and vaginitis. Note: In similar clinical trials with cells targeting a melanoma protein, we have observed the following immune-mediated toxicities: loss of skin pigment (known as vitiligo), and inflammation of the eye (uveitis).  The skin and the eye are all sites where that targeted melanoma protein is known to exist.
+- As this is a new experimental therapy, side effects that we do not anticipate that may cause your condition to deteriorate may be encountered.  Any new information that becomes available during the course of this study will be shared with you.
+
+
+
+
+
+## Medications
+
+The side effects of cyclophosphamide, fludarabine, high dose aldesleukin and some of the other medications you will receive are listed below:
+
+| Cyclophosphamide and Fludarabine side effects                                                                                                                                                                                                                                                                                                                                                                                    | Cyclophosphamide and Fludarabine side effects                                                                                                                                                                                                   | Cyclophosphamide and Fludarabine side effects                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Common                                                                                                                                                                                                                                                                                                                                                                                                                           | Less Common                                                                                                                                                                                                                                     | Rare                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|  Changes in blood counts including: low red cell count (causing fatigue and shortness of breath), low platelet count (increasing the risk of bleeding and bruising), decrease in white blood cells (increasing the risk of infection and the need for treatment with antibiotics or other treatment)  Loss of appetite, nausea, vomiting,  Diarrhea, stomach pain  Mouth sores  Hair loss  Fatigue  Muscle or joint aches |  Bleeding  Infection  Bladder irritation with bloody urine  Severe allergic reaction (difficulty breathing/swelling)  Headache or dizziness  Sweating  Swelling of arms or legs  Skin changes, rash, blisters  Weakness  Hearing loss |  Heart damage  Lung damage  Kidney damage  Inflammation of the eye resulting in blindness  Inflammation of nervous system resulting in death  Epstein Barr Virus Lymphoma. This can be fatal (Two patients on other studies in the Surgery Branch developed EBV lymphoma, and one died as a result of this disease.)  Loss of fertility  Two out of the first 81 patients enrolled on the initial young TIL study died from complications resulting from suppression of the immune function which resulted in a severe infection (one of these patients also received radiation as part of their treatment regimen). |
+
+
+
+
+
+
+MEDICAL RECORD
+
+
+NIH 2514-2, Minor Patient's Assent to Participate In A Clinical Research Study
+
+
+| IL-2 (aldesleukin) side effects                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | IL-2 (aldesleukin) side effects                                                                                                                                                                                                                                                                                         | IL-2 (aldesleukin) side effects                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Common                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Less common                                                                                                                                                                                                                                                                                                             | Rare                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|  Fever, chills, and fatigue  Lowered platelet and red blood cell levels that may require transfusions  Significant fluid retention causing weight gain (as much as 20 pounds).  Low blood pressure  Increased heart rate  Low urine output  Swelling in your extremities,  Fluid in your lungs that can require oxygen  Dry mouth, nausea, vomiting and diarrhea;  Rash, itching; and changes in skin or hair pigmentation, called vitiligo;  Changes in mental status, including confusion, difficulty sleeping or vivid dreams; this can be severe and require sedation and monitoring in the ICU |  Decrease in thyroid function that may require daily thyroid hormone replacement;  Abnormal kidney and liver function that can be severe;  Abnormal heartbeats or low blood pressure that may require treatment in the ICU.  Breathing problems which may need monitoring in ICU and insertion of a breathing tube. |  Bowel perforation (a hole) requiring longer hospitalization or surgery.  Autoimmune disease, where your immune system attacks cells in organs of your body. Should this occur, you will be treated with steroids to stop the immune response.  Damage to the heart muscle or heart attack  Loss of blood flow to the extremities due to medicines used to treat very low blood pressure and shock. In one instance a patient had to have her lower arm amputated after treatment with these medicines.  IL-2 is mixed with human albumin which could cause an allergic reaction or potentially transmit viral infections, although we have not had this occur. |
+
+MEDICAL RECORD
+
+
+
+NIH 2514-1, Consent to Participate in A Clinical Research Study NIH 2514-2, Minor Patient's Assent to Participate In A Clinical Research Study
+
+
+| Support Medications - side effects                                | Support Medications - side effects                                                                                                                              | Support Medications - side effects                                                                          |
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Common                                                            | Less common                                                                                                                                                     | Rare                                                                                                        |
+| Filgrastim (To increase production of white blood cells)          | Filgrastim (To increase production of white blood cells)                                                                                                        | Filgrastim (To increase production of white blood cells)                                                    |
+|  Bone Pain                                                       |  Severe headache                                                                                                                                               |  Severe breathing problems  Rupture of your spleen                                                        |
+| Bactrim (To prevent a specific type of pneumonia)                 | Bactrim (To prevent a specific type of pneumonia)                                                                                                               | Bactrim (To prevent a specific type of pneumonia)                                                           |
+|                                                                   |  Fever  Nausea, vomiting,  Skin rash with itching  reduced number of white blood cells  Allergic reaction                                                  |                                                                                                             |
+| Fluconazole: (To prevent fungal infections)                       | Fluconazole: (To prevent fungal infections)                                                                                                                     | Fluconazole: (To prevent fungal infections)                                                                 |
+|  Headache  Nausea, vomiting, diarrhea, abdominal pain  Itching |                                                                                                                                                                 |  A skin disorder called Stevens Johnson Syndrome, which can be fatal  Liver damage which may be permanent |
+| Acyclovir and Valacyclovir                                        | Acyclovir and Valacyclovir                                                                                                                                      | Acyclovir and Valacyclovir                                                                                  |
+|                                                                   |  Temporary decrease in kidney function which may not cause any symptoms  Nausea, vomiting, diarrhea, constipation  Pain and irritation at place of injection |  Skin rash, hives, itching  Tremors, dizziness, Confusion, seizures  Fatigue  Blood in the urine        |
+
+## Potential Benefits of Participation
+
+## Are there benefits to taking part in this study?
+
+The  aim  of  this  study  is  to  see  if  this  new  experimental  treatment  will  cause  your  tumors  to shrink.  We  do  not  know  if  you  will  receive  personal,  medical  benefit  from  taking  part  in  this study.  These potential benefits could include shrinking of your tumor or lessening of your symptoms,  such  as  pain,  that  are  caused  by  the  cancer.    Because  there  is  not  much  information about the Young TIL therapy effect on your type of cancer, we do not know if you will benefit from taking part in this study, although the knowledge gained from this study may benefit others in the future who have cancer.
+
+PATIENT IDENTIFICATION
+
+
+
+
+
+## Research Subject's Rights
+
+## What are the costs of taking part in this study?
+
+If you choose to take part in the study, the following will apply, in keeping with the NIH policy:
+
+the
+
+- You  will  receive  study  treatment  at  no  charge  to  you.  This  may  include surgery, medicines, laboratory testing, x -rays or scans done at Clinical Center, National Institutes of Health (NIH), or arranged for  you by  the research  team  to  be  done  outside  the  Clinical  Center,  NIH  if  the study related treatment is not available at the NIH.
+- There  are  limited  funds  available  to  cover  the cost  of  some  tests  and procedures  performed  outside  the  Clinical  Center,  NIH.    You  may  hav e to  pay  for  these  costs  even  if  they  are  not  covered  by  your  insurance company.
+- Medicines that are not part of the study treatment will not be provided or paid for by the Clinical Center, NIH.
+- Once  you  have  completed  taking  part  in  the  study,  medical  care will  no longer be provided by the Clinical Center, NIH.
+
+## Will your medical information be kept private?
+
+We will  do  our  best  to  make  sure  that  the  personal  information  in  your  medical  record  will  be kept  private.    However,  we  cannot  guarantee  total  privacy.    Organizations  that  may  look  at and/or copy your medical records for research, quality assurance, and data analysis include:
+
+- The  National  Cancer  Institute  (NCI)  and  other  government  agencies,  like  the  Food  and Drug Administration (FDA), which are involved in keeping research safe for people.
+- NCI Institutional Review Board
+- The study Sponsor (Steven A. Rosenberg, M.D., Ph.D.)
+- Prometheus Laboratories, Inc.
+
+A description of this clinical trial will be available on http://www.Clinicaltrials.gov, as required by U.S. Law.  This Web site will not include information that can identify you.  At most the Web site will include a summary of the results.  You can search this Web site at any time.
+
+## Stopping Therapy
+
+Your doctor may decide to take you off this study under the following circumstances:
+
+- if he/she believes that it is in your best interest
+- if your disease comes back during treatment
+- if you experience side effects from the treatment that are considered too severe
+- if new information becomes available that shows that another treatment would be better for you
+
+
+
+
+NIH 2514-1, Consent to Participate in A Clinical Research Study NIH 2514-2, Minor Patient's Assent to Participate In A Clinical Research Study
+
+
+
+
+NIH 2514-1, Consent to Participate in A Clinical Research Study NIH 2514-2, Minor Patient's Assent to Participate In A Clinical Research Study
+
+
+In this case, you will be informed of the reason for that decision.
+
+You can stop participating at any time. However, if you decide to stop participating in the study, we  encourage  you  to  talk  to  the  study  doctor  and  your  regular  doctor  first. If  you  refuse  to participate or withdraw from the protocol or at the completion of the protocol, we will attempt to offer  you  participation  in  other  NIH  protocols  if  these  are  available,  or  will  refer  you  to  your home physician for further management.
+
+guidelines, you
+
+If  you decide at any time to withdraw your consent to participate in the trial, we will not collect any additional medical information about you. However, according to FDA information collected on you  up  to that point may  still be provided  to the  Sponsor. If withdraw your consent and leave the trial, any samples of yours that have been obtained for the study  and  stored  at  the  NCI  can  be  destroyed  upon  request.  However,  any  samples  and  data generated  from  the  samples  that  have  already  been  distributed  to  other  researchers  or  placed  in the research databases cannot be recalled and destroyed.
+
+You should understand that this study involves research and that your participation is voluntary. Unexpected or unforeseeable side effects may also occur. Your participation in this protocol may be  terminated  without  your  consent  if  your  physician  feels  that  it  would  not  be  safe  for  you  to continue.  Any significant new findings that relate to this protocol will be discussed with you.
+
+## Conflict of Interest
+
+The National Institutes of Health reviews NIH staff researchers at least yearly for conflicts of interest. This process is detailed in a Protocol review Guide.   You may ask your research team for additional information or a copy of the Protocol Review Guide or for more information. Members of the research team who do not work for NIH are expected to follow these guidelines but they do not need to report their personal finances to the NIH.
+
+Members of the research team working on this study may have up to $15,000 of stock in the companies that make products used in this study.  This is allowed under federal rules and is not a conflict of interest.
+
+It is possible that the information obtained from your participation on this study may become valuable for commercial research and development purposes (including patentable inventions), which may be of significant benefit to society, the sponsor of this study, individual researchers or other third parties.  You will not receive direct financial benefit from such research and development.  The NIH and 2 of the investigators on the research team have developed the cell process being used in this research and have a patent pending.  This means that it is possible that the results of this study could lead to payments to NIH scientists and to the NIH.  By law, government scientists are required to receive such payments for their inventions.
+
+PATIENT IDENTIFICATION
+
+
+
+
+
+## MEDICAL RECORD
+
+
+## CONSENT TO PARTICIPATE IN A CLINICAL RESEARCH STUDY
+
+- Adult Patient or
+
+•
+
+Parent, for Minor Patient
+
+
+## OTHER PERTINENT INFORMATION
+
+1. Confidentiality. When results of an NIH research study ar e reported in medical journals or  at  scientific  meetings,  the  people  who  take  part  are  not  named  and  identified.    In  most  cases, the  NIH  will  not  release  any  information  about  your  research  involvement  without  your  written permission.    However,  if  you  sign  a  release  of  information  form,  for  example,  for  an  insurance company, the NIH will give the insurance company information from your medical record.  This information might affect (either favorably or unfavorably) the willingness of the insurance company to sell you insurance.
+
+accreditation
+
+The Federal Privacy Act protects the confidentiality of your NIH medical records.  However, you should know that the Act allows release of some information from your medical record without your  permission,  for  example,  if  it  is  requir ed  by  the  Food  and  Drug  Administration  (FDA), members of Congress, law enforcement officials, or authorized hospital organizations.
+
+2. Policy  Regarding  Research -Related  Injuries. The  Clinical  Center  will  provide  short -term  medical  care  for  any  injury  resulting  from  your  participation  in  research  here.    In  general, no long -term medical care or financial compensation for research -related injuries will be provided  by  the  National  Institutes  of  Health,  the  Clinical  Center,  or  the  Federal  Governme nt. However, you have the right to pursue legal remedy if you believe that your injury justifies such action.
+
+offered
+
+3. Payments. The  amount  of  payment  to  research  volunteers  is  guided  by  the  National Institutes of Health policies.  In general, patients are not paid for taking part in research studies at the National Institutes of Health. Reimbursement  of  travel and subsistence will be consistent with NIH guidelines.
+4. Problems  or  Questions. If  you  have  any  problems  or  questions  about  this  study,  or about your rights as a research participant,  or  about  any  research -related injury, cont act the Principal  Investigator, Steven  A.  Rosenberg,  M.D.,  Ph.D.,  Building  10  CRC,  Room  3-3940, Telephone:  301-496-4164. You may also call the Clinical Center Patient Re presentative at 301496-2626.
+5. Consent  Document. Please  keep  a  copy  of  this  document  in  case  you  want  to  read  it again.
+- Parent, for Minor Patient
+

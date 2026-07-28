@@ -1,0 +1,276 @@
+Title of research study: A Pilot Study of [ 18 F]F-ARAG Pharmacokinetics in Tumors and NonMalignant Tissue using Dynamic Total Body PET Imaging in Healthy Subjects and in Patients with Non-Small Cell Lung Cancer (NSCLC)
+
+Investigator: Simon R. Cherry, Ph.D., Professor of Biomedical Engineering and Radiology; Megan Daly, MD, Associate Professor, UC Davis Department of Radiation Oncology
+
+## California Experimental Subjects Bill of Rights
+
+-  Someone will explain this research study to you, including:
+- o The nature and purpose of the research study.
+- o The procedures to be followed.
+- o Any drug or device to be used.
+-  Any common or important discomforts and risks.
+-  Any benefits you might expect.
+-  Whether or not you take part is up to you.
+-  You can choose without force, fraud, deceit, duress, coercion, or undue influence.
+-  You can choose not to take part.
+-  You can agree to take part now and later change your mind.
+-  Whatever you decide it will not be held against you.
+-  You can ask all the questions you want before you decide.
+-  If you agree to take part, you will be given a signed and dated copy of this document.
+
+## Key Information about This Research Study
+
+You are invited to participate in a research study. The purpose of this research is to see how a new drug, called a 'radiotracer', enters and leaves the blood and tissues over time.  This radiotracer attaches to immune cells and shines a light that can be seen using a special camera called a Positron Emission Tomography Scanner (PET Scanner). You are invited to be in this study because you are either a healthy participant or you are a participant that has been diagnosed with Non-Small Cell Lung Cancer (NSCLC) and will be starting treatment with a type of therapy called immunotherapy. Your participation in this research will involve 3 visits if you are a healthy participant and will last about 4-5 hours.  If you are a participant with NSCLC, your participation will involve 4-5 visits (depending on your preference) and will last about 5-7 hours.  We expect up to 8 people (2-4 with NSCLC and 2-4 healthy participants) at UC Davis will join and participate in this research.
+
+Participation in this study will involve getting a PET/CT Scan using a total-body PET/CT scanner called the EXPLORER.  The total-body PET/CT scanner is the first FDA-cleared medical scanner to be able to scan the entire human body all at the same time.  If you are a healthy participant, you will get one PET scan and will be asked about your health 7 days after the scan.  If you have a diagnosis of NSCLC, you will get one PET scan before you start immunotherapy and you will have the option to get a second PET scan after starting immunotherapy. Participants with NSCLC will also be asked about their health 7 days after their last scan.  All research studies involve some risk.  These risks are described in detail later in this document. There is not the possibility that you may benefit from participation in this study.
+
+
+APPROVED by the Institutional Review Board at the University of California, Davis
+
+
+
+
+
+Here are some reasons you may not want to participate in this research: the research study visits could last up to 5 hours for healthy participants and up to 7 hours for those diagnosed with NSCLC.  For some people, lying inside the scanners may cause fear or anxiety due to the confined space.  Also, the scan may reveal suspicious findings and/or findings of unclear cause which may need further follow-up procedures.  Medical follow-up may include doctor's visits, more scans or surgery, and may expose you to additional risks from the follow-up procedures. Your participation in this study is voluntary. You do not have to participate in this study if you do not want to. There may be other choices available to you. You will not lose any services, benefits, or rights you would normally have if you choose not to participate. The remainder of this form contains a more complete description of this study. Please read this description carefully. You can ask any questions you need to help decide whether or not to join this study. Information to help you understand research is online at http://www.research.ucdavis.edu/policiescompliance/irb-admin/for-research-participants.
+
+## What if I have Questions?
+
+The persons in charge of this study are Simon R. Cherry, Ph.D. and Megan Daly, MD. If you have questions or concerns about this study, please contact the Lead Researchers by reaching out to the Clinical Research Coordinator at 916-731-9004. For non-emergency issues you can call the UCDMC Hospital Operator (916-734-2011), tell the Operator you are participating in a research study and you wish to talk to the Nuclear Medicine Radiologist on duty. In the case of an emergency, dial 911 from any phone. If you have any questions about your rights as a research subject or have complaints about the research study or study team, you may talk to a team member at the Institutional Review Board (IRB) at (916) 703-9151, hs-irbadmin@ucdavis.edu, or 2921 Stockton Blvd, Suite 1400, Room 1429, Sacramento, CA 95817. The IRB is a group of people who oversee research.
+
+## How is this research funded?
+
+This research is being funded by CellSight Technologies, Inc., also called the sponsor. Sponsors may change or be added. UC Davis is being paid to conduct this study, but the study doctor and research staff have not received any direct income from the sponsor. The University of California has a financial interest in this study. The University receives both research funding and a share of the revenues based on sales of the device being used in this study.
+
+## What happens if I say yes, I want to be in this research?
+
+If you decide to participate in this research study, the researchers will ask you to come into the EXPLORER Molecular Imaging Center (located at 3195 Folsom Blvd in Sacramento, California) where the total-body PET/CT Scanner is located.
+
+
+
+| APPROVED by the Institutional Review Board at the University of California, Davis   | APPROVED by the Institutional Review Board at the University of California, Davis   |
+|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Protocol                                                                            | APPROVED                                                                            |
+| 1630355                                                                             | April 26, 2024                                                                      |
+
+## If you are a healthy participant, you will have up to 3 research study visits:
+
+-  First Visit
+- o A member of the research team will meet you to explain the study in detail and answer any questions you may have
+- o If you agree to take part in this research study, the researcher will ask you to sign a consent form to participate
+- o The researchers will also ask you to sign a HIPAA Authorization for Research form because we will be collecting and reviewing personal information, including your present and past medical records
+- o The researchers will collect medical information about you, including history of COVID19 vaccination, vital signs, height, and weight.  They will also collect demographics information.
+- o The researchers will schedule your appointment for the PET Scan
+-  Second Visit
+- o Women 18-60 years old will be required to have a pregnancy test prior to any scans, unless documented hysterectomy or bilateral ovarian removal is available
+- o The researchers will ask you about any health issues or symptoms you may be having
+- o The researchers will also ask you about any new or current medications you may be taking
+- o You will undergo a PET scan as described below
+-  Third Visit
+- o This visit can be done on the phone and will take place 7 days after your PET scan
+- o The researchers will ask you about any health issues or symptoms you might have experienced since the PET scan
+
+## If you are an individual diagnosed with NSCLC, you will have up to 4 separate study visits:
+
+-  First Visit
+- o A member of the research team will meet you to explain the study in detail and answer any questions you may have
+- o If you agree to take part in this research study, the researcher will ask you to sign a consent form to participate
+- o The researchers will also ask you to sign a HIPAA Authorization for Research form because we will be collecting and reviewing personal information, including your present and past medical records
+
+
+APPROVED by the Institutional Review
+
+Board at the University of California, Davis
+
+
+
+
+
+- o The researchers will collect medical information about you, including history of COVID19 vaccination, vital signs, height, and weight.  They will also collect demographics information.
+- o The researchers will also ask you about any new or current medications you may be taking
+- o The researchers will schedule your appointment for the PET Scan
+-  Second Visit (This visit and the First Visit can take place on the same day if that is more convenient for you)
+- o Women  18-60 years old will be required to have a pregnancy test prior to any scans, unless documented hysterectomy or bilateral ovarian removal is available
+- o The researchers will ask you about any health issues or symptoms you may be having
+- o The researchers will also ask you about any new or current medications you may be taking
+- o You will undergo a PET scan within 7 days of starting immunotherapy; the PET scan is described below
+-  Third Visit (Not a Research Visit)
+- o As agreed upon by you and your oncologist, you will start immunotherapy within one week of your total-body PET Scan
+-  Fourth Visit
+- o This visit can be done on the phone and will take place 7 days after your last PET scan
+- o The researchers will ask you about any health issues or symptoms you might have experienced since the PET scan
+
+## Total-Body PET/CT Scan (for all participants)
+
+-  A Nuclear Medicine Technologist will ask you some questions to make sure everything is OK for the PET Scan
+-  You will be asked to remove your clothing and wear a hospital gown that we will provide
+-  Prior to entering the scan room, you will be asked to use the restroom
+-  You will be positioned on your back on the scanner table with cushions to make you comfortable
+-  You will have an IV needle placed into a vein for injection of the radiotracer
+-  You will undergo a low-dose CT scan for about 30 seconds while lying on the scanner table
+-  The Nuclear Medicine Technologist will inject you with the radiotracer using the IV needle
+-  You will undergo a PET scan for 90 minutes
+-  After the 90-minute scan, the IV line will be removed
+
+If you are unable to lay down on the scanner table for 90 minutes, the scan procedure will be modified like this:
+
+-  After injection of the radiotracer, you will undergo a PET scan for 60 minutes
+
+
+APPROVED by the Institutional Review
+
+Board at the University of California, Davis
+
+
+
+
+
+-  After the 60-minute scan, the IV line will be removed  You can then get off the scanner table, stretch, or use the restroom  80 minutes after the radiotracer injection, you will be asked to position yourself once again on the scanner table  You will undergo an ultra-low-dose CT scan for about 30 seconds while lying on the scanner table
+-  You will then undergo a 10-minute PET scan
+
+## How is being in this study different from my regular health care?
+
+If you take part in this study, the main difference between your regular care and the study is that your regular health care does not involve the PET/CT scans that are part of this study. Do I have to be in this study? What if I say 'yes' now and change my mind later? No, you do not have to be in this study. Taking part in research is voluntary. You can choose to be in the If you decide not to take part in the study, or if you choose to leave the study, your choice will not affect study or not be in the study. If you decide to be in the study, you can choose to leave the study at any time. any treatment relationship you have with healthcare providers at UC Davis Health or any services you receive from them. No matter what you decide, and even if your decision changes, there will be no penalty to you. You will not lose medical care or any legal rights. Please let the researchers know if you choose to leave the study. If you choose to leave the study, data that have already been collected will not be removed from the
+
+study database.
+
+## Can I be removed from the research without my OK?
+
+The researchers may take you out of the study, even if you want to continue, if:
+
+-  you do not follow the study rules or you no longer meet the requirements to be in the study
+-  the researchers feel it is in your best interest to discontinue participation. Such circumstance may include unanticipated discomfort and/or fatigue from laying on the scanner table, and feelings of claustrophobia from being inside the scanner bore; or
+-  the study is stopped by the sponsor or researchers.
+
+## Is there anyway being in this study could be bad for me?
+
+There are risks to participating in this research.  The study doctor and study team will monitor you to see if you are experiencing any harm related to your participation.  If you experience any pain or discomfort, you must inform the study team as soon as possible. Injection Risks: bruising or infection at the site of the injection Radiation Risks: This study involves a radiation exposure that is typical of other diagnostic tests using ionizing radiation. The amount of radiation exposure received in this study is below the levels that are thought to result in a significant risk of harmful effects.
+
+
+
+APPROVED by the Institutional Review Board at the University of California, Davis
+
+
+
+
+
+To minimize radiation exposure to your bladder, you should drink at least an 8 oz glass of water before injection with the radiotracer and after your PET/CT scans. To help protect yourself and others, you should flush the toilet several times after each use for 12 hours after injection with the radiotracer. You should also wash your hands after each use of the bathroom. If your blood, urine, or feces comes in contact with your clothing, you should wash them separately than other clothes. Scan Risks: Due to the (up to) 90-minute long scan time, you may feel discomfort and/or fatigue from laying on the scanner table.  You may also experience claustrophobia from being inside the scanner because it is a partially enclosed space. There is the possibility that the scan will reveal some suspicious findings or findings of unknown cause requiring further medical follow-up.  This medical follow-up may include doctor's visits, more scans or surgery, with all the potential risks associated with these procedures.  These risks may vary from minor risks to serious risks such as death or permanent disabilities. Privacy Risks: As with all research, there is a chance that confidentiality could be compromised. To minimize the risks of breach of confidentiality, we will not include any information that directly identifies you on the specimens and information we collect, and on the data resulting from the research.
+
+## What about Birth Control? Contraception Requirements for Women
+
+The study involves radiation that may harm a fetus or a breastfeeding baby. If you are pregnant or breastfeeding, you cannot take part in this study. If you think you may be pregnant, you should not volunteer for this study. If you are able to become pregnant, you must have a pregnancy test before you begin the study and while you are in the study. You must not get pregnant or breastfeed while you are in this study. If you are a woman who can become pregnant, you must take measures to avoid becoming pregnant while you are in this study. The following are acceptable measures to avoid becoming pregnant: One of the following forms of birth control should be used:
+
+
+
+Abstinence (not having sexual relations with a person of the opposite sex)
+
+-  Implantable hormone
+-  Intrauterine Device
+-  Male partner must have a vasectomy
+-  Female sterilization
+-  Hormonal injection
+-  Oral contraceptives
+
+## Will being in this study help me in any way?
+
+Being in this study will not help you directly. But your participation in the study may benefit other people in the future by helping us learn more about how the radiotracer can be used in the future when performing scans. This study is not a substitute for your regular medical care. You should continue to see your regular medical providers.
+
+
+
+| APPROVED by the Institutional Review Board at the University of California, Davis   | APPROVED by the Institutional Review Board at the University of California, Davis   |
+|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Protocol                                                                            | APPROVED                                                                            |
+| 1630355                                                                             | April 26, 2024                                                                      |
+
+## Will being in this study cost me anything?
+
+There will be no cost to you for the total-body PET/CT scans and visits that are done for research purposes only and are not part of your regular care .  If you are a participant with NSCLC :
+
+You or your insurance will be billed for your regular treatment involving immunotherapy. You will have to pay for basic expenses like any childcare, food, parking, or transportation related to study activities. If you need treatment for side effects while you are on the study, you or your insurance will need to pay for this treatment. For more information about possible costs, please contact the research team. The research team can follow UC Davis Uninsured Non-Emergency Estimate Policy (Policy ID 1883) to work with their department and Decision Support Services to get you a cost estimate.
+
+## Will I be paid or receive anything for being in this study?
+
+We will pay you $100 for each PET/CT research scan you undergo.  Payment will be provided at the end of your scan visit in the form of gift cards.  If you are a participant with NSCLC that volunteered to undergo the second optional scan as described in the 'Are there any optional parts of the study?' section below will receive a maximum total of $200.
+
+## What happens if I am injured or get sick because of this study?
+
+If you are injured or get sick because of this study, medical care is available to you through UC Davis Health, your local provider, or emergency services.
+
+-  If it is an emergency, call 911 right away or go to the emergency room.
+-  For non-emergency issues, you can call the UC Davis Health Hospital Operator (916-734-2011), tell the Operator you are participating in a research study and you wish to talk to Nuclear Medicine Radiologist on call.
+
+If you are injured as a result of being in this study, the University of California will provide the necessary medical treatment. Depending on the circumstances, the costs of the treatment may be covered by the University or the study sponsor or may be billed to your insurance company just like other medical costs. The University and the study sponsor do not normally provide any other form of compensation for injury. For more information about compensation, you may contact the IRB Administration at (916) 703-9151 or  HS-IRBAdmin@ucdavis.edu.
+
+## What happens to the information collected for the research?
+
+We will do our best to limit the use or disclosure of your personal information, including information from this research study and from your medical records, to people who have a need to review this information. We cannot promise complete confidentiality. Some organizations may be required to inspect and copy your information including the IRB and other University of California representatives responsible for the management or oversight of this study.
+
+
+
+APPROVED by the Institutional Review Board at the University of California, Davis
+
+
+
+
+
+We have strict rules to protect your personal information and protected health information (PHI). We will limit who has access to your name, address, phone number, and other information that can identify the identifiers, we will place a code on the information. The code will be linked to your identity but the link will be kept in a location that is separate from your study data. We will maintain your study data on who need the access to properly conduct the study. The information we send to the sponsor will not include information that directly identifies you.  Instead, a code will be applied to the data and link laws may permit or require us to show information to university or government officials and to study sponsors responsible for monitoring this study. We may also show your medical records to study The following is a list of individuals who may access your records:
+
+you. We will remove identifiable information from the data we collect about you. After we remove all of encrypted computers and access to the information will be limited to only members of the research team between the code and your identity will be kept at the research site. However, we cannot promise complete confidentiality. If you agree to be in this study, Federal or state monitors, auditors, the IRB, and the FDA. These groups are obligated to maintain your confidentiality.
+
+-  Members of the research team
+-  Offices and committees responsible for the oversight of research
+-  Personnel who schedule or perform medical tests or procedures, handle accounting and billing, or do other tasks related to this study
+-  The study sponsor, CellSight
+
+If you agree to participate in this research study, a signed copy of this consent document and the privacy authorization form may be filed in your electronic medical record (EMR) and your study participation may be added to your EMR. This information will be used for your care and treatment and for healthcare operations, which may include billing and payment. Federal and state privacy laws give patients the right to access information about their care and treatment contained in their medical record. During this study, you may not be able to access certain information related to this study in your EMR until the study is complete to ensure that the study remains unbiased.  If necessary for your care, this information will be provided to you or your physician. We will access protected health information (e.g., your medical record) for this study and you will be asked to sign a separate form, commonly referred to as a HIPAA authorization, to give your permission. Your medical records may become part of the research record.  If that happens, your medical records may be looked at by the sponsor of this study and government agencies or other groups associated with the study.  They may not copy or take your personal health information from your medical records unless permitted or required by law. Federal law provides additional protections of your medical records and related health information. These are described in the UC Davis Health System Notice of Privacy Practices (http://www.ucdmc.ucdavis.edu/legal/privacy/) and in an attached document.
+
+## Will I receive any results from this research?
+
+We will create radiation dose reports from your PET/CT scans and we will give you a copy if you ask for it.  The results of this research will not be shared with you.  However, you and your primary care doctor will be notified if any incidental findings are detected as described below. It is possible the total-body PET/CT scans may detect false positive findings that may require further follow-up (clinical, imaging or surgical) with all the risks associated with these follow-up procedures.
+
+
+
+| APPROVED by the Institutional Review Board at the University of California, Davis   | APPROVED by the Institutional Review Board at the University of California, Davis   |
+|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Protocol                                                                            | APPROVED                                                                            |
+| 1630355                                                                             | April 26, 2024                                                                      |
+
+The PET/CT images created for this study are for research and are not meant to judge the level of your health, as they would be if they were part of your medical care.  The images will not receive the usual clinical review by radiologists who interpret PET/CT scans. This means that some findings may be overlooked or misinterpreted.  However, if a member of the study team, while reviewing your images, notices any findings they will share this with the Study Radiologist.  If the Study Radiologist thinks a medical problem might be present, we will contact you within 8 weeks to discuss the possible medical problems or immediately if it appears urgent to the Study Radiologist.  If you request it in writing, we can provide you with a copy of a section of your CT and PET images to take to a doctor you designate. We may not be able to share any images from the PET portion of your scan if they are difficult to interpret or if we are restricted by the sponsor of the study.  We will send a letter upon your request to a doctor you designate letting them know that you are enrolled in this study and that it included getting a PET/CT scan for research.  The letter will also state that the images did not receive the usual clinical review but that findings related to a possible medical problem were seen by a UC Davis radiologist. Your doctor can contact the Study Doctor at any time to discuss your PET/CT scan.
+
+## Are there any optional parts of the study?
+
+This part of the consent form is about an additional optional part of the study that only participants diagnosed with NSCLC can choose to take part in. Things to know about the optional part of the study:
+
+-  It is optional. You can still take part in the main study even if you say 'no' to this part of the study.
+-  This part of the study will not help you directly. We hope the results from the optional part of the study will help us learn more about how the radiotracer can be used in the future when performing scans with cancer patients.
+-  We will not tell you the results of the optional part of the study, and we will not put the results in your medical records.
+-  Taking part in the optional part of the study will not cost you anything. You will have to pay for basic expenses like any childcare, food, parking, or transportation needed for the optional study visit.
+-  Initial your choice of 'yes' or 'no' for the optional part of the study.
+
+If you are willing, we would like to schedule a second total-body PET/CT scan to take place 7 to 14 days after your first immunotherapy treatment.
+
+o Women of childbearing potential will be required to have a pregnancy test prior to any scan o The researchers will ask you about any health issues or symptoms you may be having o The researchers will also ask you about any new or current medications you may be taking o You will undergo a PET/CT scan as described above
+
+Seven days after this scan, the researchers will ask you about any health issues or symptoms you might have experienced since the PET scan.
+
+Are you willing to participate in this optional part of the study and undergo a second PET/CT scan?
+
+- [ ] \_\_\_\_\_ YES
+
+- [ ] \_\_\_\_\_ NO
+
+APPROVED by the Institutional Review Board at the University of California, Davis
+
+
+
+
+
+## May we contact you by e-mail?
+
+We are requesting your email address so we can communicate with you for any matter related to this study including your scheduled visits. Email is generally not a secure way to communicate about your health, as there are many ways for unauthorized users to access email. You should avoid sending sensitive, detailed personal information by email. Email should also not be used to convey information of an urgent nature. If you need to talk to someone immediately, please contact the Study Coordinator at 916-731-9004. You do not have to provide your email address to participate in this study. Please initial one of the lines below. \_\_\_\_\_  Yes, you may use email to contact me for this study. My email address is: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \_\_\_\_\_  No, I do not want to be contacted by email.
+
+APPROVED by the Institutional Review
+
+Board at the University of California, Davis
+
+
+
