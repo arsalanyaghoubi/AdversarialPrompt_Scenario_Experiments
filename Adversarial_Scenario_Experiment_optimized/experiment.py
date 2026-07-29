@@ -68,7 +68,8 @@ class ThinkingClient:
                         byte_seq.extend(char.encode('utf-8'))
                 result = byte_seq.decode('utf-8', errors='replace')
             except Exception:
-                result = result.replace('\u0120', ' ').replace('\u010a', '\n')
+                pass
+        result = result.replace('\u0120', ' ').replace('\u010a', '\n')
         return [{"generated_text": messages + [{"role": "assistant", "content": result}]}]
 
 
@@ -107,7 +108,10 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
         else:
             raise
     result_text = response[0]["generated_text"][-1]["content"].strip()
+    logger.info("RAW OUTPUT (first 300): %s", result_text[:300])
+    logger.info("RAW OUTPUT (last 300): %s", result_text[-300:])
     result_text = parse_thinking_output(result_text)["answer"]
+    logger.info("AFTER STRIP THINKING (first 300): %s", result_text[:300])
     results = []
     start = result_text.find('[')
     end = result_text.rfind(']')
@@ -122,6 +126,9 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
                 results.append(json.loads(match.group()))
             except json.JSONDecodeError:
                 continue
+    if not results:
+        for match in re.finditer(r'"([^"]{20,})"', result_text):
+            results.append({"prompt": match.group(1)})
     INVALID_PROMPTS = {"C1", "C2", "C3", "...", "{generatedadversarialprompt}", "generated prompt"}
     results = [
         r for r in results
