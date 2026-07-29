@@ -284,7 +284,7 @@ if __name__ == "__main__":
         try:
             logger.info("=== Running %s ===", model_name)
             if model_name in THINKING_MODELS:
-                client = ThinkingClient(model_path, enable_thinking=False)
+                client = ThinkingClient(model_path, enable_thinking=True)
             else:
                 client = hf_pipeline("text-generation", model=model_path, device_map="auto")
             all_results[model_name] = run_for_model(cf_content, summary_content, paragraphs, f"{CF_STEM}.txt", client)
