@@ -23,6 +23,55 @@ SUM_MODEL_PATH = CONFIG["sum_model_path"]
 N_PARAGRAPHS = CONFIG["n_paragraphs"]
 
 
+THINKING_MODELS = {"Qwen3.5-9B", "DeepSeek-R1-Qwen3-8B", "DeepSeek-R1-Llama-8B", "DeepSeek-R1-Qwen-32B", "DeepSeek-R1-Llama-70B"}
+
+
+class ThinkingClient:
+    """HF transformers client with proper enable_thinking chat template support."""
+    def __init__(self, model_path, enable_thinking=True):
+        from transformers import AutoModelForCausalLM, AutoTokenizer
+        self.enable_thinking = enable_thinking
+        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
+        self.model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
+
+    def __call__(self, messages, max_new_tokens=8192):
+        try:
+            text = self.tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True,
+                enable_thinking=self.enable_thinking
+            )
+        except TypeError:
+            text = self.tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True
+            )
+        inputs = self.tokenizer(text, return_tensors="pt").to("cuda:0")
+        with torch.no_grad():
+            outputs = self.model.generate(
+                **inputs,
+                max_new_tokens=max_new_tokens,
+                do_sample=False,
+                pad_token_id=self.tokenizer.eos_token_id
+            )
+        new_tokens = outputs[0][inputs["input_ids"].shape[1]:]
+        result = self.tokenizer.decode(new_tokens, skip_special_tokens=True)
+        if hasattr(self.tokenizer, 'byte_decoder'):
+            try:
+                byte_seq = bytearray()
+                for char in result:
+                    if char in self.tokenizer.byte_decoder:
+                        byte_seq.append(self.tokenizer.byte_decoder[char])
+                    else:
+                        byte_seq.extend(char.encode('utf-8'))
+                result = byte_seq.decode('utf-8', errors='replace')
+            except Exception:
+                result = result.replace('\u0120', ' ').replace('\u010a', '\n')
+        return [{"generated_text": messages + [{"role": "assistant", "content": result}]}]
+
+
 def load_system_prompt(scenario, criterion):
     prompt_file = REPO_DIR / scenario["dir"] / f"{scenario['prompt_prefix']}_{criterion}.txt"
     if not prompt_file.exists():
@@ -40,15 +89,25 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
     user_message = build_user_message(scenario, cf_content, summary_content, paragraph_content, cf_filename)
     user_request = f"Use the following {scenario['context_type']} as the context to generate adversarial prompts:\n"
     final_user_message = user_request + user_message
-    response = client(
-        [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": final_user_message}
-        ],
-        max_new_tokens=2048
-    )
+    try:
+        response = client(
+            [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": final_user_message}
+            ],
+            max_new_tokens=8192
+        )
+    except Exception as e:
+        if "roles must alternate" in str(e):
+            # Mistral and some models don't support system role — merge into user message
+            response = client(
+                [{"role": "user", "content": f"{system_prompt}\n\n{final_user_message}"}],
+                max_new_tokens=8192
+            )
+        else:
+            raise
     result_text = response[0]["generated_text"][-1]["content"].strip()
-    result_text = parse_thinking_output(result_text)["answer"] 
+    result_text = parse_thinking_output(result_text)["answer"]
     results = []
     start = result_text.find('[')
     end = result_text.rfind(']')
@@ -63,6 +122,11 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
                 results.append(json.loads(match.group()))
             except json.JSONDecodeError:
                 continue
+    INVALID_PROMPTS = {"C1", "C2", "C3", "...", "{generatedadversarialprompt}", "generated prompt"}
+    results = [
+        r for r in results
+        if isinstance(r, dict) and len(format_prompt(r)) > 10 and format_prompt(r) not in INVALID_PROMPTS
+    ]
     return results
 
 
@@ -139,7 +203,10 @@ def format_prompt(prompt):
 
 
 def save_comparison_csv(all_results):
-    model_names = list(AP_MODEL_PATHS.keys())
+    model_names = [m for m in all_results if all_results[m]]
+    if not model_names:
+        logger.warning("No completed model results to save.")
+        return
     scenario_labels = list(all_results[model_names[0]].keys())
     rows = []
     for label in scenario_labels:
@@ -159,8 +226,21 @@ def save_comparison_csv(all_results):
                     prompts = all_results[model_name].get(label, {}).get(criterion, [])
                     row[model_name] = format_prompt(prompts[i]) if i < len(prompts) else ""
                 rows.append(row)
+
     csv_path = BASE_DIR / f"{CF_STEM}_comparison_updated.csv"
-    pd.DataFrame(rows).to_csv(csv_path, index=False)
+    new_df = pd.DataFrame(rows)
+    key_cols = ["consent_form", "scenario", "criterion", "prompt_index"]
+
+    if csv_path.exists():
+        existing_df = pd.read_csv(csv_path, encoding='utf-8-sig')
+        existing_df = existing_df.set_index(key_cols)
+        new_df = new_df.set_index(key_cols)
+        for col in new_df.columns:
+            existing_df[col] = new_df[col]
+        existing_df.reset_index().to_csv(csv_path, index=False, encoding='utf-8-sig')
+    else:
+        new_df.to_csv(csv_path, index=False, encoding='utf-8-sig')
+
     logger.info("Saved comparison CSV to %s", csv_path)
 
 
@@ -170,19 +250,43 @@ if __name__ == "__main__":
         logger.error("Consent form directory not found: %s", cf_dir)
         sys.exit(1)
 
-    logger.info("=== Preprocessing with sum model ===")
-    sum_client = hf_pipeline("text-generation", model=SUM_MODEL_PATH, device_map="auto")
-    cf_content, summary_content, paragraphs = preprocess_form(cf_dir, sum_client)
-    del sum_client
-    torch.cuda.empty_cache()
+    sum_file = cf_dir / f"{CF_STEM}.SUM.txt"
+    par1_file = cf_dir / f"{CF_STEM}.PAR1.txt"
+    if sum_file.exists() and par1_file.exists():
+        logger.info("=== Preprocessing files found, loading from disk ===")
+        cf_file = cf_dir / f"{CF_STEM}.txt"
+        with open(cf_file, 'r', encoding='utf-8') as f:
+            cf_content = f.read()
+        with open(sum_file, 'r', encoding='utf-8') as f:
+            summary_content = f.read()
+        paragraphs = []
+        for i in range(1, N_PARAGRAPHS + 1):
+            par_file = cf_dir / f"{CF_STEM}.PAR{i}.txt"
+            if par_file.exists():
+                with open(par_file, 'r', encoding='utf-8') as f:
+                    paragraphs.append(f.read())
+    else:
+        logger.info("=== Preprocessing with sum model ===")
+        sum_client = hf_pipeline("text-generation", model=SUM_MODEL_PATH, device_map="auto")
+        cf_content, summary_content, paragraphs = preprocess_form(cf_dir, sum_client)
+        del sum_client
+        torch.cuda.empty_cache()
 
     all_results = {}
     for model_name, model_path in AP_MODEL_PATHS.items():
-        logger.info("=== Running %s ===", model_name)
-        client = hf_pipeline("text-generation", model=model_path, device_map="auto")
-        all_results[model_name] = run_for_model(cf_content, summary_content, paragraphs, f"{CF_STEM}.txt", client)
-        del client
-        torch.cuda.empty_cache()
+        try:
+            logger.info("=== Running %s ===", model_name)
+            if model_name in THINKING_MODELS:
+                client = ThinkingClient(model_path, enable_thinking=False)
+            else:
+                client = hf_pipeline("text-generation", model=model_path, device_map="auto")
+            all_results[model_name] = run_for_model(cf_content, summary_content, paragraphs, f"{CF_STEM}.txt", client)
+            del client
+            torch.cuda.empty_cache()
+        except Exception as e:
+            logger.error("=== FAILED %s: %s ===", model_name, e, exc_info=True)
+            all_results[model_name] = {}
+            torch.cuda.empty_cache()
+        save_comparison_csv(all_results)
 
-    save_comparison_csv(all_results)
     logger.info("Done!")
