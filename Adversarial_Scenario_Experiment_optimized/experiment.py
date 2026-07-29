@@ -1,9 +1,19 @@
-import sys, os, json, pathlib, logging, re
-import torch
+import json
+import logging
+import pathlib
+import re
+import sys
+
 import pandas as pd
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import pipeline as hf_pipeline
-from adversarial_pipeline.pipeline.preprocess import fix_bold_headings, generate_summary, generate_paragraph, save_file
-from adversarial_pipeline.pipeline.prompt_gen import build_user_message, SCENARIOS, CRITERIA
+from transformers.models.gpt2.tokenization_gpt2 import bytes_to_unicode
+
+from adversarial_pipeline.pipeline.preprocess import (
+    fix_bold_headings, generate_paragraph, generate_summary, save_file,
+)
+from adversarial_pipeline.pipeline.prompt_gen import build_user_message, CRITERIA, SCENARIOS
 from adversarial_pipeline.utils.logging import setup_logging
 from adversarial_pipeline.utils.thinking import parse_thinking_output
 
@@ -22,14 +32,34 @@ AP_MODEL_PATHS = CONFIG["ap_model_paths"]
 SUM_MODEL_PATH = CONFIG["sum_model_path"]
 N_PARAGRAPHS = CONFIG["n_paragraphs"]
 
+THINKING_MODELS = {
+    "Qwen3.5-9B",
+    "DeepSeek-R1-Qwen3-8B",
+    "DeepSeek-R1-Llama-8B",
+    "DeepSeek-R1-Qwen-32B",
+    "DeepSeek-R1-Llama-70B",
+}
 
-THINKING_MODELS = {"Qwen3.5-9B", "DeepSeek-R1-Qwen3-8B", "DeepSeek-R1-Llama-8B", "DeepSeek-R1-Qwen-32B", "DeepSeek-R1-Llama-70B"}
+INVALID_PROMPTS = {"C1", "C2", "C3", "...", "{generatedadversarialprompt}", "generated prompt"}
+
+_UNICODE_TO_BYTE = {v: k for k, v in bytes_to_unicode().items()}
+
+
+def _fix_bpe_chars(text):
+    try:
+        byte_seq = bytearray()
+        for char in text:
+            if char in _UNICODE_TO_BYTE:
+                byte_seq.append(_UNICODE_TO_BYTE[char])
+            else:
+                byte_seq.extend(char.encode('utf-8'))
+        return byte_seq.decode('utf-8', errors='replace')
+    except Exception:
+        return text
 
 
 class ThinkingClient:
-    """HF transformers client with proper enable_thinking chat template support."""
     def __init__(self, model_path, enable_thinking=True):
-        from transformers import AutoModelForCausalLM, AutoTokenizer
         self.enable_thinking = enable_thinking
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         self.model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
@@ -40,13 +70,13 @@ class ThinkingClient:
                 messages,
                 tokenize=False,
                 add_generation_prompt=True,
-                enable_thinking=self.enable_thinking
+                enable_thinking=self.enable_thinking,
             )
         except TypeError:
             text = self.tokenizer.apply_chat_template(
                 messages,
                 tokenize=False,
-                add_generation_prompt=True
+                add_generation_prompt=True,
             )
         inputs = self.tokenizer(text, return_tensors="pt").to("cuda:0")
         with torch.no_grad():
@@ -54,23 +84,11 @@ class ThinkingClient:
                 **inputs,
                 max_new_tokens=max_new_tokens,
                 do_sample=False,
-                pad_token_id=self.tokenizer.eos_token_id
+                pad_token_id=self.tokenizer.eos_token_id,
             )
         new_tokens = outputs[0][inputs["input_ids"].shape[1]:]
         result = self.tokenizer.decode(new_tokens, skip_special_tokens=True)
-        if hasattr(self.tokenizer, 'byte_decoder'):
-            try:
-                byte_seq = bytearray()
-                for char in result:
-                    if char in self.tokenizer.byte_decoder:
-                        byte_seq.append(self.tokenizer.byte_decoder[char])
-                    else:
-                        byte_seq.extend(char.encode('utf-8'))
-                result = byte_seq.decode('utf-8', errors='replace')
-            except Exception:
-                pass
-        result = result.replace('\u0120', ' ').replace('\u010a', '\n')
-        return [{"generated_text": messages + [{"role": "assistant", "content": result}]}]
+        return [{"generated_text": messages + [{"role": "assistant", "content": _fix_bpe_chars(result)}]}]
 
 
 def load_system_prompt(scenario, criterion):
@@ -83,66 +101,68 @@ def load_system_prompt(scenario, criterion):
     return content.replace("{n_prompts}", str(scenario["target"]))
 
 
+def format_prompt(prompt):
+    if isinstance(prompt, dict):
+        return prompt.get("adversarial_prompt", prompt.get("prompt", str(prompt)))
+    return str(prompt)
+
+
 def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client):
     system_prompt = load_system_prompt(scenario, criterion)
     if system_prompt is None:
         return []
+
     user_message = build_user_message(scenario, cf_content, summary_content, paragraph_content, cf_filename)
-    user_request = f"Use the following {scenario['context_type']} as the context to generate adversarial prompts:\n"
-    final_user_message = user_request + user_message
+    final_user_message = f"Use the following {scenario['context_type']} as the context to generate adversarial prompts:\n" + user_message
+
     try:
         response = client(
-            [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": final_user_message}
-            ],
-            max_new_tokens=8192
+            [{"role": "system", "content": system_prompt}, {"role": "user", "content": final_user_message}],
+            max_new_tokens=8192,
         )
     except Exception as e:
         if "roles must alternate" in str(e):
-            # Mistral and some models don't support system role — merge into user message
             response = client(
                 [{"role": "user", "content": f"{system_prompt}\n\n{final_user_message}"}],
-                max_new_tokens=8192
+                max_new_tokens=8192,
             )
         else:
             raise
-    result_text = response[0]["generated_text"][-1]["content"].strip()
-    logger.info("RAW OUTPUT (first 300): %s", result_text[:300])
-    logger.info("RAW OUTPUT (last 300): %s", result_text[-300:])
-    result_text = parse_thinking_output(result_text)["answer"]
-    logger.info("AFTER STRIP THINKING (first 300): %s", result_text[:300])
+
+    result_text = parse_thinking_output(response[0]["generated_text"][-1]["content"].strip())["answer"]
+
     results = []
-    start = result_text.find('[')
-    end = result_text.rfind(']')
+    start, end = result_text.find('['), result_text.rfind(']')
     if start != -1 and end != -1:
         try:
-            results = json.loads(result_text[start:end+1])
+            results = json.loads(result_text[start:end + 1])
         except json.JSONDecodeError:
             pass
+
     if not results:
         for match in re.finditer(r'\{.*?\}', result_text, re.DOTALL):
             try:
                 results.append(json.loads(match.group()))
             except json.JSONDecodeError:
                 continue
+
     if not results:
         for match in re.finditer(r'"([^"]{20,})"', result_text):
-            results.append({"prompt": match.group(1)})
-    INVALID_PROMPTS = {"C1", "C2", "C3", "...", "{generatedadversarialprompt}", "generated prompt"}
-    results = [
+            text = match.group(1).strip()
+            if '**' not in text and not text.startswith((']', '-', '\n')):
+                results.append({"prompt": text})
+
+    return [
         r for r in results
         if isinstance(r, dict) and len(format_prompt(r)) > 10 and format_prompt(r) not in INVALID_PROMPTS
     ]
-    return results
 
 
 def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client):
     accumulated = []
-    max_retries = 3
     retries = 0
     while len(accumulated) < scenario["target"]:
-        if retries >= max_retries:
+        if retries >= 3:
             logger.warning("Max retries reached for %s %s, skipping.", scenario["scenario_id"], criterion)
             break
         new_prompts = generate_batch(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client)
@@ -167,8 +187,10 @@ def preprocess_form(cf_dir, client):
     summary_with_label = f"Consent Form Summary:\n\n{summary_content}"
     save_file(summary_with_label, cf_dir / f"{CF_STEM}.SUM.txt")
     logger.info("Generating paragraphs...")
-    paragraph_content = generate_paragraph(cf_content)
-    paragraphs = [f"Extracted Paragraph from Consent Form:\n\n{par}" for par in paragraph_content[:N_PARAGRAPHS]]
+    paragraphs = [
+        f"Extracted Paragraph from Consent Form:\n\n{par}"
+        for par in generate_paragraph(cf_content)[:N_PARAGRAPHS]
+    ]
     for i, par in enumerate(paragraphs, start=1):
         save_file(par, cf_dir / f"{CF_STEM}.PAR{i}.txt")
         save_file(f"{summary_with_label}\n\n{par}", cf_dir / f"{CF_STEM}.SUM_PAR{i}.txt")
@@ -182,31 +204,24 @@ def run_for_model(cf_content, summary_content, paragraphs, cf_filename, client):
         if scenario["needs_paragraph"]:
             for i, par in enumerate(paragraphs, start=1):
                 label = f"{scenario['scenario_id']} (PAR{i})"
-                model_results[label] = {}
-                for criterion in CRITERIA:
-                    results = accumulate_prompts(scenario, criterion, cf_content, summary_content, par, cf_filename, client)
-                    model_results[label][criterion] = results
+                model_results[label] = {
+                    criterion: accumulate_prompts(scenario, criterion, cf_content, summary_content, par, cf_filename, client)
+                    for criterion in CRITERIA
+                }
         elif scenario.get("needs_sum_par"):
             for i, par in enumerate(paragraphs, start=1):
                 label = f"{scenario['scenario_id']} (PAR{i})"
-                model_results[label] = {}
-                sum_par_content = f"{summary_content}\n\n{par}"
-                for criterion in CRITERIA:
-                    results = accumulate_prompts(scenario, criterion, cf_content, sum_par_content, None, cf_filename, client)
-                    model_results[label][criterion] = results
+                model_results[label] = {
+                    criterion: accumulate_prompts(scenario, criterion, cf_content, f"{summary_content}\n\n{par}", None, cf_filename, client)
+                    for criterion in CRITERIA
+                }
         else:
             label = scenario["scenario_id"]
-            model_results[label] = {}
-            for criterion in CRITERIA:
-                results = accumulate_prompts(scenario, criterion, cf_content, summary_content, None, cf_filename, client)
-                model_results[label][criterion] = results
+            model_results[label] = {
+                criterion: accumulate_prompts(scenario, criterion, cf_content, summary_content, None, cf_filename, client)
+                for criterion in CRITERIA
+            }
     return model_results
-
-
-def format_prompt(prompt):
-    if isinstance(prompt, dict):
-        return prompt.get("adversarial_prompt", prompt.get("prompt", str(prompt)))
-    return str(prompt)
 
 
 def save_comparison_csv(all_results):
@@ -214,7 +229,9 @@ def save_comparison_csv(all_results):
     if not model_names:
         logger.warning("No completed model results to save.")
         return
+
     scenario_labels = list(all_results[model_names[0]].keys())
+    key_cols = ["consent_form", "scenario", "criterion", "prompt_index"]
     rows = []
     for label in scenario_labels:
         for criterion in CRITERIA:
@@ -223,12 +240,7 @@ def save_comparison_csv(all_results):
                 for m in model_names
             )
             for i in range(max_prompts):
-                row = {
-                    "consent_form": CF_STEM,
-                    "scenario": label,
-                    "criterion": criterion,
-                    "prompt_index": i + 1,
-                }
+                row = {"consent_form": CF_STEM, "scenario": label, "criterion": criterion, "prompt_index": i + 1}
                 for model_name in model_names:
                     prompts = all_results[model_name].get(label, {}).get(criterion, [])
                     row[model_name] = format_prompt(prompts[i]) if i < len(prompts) else ""
@@ -236,11 +248,8 @@ def save_comparison_csv(all_results):
 
     csv_path = BASE_DIR / f"{CF_STEM}_comparison_updated.csv"
     new_df = pd.DataFrame(rows)
-    key_cols = ["consent_form", "scenario", "criterion", "prompt_index"]
-
     if csv_path.exists():
-        existing_df = pd.read_csv(csv_path, encoding='utf-8-sig')
-        existing_df = existing_df.set_index(key_cols)
+        existing_df = pd.read_csv(csv_path, encoding='utf-8-sig').set_index(key_cols)
         new_df = new_df.set_index(key_cols)
         for col in new_df.columns:
             existing_df[col] = new_df[col]
@@ -261,8 +270,7 @@ if __name__ == "__main__":
     par1_file = cf_dir / f"{CF_STEM}.PAR1.txt"
     if sum_file.exists() and par1_file.exists():
         logger.info("=== Preprocessing files found, loading from disk ===")
-        cf_file = cf_dir / f"{CF_STEM}.txt"
-        with open(cf_file, 'r', encoding='utf-8') as f:
+        with open(cf_dir / f"{CF_STEM}.txt", 'r', encoding='utf-8') as f:
             cf_content = f.read()
         with open(sum_file, 'r', encoding='utf-8') as f:
             summary_content = f.read()
