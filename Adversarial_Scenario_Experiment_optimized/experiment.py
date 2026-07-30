@@ -8,8 +8,6 @@ import pandas as pd
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import pipeline as hf_pipeline
-from transformers.models.gpt2.tokenization_gpt2 import bytes_to_unicode
-
 from adversarial_pipeline.pipeline.preprocess import (
     fix_bold_headings, generate_paragraph, generate_summary, save_file,
 )
@@ -33,16 +31,29 @@ SUM_MODEL_PATH = CONFIG["sum_model_path"]
 N_PARAGRAPHS = CONFIG["n_paragraphs"]
 
 THINKING_MODELS = {
-    "Qwen3.5-9B",
     "DeepSeek-R1-Qwen3-8B",
     "DeepSeek-R1-Llama-8B",
     "DeepSeek-R1-Qwen-32B",
     "DeepSeek-R1-Llama-70B",
+    "Qwen3.5-9B",
 }
 
 INVALID_PROMPTS = {"C1", "C2", "C3", "...", "{generatedadversarialprompt}", "generated prompt"}
 
-_UNICODE_TO_BYTE = {v: k for k, v in bytes_to_unicode().items()}
+def _bytes_to_unicode():
+    bs = (list(range(ord("!"), ord("~") + 1))
+          + list(range(ord("¡"), ord("¬") + 1))
+          + list(range(ord("®"), ord("ÿ") + 1)))
+    cs = bs[:]
+    n = 0
+    for b in range(2 ** 8):
+        if b not in bs:
+            bs.append(b)
+            cs.append(2 ** 8 + n)
+            n += 1
+    return dict(zip(bs, map(chr, cs)))
+
+_UNICODE_TO_BYTE = {v: k for k, v in _bytes_to_unicode().items()}
 
 
 def _fix_bpe_chars(text):
@@ -64,7 +75,7 @@ class ThinkingClient:
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         self.model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
 
-    def __call__(self, messages, max_new_tokens=8192):
+    def __call__(self, messages, max_new_tokens=32768):
         try:
             text = self.tokenizer.apply_chat_template(
                 messages,
@@ -115,27 +126,32 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
     user_message = build_user_message(scenario, cf_content, summary_content, paragraph_content, cf_filename)
     final_user_message = f"Use the following {scenario['context_type']} as the context to generate adversarial prompts:\n" + user_message
 
+    max_tokens = 32768 if isinstance(client, ThinkingClient) else 2048
     try:
         response = client(
             [{"role": "system", "content": system_prompt}, {"role": "user", "content": final_user_message}],
-            max_new_tokens=8192,
+            max_new_tokens=max_tokens,
         )
     except Exception as e:
         if "roles must alternate" in str(e):
             response = client(
                 [{"role": "user", "content": f"{system_prompt}\n\n{final_user_message}"}],
-                max_new_tokens=8192,
+                max_new_tokens=max_tokens,
             )
         else:
             raise
 
     result_text = parse_thinking_output(response[0]["generated_text"][-1]["content"].strip())["answer"]
 
+    logger.info("Raw output before parsing:\n%s", result_text)
+
     results = []
     start, end = result_text.find('['), result_text.rfind(']')
     if start != -1 and end != -1:
         try:
             results = json.loads(result_text[start:end + 1])
+            if results:
+                logger.info("Parser: JSON array (%d items)", len(results))
         except json.JSONDecodeError:
             pass
 
@@ -145,17 +161,38 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
                 results.append(json.loads(match.group()))
             except json.JSONDecodeError:
                 continue
+        if results:
+            logger.info("Parser: JSON objects (%d items)", len(results))
 
     if not results:
         for match in re.finditer(r'"([^"]{20,})"', result_text):
             text = match.group(1).strip()
             if '**' not in text and not text.startswith((']', '-', '\n')):
                 results.append({"prompt": text})
+        if results:
+            logger.info("Parser: prose fallback (%d items)", len(results))
 
-    return [
-        r for r in results
-        if isinstance(r, dict) and len(format_prompt(r)) > 10 and format_prompt(r) not in INVALID_PROMPTS
-    ]
+    if not results:
+        logger.warning("All parsers failed. Raw output (first 500 chars): %s", result_text[:500])
+
+    if results:
+        logger.info("Parsed items (first 3): %s", [str(r)[:120] for r in results[:3]])
+
+    normalized = []
+    for r in results:
+        if isinstance(r, str):
+            r = {"prompt": r}
+        if isinstance(r, dict):
+            normalized.append(r)
+        else:
+            logger.warning("Unexpected result type %s: %s", type(r).__name__, str(r)[:100])
+
+    filtered = [r for r in normalized if len(format_prompt(r)) > 10 and format_prompt(r) not in INVALID_PROMPTS]
+    if len(filtered) < len(normalized):
+        logger.warning("Filtered %d/%d items (too short or invalid): %s",
+                       len(normalized) - len(filtered), len(normalized),
+                       [format_prompt(r) for r in normalized if r not in filtered])
+    return filtered
 
 
 def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client):
@@ -168,9 +205,11 @@ def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragra
         new_prompts = generate_batch(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client)
         if not new_prompts:
             retries += 1
+            logger.warning("Retry %d/3 for %s %s.", retries, scenario["scenario_id"], criterion)
         else:
             retries = 0
             accumulated.extend(new_prompts)
+    logger.info("Accumulated %d/%d prompts for %s %s.", len(accumulated), scenario["target"], scenario["scenario_id"], criterion)
     return accumulated[:scenario["target"]]
 
 
