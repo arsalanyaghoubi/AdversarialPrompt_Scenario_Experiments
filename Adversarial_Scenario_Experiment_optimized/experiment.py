@@ -35,6 +35,9 @@ THINKING_MODELS = {
     "DeepSeek-R1-Llama-8B",
     "DeepSeek-R1-Qwen-32B",
     "DeepSeek-R1-Llama-70B",
+}
+
+THINKING_DISABLED_MODELS = {
     "Qwen3.5-9B",
 }
 
@@ -155,6 +158,12 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
         except json.JSONDecodeError:
             pass
 
+    if results and all(
+        isinstance(r, str) and (r in INVALID_PROMPTS or len(r) <= 10)
+        for r in results
+    ):
+        results = []
+
     if not results:
         for match in re.finditer(r'\{.*?\}', result_text, re.DOTALL):
             try:
@@ -171,6 +180,13 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
                 results.append({"prompt": text})
         if results:
             logger.info("Parser: prose fallback (%d items)", len(results))
+
+    if not results:
+        for match in re.finditer(r'\*\*Prompt \d+.*?\*\*\s*\n\s*"([^"]{20,})"', result_text, re.DOTALL):
+            text = match.group(1).strip()
+            results.append({"prompt": text})
+        if results:
+            logger.info("Parser: markdown list fallback (%d items)", len(results))
 
     if not results:
         logger.warning("All parsers failed. Raw output (first 500 chars): %s", result_text[:500])
@@ -332,6 +348,8 @@ if __name__ == "__main__":
             logger.info("=== Running %s ===", model_name)
             if model_name in THINKING_MODELS:
                 client = ThinkingClient(model_path, enable_thinking=True)
+            elif model_name in THINKING_DISABLED_MODELS:
+                client = ThinkingClient(model_path, enable_thinking=False)
             else:
                 client = hf_pipeline("text-generation", model=model_path, device_map="auto")
             all_results[model_name] = run_for_model(cf_content, summary_content, paragraphs, f"{CF_STEM}.txt", client)
