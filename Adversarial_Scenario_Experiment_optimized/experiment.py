@@ -97,7 +97,7 @@ class ThinkingClient:
             outputs = self.model.generate(
                 **inputs,
                 max_new_tokens=max_new_tokens,
-                do_sample=False,
+                do_sample=True,
                 pad_token_id=self.tokenizer.eos_token_id,
             )
         new_tokens = outputs[0][inputs["input_ids"].shape[1]:]
