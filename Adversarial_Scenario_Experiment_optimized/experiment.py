@@ -14,6 +14,7 @@ from adversarial_pipeline.pipeline.preprocess import (
 from adversarial_pipeline.pipeline.prompt_gen import build_user_message, CRITERIA, SCENARIOS
 from adversarial_pipeline.utils.logging import setup_logging
 from adversarial_pipeline.utils.thinking import parse_thinking_output
+from adversarial_pipeline.config import MIN_WORD_COUNT, MAX_WORD_COUNT
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -42,6 +43,7 @@ THINKING_DISABLED_MODELS = {
 }
 
 INVALID_PROMPTS = {"C1", "C2", "C3", "...", "{generatedadversarialprompt}", "generated prompt"}
+
 
 def _bytes_to_unicode():
     bs = (list(range(ord("!"), ord("~") + 1))
@@ -77,6 +79,12 @@ class ThinkingClient:
         self.enable_thinking = enable_thinking
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         self.model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
+        # FIX 3: Only apply the GPT-2 byte-level BPE fix for tokenizers that
+        # actually use that encoding (exposed via byte_encoder). Applying it to
+        # SentencePiece tokenizers (LLaMA) corrupts valid UTF-8 output because
+        # characters in the 256+ range that GPT-2 uses for byte-mapping can
+        # legitimately appear in SentencePiece-decoded text.
+        self._needs_bpe_fix = hasattr(self.tokenizer, 'byte_encoder')
 
     def __call__(self, messages, max_new_tokens=32768):
         try:
@@ -92,7 +100,9 @@ class ThinkingClient:
                 tokenize=False,
                 add_generation_prompt=True,
             )
-        inputs = self.tokenizer(text, return_tensors="pt").to("cuda:0")
+
+        device = next(self.model.parameters()).device
+        inputs = self.tokenizer(text, return_tensors="pt").to(device) # .to("cuda:0")
         with torch.no_grad():
             outputs = self.model.generate(
                 **inputs,
@@ -102,7 +112,10 @@ class ThinkingClient:
             )
         new_tokens = outputs[0][inputs["input_ids"].shape[1]:]
         result = self.tokenizer.decode(new_tokens, skip_special_tokens=True)
-        return [{"generated_text": messages + [{"role": "assistant", "content": _fix_bpe_chars(result)}]}]
+        # FIX 3 (cont.): Only run the BPE char fix when the tokenizer needs it.
+        if self._needs_bpe_fix:
+            result = _fix_bpe_chars(result)
+        return [{"generated_text": messages + [{"role": "assistant", "content": result}]}]
 
 
 def load_system_prompt(scenario, criterion):
@@ -127,7 +140,10 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
         return []
 
     user_message = build_user_message(scenario, cf_content, summary_content, paragraph_content, cf_filename)
-    final_user_message = f"Use the following {scenario['context_type']} as the context to generate adversarial prompts:\n" + user_message
+    final_user_message = (
+        f"Use the following {scenario['context_type']} as the context to generate adversarial prompts:\n"
+        + user_message
+    )
 
     max_tokens = 32768 if isinstance(client, ThinkingClient) else 2048
     try:
@@ -149,6 +165,8 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
     logger.info("Raw output before parsing:\n%s", result_text)
 
     results = []
+
+    # Parser 1: JSON array
     start, end = result_text.find('['), result_text.rfind(']')
     if start != -1 and end != -1:
         try:
@@ -158,12 +176,7 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
         except json.JSONDecodeError:
             pass
 
-    if results and all(
-        isinstance(r, str) and (r in INVALID_PROMPTS or len(r) <= 10)
-        for r in results
-    ):
-        results = []
-
+    # Parser 2: individual JSON objects
     if not results:
         for match in re.finditer(r'\{.*?\}', result_text, re.DOTALL):
             try:
@@ -173,14 +186,16 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
         if results:
             logger.info("Parser: JSON objects (%d items)", len(results))
 
+
     if not results:
-        for match in re.finditer(r'"([^"]{20,})"', result_text):
+        for match in re.finditer(r'"([^"\n]{20,500})"', result_text):
             text = match.group(1).strip()
             if '**' not in text and not text.startswith((']', '-', '\n')):
                 results.append({"prompt": text})
         if results:
             logger.info("Parser: prose fallback (%d items)", len(results))
 
+    # Parser 4: markdown list fallback
     if not results:
         for match in re.finditer(r'\*\*Prompt \d+.*?\*\*\s*\n\s*"([^"]{20,})"', result_text, re.DOTALL):
             text = match.group(1).strip()
@@ -191,9 +206,6 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
     if not results:
         logger.warning("All parsers failed. Raw output (first 500 chars): %s", result_text[:500])
 
-    if results:
-        logger.info("Parsed items (first 3): %s", [str(r)[:120] for r in results[:3]])
-
     normalized = []
     for r in results:
         if isinstance(r, str):
@@ -203,29 +215,52 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
         else:
             logger.warning("Unexpected result type %s: %s", type(r).__name__, str(r)[:100])
 
-    filtered = [r for r in normalized if len(format_prompt(r)) > 10 and format_prompt(r) not in INVALID_PROMPTS]
+    filtered = [
+        r for r in normalized
+        if format_prompt(r) not in INVALID_PROMPTS
+           and validate_word_count(format_prompt(r)) is not None
+    ]
+
     if len(filtered) < len(normalized):
-        logger.warning("Filtered %d/%d items (too short or invalid): %s",
-                       len(normalized) - len(filtered), len(normalized),
-                       [format_prompt(r) for r in normalized if r not in filtered])
+        logger.warning(
+            "Filtered %d/%d items (invalid or outside word count bounds %d-%d): %s",
+            len(normalized) - len(filtered), len(normalized),
+            MIN_WORD_COUNT, MAX_WORD_COUNT,
+            [format_prompt(r) for r in normalized if r not in filtered],
+        )
+
     return filtered
 
 
 def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client):
     accumulated = []
     retries = 0
-    while len(accumulated) < scenario["target"]:
+    max_iterations = scenario["target"] * 5
+    iterations = 0
+    while len(accumulated) < scenario["target"] and iterations < max_iterations:
+        iterations += 1
         if retries >= 3:
             logger.warning("Max retries reached for %s %s, skipping.", scenario["scenario_id"], criterion)
             break
-        new_prompts = generate_batch(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client)
+        new_prompts = generate_batch(
+            scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client
+        )
         if not new_prompts:
             retries += 1
             logger.warning("Retry %d/3 for %s %s.", retries, scenario["scenario_id"], criterion)
         else:
             retries = 0
             accumulated.extend(new_prompts)
-    logger.info("Accumulated %d/%d prompts for %s %s.", len(accumulated), scenario["target"], scenario["scenario_id"], criterion)
+    if iterations >= max_iterations:
+        logger.warning(
+            "Max iterations (%d) reached for %s %s with %d/%d prompts collected.",
+            max_iterations, scenario["scenario_id"], criterion,
+            len(accumulated), scenario["target"],
+        )
+    logger.info(
+        "Accumulated %d/%d prompts for %s %s.",
+        len(accumulated), scenario["target"], scenario["scenario_id"], criterion,
+    )
     return accumulated[:scenario["target"]]
 
 
@@ -260,20 +295,27 @@ def run_for_model(cf_content, summary_content, paragraphs, cf_filename, client):
             for i, par in enumerate(paragraphs, start=1):
                 label = f"{scenario['scenario_id']} (PAR{i})"
                 model_results[label] = {
-                    criterion: accumulate_prompts(scenario, criterion, cf_content, summary_content, par, cf_filename, client)
+                    criterion: accumulate_prompts(
+                        scenario, criterion, cf_content, summary_content, par, cf_filename, client
+                    )
                     for criterion in CRITERIA
                 }
         elif scenario.get("needs_sum_par"):
             for i, par in enumerate(paragraphs, start=1):
                 label = f"{scenario['scenario_id']} (PAR{i})"
                 model_results[label] = {
-                    criterion: accumulate_prompts(scenario, criterion, cf_content, f"{summary_content}\n\n{par}", None, cf_filename, client)
+                    criterion: accumulate_prompts(
+                        scenario, criterion, cf_content,
+                        f"{summary_content}\n\n{par}", None, cf_filename, client
+                    )
                     for criterion in CRITERIA
                 }
         else:
             label = scenario["scenario_id"]
             model_results[label] = {
-                criterion: accumulate_prompts(scenario, criterion, cf_content, summary_content, None, cf_filename, client)
+                criterion: accumulate_prompts(
+                    scenario, criterion, cf_content, summary_content, None, cf_filename, client
+                )
                 for criterion in CRITERIA
             }
     return model_results
@@ -295,7 +337,12 @@ def save_comparison_csv(all_results):
                 for m in model_names
             )
             for i in range(max_prompts):
-                row = {"consent_form": CF_STEM, "scenario": label, "criterion": criterion, "prompt_index": i + 1}
+                row = {
+                    "consent_form": CF_STEM,
+                    "scenario": label,
+                    "criterion": criterion,
+                    "prompt_index": i + 1,
+                }
                 for model_name in model_names:
                     prompts = all_results[model_name].get(label, {}).get(criterion, [])
                     row[model_name] = format_prompt(prompts[i]) if i < len(prompts) else ""
@@ -304,15 +351,25 @@ def save_comparison_csv(all_results):
     csv_path = BASE_DIR / f"{CF_STEM}_comparison_updated.csv"
     new_df = pd.DataFrame(rows)
     if csv_path.exists():
-        existing_df = pd.read_csv(csv_path, encoding='utf-8-sig').set_index(key_cols)
-        new_df = new_df.set_index(key_cols)
-        for col in new_df.columns:
-            existing_df[col] = new_df[col]
-        existing_df.reset_index().to_csv(csv_path, index=False, encoding='utf-8-sig')
+        existing_df = pd.read_csv(csv_path, encoding='utf-8-sig')
+        merged = pd.merge(existing_df, new_df, on=key_cols, how='outer', suffixes=('_old', ''))
+        merged = merged[[c for c in merged.columns if not c.endswith('_old')]]
+        merged.to_csv(csv_path, index=False, encoding='utf-8-sig')
     else:
         new_df.to_csv(csv_path, index=False, encoding='utf-8-sig')
 
     logger.info("Saved comparison CSV to %s", csv_path)
+
+
+def validate_word_count(sentence: str) -> str | None:
+    if not isinstance(sentence, str):
+        if sentence is not None:
+            logger.error("Invalid Data Type: expected str, got %s", type(sentence).__name__)
+        return None
+    word_count = len(sentence.split())
+    if MIN_WORD_COUNT <= word_count <= MAX_WORD_COUNT:
+        return sentence
+    return None
 
 
 if __name__ == "__main__":
@@ -352,7 +409,9 @@ if __name__ == "__main__":
                 client = ThinkingClient(model_path, enable_thinking=False)
             else:
                 client = hf_pipeline("text-generation", model=model_path, device_map="auto")
-            all_results[model_name] = run_for_model(cf_content, summary_content, paragraphs, f"{CF_STEM}.txt", client)
+            all_results[model_name] = run_for_model(
+                cf_content, summary_content, paragraphs, f"{CF_STEM}.txt", client
+            )
             del client
             torch.cuda.empty_cache()
         except Exception as e:
