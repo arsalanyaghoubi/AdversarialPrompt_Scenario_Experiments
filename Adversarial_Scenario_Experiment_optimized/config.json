@@ -3,6 +3,8 @@
     "model": "llama",
     "encoder_dir": "/path/to/results",
     "n_paragraphs": 2,
+    "min_word_count": 5,
+    "max_word_count": 25,
     "targets": {
         "CF": 3,
         "SUM": 1,
