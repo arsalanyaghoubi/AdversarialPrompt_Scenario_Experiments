@@ -27,3 +27,6 @@ SUM_PAR_TARGET = _cfg["targets"]["SUM_PAR"]
 CF_STEM = _cfg["cf_stem"]
 SUM_MODEL_PATH = _cfg["sum_model_path"]
 AP_MODEL_PATHS = _cfg["ap_model_paths"]
+
+# Repetition penalty
+REPETITION_PENALTY = _cfg["repetition_penalty"]

@@ -14,7 +14,7 @@ from adversarial_pipeline.pipeline.preprocess import (
 from adversarial_pipeline.pipeline.prompt_gen import build_user_message, CRITERIA, SCENARIOS
 from adversarial_pipeline.utils.logging import setup_logging
 from adversarial_pipeline.utils.thinking import parse_thinking_output
-from adversarial_pipeline.config import MIN_WORD_COUNT, MAX_WORD_COUNT
+from adversarial_pipeline.config import MIN_WORD_COUNT, MAX_WORD_COUNT, REPETITION_PENALTY
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -79,14 +79,8 @@ class ThinkingClient:
         self.enable_thinking = enable_thinking
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         self.model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
-        # FIX 3: Only apply the GPT-2 byte-level BPE fix for tokenizers that
-        # actually use that encoding (exposed via byte_encoder). Applying it to
-        # SentencePiece tokenizers (LLaMA) corrupts valid UTF-8 output because
-        # characters in the 256+ range that GPT-2 uses for byte-mapping can
-        # legitimately appear in SentencePiece-decoded text.
-        self._needs_bpe_fix = hasattr(self.tokenizer, 'byte_encoder')
 
-    def __call__(self, messages, max_new_tokens=32768):
+    def __call__(self, messages, max_new_tokens=32768, repetition_penalty=REPETITION_PENALTY):
         try:
             text = self.tokenizer.apply_chat_template(
                 messages,
@@ -108,14 +102,12 @@ class ThinkingClient:
                 **inputs,
                 max_new_tokens=max_new_tokens,
                 do_sample=True,
+                repetition_penalty=repetition_penalty,
                 pad_token_id=self.tokenizer.eos_token_id,
             )
         new_tokens = outputs[0][inputs["input_ids"].shape[1]:]
         result = self.tokenizer.decode(new_tokens, skip_special_tokens=True)
-        # FIX 3 (cont.): Only run the BPE char fix when the tokenizer needs it.
-        if self._needs_bpe_fix:
-            result = _fix_bpe_chars(result)
-        return [{"generated_text": messages + [{"role": "assistant", "content": result}]}]
+        return [{"generated_text": messages + [{"role": "assistant", "content": _fix_bpe_chars(result)}]}]
 
 
 def load_system_prompt(scenario, criterion):
@@ -134,7 +126,7 @@ def format_prompt(prompt):
     return str(prompt)
 
 
-def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client):
+def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client, generated_so_far = None):
     system_prompt = load_system_prompt(scenario, criterion)
     if system_prompt is None:
         return []
@@ -144,17 +136,22 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
         f"Use the following {scenario['context_type']} as the context to generate adversarial prompts:\n"
         + user_message
     )
+    if generated_so_far:
+        prompt_list = "\n".join(f'"{p}"' for p in generated_so_far)
+        final_user_message += f"\n\nDo NOT generate any of these already-generated prompts:\n{prompt_list}"
 
     max_tokens = 32768 if isinstance(client, ThinkingClient) else 2048
     try:
         response = client(
             [{"role": "system", "content": system_prompt}, {"role": "user", "content": final_user_message}],
+            repetition_penalty = REPETITION_PENALTY,
             max_new_tokens=max_tokens,
         )
     except Exception as e:
         if "roles must alternate" in str(e):
             response = client(
                 [{"role": "user", "content": f"{system_prompt}\n\n{final_user_message}"}],
+                repetition_penalty = REPETITION_PENALTY,
                 max_new_tokens=max_tokens,
             )
         else:
@@ -168,7 +165,7 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
 
     # Parser 1: JSON array
     start, end = result_text.find('['), result_text.rfind(']')
-    if start != -1 and end != -1:
+    if start != -1 and end != -1 and '{' in result_text[start:end]:
         try:
             results = json.loads(result_text[start:end + 1])
             if results:
@@ -232,7 +229,7 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
     return filtered
 
 
-def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client):
+def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client, generated_so_far=None):
     accumulated = []
     retries = 0
     max_iterations = scenario["target"] * 5
@@ -243,8 +240,13 @@ def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragra
             logger.warning("Max retries reached for %s %s, skipping.", scenario["scenario_id"], criterion)
             break
         new_prompts = generate_batch(
-            scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client
+            scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client, generated_so_far=generated_so_far
         )
+        unique_prompts = []
+        for p in new_prompts:
+            if generated_so_far is None or format_prompt(p) not in generated_so_far:
+                unique_prompts.append(p)
+        new_prompts = unique_prompts
         if not new_prompts:
             retries += 1
             logger.warning("Retry %d/3 for %s %s.", retries, scenario["scenario_id"], criterion)
@@ -289,35 +291,38 @@ def preprocess_form(cf_dir, client):
 
 def run_for_model(cf_content, summary_content, paragraphs, cf_filename, client):
     model_results = {}
+    generated_so_far = []
     for scenario in SCENARIOS:
         logger.info("Running scenario: %s", scenario["scenario_id"])
         if scenario["needs_paragraph"]:
             for i, par in enumerate(paragraphs, start=1):
                 label = f"{scenario['scenario_id']} (PAR{i})"
-                model_results[label] = {
-                    criterion: accumulate_prompts(
-                        scenario, criterion, cf_content, summary_content, par, cf_filename, client
+                model_results[label] = {}
+                for criterion in CRITERIA:
+                    prompts = accumulate_prompts(
+                        scenario, criterion, cf_content, summary_content, par, cf_filename, client, generated_so_far=generated_so_far
                     )
-                    for criterion in CRITERIA
-                }
+                    model_results[label][criterion] = prompts
+                    generated_so_far.extend(format_prompt(p) for p in prompts)
         elif scenario.get("needs_sum_par"):
             for i, par in enumerate(paragraphs, start=1):
                 label = f"{scenario['scenario_id']} (PAR{i})"
-                model_results[label] = {
-                    criterion: accumulate_prompts(
-                        scenario, criterion, cf_content,
-                        f"{summary_content}\n\n{par}", None, cf_filename, client
+                model_results[label] = {}
+                for criterion in CRITERIA:
+                    prompts = accumulate_prompts(
+                        scenario, criterion, cf_content, f"{summary_content}\n\n{par}", None, cf_filename, client, generated_so_far=generated_so_far
                     )
-                    for criterion in CRITERIA
-                }
+                    model_results[label][criterion] = prompts
+                    generated_so_far.extend(format_prompt(p) for p in prompts)
         else:
             label = scenario["scenario_id"]
-            model_results[label] = {
-                criterion: accumulate_prompts(
-                    scenario, criterion, cf_content, summary_content, None, cf_filename, client
+            model_results[label] = {}
+            for criterion in CRITERIA:
+                prompts = accumulate_prompts(
+                    scenario, criterion, cf_content, summary_content, None, cf_filename, client, generated_so_far=generated_so_far
                 )
-                for criterion in CRITERIA
-            }
+                model_results[label][criterion] = prompts
+                generated_so_far.extend(format_prompt(p) for p in prompts)
     return model_results
 
 
