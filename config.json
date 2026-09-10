@@ -1,0 +1,22 @@
+{
+    "task": "prompt_generation",
+    "model": "local",
+    "encoder_dir": "./encode_dir",
+    "n_paragraphs": 4,
+    "min_word_count": 5,
+    "max_word_count": 25,
+    "repetition_penalty": 1.15,
+    "targets": {
+        "CF": 1,
+        "SUM": 1,
+        "PAR": 1,
+        "SUM_PAR": 1
+    },
+    "cf_stem": "NCT05041101_000",
+    "sum_model_path": "google/gemma-3-27b-it",
+    "ap_model_paths": {
+        "GPT-OSS-20B": "openai/gpt-oss-20b",
+        "Llama-3.1-8B": "/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
+        "DeepSeek-R1-Llama-70B": "/home1/shared/Models/DeepSeek/DeepSeek-R1-Distill-Llama-70B"
+    }
+}

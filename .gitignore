@@ -1,1 +1,6 @@
 Context/
+*.tar.gz
+*.log
+*_comparison.csv
+./playground.py
+codebase.txt
