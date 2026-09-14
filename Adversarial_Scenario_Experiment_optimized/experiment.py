@@ -122,7 +122,15 @@ def load_system_prompt(scenario, criterion):
 
 def format_prompt(prompt):
     if isinstance(prompt, dict):
-        return prompt.get("adversarial_prompt", prompt.get("prompt", str(prompt)))
+        text = prompt.get("adversarial_prompt", prompt.get("prompt", str(prompt)))
+        if isinstance(text, str) and text.strip().startswith('{'):
+            try:
+                inner = json.loads(text)
+                if isinstance(inner, dict):
+                    text = inner.get("adversarial_prompt", inner.get("prompt", text))
+            except json.JSONDecodeError:
+                pass
+        return text
     return str(prompt)
 
 

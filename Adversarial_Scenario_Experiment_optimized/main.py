@@ -31,11 +31,10 @@ if __name__ == '__main__':
 
     if task in TASK_NEEDS_CLIENT:
         if model == "llama":
-            device = int(os.environ.get("DEVICE", 1))
             client = hf_pipeline(
                 "text-generation",
                 model=CONFIG["sum_model_path"],
-                device=device
+                device_map="auto",
             )
         elif model == "groq":
             client = GroqClient()

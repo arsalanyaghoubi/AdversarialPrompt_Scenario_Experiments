@@ -1,8 +1,8 @@
 {
-    "task": "full_pipeline_and_csv_encoder",
+    "task": "preprocess",
     "model": "llama",
     "encoder_dir": "/path/to/results",
-    "n_paragraphs": 2,
+    "n_paragraphs": 4,
     "min_word_count": 5,
     "max_word_count": 25,
     "repetition_penalty": 1.1,
@@ -12,18 +12,9 @@
         "PAR": 1,
         "SUM_PAR": 1
     },
-    "cf_stem": "NCT04428203_001",
+    "cf_stem": "NCT03870529_002",
     "sum_model_path": "google/gemma-3-27b-it",
     "ap_model_paths": {
-        "GPT-OSS-20B": "openai/gpt-oss-20b",
-        "Mistral-7B-v0.2": "/home1/shared/Models/Mistral/Mistral-7B-Instruct-v0.2",
-        "Qwen3.5-9B": "/home1/shared/Models/Qwen/Qwen3.5-9B",
-        "Llama-3.1-8B": "/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
-        "Gemma-3-12B": "/home1/shared/Models/Gemma/Gemma-3-12B-it",
-        "Llama-3.3-70B": "/home1/shared/Models/Llama/Llama-3.3-70B-Instruct",
-        "DeepSeek-R1-Qwen3-8B": "/home1/shared/Models/DeepSeek/DeepSeek-R1-Distill-Qwen3-8B",
-        "DeepSeek-R1-Llama-8B": "/home1/shared/Models/DeepSeek/DeepSeek-R1-Distill-Llama-8B",
-        "DeepSeek-R1-Qwen-32B": "/home1/shared/Models/DeepSeek/DeepSeek-R1-Distill-Qwen-32B",
         "DeepSeek-R1-Llama-70B": "/home1/shared/Models/DeepSeek/DeepSeek-R1-Distill-Llama-70B"
     }
 }

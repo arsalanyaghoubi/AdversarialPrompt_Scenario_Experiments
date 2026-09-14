@@ -102,7 +102,10 @@ def save_file(content, output_path):
 
 
 def run_preprocess(client):
-    consent_forms = find_consent_forms(CONTEXT_DIR)[5:6]
+    consent_forms = [
+        cf for cf in find_consent_forms(CONTEXT_DIR)
+        if not (cf.parent / f"{cf.stem}.PAR1.txt").exists()
+    ]
     for cf_file in consent_forms:
         logger.info("Preprocessing %s...", cf_file.name)
         with open(cf_file, 'r', encoding='utf-8') as f:
