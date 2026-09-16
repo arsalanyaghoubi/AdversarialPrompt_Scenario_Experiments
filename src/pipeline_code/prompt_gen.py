@@ -25,6 +25,7 @@ SCENARIOS = [
         "needs_cf": True,
         "needs_summary": False,
         "needs_paragraph": False,
+        "needs_sum_par": False,
         "prompt_prefix": "CF_Adversarial_Prompt",
         "result_prefix": "OrigCF_Context",
         "target": CF_TARGET,
@@ -36,6 +37,7 @@ SCENARIOS = [
         "needs_cf": False,
         "needs_summary": True,
         "needs_paragraph": False,
+        "needs_sum_par": False,
         "prompt_prefix": "CF_SUM_Adversarial_Prompt",
         "result_prefix": "SumCF_Context",
         "target": SUM_TARGET,
@@ -59,6 +61,7 @@ SCENARIOS = [
         "needs_cf": False,
         "needs_summary": False,
         "needs_paragraph": True,
+        "needs_sum_par": False,
         "prompt_prefix": "PARAG_Adversarial_Prompt",
         "result_prefix": "PARAG_Context",
         "target": PAR_TARGET,
@@ -153,7 +156,7 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": final_user_message}
         ],
-        max_new_tokens=2048
+        # max_new_tokens=2048
     )
     result_text = response[0]["generated_text"][-1]["content"].strip()
     result_text = parse_thinking_output(result_text)["answer"]

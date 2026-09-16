@@ -8,25 +8,20 @@ import pandas as pd
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import pipeline as hf_pipeline
-from pipeline.preprocess import fix_bold_headings, generate_paragraph, generate_summary, save_file
-from pipeline.prompt_gen import build_user_message, CRITERIA, SCENARIOS
+from pipeline_code.preprocess import fix_bold_headings, generate_paragraph, generate_summary, save_file
+from pipeline_code.prompt_gen import build_user_message, CRITERIA, SCENARIOS
 from utils.log_config import setup_logging
 from utils.thinking import parse_thinking_output
-from utils.config import MIN_WORD_COUNT, MAX_WORD_COUNT, REPETITION_PENALTY
+from utils.config import (
+    MIN_WORD_COUNT, MAX_WORD_COUNT, REPETITION_PENALTY,
+    AP_MODEL_PATHS, SUM_MODEL_PATH, N_PARAGRAPHS, TEMPERATURE,
+)
 
 setup_logging()
 logger = logging.getLogger(__name__)
 
 BASE_DIR = pathlib.Path(__file__).parent
 CONTEXT_DIR = BASE_DIR / "Context"
-
-with open(BASE_DIR / "config.json") as f:
-    CONFIG = json.load(f)
-
-CF_STEM = CONFIG["cf_stem"]
-AP_MODEL_PATHS = CONFIG["ap_model_paths"]
-SUM_MODEL_PATH = CONFIG["sum_model_path"]
-N_PARAGRAPHS = CONFIG["n_paragraphs"]
 
 THINKING_MODELS = {
     "DeepSeek-R1-Qwen3-8B",
@@ -57,7 +52,6 @@ def _bytes_to_unicode():
 
 _UNICODE_TO_BYTE = {v: k for k, v in _bytes_to_unicode().items()}
 
-
 def _fix_bpe_chars(text):
     try:
         byte_seq = bytearray()
@@ -70,12 +64,21 @@ def _fix_bpe_chars(text):
     except Exception:
         return text
 
-
 class ThinkingClient:
     def __init__(self, model_path, enable_thinking=True):
         self.enable_thinking = enable_thinking
-        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
-        self.model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
+        self.tokenizer = AutoTokenizer.from_pretrained(model_path,clean_up_tokenization_spaces=False)
+
+        self.tokenizer.padding_side = "left"
+        if self.tokenizer.pad_token_id is None:
+            self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
+
+        self.model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            device_map="auto",
+            torch_dtype=torch.bfloat16,
+        )
+        self.model.generation_config.max_length = None
 
     def __call__(self, messages, max_new_tokens=32768, repetition_penalty=REPETITION_PENALTY):
         try:
@@ -92,20 +95,37 @@ class ThinkingClient:
                 add_generation_prompt=True,
             )
 
-        device = next(self.model.parameters()).device
-        inputs = self.tokenizer(text, return_tensors="pt").to(device) # .to("cuda:0")
+        target_device = next(self.model.parameters()).device
+        inputs = self.tokenizer(text, return_tensors="pt").to(target_device)
+        input_length = inputs["input_ids"].shape[1]
+
         with torch.no_grad():
             outputs = self.model.generate(
                 **inputs,
                 max_new_tokens=max_new_tokens,
                 do_sample=True,
+                temperature=TEMPERATURE,
                 repetition_penalty=repetition_penalty,
-                pad_token_id=self.tokenizer.eos_token_id,
+                pad_token_id=self.tokenizer.pad_token_id,
             )
-        new_tokens = outputs[0][inputs["input_ids"].shape[1]:]
+
+        new_tokens = outputs[0][input_length:]
         result = self.tokenizer.decode(new_tokens, skip_special_tokens=True)
+
         return [{"generated_text": messages + [{"role": "assistant", "content": _fix_bpe_chars(result)}]}]
 
+def _make_pipeline(model_path):
+    tokenizer = AutoTokenizer.from_pretrained(model_path,clean_up_tokenization_spaces=False)
+    pipe = hf_pipeline(
+        "text-generation",
+        model=model_path,
+        tokenizer=tokenizer,
+        device_map="auto",
+        torch_dtype=torch.bfloat16,
+        pad_token_id=tokenizer.pad_token_id or tokenizer.eos_token_id,
+    )
+    pipe.model.generation_config.max_length = None
+    return pipe
 
 def load_system_prompt(scenario, criterion):
     prompt_file = BASE_DIR / scenario["dir"] / f"{scenario['prompt_prefix']}_{criterion}.txt"
@@ -114,16 +134,16 @@ def load_system_prompt(scenario, criterion):
         return None
     with open(prompt_file, 'r', encoding='utf-8') as f:
         content = f.read()
-    return content.replace("{n_prompts}", str(scenario["target"]))
-
+    # return content.replace("{n_prompts}", str(scenario["target"]))
+    # add n_prompt to the first line of the sys_prompt at TASK and define targets
+    return content
 
 def format_prompt(prompt):
     if isinstance(prompt, dict):
         return prompt.get("adversarial_prompt", prompt.get("prompt", str(prompt)))
     return str(prompt)
 
-
-def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client, generated_so_far = None):
+def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client, generated_so_far=None):
     system_prompt = load_system_prompt(scenario, criterion)
     if system_prompt is None:
         return []
@@ -141,14 +161,18 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
     try:
         response = client(
             [{"role": "system", "content": system_prompt}, {"role": "user", "content": final_user_message}],
-            repetition_penalty = REPETITION_PENALTY,
+            repetition_penalty=REPETITION_PENALTY,
             max_new_tokens=max_tokens,
         )
     except Exception as e:
         if "roles must alternate" in str(e):
+            logger.warning(
+                "Model %s does not support system role, merging into user message.",
+                type(client).__name__,
+            )
             response = client(
                 [{"role": "user", "content": f"{system_prompt}\n\n{final_user_message}"}],
-                repetition_penalty = REPETITION_PENALTY,
+                repetition_penalty=REPETITION_PENALTY,
                 max_new_tokens=max_tokens,
             )
         else:
@@ -180,7 +204,7 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
         if results:
             logger.info("Parser: JSON objects (%d items)", len(results))
 
-
+    # Parser 3: prose fallback
     if not results:
         for match in re.finditer(r'"([^"\n]{20,500})"', result_text):
             text = match.group(1).strip()
@@ -225,7 +249,6 @@ def generate_batch(scenario, criterion, cf_content, summary_content, paragraph_c
 
     return filtered
 
-
 def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client, generated_so_far=None):
     accumulated = []
     retries = 0
@@ -239,17 +262,16 @@ def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragra
         new_prompts = generate_batch(
             scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client, generated_so_far=generated_so_far
         )
-        unique_prompts = []
-        for p in new_prompts:
-            if generated_so_far is None or format_prompt(p) not in generated_so_far:
-                unique_prompts.append(p)
-        new_prompts = unique_prompts
-        if not new_prompts:
+        unique_prompts = [
+            p for p in new_prompts
+            if generated_so_far is None or format_prompt(p) not in generated_so_far
+        ]
+        if not unique_prompts:
             retries += 1
             logger.warning("Retry %d/3 for %s %s.", retries, scenario["scenario_id"], criterion)
         else:
             retries = 0
-            accumulated.extend(new_prompts)
+            accumulated.extend(unique_prompts)
     if iterations >= max_iterations:
         logger.warning(
             "Max iterations (%d) reached for %s %s with %d/%d prompts collected.",
@@ -263,7 +285,7 @@ def accumulate_prompts(scenario, criterion, cf_content, summary_content, paragra
     return accumulated[:scenario["target"]]
 
 
-def preprocess_form(cf_dir, client):
+def preprocess_form(cf_dir, client,CF_STEM):
     cf_file = cf_dir / f"{cf_dir.name}.txt"
     with open(cf_file, 'r', encoding='utf-8') as f:
         cf_content = f.read()
@@ -273,6 +295,8 @@ def preprocess_form(cf_dir, client):
         save_file(cf_content, cf_file)
     logger.info("Generating summary...")
     summary_content = generate_summary(cf_content, client)
+    if summary_content is None:
+        raise RuntimeError(f"Summary content could not be generated for {cf_dir.name}")
     summary_with_label = f"Consent Form Summary:\n\n{summary_content}"
     save_file(summary_with_label, cf_dir / f"{CF_STEM}.SUM.txt")
     logger.info("Generating paragraphs...")
@@ -288,7 +312,7 @@ def preprocess_form(cf_dir, client):
 
 def run_for_model(cf_content, summary_content, paragraphs, cf_filename, client):
     model_results = {}
-    generated_so_far = []
+    generated_so_far = set()
     for scenario in SCENARIOS:
         logger.info("Running scenario: %s", scenario["scenario_id"])
         if scenario["needs_paragraph"]:
@@ -300,8 +324,8 @@ def run_for_model(cf_content, summary_content, paragraphs, cf_filename, client):
                         scenario, criterion, cf_content, summary_content, par, cf_filename, client, generated_so_far=generated_so_far
                     )
                     model_results[label][criterion] = prompts
-                    generated_so_far.extend(format_prompt(p) for p in prompts)
-        elif scenario.get("needs_sum_par"):
+                    generated_so_far.update(format_prompt(p) for p in prompts)
+        elif scenario["needs_sum_par"]:
             for i, par in enumerate(paragraphs, start=1):
                 label = f"{scenario['scenario_id']} (PAR{i})"
                 model_results[label] = {}
@@ -310,7 +334,7 @@ def run_for_model(cf_content, summary_content, paragraphs, cf_filename, client):
                         scenario, criterion, cf_content, f"{summary_content}\n\n{par}", None, cf_filename, client, generated_so_far=generated_so_far
                     )
                     model_results[label][criterion] = prompts
-                    generated_so_far.extend(format_prompt(p) for p in prompts)
+                    generated_so_far.update(format_prompt(p) for p in prompts)
         else:
             label = scenario["scenario_id"]
             model_results[label] = {}
@@ -319,11 +343,11 @@ def run_for_model(cf_content, summary_content, paragraphs, cf_filename, client):
                     scenario, criterion, cf_content, summary_content, None, cf_filename, client, generated_so_far=generated_so_far
                 )
                 model_results[label][criterion] = prompts
-                generated_so_far.extend(format_prompt(p) for p in prompts)
+                generated_so_far.update(format_prompt(p) for p in prompts)
     return model_results
 
 
-def save_comparison_csv(all_results):
+def save_comparison_csv(all_results, CF_STEM):
     model_names = [m for m in all_results if all_results[m]]
     if not model_names:
         logger.warning("No completed model results to save.")
@@ -375,51 +399,66 @@ def validate_word_count(sentence: str) -> str | None:
 
 
 if __name__ == "__main__":
-    cf_dir = CONTEXT_DIR / CF_STEM
-    if not cf_dir.exists():
-        logger.error("Consent form directory not found: %s", cf_dir)
-        sys.exit(1)
+    if CONTEXT_DIR.exists():
+        for consent_form_name in CONTEXT_DIR.iterdir():
+            if not consent_form_name.is_dir():
+                continue
+            cf_dir = consent_form_name
+            CF_STEM = cf_dir.name
+            all_results = {}
 
-    sum_file = cf_dir / f"{CF_STEM}.SUM.txt"
-    par1_file = cf_dir / f"{CF_STEM}.PAR1.txt"
-    if sum_file.exists() and par1_file.exists():
-        logger.info("=== Preprocessing files found, loading from disk ===")
-        with open(cf_dir / f"{CF_STEM}.txt", 'r', encoding='utf-8') as f:
-            cf_content = f.read()
-        with open(sum_file, 'r', encoding='utf-8') as f:
-            summary_content = f.read()
-        paragraphs = []
-        for i in range(1, N_PARAGRAPHS + 1):
-            par_file = cf_dir / f"{CF_STEM}.PAR{i}.txt"
-            if par_file.exists():
-                with open(par_file, 'r', encoding='utf-8') as f:
-                    paragraphs.append(f.read())
-    else:
-        logger.info("=== Preprocessing with sum model ===")
-        sum_client = hf_pipeline("text-generation", model=SUM_MODEL_PATH, device_map="auto")
-        cf_content, summary_content, paragraphs = preprocess_form(cf_dir, sum_client)
-        del sum_client
-        torch.cuda.empty_cache()
-
-    all_results = {}
-    for model_name, model_path in AP_MODEL_PATHS.items():
-        try:
-            logger.info("=== Running %s ===", model_name)
-            if model_name in THINKING_MODELS:
-                client = ThinkingClient(model_path, enable_thinking=True)
-            elif model_name in THINKING_DISABLED_MODELS:
-                client = ThinkingClient(model_path, enable_thinking=False)
+            sum_file = cf_dir / f"{CF_STEM}.SUM.txt"
+            par1_file = cf_dir / f"{CF_STEM}.PAR1.txt"
+            cf_file = cf_dir / f"{CF_STEM}.txt"
+            if cf_file.exists() and sum_file.exists() and par1_file.exists():
+                logger.info("=== Preprocessing files found, loading from disk ===")
+                with open(cf_dir / f"{CF_STEM}.txt", 'r', encoding='utf-8') as f:
+                    cf_content = f.read()
+                with open(sum_file, 'r', encoding='utf-8') as f:
+                    summary_content = f.read()
+                paragraphs = []
+                for i in range(1, N_PARAGRAPHS + 1):
+                    par_file = cf_dir / f"{CF_STEM}.PAR{i}.txt"
+                    if par_file.exists():
+                        with open(par_file, 'r', encoding='utf-8') as f:
+                            paragraphs.append(f.read())
             else:
-                client = hf_pipeline("text-generation", model=model_path, device_map="auto")
-            all_results[model_name] = run_for_model(
-                cf_content, summary_content, paragraphs, f"{CF_STEM}.txt", client
-            )
-            del client
-            torch.cuda.empty_cache()
-        except Exception as e:
-            logger.error("=== FAILED %s: %s ===", model_name, e, exc_info=True)
-            all_results[model_name] = {}
-            torch.cuda.empty_cache()
-        save_comparison_csv(all_results)
+                logger.info("=== Preprocessing with sum model ===")
+                sum_client = _make_pipeline(SUM_MODEL_PATH)
+                try:
+                    cf_content, summary_content, paragraphs = preprocess_form(cf_dir, sum_client, CF_STEM)
+                except RuntimeError as e:
+                    logger.error("Skipping %s: %s", CF_STEM, e)
+                    del sum_client
+                    torch.cuda.empty_cache()
+                    continue
+                del sum_client
+                torch.cuda.empty_cache()
 
-    logger.info("Done!")
+            for model_name, model_path in AP_MODEL_PATHS.items():
+                client = None
+                try:
+                    logger.info("=== Running %s ===", model_name)
+                    if model_name in THINKING_MODELS:
+                        client = ThinkingClient(model_path, enable_thinking=True)
+                    elif model_name in THINKING_DISABLED_MODELS:
+                        client = ThinkingClient(model_path, enable_thinking=False)
+                    else:
+                        client = _make_pipeline(model_path)
+
+                    all_results[model_name] = run_for_model(
+                        cf_content, summary_content, paragraphs, f"{CF_STEM}.txt", client
+                    )
+                    del client
+                    torch.cuda.empty_cache()
+                except Exception as e:
+                    logger.error("=== FAILED %s: %s ===", model_name, e, exc_info=True)
+                    all_results[model_name] = {}
+                    if client is not None:
+                        del client
+                    torch.cuda.empty_cache()
+                save_comparison_csv(all_results, CF_STEM)
+
+        logger.info("Done!")
+    else:
+        logger.error("CONTEXT_DIR doesnt exist: %s", CONTEXT_DIR)

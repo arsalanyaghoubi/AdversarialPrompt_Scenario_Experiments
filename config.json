@@ -5,6 +5,7 @@
     "n_paragraphs": 4,
     "min_word_count": 5,
     "max_word_count": 25,
+    "temperature": 0.8,
     "repetition_penalty": 1.15,
     "targets": {
         "CF": 1,
