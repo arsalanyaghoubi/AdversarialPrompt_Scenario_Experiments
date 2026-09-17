@@ -13,10 +13,7 @@ from transformers import pipeline as hf_pipeline
 from pipeline_code.preprocess import run_preprocess
 from pipeline_code.prompt_gen import CRITERIA, SCENARIOS, accumulate_prompts, format_prompt
 from utils.log_config import setup_logging
-from utils.config import (
-    MIN_WORD_COUNT, MAX_WORD_COUNT, REPETITION_PENALTY,
-    AP_MODEL_PATHS, SUM_MODEL_PATH, N_PARAGRAPHS, TEMPERATURE, TASK, SKIP_SUMMARY_GEN,
-)
+from utils.config import ( REPETITION_PENALTY,AP_MODEL_PATHS, SUM_MODEL_PATH, TEMPERATURE, TASK, SKIP_SUMMARY_GEN)
 
 setup_logging()
 logger = logging.getLogger(__name__)
@@ -58,6 +55,7 @@ REASONING_MODELS = THINKING_MODELS | GPT_OSS_MODELS
 
 # Seconds to wait after fully unloading a model before loading the next.
 MODEL_UNLOAD_WAIT = 10
+MODEL_LOAD_WAIT = 5
 
 
 # ── BPE character fixing ───────────────────────────────────────────────────────
@@ -344,10 +342,17 @@ def run_autoprompt(consent_form_data):
             else:
                 client = _make_pipeline(model_path)
 
+            gc.collect()
+            torch.cuda.empty_cache()
+            logger.info("Model loaded. Waiting 5s before starting inference...")
+            time.sleep(MODEL_LOAD_WAIT)
+
             is_reasoning = model_name in REASONING_MODELS
 
             for cf_stem, data in consent_form_data.items():
                 logger.info("[%s] Running %s...", cf_stem, model_name)
+                gc.collect()
+                torch.cuda.empty_cache()
                 try:
                     model_results = _run_for_model(
                         data["cf_content"],
@@ -362,6 +367,8 @@ def run_autoprompt(consent_form_data):
                     logger.error(
                         "[%s] %s failed: %s", cf_stem, model_name, e, exc_info=True
                     )
+                    gc.collect()
+                    torch.cuda.empty_cache()
                     continue
 
         except Exception as e:
