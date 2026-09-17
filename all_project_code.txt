@@ -1,0 +1,1178 @@
+==================================================
+FILE: .\config.json
+==================================================
+{
+    "task": "prompt_generation",
+    "model": "local",
+    "encoder_dir": "./encode_dir",
+    "n_paragraphs": 4,
+    "min_word_count": 5,
+    "max_word_count": 25,
+    "temperature": 0.8,
+    "repetition_penalty": 1.15,
+    "targets": {
+        "CF": 1,
+        "SUM": 1,
+        "PAR": 1,
+        "SUM_PAR": 1
+    },
+    "cf_stem": "NCT05041101_000",
+    "sum_model_path": "google/gemma-3-27b-it",
+    "skip_summary_gen": true,
+    "ap_model_paths": {
+        "GPT-OSS-20B": "openai/gpt-oss-20b",
+        "Llama-3.1-8B": "/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",
+        "DeepSeek-R1-Llama-70B": "/home1/shared/Models/DeepSeek/DeepSeek-R1-Distill-Llama-70B"
+    }
+}
+
+==================================================
+FILE: .\experiment.py
+==================================================
+import gc
+import json
+import logging
+import pathlib
+import re
+import sys
+import time
+
+import pandas as pd
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import pipeline as hf_pipeline
+from src.pipeline_code.preprocess import run_preprocess
+from src.pipeline_code.prompt_gen import CRITERIA, SCENARIOS,accumulate_prompts
+from src.utils.log_config import setup_logging
+from src.utils.config import (
+    MIN_WORD_COUNT, MAX_WORD_COUNT, REPETITION_PENALTY,
+    AP_MODEL_PATHS, SUM_MODEL_PATH, N_PARAGRAPHS, TEMPERATURE, TASK,SKIP_SUMMARY_GEN,
+)
+
+setup_logging()
+logger = logging.getLogger(__name__)
+
+BASE_DIR = pathlib.Path(__file__).parent
+CONTEXT_DIR = BASE_DIR / "Context"
+
+# Which phases each task value triggers
+TASK_RUNS_PREPROCESS = {"preprocess", "full_pipeline"}
+TASK_RUNS_AUTOPROMPT = {"prompt_generation", "full_pipeline"}
+VALID_TASKS = TASK_RUNS_PREPROCESS | TASK_RUNS_AUTOPROMPT
+
+# Validate immediately at startup — fail fast before any model or file is touched
+if TASK not in VALID_TASKS:
+    raise ValueError(
+        f"Unknown task: '{TASK}' in config.json. "
+        f"Must be one of: {sorted(VALID_TASKS)}"
+    )
+
+# ThinkingClient with enable_thinking=True (DeepSeek R1 variants)
+THINKING_MODELS = {
+    "DeepSeek-R1-Qwen3-8B",
+    "DeepSeek-R1-Llama-8B",
+    "DeepSeek-R1-Qwen-32B",
+    "DeepSeek-R1-Llama-70B",
+}
+
+# ThinkingClient with enable_thinking=False
+THINKING_DISABLED_MODELS = {
+    "Qwen3.5-9B",
+}
+
+# GPT-OSS uses ThinkingClient with skip_special_tokens=False so that
+# <|start|>, <|message|>, <|end|> markers are preserved for parse_thinking_output.
+GPT_OSS_MODELS = {
+    "GPT-OSS-20B",
+}
+
+# All models that produce reasoning/chain-of-thought output
+REASONING_MODELS = THINKING_MODELS | GPT_OSS_MODELS
+
+INVALID_PROMPTS = {"C1", "C2", "C3", "...", "{generatedadversarialprompt}", "generated prompt"}
+
+# Seconds to wait after fully unloading a model before loading the next.
+MODEL_UNLOAD_WAIT = 10
+
+
+def _bytes_to_unicode():
+    bs = (list(range(ord("!"), ord("~") + 1))
+          + list(range(ord("¡"), ord("¬") + 1))
+          + list(range(ord("®"), ord("ÿ") + 1)))
+    cs = bs[:]
+    n = 0
+    for b in range(2 ** 8):
+        if b not in bs:
+            bs.append(b)
+            cs.append(2 ** 8 + n)
+            n += 1
+    return dict(zip(bs, map(chr, cs)))
+
+_UNICODE_TO_BYTE = {v: k for k, v in _bytes_to_unicode().items()}
+
+def _fix_bpe_chars(text):
+    try:
+        byte_seq = bytearray()
+        for char in text:
+            if char in _UNICODE_TO_BYTE:
+                byte_seq.append(_UNICODE_TO_BYTE[char])
+            else:
+                byte_seq.extend(char.encode('utf-8'))
+        return byte_seq.decode('utf-8', errors='replace')
+    except Exception:
+        return text
+
+
+class ThinkingClient:
+    def __init__(self, model_path, enable_thinking=True, skip_special_tokens=True):
+        self.enable_thinking = enable_thinking
+        self.skip_special_tokens = skip_special_tokens
+        self.tokenizer = AutoTokenizer.from_pretrained(
+            model_path, clean_up_tokenization_spaces=False
+        )
+        self.tokenizer.padding_side = "left"
+        if self.tokenizer.pad_token_id is None:
+            self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
+        self.model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            device_map="auto",
+            torch_dtype=torch.bfloat16,
+        )
+        self.model.generation_config.max_length = None
+
+    def __call__(self, messages, max_new_tokens=32768, repetition_penalty=REPETITION_PENALTY):
+        try:
+            text = self.tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True,
+                enable_thinking=self.enable_thinking,
+            )
+        except TypeError:
+            text = self.tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True,
+            )
+        target_device = next(self.model.parameters()).device
+        inputs = self.tokenizer(text, return_tensors="pt").to(target_device)
+        input_length = inputs["input_ids"].shape[1]
+        with torch.no_grad():
+            outputs = self.model.generate(
+                **inputs,
+                max_new_tokens=max_new_tokens,
+                do_sample=True,
+                temperature=TEMPERATURE,
+                repetition_penalty=repetition_penalty,
+                pad_token_id=self.tokenizer.pad_token_id,
+            )
+        new_tokens = outputs[0][input_length:]
+        result = self.tokenizer.decode(new_tokens, skip_special_tokens=self.skip_special_tokens)
+        return [{"generated_text": messages + [{"role": "assistant", "content": _fix_bpe_chars(result)}]}]
+
+
+def _make_pipeline(model_path):
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_path, clean_up_tokenization_spaces=False
+    )
+    pipe = hf_pipeline(
+        "text-generation",
+        model=model_path,
+        tokenizer=tokenizer,
+        device_map="auto",
+        torch_dtype=torch.bfloat16,
+        pad_token_id=tokenizer.pad_token_id or tokenizer.eos_token_id,
+    )
+    pipe.model.generation_config.max_length = None
+    return pipe
+
+
+def _unload(client):
+    """
+    Release a model client and free GPU memory.
+    Always call del on the caller's variable after this to release
+    the caller's reference — _unload only removes its local copy.
+    """
+    if client is not None:
+        del client
+    gc.collect()
+    torch.cuda.empty_cache()
+
+
+def _extract_json_objects(text):
+    """
+    Extract JSON objects using brace-depth tracking.
+    Handles nested structures and list values (e.g. "criteria_targeted": ["C1"]).
+    """
+    objects = []
+    depth = 0
+    start = -1
+    in_string = False
+    escape_next = False
+    for i, char in enumerate(text):
+        if escape_next:
+            escape_next = False
+            continue
+        if char == '\\' and in_string:
+            escape_next = True
+            continue
+        if char == '"':
+            in_string = not in_string
+            continue
+        if in_string:
+            continue
+        if char == '{':
+            if depth == 0:
+                start = i
+            depth += 1
+        elif char == '}':
+            depth -= 1
+            if depth == 0 and start != -1:
+                try:
+                    obj = json.loads(text[start:i + 1])
+                    objects.append(obj)
+                except json.JSONDecodeError:
+                    pass
+                start = -1
+    return objects
+
+def format_prompt(prompt):
+    if isinstance(prompt, dict):
+        return prompt.get("adversarial_prompt", prompt.get("prompt", str(prompt)))
+    return str(prompt)
+
+
+def load_cf_data(cf_dirs):
+    consent_form_data = {}
+
+    for cf_dir in cf_dirs:
+        cf_stem = cf_dir.name
+        file_paths = [f for f in cf_dir.iterdir() if f.is_file()]
+
+        # 1. Isolate summary-paragraph files first to prevent overlap
+        sum_par_files = [f for f in file_paths if ".SUM_PAR" in f.name]
+
+        # 2. Categorize remaining files cleanly
+        sum_files = [
+            f for f in file_paths
+            if (".SUM." in f.name or f.name.endswith(".SUM.txt")) and f not in sum_par_files
+        ]
+        par_files = [
+            f for f in file_paths
+            if ".PAR" in f.name and f not in sum_par_files
+        ]
+        main_files = [
+            f for f in file_paths
+            if f.suffix == ".txt" and f not in sum_files and f not in par_files and f not in sum_par_files
+        ]
+
+        if not (main_files and sum_files and par_files):
+            logger.warning("[%s] Missing required preprocessed files — skipping.", cf_stem)
+            continue
+
+        # 3. Sort indexed files numerically
+        def extract_num(path, pattern):
+            match = re.search(pattern, path.name, re.IGNORECASE)
+            return int(match.group(1)) if match else 0
+
+        par_files.sort(key=lambda p: extract_num(p, r'\.PAR(\d+)'))
+        sum_par_files.sort(key=lambda p: extract_num(p, r'\.SUM_PAR(\d+)'))
+
+        # 4. Load contents into dictionary
+        consent_form_data[cf_stem] = {
+            "cf_content": main_files[0].read_text(encoding='utf-8'),
+            "summary_content": sum_files[0].read_text(encoding='utf-8'),
+            "paragraphs": [p.read_text(encoding='utf-8') for p in par_files],
+            "summary_paragraphs": [p.read_text(encoding='utf-8') for p in sum_par_files],
+        }
+
+    return consent_form_data
+
+
+def run_autoprompt(consent_form_data):
+    """
+    Phase 2: Load each AP model once, run it over all consent forms, unload.
+    """
+    model_names = list(AP_MODEL_PATHS.keys())
+    for model_idx, (model_name, model_path) in enumerate(AP_MODEL_PATHS.items()):
+        client = None
+        logger.info(
+            "=== Loading model %d/%d: %s ===",
+            model_idx + 1, len(model_names), model_name,
+        )
+        try:
+            if model_name in THINKING_MODELS:
+                client = ThinkingClient(model_path, enable_thinking=True)
+            elif model_name in THINKING_DISABLED_MODELS:
+                client = ThinkingClient(model_path, enable_thinking=False)
+            elif model_name in GPT_OSS_MODELS:
+                client = ThinkingClient(
+                    model_path, enable_thinking=False, skip_special_tokens=False
+                )
+            else:
+                client = _make_pipeline(model_path)
+
+            is_reasoning = model_name in REASONING_MODELS
+
+            for cf_stem, data in consent_form_data.items():
+                logger.info("[%s] Running %s...", cf_stem, model_name)
+                try:
+                    model_results = _run_for_model(
+                        data["cf_content"],
+                        data["summary_content"],
+                        data["paragraphs"],
+                        data["summary_paragraphs"],
+                        f"{cf_stem}.txt",
+                        client,
+                    )
+                    save_model_csv(model_results, model_name, cf_stem, is_reasoning)
+                except Exception as e:
+                    logger.error(
+                        "[%s] %s failed: %s", cf_stem, model_name, e, exc_info=True
+                    )
+                    continue
+
+        except Exception as e:
+            logger.error("Failed to load %s: %s", model_name, e, exc_info=True)
+
+        finally:
+            logger.info("=== Unloading %s ===", model_name)
+            _unload(client)
+            client = None  # release caller's reference so VRAM is fully freed
+
+        if model_idx < len(model_names) - 1:
+            logger.info("Waiting %ds before loading next model...", MODEL_UNLOAD_WAIT)
+            time.sleep(MODEL_UNLOAD_WAIT)
+
+
+def _run_for_model(cf_content, summary_content, paragraphs,sum_par_content, cf_filename, client):
+    model_results = {}
+    generated_so_far = set()
+    for scenario in SCENARIOS:
+        logger.info("Running scenario: %s", scenario["scenario_id"])
+        try:
+            if scenario["needs_paragraph"]:
+                for i, par in enumerate(paragraphs, start=1):
+                    label = f"{scenario['scenario_id']} (PAR{i})"
+                    model_results[label] = {}
+                    context_content = par
+                    for criterion in CRITERIA:
+                        prompts = accumulate_prompts(
+                            scenario, criterion, context_content,cf_filename, client)
+                        model_results[label][criterion] = prompts
+                        generated_so_far.update(format_prompt(p) for p in prompts)
+            elif scenario["needs_sum_par"]:
+                for i, sum_par in enumerate(sum_par_content, start=1):
+                    label = f"{scenario['scenario_id']} (SUM_PAR{i})"
+                    model_results[label] = {}
+                    context_content = sum_par
+                    for criterion in CRITERIA:
+                        prompts = accumulate_prompts(
+                            scenario, criterion, context_content,cf_filename, client)
+                        model_results[label][criterion] = prompts
+                        generated_so_far.update(format_prompt(p) for p in prompts)
+            elif scenario["needs_summary"]:
+                label = f"{scenario['scenario_id']} (SUM{i})"
+                model_results[label] = {}
+                context_content = summary_content
+                for criterion in CRITERIA:
+                    prompts = accumulate_prompts(
+                        scenario, criterion, context_content,cf_filename, client)
+                    model_results[label][criterion] = prompts
+                    generated_so_far.update(format_prompt(p) for p in prompts)
+            else:
+                label = f"{scenario['scenario_id']} (CF{i})"
+                model_results[label] = {}
+                context_content = cf_content
+                for criterion in CRITERIA:
+                    prompts = accumulate_prompts(
+                        scenario, criterion, context_content,cf_filename, client)
+                    model_results[label][criterion] = prompts
+                    generated_so_far.update(format_prompt(p) for p in prompts)
+
+        except Exception as e:
+            logger.error(
+                "Scenario %s failed: %s — skipping, preserving other results.",
+                scenario["scenario_id"], e, exc_info=True,
+            )
+            continue
+    return model_results
+
+
+def save_model_csv(model_results, model_name, cf_stem, is_reasoning_model):
+    rows = []
+    for label, criteria_dict in model_results.items():
+        for criterion, prompts in criteria_dict.items():
+            for i, prompt_item in enumerate(prompts, start=1):
+                prompt_text = format_prompt(prompt_item)
+                reasoning = None
+                data_source = None
+                if isinstance(prompt_item, dict):
+                    data_source = prompt_item.get("data_source")
+                    if is_reasoning_model:
+                        reasoning = prompt_item.get("_reasoning")
+                rows.append({
+                    "consent_form": cf_stem,
+                    "scenario": label,
+                    "criterion": criterion,
+                    "prompt_index": i,
+                    "model_name": model_name,
+                    "prompt": prompt_text,
+                    "data_source": data_source,
+                    "reasoning": reasoning,
+                })
+
+    if not rows:
+        logger.warning("No results to save for model %s on %s.", model_name, cf_stem)
+        return
+
+    safe_model_name = re.sub(r'[^\w\-]', '_', model_name)
+    csv_path = BASE_DIR / f"{safe_model_name}_results.csv"
+    new_df = pd.DataFrame(rows)
+
+    if csv_path.exists():
+        existing_df = pd.read_csv(csv_path, encoding='utf-8-sig')
+        combined = pd.concat([existing_df, new_df], ignore_index=True)
+        key_cols = ["consent_form", "scenario", "criterion", "prompt_index", "model_name"]
+        combined.drop_duplicates(subset=key_cols, keep='last', inplace=True)
+        combined.to_csv(csv_path, index=False, encoding='utf-8-sig')
+    else:
+        new_df.to_csv(csv_path, index=False, encoding='utf-8-sig')
+
+    logger.info("Saved %d rows for %s / %s to %s", len(rows), model_name, cf_stem, csv_path)
+
+
+def validate_word_count(sentence: str) -> str | None:
+    if not isinstance(sentence, str):
+        if sentence is not None:
+            logger.error("Invalid Data Type: expected str, got %s", type(sentence).__name__)
+        return None
+    word_count = len(sentence.split())
+    if MIN_WORD_COUNT <= word_count <= MAX_WORD_COUNT:
+        return sentence
+    return None
+
+
+if __name__ == "__main__":
+    if not CONTEXT_DIR.exists():
+        logger.error("CONTEXT_DIR does not exist: %s", CONTEXT_DIR)
+        sys.exit(1)
+
+    cf_dirs = sorted([d for d in CONTEXT_DIR.iterdir() if d.is_dir()])
+    if not cf_dirs:
+        logger.error("No consent form directories found in %s", CONTEXT_DIR)
+        sys.exit(1)
+    logger.info("Found %d consent form(s): %s", len(cf_dirs), [d.name for d in cf_dirs])
+
+    # ── Phase 1: Preprocessing ────────────────────────────────────────────────────
+    # Sum model loads only when the task explicitly requires preprocessing.
+    if TASK in TASK_RUNS_PREPROCESS:
+        logger.info("=== Phase 1: Preprocessing (task=%s) ===", TASK)
+        sum_client = _make_pipeline(SUM_MODEL_PATH)
+        run_preprocess(sum_client,skip_if_exists= SKIP_SUMMARY_GEN )
+        logger.info("=== Preprocessing complete. Unloading sum model. ===")
+        _unload(sum_client)
+        del sum_client  # release caller's reference so VRAM is freed before AP models load
+    else:
+        logger.info("=== Skipping preprocessing (task=%s) ===", TASK)
+
+    # ── Phase 2: Prompt generation ────────────────────────────────────────────────
+    # Each AP model loads once, processes every CF, then unloads.
+    # Sum model is never touched in this phase.
+    if TASK in TASK_RUNS_AUTOPROMPT:
+        logger.info("=== Phase 2: Prompt generation (task=%s) ===", TASK)
+        consent_form_data = load_cf_data(cf_dirs)
+        if not consent_form_data:
+            logger.error(
+                "No preprocessed CFs available. "
+                "Run with task=preprocess or task=full_pipeline first."
+            )
+            sys.exit(1)
+        logger.info(
+            "%d CF(s) ready for inference: %s",
+            len(consent_form_data), list(consent_form_data.keys()),
+        )
+        run_autoprompt(consent_form_data)
+    else:
+        logger.info("=== Skipping prompt generation (task=%s) ===", TASK)
+
+    logger.info("Done!")
+
+==================================================
+FILE: .\playground.py
+==================================================
+import os
+
+OUTPUT_FILE = "all_project_code.txt"
+IGNORE_DIRS = {".git", "node_modules", "venv", ".venv", "bin", "obj", "dist", "build", "__pycache__", ".idea",
+               ".vscode"}
+ALLOWED_EXTENSIONS = {".py", ".js", ".ts", ".jsx", ".tsx", ".cs", ".cpp", ".c", ".h", ".java", ".html", ".css", ".json",
+                      ".sql", ".md"}
+
+
+def extract_code(root_dir):
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as outfile:
+        for dirpath, dirnames, filenames in os.walk(root_dir):
+            # Exclude specified directories in-place
+            dirnames[:] = [d for d in dirnames if d not in IGNORE_DIRS]
+
+            for file in filenames:
+                ext = os.path.splitext(file)[1].lower()
+                if ext in ALLOWED_EXTENSIONS and file != OUTPUT_FILE:
+                    file_path = os.path.join(dirpath, file)
+                    outfile.write(f"{'=' * 50}\nFILE: {file_path}\n{'=' * 50}\n")
+                    try:
+                        with open(file_path, "r", encoding="utf-8", errors="ignore") as infile:
+                            outfile.write(infile.read())
+                        outfile.write("\n\n")
+                    except Exception as e:
+                        outfile.write(f"[Error reading file: {e}]\n\n")
+
+
+if __name__ == "__main__":
+    extract_code(".")
+    print(f"Extraction complete! Saved to {OUTPUT_FILE}")
+
+==================================================
+FILE: .\README.md
+==================================================
+
+
+==================================================
+FILE: .\src\clients\claude.py
+==================================================
+import os
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+class ClaudeClient:
+    def __init__(self, model="claude-sonnet-4-6"):
+        from anthropic import Anthropic
+        self.client = Anthropic()
+        self.model = model
+        logger.info("ClaudeClient initialized with model: %s", self.model)
+
+    def __call__(self, messages, max_new_tokens=2048, **kwargs):
+        system = None
+        user_messages = []
+        for msg in messages:
+            if msg["role"] == "system":
+                system = msg["content"]
+            else:
+                user_messages.append(msg)
+        logger.debug("ClaudeClient: sending %d user message(s), max_new_tokens=%d", len(user_messages), max_new_tokens)
+        response = self.client.messages.create(
+            model=self.model,
+            max_tokens=max_new_tokens,
+            system=system,
+            messages=user_messages
+        )
+        logger.debug("ClaudeClient: received response, stop_reason=%s", response.stop_reason)
+        return [{"generated_text": messages + [{"role": "assistant", "content": response.content[0].text}]}]
+
+==================================================
+FILE: .\src\clients\groq_client.py
+==================================================
+import os
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+class GroqClient:
+    def __init__(self, model="llama-3.1-8b-instant"):
+        from groq import Groq
+        self.client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+        self.model = model
+        logger.info("GroqClient initialized with model: %s", self.model)
+
+    def __call__(self, messages, max_new_tokens=2048, **kwargs):
+        logger.debug("GroqClient: sending %d message(s), max_new_tokens=%d", len(messages), max_new_tokens)
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=messages,
+            max_tokens=max_new_tokens
+        )
+        finish_reason = response.choices[0].finish_reason
+        logger.debug("GroqClient: received response, finish_reason=%s", finish_reason)
+        return [{"generated_text": messages + [{"role": "assistant", "content": response.choices[0].message.content}]}]
+
+==================================================
+FILE: .\src\clients\__init__.py
+==================================================
+from .claude import ClaudeClient
+from .groq_client import GroqClient
+
+__all__ = ["ClaudeClient", "GroqClient"]
+
+==================================================
+FILE: .\src\pipeline_code\preprocess.py
+==================================================
+import pathlib
+import json
+from markdown_tree_parser.parser import parse_string
+import re, logging
+
+logger = logging.getLogger(__name__)
+
+BASE_DIR = pathlib.Path(__file__).parent.parent.parent
+CONTEXT_DIR = BASE_DIR / "Context"
+
+with open(BASE_DIR / "config.json") as f:
+    CONFIG = json.load(f)
+
+N_PARAGRAPHS = CONFIG["n_paragraphs"]
+
+def find_consent_forms(context_dir):
+    consent_forms = []
+    for cf_file in context_dir.rglob("*.txt"):
+        if cf_file.stem == cf_file.parent.name:
+            consent_forms.append(cf_file)
+    return consent_forms
+
+def generate_summary(cf_content, client):
+    response = client(
+        [
+            {"role": "system", "content": "As an intelligent principal investigator of a clinical trial, you must provide a clear summary using the consent form text.\nThe summary should include a statement that explain the Purpose of the Research, Procedures, Risks or Discomforts, Benefits, Alternatives, Confidentiality, Compensation & Treatment for Injury, Voluntariness & Withdrawal, Contact Information, Eligibility, Unknown Risks, Termination Criteria, Significant New Findings, Costs to Subject, Use of Data/Samples in Future Research, Compensation for Participation and Time.\n\nUse the following guidelines to create a summary in a paragraph style:\n- Summary must be at most 150 words\n- Simplify any complex terms or concepts\n- Make the summary highly understandable, recommended for eighth-grade level audience\n- Use respectful and empowering language for patients\n- Spell out acronyms upon first use\n- Include all relevant information without adding extra details\n- Use active voice\n- Keep the summary concise and to the point\n- Output only the final summary — do not reproduce, quote, or repeat any portion of the original consent form text"},
+            {"role": "user", "content": cf_content}
+        ],
+        max_new_tokens=1024,
+        truncation=True,
+    )
+    return response[0]["generated_text"][-1]["content"]
+
+def decomposer(sections, n=N_PARAGRAPHS):
+    def count_sentences(text):
+        sentences = re.split(r'(?<=[.!?])\s+', text.strip())
+        non_empty = []
+        for s in sentences:
+            if s.strip():
+                non_empty.append(s)
+        return len(non_empty)
+    scored = []
+    for section in sections:
+        count = count_sentences(section)
+        scored.append((section, count))
+    scored.sort(key=lambda x: x[1], reverse=True)
+    new_score = scored[:n]
+    return new_score
+
+def generate_paragraph(cf_content):
+    parsed = parse_string(cf_content)
+    children = parsed.children
+    sections = []
+    for heading in children:
+        source = (heading.source or "").strip()
+        if not source:
+            continue
+        content = f"## {heading.text}\n{heading.source}"
+        sections.append(content)
+    if not sections:
+        paragraphs = []
+        for p in cf_content.split("\n\n"):
+            p = p.strip()
+            if p:
+                paragraphs.append(p)
+        if paragraphs:
+            top_sections = decomposer(paragraphs, n=N_PARAGRAPHS)
+            result = []
+            for section, count in top_sections:
+                result.append(section)
+            return result
+        return []
+    top_sections = decomposer(sections, n=N_PARAGRAPHS) # assuming this is normal like ##
+    result = []
+    for section, count in top_sections:
+        result.append(section)
+    return result
+
+def fix_bold_headings(cf_content):
+    lines = cf_content.split("\n")
+    fixed_lines = []
+    for line in lines:
+        # Matches: optional leading #s, then **text** → ## text
+        match = re.match(r'^#+\s*\*\*(.*?)\*\*\s*$', line)
+        standalone = re.match(r'^\*\*(.*?)\*\*\s*$', line)
+        if match:
+            text = match.group(1).strip()
+            fixed_lines.append(f"## {text}")
+        elif standalone:
+            text = standalone.group(1).strip()
+            fixed_lines.append(f"## {text}")
+        else:
+            fixed_lines.append(line)
+    return "\n".join(fixed_lines)
+
+def save_file(content, output_path):
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+
+def run_preprocess(client, skip_if_exists=True):
+    consent_forms = find_consent_forms(CONTEXT_DIR)
+    for cf_file in consent_forms:
+        cf_stem = cf_file.stem
+        sum_file = cf_file.parent / f"{cf_stem}.SUM.txt"
+        par1_file = cf_file.parent / f"{cf_stem}.PAR1.txt"
+
+        if skip_if_exists and sum_file.exists() and par1_file.exists():
+            logger.info(
+                "[%s] Preprocessed files already exist — skipping (skip_summary_gen=True).",
+                cf_file.name,
+            )
+            continue
+
+        logger.info("Preprocessing %s...", cf_file.name)
+        with open(cf_file, 'r', encoding='utf-8') as f:
+            cf_content = f.read()
+        cf_content = fix_bold_headings(cf_content)
+        if not cf_content.startswith("Consent Form:"):
+            cf_content = f"Consent Form:\n\n{cf_content}"
+            save_file(cf_content, cf_file)
+        try:
+            summary_content = generate_summary(cf_content, client)
+        except Exception as e:
+            logger.exception("Error generating summary for %s: %s", cf_file.name, e)
+            summary_content = None
+        try:
+            paragraph_content = generate_paragraph(cf_content)
+        except Exception as e:
+            logger.exception("Error generating paragraph for %s: %s", cf_file.name, e)
+            paragraph_content = []
+        if summary_content:
+            save_file(
+                f"Consent Form Summary:\n\n{summary_content}",
+                cf_file.parent / f"{cf_stem}.SUM.txt",
+            )
+        if paragraph_content:
+            for i, par in enumerate(paragraph_content, start=1):
+                save_file(
+                    f"Extracted Paragraph from Consent Form:\n\n{par}",
+                    cf_file.parent / f"{cf_stem}.PAR{i}.txt",
+                )
+        else:
+            logger.warning("Skipping empty paragraphs for %s", cf_file.name)
+        if summary_content and paragraph_content:
+            for i, par in enumerate(paragraph_content, start=1):
+                combined = (
+                    f"Consent Form Summary:\n\n{summary_content}\n\n"
+                    f"Extracted Paragraph from Consent Form:\n\n{par}"
+                )
+                save_file(combined, cf_file.parent / f"{cf_stem}.SUM_PAR{i}.txt")
+
+==================================================
+FILE: .\src\pipeline_code\prompt_gen.py
+==================================================
+import pathlib
+import json
+import re, logging
+from utils.thinking import parse_thinking_output
+
+logger = logging.getLogger(__name__)
+
+BASE_DIR = pathlib.Path(__file__).parent.parent.parent
+CONTEXT_DIR = BASE_DIR / "Context"
+
+with open(BASE_DIR / "config.json") as f:
+    CONFIG = json.load(f)
+
+CF_TARGET = CONFIG["targets"]["CF"]
+SUM_TARGET = CONFIG["targets"]["SUM"]
+PAR_TARGET = CONFIG["targets"]["PAR"]
+SUM_PAR_TARGET = CONFIG["targets"]["SUM_PAR"]
+N_PARAGRAPHS = CONFIG["n_paragraphs"]
+
+SCENARIOS = [
+    {
+        "dir": "1_OrigCF_Context",
+        "scenario_id": "ConsentForm",
+        "context_type": "consent form",
+        "needs_cf": True,
+        "needs_summary": False,
+        "needs_paragraph": False,
+        "needs_sum_par": False,
+        "prompt_prefix": "CF_Adversarial_Prompt",
+        "result_prefix": "OrigCF_Context",
+        "target": CF_TARGET,
+    },
+    {
+        "dir": "2_SumCF_Context",
+        "scenario_id": "CF_SUM",
+        "context_type": "summary",
+        "needs_cf": False,
+        "needs_summary": True,
+        "needs_paragraph": False,
+        "needs_sum_par": False,
+        "prompt_prefix": "CF_SUM_Adversarial_Prompt",
+        "result_prefix": "SumCF_Context",
+        "target": SUM_TARGET,
+    },
+    {
+        "dir": "3_SUM_PARAG_Context",
+        "scenario_id": "SUM & PAR",
+        "context_type": "summary and paragraph",
+        "needs_cf": False,
+        "needs_summary": False,
+        "needs_paragraph": False,
+        "needs_sum_par": True,
+        "prompt_prefix": "SUM_PAR_Adversarial_Prompt",
+        "result_prefix": "SUM_PARAG_Context",
+        "target": SUM_PAR_TARGET,
+    },
+    {
+        "dir": "4_PARAG_Context",
+        "scenario_id": "PAR",
+        "context_type": "paragraph",
+        "needs_cf": False,
+        "needs_summary": False,
+        "needs_paragraph": True,
+        "needs_sum_par": False,
+        "prompt_prefix": "PARAG_Adversarial_Prompt",
+        "result_prefix": "PARAG_Context",
+        "target": PAR_TARGET,
+    },
+]
+
+CRITERIA = ["C1", "C2", "C3"]
+
+def find_consent_form_pairs(base_dir):
+    pairs = []
+    for cf_file in base_dir.rglob("*.txt"):
+        if cf_file.stem != cf_file.parent.name:
+            continue
+        stem = cf_file.stem
+        d = cf_file.parent
+        summary_file = d / f"{stem}.SUM.txt"
+        paragraphs = [d / f"{stem}.PAR{i}.txt" for i in range(1, N_PARAGRAPHS + 1) if (d / f"{stem}.PAR{i}.txt").exists()]
+        sum_paragraphs = [d / f"{stem}.SUM_PAR{i}.txt" for i in range(1, N_PARAGRAPHS + 1) if (d / f"{stem}.SUM_PAR{i}.txt").exists()]
+        pairs.append({
+            "cf": cf_file,
+            "summary": summary_file if summary_file.exists() else None,
+            "paragraphs": paragraphs,
+            "sum_paragraphs": sum_paragraphs,
+        })
+    return pairs
+
+
+def validate_scenario(scenario, pair):
+    if scenario["needs_cf"] and pair["cf"] is None:
+        logger.warning(
+            "Scenario %s requires a consent form, but none was found for %s.",
+            scenario["scenario_id"], pair
+        )
+        return False
+    if scenario["needs_summary"] and pair["summary"] is None:
+        logger.warning(
+            "Scenario %s requires a summary, but none was found for %s.",
+            scenario["scenario_id"], pair
+        )
+        return False
+    if scenario["needs_paragraph"] and not pair["paragraphs"]:
+        logger.warning(
+            "Scenario %s requires a paragraph, but none was found for %s.",
+            scenario["scenario_id"], pair
+        )
+        return False
+    if scenario.get("needs_sum_par") and not pair["sum_paragraphs"]:
+        logger.warning(
+            "Scenario %s requires a summary paragraph, but none was found for %s.",
+            scenario["scenario_id"], pair
+        )
+        return False
+    return True
+
+
+def load_system_prompt(scenario, criterion):
+    prompt_file = BASE_DIR / scenario["dir"] / f"{scenario['prompt_prefix']}_{criterion}.txt"
+    if not prompt_file.exists():
+        logger.warning("Prompt file %s does not exist.", prompt_file)
+        return None
+    with open(prompt_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    return content.replace("{n_prompts}", str(scenario["target"]))
+
+
+def build_user_message(scenario, context_content, cf_filename):
+    if scenario["needs_cf"]:
+        return f"Consent Form File: {cf_filename}\n\nConsent Form:\n{context_content}"
+    elif scenario.get("needs_sum_par"):
+        return f"Consent Form File: {cf_filename}\n\n Summary and Paragraph:\n{context_content}"
+    elif scenario["needs_summary"]:
+        return f"Consent Form File: {cf_filename}\n\nSummary:\n{context_content}"
+    elif scenario["needs_paragraph"]:
+        return f"Consent Form File: {cf_filename}\n\nParagraph:\n{context_content}"
+    else:
+        return "Generate the adversarial prompts without context."
+
+
+def generate_batch(scenario, criterion,context_content,cf_filename, client):
+    system_prompt = load_system_prompt(scenario, criterion)
+    if system_prompt is None:
+        return []
+    user_message = build_user_message(scenario, context_content, cf_filename)
+    user_request = f"You are a patient. Use the following {scenario['context_type']} as the context to generate adversarial prompts:\n"
+    final_user_message = user_request + user_message
+    response = client(
+        [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": final_user_message}
+        ],
+        # max_new_tokens=2048
+    )
+    result_text = response[0]["generated_text"][-1]["content"].strip()
+    result_text = parse_thinking_output(result_text)["answer"]
+    results = []
+    start = result_text.find('[')
+    end = result_text.rfind(']')
+    if start != -1 and end != -1:
+        try:
+            results = json.loads(result_text[start:end+1])
+        except json.JSONDecodeError:
+            pass
+    if not results:
+        for match in re.finditer(r'\{.*?\}', result_text, re.DOTALL):
+            try:
+                results.append(json.loads(match.group()))
+            except json.JSONDecodeError:
+                continue
+    return results
+
+
+def accumulate_prompts(scenario, criterion, context_content, cf_filename, client):
+    accumulated_prompts = []
+    max_retries = 20
+    retries = 0
+    while len(accumulated_prompts) < scenario["target"]:
+        if retries >= max_retries:
+            logger.warning(
+                "Max retries reached for %s %s, skipping.",
+                scenario["scenario_id"], criterion
+            )
+            break
+        new_prompts = generate_batch(scenario, criterion, context_content, cf_filename, client)
+        if not new_prompts:
+            retries += 1
+        else:
+            retries = 0
+            accumulated_prompts.extend(new_prompts)
+    return accumulated_prompts[:scenario["target"]]
+
+
+def save_results(results, scenario, criterion, cf_stem, paragraph_index=None):
+    result_dir = BASE_DIR / scenario["dir"] / cf_stem
+    result_dir.mkdir(parents=True, exist_ok=True)
+    if paragraph_index is not None:
+        result_file = result_dir / f"{cf_stem}_PAR{paragraph_index}_{scenario['result_prefix']}{criterion}Results.txt"
+    else:
+        result_file = result_dir / f"{cf_stem}_{scenario['result_prefix']}{criterion}Results.txt"
+    with open(result_file, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=4)
+    logger.info("Saved results to %s", result_file)
+
+# def run_autoprompt(client):
+#     pairs = find_consent_form_pairs(CONTEXT_DIR)
+#     for pair in pairs:
+#         if pair["cf"]:
+#             cf_content = pair["cf"].read_text(encoding="utf-8")
+#             cf_filename = pair["cf"].name
+#             cf_stem = pair["cf"].stem
+#         else:
+#             cf_content = None
+#             cf_filename = None
+#             cf_stem = None
+#         if pair["summary"]:
+#             summary_content = pair["summary"].read_text(encoding="utf-8")
+#         else:
+#             summary_content = None
+#         for scenario in SCENARIOS:
+#             if not validate_scenario(scenario, pair):
+#                 continue
+#             if scenario["needs_paragraph"]:
+#                 for i, par_file in enumerate(pair["paragraphs"], start=1):
+#                     paragraph_content = par_file.read_text(encoding="utf-8")
+#                     for criterion in CRITERIA:
+#                         results = accumulate_prompts(scenario, criterion, cf_content, summary_content, paragraph_content, cf_filename, client)
+#                         save_results(results, scenario, criterion, cf_stem, paragraph_index=i)
+#             elif scenario.get("needs_sum_par"):
+#                 for i, sum_par_file in enumerate(pair["sum_paragraphs"], start=1):
+#                     sum_par_content = sum_par_file.read_text(encoding="utf-8")
+#                     for criterion in CRITERIA:
+#                         results = accumulate_prompts(scenario, criterion, cf_content, sum_par_content, None, cf_filename, client)
+#                         save_results(results, scenario, criterion, cf_stem, paragraph_index=i)
+#             else:
+#                 for criterion in CRITERIA:
+#                     results = accumulate_prompts(scenario, criterion, cf_content, summary_content, None, cf_filename, client)
+#                     save_results(results, scenario, criterion, cf_stem)
+
+==================================================
+FILE: .\src\pipeline_code\__init__.py
+==================================================
+from .preprocess import run_preprocess
+from .prompt_gen import run_autoprompt
+
+__all__ = ["run_preprocess", "run_autoprompt"]
+
+==================================================
+FILE: .\src\utils\config.py
+==================================================
+import json
+import pathlib
+
+BASE_DIR = pathlib.Path(__file__).parent.parent.parent
+CONTEXT_DIR = BASE_DIR / "Context"
+
+with open(BASE_DIR / "config.json") as f:
+    _cfg = json.load(f)
+
+# Core configuration
+TASK = _cfg["task"]
+MODEL = _cfg["model"]
+ENCODER_DIR = pathlib.Path(_cfg["encoder_dir"]) if _cfg.get("encoder_dir") else None
+
+# Word count limits
+MIN_WORD_COUNT = _cfg["min_word_count"]
+MAX_WORD_COUNT = _cfg["max_word_count"]
+
+# Content & targets
+N_PARAGRAPHS = _cfg["n_paragraphs"]
+CF_TARGET = _cfg["targets"]["CF"]
+SUM_TARGET = _cfg["targets"]["SUM"]
+PAR_TARGET = _cfg["targets"]["PAR"]
+SUM_PAR_TARGET = _cfg["targets"]["SUM_PAR"]
+SKIP_SUMMARY_GEN = _cfg.get("skip_summary_gen", True)
+
+# File & model paths
+# CF_STEM = _cfg["cf_stem"]
+SUM_MODEL_PATH = _cfg["sum_model_path"]
+AP_MODEL_PATHS = _cfg["ap_model_paths"]
+
+# Repetition penalty
+REPETITION_PENALTY = _cfg["repetition_penalty"]
+TEMPERATURE = _cfg["temperature"]
+
+==================================================
+FILE: .\src\utils\csv_encoder.py
+==================================================
+import pathlib
+import logging
+import json
+import pandas as pd
+
+logger = logging.getLogger(__name__)
+
+
+
+def process_and_append_to_csv(txt_file_path, output_csv_path):
+    txt_file_path = pathlib.Path(txt_file_path)
+    output_csv_path = pathlib.Path(output_csv_path)
+    json_data = None
+    if txt_file_path.is_file():
+        with open(txt_file_path, 'r', encoding='utf-8-sig') as f:
+            json_data = json.load(f)
+    if json_data is None:
+        logger.warning("Skipping empty or invalid file: %s", txt_file_path.name)
+        return
+    df_new = pd.DataFrame(json_data)
+    if 'criteria_targeted' in df_new.columns:
+        df_new['criteria_targeted'] = df_new['criteria_targeted'].apply(
+            lambda x: ', '.join(x) if isinstance(x, list) else x)
+    if output_csv_path.exists():
+        df_new.to_csv(output_csv_path, mode='a', index=False, header=False, encoding='utf-8-sig')
+        logger.info("Appended %d items to existing %s", len(df_new), output_csv_path.name)
+    else:
+        df_new.to_csv(output_csv_path, mode='w', index=False, header=True, encoding='utf-8-sig')
+        logger.info("Created new file and saved data to %s", output_csv_path.name)
+
+
+def encoder_(folder_link):
+    folder_link = pathlib.Path(folder_link)
+    for file in folder_link.iterdir():
+        if file.is_file() and file.suffix == ".csv":
+            logger.info("Deleting file: %s", file.name)
+            file.unlink()
+    target_csv_file = folder_link / f"{folder_link.name}.csv"
+    for file in sorted(folder_link.rglob("*Results.txt")):
+        logger.info("Processing %s", file.name)
+        logger.debug("File directory: %s", file)
+        logger.debug("Saving to: %s", target_csv_file.name)
+        process_and_append_to_csv(file, target_csv_file)
+
+==================================================
+FILE: .\src\utils\log_config.py
+==================================================
+import logging
+
+def setup_logging(level=logging.INFO, log_file="experiment.log"):
+    logging.basicConfig(
+        level=level,
+        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+        handlers=[
+            logging.StreamHandler(),
+            logging.FileHandler(log_file),
+        ],
+    )
+
+==================================================
+FILE: .\src\utils\thinking.py
+==================================================
+import re
+
+# DeepSeek R1: <think>...</think>
+_DEEPSEEK_RE = re.compile(r"(?s)<think>(.*?)</think>")
+
+# GPT-OSS actual format observed from debug output:
+#   <|channel|>analysis<|message|>...thinking...<|channel|>response<|message|>...answer...
+#
+# Lookahead (?=<\|channel\|>|\Z) stops at the next channel marker without
+# consuming it, so _GPT_OSS_CHANNEL_RE can still strip it from the answer.
+_GPT_OSS_THINKING_RE = re.compile(
+    r"(?s)<\|channel\|>analysis<\|message\|>(.*?)(?=<\|channel\|>|\Z)"
+)
+_GPT_OSS_CHANNEL_RE = re.compile(r"<\|channel\|>\w+<\|message\|>\n?")
+
+
+def parse_thinking_output(raw_text: str) -> dict:
+    """
+    Parses raw output from DeepSeek R1 or GPT-OSS.
+    Returns {"thinking": str | None, "answer": str}.
+
+    DeepSeek R1 format:
+        <think>...reasoning...</think>
+        ...answer...
+
+    GPT-OSS format:
+        <|channel|>analysis<|message|>
+        ...reasoning...
+        <|channel|>response<|message|>
+        ...answer...
+    """
+    # --- DeepSeek R1 ---
+    match = _DEEPSEEK_RE.search(raw_text)
+    if match:
+        thinking = match.group(1).strip()
+        answer = _DEEPSEEK_RE.sub("", raw_text).strip()
+        return {"thinking": thinking or None, "answer": answer}
+
+    # --- GPT-OSS ---
+    match = _GPT_OSS_THINKING_RE.search(raw_text)
+    if match:
+        thinking = match.group(1).strip()
+        # Remove the entire analysis block, then strip remaining channel headers
+        answer = _GPT_OSS_THINKING_RE.sub("", raw_text)
+        answer = _GPT_OSS_CHANNEL_RE.sub("", answer).strip()
+        return {"thinking": thinking or None, "answer": answer}
+
+    # No thinking block found (non-reasoning models)
+    return {"thinking": None, "answer": raw_text.strip()}
+
+==================================================
+FILE: .\src\utils\__init__.py
+==================================================
+from .log_config import setup_logging
+from .csv_encoder import encoder_
+
+__all__ = ["setup_logging","encoder_"]
+

@@ -98,9 +98,20 @@ def save_file(content, output_path):
         f.write(content)
 
 
-def run_preprocess(client):
-    consent_forms = find_consent_forms(CONTEXT_DIR)#[5:6]
+def run_preprocess(client, skip_if_exists=True):
+    consent_forms = find_consent_forms(CONTEXT_DIR)
     for cf_file in consent_forms:
+        cf_stem = cf_file.stem
+        sum_file = cf_file.parent / f"{cf_stem}.SUM.txt"
+        par1_file = cf_file.parent / f"{cf_stem}.PAR1.txt"
+
+        if skip_if_exists and sum_file.exists() and par1_file.exists():
+            logger.info(
+                "[%s] Preprocessed files already exist — skipping (skip_summary_gen=True).",
+                cf_file.name,
+            )
+            continue
+
         logger.info("Preprocessing %s...", cf_file.name)
         with open(cf_file, 'r', encoding='utf-8') as f:
             cf_content = f.read()
@@ -119,15 +130,22 @@ def run_preprocess(client):
             logger.exception("Error generating paragraph for %s: %s", cf_file.name, e)
             paragraph_content = []
         if summary_content:
-            save_file(f"Consent Form Summary:\n\n{summary_content}", cf_file.parent / f"{cf_file.stem}.SUM.txt")
+            save_file(
+                f"Consent Form Summary:\n\n{summary_content}",
+                cf_file.parent / f"{cf_stem}.SUM.txt",
+            )
         if paragraph_content:
             for i, par in enumerate(paragraph_content, start=1):
-                par_filename = cf_file.parent / f"{cf_file.stem}.PAR{i}.txt"
-                save_file(f"Extracted Paragraph from Consent Form:\n\n{par}", par_filename)
+                save_file(
+                    f"Extracted Paragraph from Consent Form:\n\n{par}",
+                    cf_file.parent / f"{cf_stem}.PAR{i}.txt",
+                )
         else:
             logger.warning("Skipping empty paragraphs for %s", cf_file.name)
         if summary_content and paragraph_content:
             for i, par in enumerate(paragraph_content, start=1):
-                combined = f"Consent Form Summary:\n\n{summary_content}\n\nExtracted Paragraph from Consent Form:\n\n{par}"
-                sum_par_filename = cf_file.parent / f"{cf_file.stem}.SUM_PAR{i}.txt"
-                save_file(combined, sum_par_filename)
+                combined = (
+                    f"Consent Form Summary:\n\n{summary_content}\n\n"
+                    f"Extracted Paragraph from Consent Form:\n\n{par}"
+                )
+                save_file(combined, cf_file.parent / f"{cf_stem}.SUM_PAR{i}.txt")

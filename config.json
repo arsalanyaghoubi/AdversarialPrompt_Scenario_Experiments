@@ -15,6 +15,7 @@
     },
     "cf_stem": "NCT05041101_000",
     "sum_model_path": "google/gemma-3-27b-it",
+    "skip_summary_gen": true,
     "ap_model_paths": {
         "GPT-OSS-20B": "openai/gpt-oss-20b",
         "Llama-3.1-8B": "/home1/shared/Models/Llama/Llama-3.1-8B-Instruct",

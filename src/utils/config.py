@@ -22,6 +22,7 @@ CF_TARGET = _cfg["targets"]["CF"]
 SUM_TARGET = _cfg["targets"]["SUM"]
 PAR_TARGET = _cfg["targets"]["PAR"]
 SUM_PAR_TARGET = _cfg["targets"]["SUM_PAR"]
+SKIP_SUMMARY_GEN = _cfg.get("skip_summary_gen", True)
 
 # File & model paths
 # CF_STEM = _cfg["cf_stem"]
