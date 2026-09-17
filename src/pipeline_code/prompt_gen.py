@@ -143,7 +143,12 @@ def load_system_prompt(scenario, criterion):
         return None
     with open(prompt_file, 'r', encoding='utf-8') as f:
         content = f.read()
-    return content.replace("{n_prompts}", str(scenario["target"]))
+    return (
+        content
+        .replace("{n_prompts}", str(scenario["target"]))
+        .replace("$min_word_count", str(MIN_WORD_COUNT))
+        .replace("$max_word_count", str(MAX_WORD_COUNT))
+    )
 
 
 def build_user_message(scenario, context_content, cf_filename):
