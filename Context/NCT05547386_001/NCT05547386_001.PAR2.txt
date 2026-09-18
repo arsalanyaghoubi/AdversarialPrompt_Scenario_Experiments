@@ -1,0 +1,20 @@
+Extracted Paragraph from Consent Form:
+
+## Why is this research study being done?
+
+The purpose of this research is to provide access to 68 Ga-PSMA-11 PET/CT imaging for patients being considered for 177 Lu-PSMA-617 treatment as part of their clinical care.  There may be up to 250 participants in this study.
+
+Combining a PET scan with a CT scan can help make the images easier to interpret. PET/CT scans are hybrid scanners that combine the two modalities into a single scan.  This allows images of both anatomy (CT) and function (PET) to be taken during the same examination.
+
+The  68 Ga-PSMA-11 PET/CT scan is done with a very small amount of a radioactive tracer called 68-Gallium PSMA-11. In patients that have been diagnosed with prostate cancer, a protein called prostate-specific membrane antigen (PSMA) appears in large amounts on the surface of the cancerous cells.
+
+The radioactive imaging agent ( 68 Ga-PSMA-11) has been designed to circulate through the body and attach itself to the PSMA protein on prostate cancer cells. A PET/CT scan is then used to detect the location of prostate cancer lesions.
+
+The specific formulation/version of 68 Ga-PSMA-11 used in this study is considered investigational, which means it either has not been approved by the FDA for routine clinical use or for the use described in this study. However, the FDA has allowed the use of this drug in this research study. We don't know all the ways that this drug may affect people, but we hope the information from this study will help us develop a better imaging study to diagnosis prostate cancer in the future.
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+Consent Form Summary:
+
+This research study aims to improve prostate cancer detection using a special imaging agent called 68Ga-PSMA-11 with PET scans. Up to 100 patients will participate, building on the experience of thousands who’ve already had this imaging safely. If you join, you’ll receive an intravenous injection of a small amount of a radioactive substance, followed by a PET/CT or PET/MRI scan lasting about two hours. There are potential risks like pain or bruising from the IV, radiation exposure similar to five years of natural background radiation, and possible side effects from the MRI, including warmth or flashing lights. Potential benefits include providing your doctor with valuable information for your care. Alternatives exist, but this specific imaging agent isn’t widely available locally yet. Your participation is voluntary, and you can withdraw anytime without penalty. Your privacy will be protected, though complete confidentiality cannot be guaranteed. Medical care is available for study-related injuries, but you or your insurance will likely cover the costs. You won’t be paid for participating, but the study covers costs not typically billed to insurance. If you have questions, contact Dr. Bennett Chin at 720-848-6137. Your data and samples may be used for future research with IRB approval.
+
+Extracted Paragraph from Consent Form:
+
+## Risks of  68 Ga-PSMA-11 Positron Emission Tomography (PET)
+
+A small amount  ( 3 - 7 m C i )   of radioactive substance (radiotracer) 68Ga PSMA,-11 will be injected  into your bloodstream.  The PET scanner works by detecting the radioactive substance inside the body and makes images that show where the radiation is concentrated.
+
+Everyone is exposed to radiation everyday of their lives (background radiation).  The  doses that are used in a PET scan carry a possible risk of causing cancer at a later date  (as does your exposure to background radiation), but the risk is very low.  The amount of radiation that this 68Ga PSMA-11 radiotracer will deliver to your body (give you) is about the same as you would get from living in your environment for 3 years .
+
+You may feel some claustrophobia, discomfort or anxiety when lying inside the scanner. Possible side effects of  68 Ga-PSMA-11 PET may include allergic reactions, itching, and  rash.
+
+These scans may be taken in combination with a CT or MRI scan.  Please see CT and MRI risks above.
+
+There is a risk that people outside of the research team will see your research information.  We will do all that we can to protect your information, but it can not be guaranteed.

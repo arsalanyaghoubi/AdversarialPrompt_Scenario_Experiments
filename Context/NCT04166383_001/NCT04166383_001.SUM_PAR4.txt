@@ -1,0 +1,15 @@
+Consent Form Summary:
+
+This research study aims to determine if a combination of VB-111 and nivolumab is safe and can shrink tumors in patients with colorectal cancer that has spread, specifically those with a stable genetic marker (MSS). If you join, you’ll undergo tests to confirm eligibility, including blood work and scans, and may have tumor biopsies to assess treatment effects. Treatment involves receiving VB-111 and nivolumab through an IV every two weeks, with regular check-ups at the NIH Clinical Center. Common side effects of VB-111 include flu-like symptoms, while nivolumab can cause effects like fatigue or intestinal issues. Standard care options like chemotherapy are available if you choose not to participate. Your participation is voluntary, and you can withdraw at any time without penalty. Your medical information will be kept private, though shared with the study team and potentially other researchers with identifiers removed. The NIH will cover some expenses related to the study. While there’s no guarantee of benefit, the study could help others in the future. If you experience a research-related injury, short-term medical care will be provided. For questions or concerns, contact Dr. Tim Greten at 240-760-6114 or gretentf@mail.nih.gov.
+
+Extracted Paragraph from Consent Form:
+
+## WHY IS THIS STUDY BEING DONE?
+
+This  is  a  research  study.  The  purpose  of  this  study  is  to  see  if  treating  of  your  cancer  with combination of VB-111 and nivolumab is safe and will cause your tumors to shrink.
+
+We are  asking  you  to  join  this  research  study  because  you  have  microsatellite  stable  (MSS) colorectal cancer that has spread to the liver. Colorectal cancer tumors are often characterized by an 'MSI status,' meaning they will either be M icro s atellite I nstable (MSI) or M icro s atellite S table (MSS). MSI tumors can't correct mistakes that occur when DNA is copied in the cell and as a result have a lot of microsatellites - short, repeated pieces of DNA. MSS tumors do not have large number of microsatellites, but they still have a lot of mistakes in DNA and abnormal number of chromosomes.
+
+VB-111 is considered investigational which means it has not been approved by the U.S. Food and Drug Administration (FDA) to treat colorectal cancer. VB-111 is designed to destroy blood vessels which feed the tumors and produce human proteins, that help to activate your immune system.
+
+Nivolumab has been approved by the U.S. Food and Drug Administration (FDA) for patients with microsatellite unstable (MSI), but not microsatellite stable (MSS) colorectal cancer. Nivolumab is an agent that targets and blocks a pathway that prevents your immune system from effectively fighting your cancer.

@@ -1,0 +1,15 @@
+Consent Form Summary:
+
+This research study aims to determine if a combination of VB-111 and nivolumab is safe and can shrink tumors in patients with colorectal cancer that has spread, specifically those with a stable genetic marker (MSS). If you join, you’ll undergo tests to confirm eligibility, including blood work and scans, and may have tumor biopsies to assess treatment effects. Treatment involves receiving VB-111 and nivolumab through an IV every two weeks, with regular check-ups at the NIH Clinical Center. Common side effects of VB-111 include flu-like symptoms, while nivolumab can cause effects like fatigue or intestinal issues. Standard care options like chemotherapy are available if you choose not to participate. Your participation is voluntary, and you can withdraw at any time without penalty. Your medical information will be kept private, though shared with the study team and potentially other researchers with identifiers removed. The NIH will cover some expenses related to the study. While there’s no guarantee of benefit, the study could help others in the future. If you experience a research-related injury, short-term medical care will be provided. For questions or concerns, contact Dr. Tim Greten at 240-760-6114 or gretentf@mail.nih.gov.
+
+Extracted Paragraph from Consent Form:
+
+## What are the risks of radiation from being in the study?
+
+During your participation in this research study, you will be exposed to radiation from CT scans and  two  CT  guided  biopsies.  The  amount  of  radiation  exposure  you  will  receive  from  these procedures is equal to approximately 9.3 rem. A rem is a unit of absorbed radiation.
+
+Every  day,  people  are  exposed  to  low  levels  of  radiation  that  come  from  the  sun  and  the environment around them. The average person in the United States receives a radiation exposure of 0.3 rem per year from these sources. This type of radiation is called 'background radiation.' This study will expose you to more radiation than you get from everyday background radiation. No one knows for sure whether exposure to these low amounts of radiation is harmful to your body.
+
+The CT scans that you get in this study will expose you to the roughly the same amount of radiation as 31 years of background radiation. Being exposed to too much radiation can cause harmful side effects such as an increase in the risk of cancer. The risk depends on how much radiation you are exposed to. Please be aware that about 40 out of 100 people (40%) will get cancer during their lifetime, and 20 out of 100 (20%) will die from cancer. The risk of getting cancer from the radiation exposure in this study is 0.9 out of 100 (0.9%) and of getting a fatal cancer is 0.5 out of 100 (0.5%).
+
+You may not participate in this study if you are pregnant. If you are able to become pregnant, we will perform a pregnancy test before exposing you to radiation. You must tell us if you may have become pregnant within the previous 14 days because the pregnancy test is unreliable during that time.

@@ -1,0 +1,54 @@
+Extracted Paragraph from Consent Form:
+
+## KEY INFORMATION ABOUT THIS RESEARCH
+
+This consent form describes a research study and is designed to help you decide if you would like to be a part of the research study.
+
+You are being asked to take part in a research study at the National Institutes of Health (NIH). This section provides the information we believe is most helpful and important to you in making your decision about participating in this study. Additional information that may help you make a decision can be found in other sections of the document. Taking part in research at the NIH is your choice.
+
+You are being asked to take part in this study because you have microsatellite stable (MSS) colorectal cancer that has spread to the liver. Colorectal cancer tumors are often characterized by an 'MSI status,' meaning they will either be M icro s atellite I nstable (MSI) or M icro s atellite S table (MSS). MSI tumors can't correct mistakes that occur when DNA is copied in the cell and as a result have a lot of microsatellites - short, repeated pieces of DNA. MSS tumors do not have large number of microsatellites, but they still have a lot of mistakes in DNA and abnormal number of chromosomes.
+
+The purpose of this study is to see if using a combination of VB-111 and nivolumab is safe and will cause your tumors to shrink.
+
+The use of VB-111 in this study is considered investigational which means it has not been approved by the U.S. Food and Drug Administration (FDA) to treat colorectal cancer. However, the  FDA  has  given  us  permission  to  use  VB-111  in  this  study.  VB-111  is  a  genetically inactivated adenovirus, modified in the lab to disrupt blood vessels which feed the tumors. It also and produces human proteins that help to activate your immune system. Adenoviruses are very  common  viruses  that  cause  cold-like  symptoms,  sore  throat,  bronchitis,  pneumonia, diarrhea, or pink eye. You can get an adenovirus infection at any age and most likely you have
+
+
+
+
+already  had  one.  You  will  not  be  infected  by  VB-111  that  we  give  you,  but  you  may  have symptoms similar to a cold.
+
+Nivolumab has been approved by the U.S. Food and Drug Administration (FDA) for patients with  microsatellite  unstable  (MSI),  but  not  microsatellite  stable  (MSS)  colorectal  cancer. Nivolumab is an agent that targets and blocks a pathway that prevents your immune system from effectively fighting your cancer.
+
+There are other standard of care drugs and/or procedures that may be used to treat your disease, and these can be given to you by your regular cancer doctor if you are not in this study. For example: there is chemotherapy and group of drugs called kinase (regorafenib) or phosphorylase (tipiracil) inhibitors. You can also participate in another clinical trial using drugs called immune checkpoint  inhibitors  (such  as  durvalumab,  cabozantinib  or  pembrolizumab).  The  treatment given in this study and the known possible side effects may or may not be significantly different than  if  you  were  to  receive  standard  care  or  being  in  another  clinical  trial.  For  example: chemotherapy cause fatigue, hair loss, bruising and bleeding, infection, low blood cell counts. Inhibitors are known to cause changes in blood counts, high blood pressure and slow wound healing. Immune checkpoint inhibitors may cause inflammation of the lung, intestines or liver, and kidney, heart, or problems of the nervous system. Any of these treatments can cause nausea, vomiting, diarrhea and rash.
+
+One study drug, nivolumab, is a checkpoint inhibitor and has similar side effects to those listed above. The most common side effects of VB-111 include flu-like symptoms, such as fever, chills, tiredness, headache and muscle pain.
+
+If you decide to join this study, here are some of the most important things that you should know that will happen:
+
+-  First,  we will perform tests to find out if you fit the study requirements. We will do standard blood tests and scans to test your health and see the status of your disease.
+-  It is very important to us to understand how your tumor is affected by study treatment. To  answer  this  question,  we  will  collect  tumor  biopsies  (samples)  from  you  before treatment and after starting treatment. You can only take part in this study if you agree to  these  biopsies.  The  most  common  risks  of  biopsy  include  pain  and  the  chance  of bleeding at the site of the biopsy. The site of biopsies will be determined by a group of doctors to obtain the safest possible location, most commonly the liver.
+-  If you fit the study requirements and decide to take part, you will start your treatment with VB-111 and nivolumab and then we will need to see you at the Clinical Center every 14 days while you are receiving treatment. You will get your treatment without hospitalization, except that you might be admitted for biopsy and spend a night in the hospital. Each visit should last no more than 8 hours.
+-  If your doctor is convinced that you have unacceptable side effects caused by one of treatment drugs, this drug will be stopped, and you may continue treatment with the other drug if your study doctor finds that it is in your best interest.
+
+NIH-2977 (4-17)
+
+File in Section 4: Protocol Consent (1)
+
+Version Date: 01/22/2021
+
+
+
+
+
+-  As described above and later in more detail in this consent form, you may have side effects if you take part in this study. Some can be mild or very serious and may include death. You will be seen regularly during the study. You will have clinical, laboratory, and imaging tests to see how you are doing and see how your disease is responding. We will  also  collect  required  samples  from  you  (such  as:  blood  and  urine)  for  clinical purposes.
+-  After the study treatment has ended, we would like to see you in the Clinical Center monthly for 3 months to check on your health. After that we are planning to contact you by phone or e-mail to learn about your health status, and to see how you are doing, for the rest of your life or until the study is stopped. If you stop treatment for reasons other than  worsening  of  your  disease,  we  will  continue  to  invite  you  for  imaging  studies approximately  every  8  weeks  until  worsening  of  your  disease.  You  can  have  these studies at home institution and send us results.
+
+You should not donate blood while participating on this study, and for at least 5 month (if you are women) and 7 months (if you are men) following your last infusion of nivolumab or 2 month following last infusion of VB-111 whichever is the longer time period.
+
+This study may benefit you by shrinking of your tumor or lessening of your symptoms, such as pain, that are caused by the cancer. Even if you do not benefit from this study, the results from our research will help others in the future.
+
+You are free to stop taking part in the trial at any time. If you decide to stop, the study doctor may ask you to agree to certain tests to make sure it is safe for you to stop.
+
+The  remaining  document  will  now  describe  more  about  the  research  study.  This  information should be considered before you make your choice. Members of the study team will talk with you about the information described in this document. Some people have personal, religious, or ethical beliefs that may limit the kinds of medical or research treatments they would want to receive (such as blood transfusions). Take the time needed to ask any questions and discuss this study with NIH staff, and with your family, friends, and personal health care providers.
+
+If the individual being asked to participate in this research study is not able to give consent to be in this study, you are being asked to give permission for this person as their decision-maker. The term 'you' refers to you as the decision-maker and/or the individual being asked to participate in this research, throughout the remainder of this document.

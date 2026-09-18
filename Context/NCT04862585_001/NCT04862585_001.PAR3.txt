@@ -1,0 +1,17 @@
+Extracted Paragraph from Consent Form:
+
+## 3. What will happen if I take part in this study?
+
+By agreeing to take part in this study, you are agreeing to comply with the study requirements.  You will receive a baseline survey to complete in REDCap or on paper. REDCap is a secure online data collection tool.
+
+You will receive dexamethasone, diphenhydramine or cetirizine and famotidine premedications followed by paclitaxel chemotherapy as ordered by your doctor. This is the current standard of care for all patients receiving paclitaxel. If you have not had an allergic reaction with your first or second dose of paclitaxel, you will be randomly placed into one of two study groups. The study staff will not put you into a group. This is done by a system that is used to randomly put people into groups. A member of the study team will let you know which group you are in. In one study group, premedications will be stopped. You will not receive these premedications prior to your future doses of paclitaxel. In the other study group, premedications will continue as standard of care.
+
+If you have an allergic reaction with your first or second dose of paclitaxel, no matter how mild the reaction is, your premedications will not be stopped; you will continue to receive them prior to all paclitaxel doses to prevent any further allergic reactions.
+
+Participants in this study will receive a REDCap survey by email or text message to fill out for 6 days after each paclitaxel dose. The surveys will take 5-7 minutes to complete and will ask about your symptoms and quality of life. Participants in both groups will answer the same surveys. If the electronic REDCap versions of the survey are not an option for you, 6 days' worth of paper copies of the surveys will be provided to you at each chemotherapy visit to take home. Paper surveys will be completed at home each day then collected by the study coordinator at the next chemotherapy visit.
+
+By agreeing to take part in the study, you are agreeing to let the study team to access your medical records to collect information about you (race, ethnicity, height, and weight), your cancer history (age at diagnosis, stage) and cancer treatment history (types and doses of chemotherapy medications). The study team will also look at clinical information
+
+IRB Protocol Number: IRB Approval date: Version: 2021C0059 8/1/2023 6/9/2023
+
+related to any allergic reactions and side effects, rescue treatments, and whether you receive premedications again. This information is used to describe who was in the study and to explain the clinical effects of your treatment.

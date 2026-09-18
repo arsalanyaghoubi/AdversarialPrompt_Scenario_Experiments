@@ -1,0 +1,23 @@
+Consent Form Summary:
+
+This research study is testing if the drug pembrolizumab can change the immune response within high-risk ductal carcinoma in situ (DCIS), a type of non-invasive breast cancer. Approximately 39 patients will participate, receiving injections of pembrolizumab directly into their tumor, followed by standard surgical removal. You may be assigned to a control group receiving standard surgery only. The study involves screenings like blood tests, MRI scans, and physical exams to determine eligibility and monitor your health. Potential side effects are generally mild, such as itching or cough, but more serious, though rare, immune-related reactions are possible. There may be unknown risks as with any new treatment. Participation may not directly benefit your health, but the information gathered could help future patients. You will not be paid for participation, but costs directly related to the research drug and some tests will be covered. Your medical information will be kept private, though legal requirements may necessitate sharing with certain organizations. You can leave the study at any time without penalty. If you experience an injury related to the study, medical treatment will be provided. For questions or concerns, contact Dr. Laura Esserman or Dr. Jasmine Wong at 415-353-7070, or the Committee on Human Research at 415-476-1814. The study duration is approximately 8-15 weeks.
+
+Extracted Paragraph from Consent Form:
+
+## SERVING AS A CONTROL
+
+If you are eligible to participate in the study but do not want to receive the therapeutic agent, you have the option to serve as a control. Your participation as a control in this study will give us information about whether the intralesional injection of pembrolizumab activates an immune response in women with DCIS. We will compare the changes in the immune landscapes of DCIS in women treated with pembrolizumab to the immune landscape of your untreated DCIS. The information gained from this study will help doctors and scientists learn more about DCIS, and this may benefit patients in the future.
+
+We will collect a breast tissue sample only if you and your doctor elect surgery as part of your treatment plan. The surgery will be a standard of care procedure; you will not be required to have surgery as a part of this research study. Instead of discarding your leftover biological sample surgery, we will save a small amount of breast issue in what is called a 'Tissue Bank.' We will also request to use tissue from your diagnostic biopsy. We will use this tissue to characterize the immune landscape of your DCIS. You will also be asked to provide a blood sample before and after your surgery for research purposes.
+
+Your specimens may be kept indefinitely at UCSF. Your specimens will be coded using a unique study ID. They are only being stored for the purpose of the study and will not be shared with other researchers. If you decide later that you do not want your specimens and information to be used for research, you can notify the investigator in writing at:
+
+Laura Esserman, MD, MBA University of California, San Francisco 1600 Divisadero Street, Box 1710 San Francisco, CA 94115
+
+And we will not use your blood, tissue specimens, and health information in any future research. Please let Dr. Esserman know if you would like any remaining identifiable tissue specimens destroyed if they are no longer needed for your care. However, if any research has already been done using portions of your specimens and health information, the data will be kept and analyzed as a part of those research studies.
+
+There will be no additional risk due to the removal of breast tissue for the Tissue Bank. You will receive care appropriate for recovery from the surgical procedure.
+
+Please read the sentence below and think about your choices. After reaching each sentence, put your initials in the 'Yes' or 'No' Box and write the date. If you have any questions, please talk to your doctor, or nurse, or call our research review board at 415-476-1814
+
+1. I do not wish to receive the therapeutic agent; however I am willing to serve as a control by donating my tissue for research purposes.

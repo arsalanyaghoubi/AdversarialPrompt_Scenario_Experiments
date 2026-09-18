@@ -1,0 +1,29 @@
+Consent Form Summary:
+
+This research study is testing a new radiation technique called image-guided bone marrow-sparing intensity modulated radiation therapy (IG-BMS-IMRT) for cervical cancer. The goal is to see if it causes fewer side effects and maintains good cancer control compared to standard radiation. If you join, you’ll receive radiation therapy for 5-5½ weeks, along with weekly chemotherapy – the chemotherapy will be the same as standard treatment. You’ll also have regular check-ups, blood tests, and scans like CTs, MRIs, and PET/CTs to monitor your progress. There are potential risks like skin irritation, fatigue, nausea, and, rarely, more serious issues like second cancers or organ damage. You may also experience discomfort from the tests. However, there’s a possibility this new technique could reduce side effects. Participation is voluntary, and you can withdraw at any time without affecting your regular care. Your medical information will be kept private. The University will cover medical costs if you’re injured directly due to the study, but won’t offer additional compensation. You may receive $100 for each of four optional MRI scans. If you have questions, contact Dr. Mell at (858) 822-6040 or the Human Research Protections Program at (858) 657-5100.
+
+Extracted Paragraph from Consent Form:
+
+## OPTIONAL Procedures
+
+You may be asked to participate in Image-Guided Bone Marrow-Sparing IMRT using FLTPET and/or functional  MRI  during  this  research  study.  These  images  will  be  used  to understand how to better design radiation therapy plans.
+
+FLT-PET  involves  injection  of  a  radioactive  substance  intravenously  followed  by  a standard positron emission tomography (PET) scan. There is exposure to a small amount of radiation, much less than the standard doses. There is a risk of discomfort, bruising, bleeding,  fainting  or  infection  with  the  placement  or  removal  of  the  needle  used  for drawing blood and injecting the FLT.
+
+There may be a direct benefit to you by consenting to this optional procedure, because the treatment may be given more accurately as a result of this imaging. There may also be a benefit from the medical knowledge gained to patients in the future.  There are no additional costs to you for taking part in the optional procedures.
+
+Your study doctor has no personal or financial interest in this research. Having read and understood the above, and having had the chance to ask questions about these additional, optional procedures, please initial next to your response below:
+
+- [ ] \_\_\_\_\_\_ You give permission to take part in FLT-PET optional procedure.
+
+- [ ] \_\_\_\_\_\_ You do not give permission to take part in FLT-PET optional procedure.
+
+- [ ] \_\_\_\_\_\_ You give permission to take part in quantitative MRI optional procedure.
+
+- [ ] \_\_\_\_\_\_ You do not give permission to take part in quantitative MRI optional procedure.
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Signature of Participant
+
+Date

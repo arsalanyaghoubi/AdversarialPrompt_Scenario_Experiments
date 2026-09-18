@@ -1,0 +1,9 @@
+Extracted Paragraph from Consent Form:
+
+## Other Items You Should Know about Your Privacy
+
+Not all people and entities are covered by the Privacy Rules.  HIPAA only applies to health care providers, health care payers, and health care clearinghouses.  If we disclose your information to people who are not covered by the Privacy Rules, including HIPAA, then your information won't be protected by the Privacy Rules.  People who do not have to follow the Privacy rules can use or disclose your information with others without your permission if they are allowed to do so by the laws that cover them.  The Sponsor, and people and companies working with the Sponsor on this study are not covered by the Privacy Rules.  They will only use and disclose your information as described in this Consent and Authorization.
+
+To maintain the integrity of this research study, you generally will not have access to your PHI related to this research until the study is complete.  When the study ends, and at your request, you generally will have access to your PHI that we maintain in a designated record set.  A designated record set is data that includes medical information or billing records that your health care providers use to make decisions about you. If it is necessary for your health care, your health information will be provided to your doctor.
+
+We may remove identifying information from your PHI.  Once we do this, the remaining information will not be subject to the Privacy Rules.  Information without identifiers may be used or disclosed with other people or organizations for purposes besides this study.

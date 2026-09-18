@@ -1,0 +1,23 @@
+Extracted Paragraph from Consent Form:
+
+## 14. Will my study-related information be kept confidential?
+
+We will work to make sure that no one sees your survey responses without approval. But, because REDCap uses the Internet, there is a chance that someone could access your online responses without permission. In some cases, this information could be used to identify you. Your data will be protected with a code to reduce the risk that other people can view the responses.
+
+Efforts will be made to keep your study-related information confidential.  However, there may be circumstances where this information must be released.  For example, personal information regarding your participation in this study may be disclosed if required by state law.
+
+
+
+
+
+
+
+Also, your records may be reviewed by the following groups (as applicable to the research):
+
+- Office for Human Research Protections or other federal, state, or international regulatory agencies;
+- U.S. Food and Drug Administration;
+- The Ohio State University Institutional Review Board or Office of Responsible Research Practices;
+- The sponsor supporting the study, their agents or study monitors; and
+- Your insurance company (if charges are billed to insurance).
+
+A description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. law.  This website will not include information that can identify you.  At most, the website will include a summary of the results.  You can search the website at any time.

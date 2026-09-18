@@ -1,0 +1,19 @@
+Consent Form Summary:
+
+This research study is exploring how differences in your genes, called single nucleotide polymorphisms or SNPs, affect how well abiraterone works and any side effects you might experience while treating prostate cancer. If you choose to participate, you’ll be randomly assigned to one of two groups: one receiving the usual dose of abiraterone, and the other a lower dose, both alongside prednisone and relugolix for six months, followed by two years of follow-up.  Participation involves blood and urine tests, and imaging scans. There are risks like potential side effects from the drugs, and time spent on extra tests.  However, the study may help improve future cancer treatments. You are free to withdraw at any time without penalty. Your medical information will be kept private, and your insurance will cover the cost of standard tests. While there is no pay for participation, if you are injured, your insurance may cover medical costs.  For questions, contact Dr. Han Xu at 1-301-222-7143. An optional part of the study involves storing your blood sample for future research, with strict privacy protections, and you can choose not to participate in this aspect.
+
+Extracted Paragraph from Consent Form:
+
+## What extra tests will I have if I take part in this study?
+
+If you are assigned to Group 1, all of the tests you will have are part of the usual approach for your cancer. If you are assigned to Group 2, all of the tests you will have are part of the study approach for your cancer. There are blood and urine tests that you will need to have:
+
+- Sequence precisely each target gene DNA whole chain in peripheral blood like as following: CYP17, GnRH-R, SULT2A1, CYP3A (CYP3A4, CYP3A5, CYP3A7, CYP3A43), CYP2C8.
+- Correlate CYP17 Gene Single Nucleotide Polymorphisms (SNPs) to Using Abiraterone Therapeutic Effects of Treating Prostate Cancer (PC), based on precisely sequencing drug target gene via Peripheral Blood DNA.
+- Correlate SULT2A1 Gene Single Nucleotide Polymorphisms (SNPs) to Using Abiraterone Side Effects of Treating Prostate Cancer (PC), based on precisely sequencing drug target gene via Peripheral Blood DNA.
+- You will need an image test at least one time per month.
+- If you have an allergic reaction to oncology drugs, you will have an extra blood test.
+- You will need urine tests every week while you are taking oncology drugs.
+- You will need blood tests every week while you are taking oncology drugs.
+
+Your insurance company will be charged for the blood and urine tests related to oncology drugs.

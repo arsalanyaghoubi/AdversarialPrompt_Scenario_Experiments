@@ -1,0 +1,15 @@
+Extracted Paragraph from Consent Form:
+
+## What extra tests will I have if I take part in this study?
+
+If you are assigned to Group 1, all of the tests you will have are part of the usual approach for your cancer. If you are assigned to Group 2, all of the tests you will have are part of the study approach for your cancer. There are blood and urine tests that you will need to have:
+
+- Sequence precisely each target gene DNA whole chain in peripheral blood like as following: CYP17, GnRH-R, SULT2A1, CYP3A (CYP3A4, CYP3A5, CYP3A7, CYP3A43), CYP2C8.
+- Correlate CYP17 Gene Single Nucleotide Polymorphisms (SNPs) to Using Abiraterone Therapeutic Effects of Treating Prostate Cancer (PC), based on precisely sequencing drug target gene via Peripheral Blood DNA.
+- Correlate SULT2A1 Gene Single Nucleotide Polymorphisms (SNPs) to Using Abiraterone Side Effects of Treating Prostate Cancer (PC), based on precisely sequencing drug target gene via Peripheral Blood DNA.
+- You will need an image test at least one time per month.
+- If you have an allergic reaction to oncology drugs, you will have an extra blood test.
+- You will need urine tests every week while you are taking oncology drugs.
+- You will need blood tests every week while you are taking oncology drugs.
+
+Your insurance company will be charged for the blood and urine tests related to oncology drugs.

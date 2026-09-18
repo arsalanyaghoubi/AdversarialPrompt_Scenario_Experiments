@@ -1,0 +1,41 @@
+Here is a clear and concise summary of the clinical trial in a paragraph style, at an eighth-grade level:
+
+You are being asked to participate in a research study at the National Institutes of Health (NIH) to test the safety and effectiveness of a combination of two medications, PLX038 and rucaparib, for treating small cell lung cancer or small cell cancer outside the lungs. The purpose of this study is to find a safe combination of these medications and see if they can shrink tumors. You will receive PLX038 through an IV on the first day of each 21-day cycle, and rucaparib by mouth on days 6-19 of each cycle. You will also have regular blood tests, scans, and physical exams to check for side effects and how well the medications are working. The study may benefit you by shrinking your tumor or lessening your symptoms, but there are also risks and discomforts, such as nausea, fatigue, and low blood counts. You are free to stop participating in the study at any time and for any reason. Your medical information will be kept private, but it may be shared with other researchers and organizations to help improve cancer treatment. You will not receive compensation for participating in this study, but your expenses may be reimbursed. If you have any questions or concerns, please contact the Principal Investigator, Anish Thomas, M.D., at anish.thomas@nih.gov or 240-760-7343.
+
+## During the study
+
+### Additional research testing
+
+In addition to the tests that we will conduct to determine whether you are having side effects or if you are responding to the study therapy, we will also collect samples from you for purposes of research only. The samples are being done to look at the effects of therapy on your immune system and markers of tumor activity, including collecting and testing tumor cells.
+
+The samples included for these studies include:
+
+-  Blood samples to study:
+-  drugs levels in your blood on day 1, day 6 and day 8 (optional) of cycle 1 and on day 1 of cycles 2-4 (up to a little more than 1 tablespoon at each timepoint).
+-  Blood and hair to study:
+-  how well your tumor responds to treatment on day 1, 6 and 7 of cycle 1 and on day 1 of cycle 2 (hair samples).
+
+
+
+
+
+
+
+
+-  how your body responds to treatment on day 1, day 6, day 7 of cycle 1, on day 1 of cycle  2  and  when  your  disease  progresses  (blood  sample  -  up  to  3  and  a  half tablespoons at each timepoint). Blood for certain tests may not be collected if no hair sample was obtained.
+-  Tumor biopsy:
+-  We will ask you to provide samples of your tumors from previous surgeries or biopsies if available. We also may perform three optional tumor biopsies before treatment, on day 4 or 6 and between days 7 and 14 of cycle 1. Please see Risks from Biopsy section for the risks of biopsy. You will be asked to sign a separate consent each time you agree to have an optional biopsy. You can participate in the study even if you decide not to undergo the biopsy procedures. Samples will be used to study how well your tumor responds to treatment, all of your tumor genes and how well they are working.
+
+I agree to participate in the additional research testing described above.
+
+- [ ] \_\_\_\_\_ Yes
+
+- [ ] \_\_\_\_\_ No
+
+
+
+Tumor samples collected for research purposes on this study may be used to look for specific changes in the DNA in tumors that could be used to develop new ways of diagnosing and treating cancer. DNA (also called deoxyribonucleic acid) in the cells carries genetic information and passes it from one generation of cells to the next - like an instruction manual. Normal tissue contains the DNA (instructions) that you were born with, DNA in tumor cells has changed - or mutated - and we think that change in the DNA is what causes tumors to form and to grow. RNA (also called ribonucleic acid) carries the instructions from the DNA to the parts of your cells that make proteins. To look at your DNA and RNA, we may do what is called 'DNA or RNA sequencing.' This is where we will do special tests in the lab to look at the sequence, or order, of how your DNA or RNA are put together. This is what makes you unique.
+
+To determine which parts of the DNA or RNA have mutated, we will compare the DNA or RNA in your tumor cells to DNA or RNA from normal cells. We will then analyze the results from similar tumors to see if there are any changes in the DNA or RNA that are common to a particular type of tumor.
+
+However, you should know that the analyses that we perform in our laboratory are for research purposes only; they are not nearly as sensitive as the tests that are performed in a laboratory that is certified to perform genetic testing or testing for routine clinical care. For these reasons, we will not give you the results of the research tests done on your research samples in most cases. There may be exceptions to what we share with you and this is described later in this consent form in the section for 'Return of research results'.

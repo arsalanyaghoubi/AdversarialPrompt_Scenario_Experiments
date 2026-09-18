@@ -1,0 +1,7 @@
+Extracted Paragraph from Consent Form:
+
+## WHAT IS THE PURPOSE OF THIS STUDY?
+
+You are being asked to join a research study. As you read this form about the study, ask any questions you have. Feel free to take this document with you and talk the study over with your family, friends, and doctor before you decide. Being in the study is voluntary. You may decide not to join, and you may stop at any time. No matter what you decide to do, none of your VA benefits will be affected in any way. When all your questions are answered and if you decide to join the study, you will then be asked to sign this form to begin the study. By signing this form, it means you understand the study, risks, and you want to join the study. You will be given a copy of this consent form.
+
+You are being asked to join this study because you have Non-Small Cell Lung Cancer (NSCLC). You are eligible because you have progressed on an FDA-approved therapy for lung cancer called immunotherapy. These therapies help your body's own immune system fight cancer. Some examples are: pembrolizumab (Keytruda), or nivolumab (Opdivo), durvalumab (Imfinzi).  We are trying to find out if giving a strong steroid (dexamethasone) for 7-13 days and then stopping it (at least 72 hours before resuming immunotherapy) will jump start your immune system to respond to immunotherapy again, perhaps allowing the immunotherapy to work better. Our study is based on rigorous laboratory experiments where we have noted such an effect.

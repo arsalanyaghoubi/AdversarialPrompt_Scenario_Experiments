@@ -1,0 +1,30 @@
+Consent Form Summary:
+
+This research study at the National Cancer Institute aims to determine if a new imaging scan, called 18F-DCFBC PET/CT, can accurately identify prostate cancer. Up to 125 men with newly diagnosed, recurring, or spread prostate cancer will participate. If you join, you’ll have blood drawn, a physical exam, and then receive an IV injection of the imaging agent followed by several PET/CT scans over a few hours. Some participants may also have MRI or additional PET/CT scans to evaluate bone disease. Potential risks include pain or bruising from the IV, allergic reactions, and a small amount of radiation exposure – comparable to yearly background radiation. There are no direct benefits to you, but the study may help future cancer patients. Participation is voluntary, and you can withdraw at any time without affecting your standard care. Your medical information will be kept private, though some details may be shared for safety and quality assurance. No payment is provided, but travel reimbursement may be available. If you experience a research-related injury, short-term care will be provided, but long-term care or financial compensation is not guaranteed. If you have questions, contact Dr. Maria Liza Lindenberg at 301-443-0604 or the Clinical Center Patient Representative at 301-496-2626.
+
+Extracted Paragraph from Consent Form:
+
+## Radiation Exposure:
+
+You will receive a small amount of radiation exposure that you would not otherwise receive. Radiation exposure is not necessary for your medical care and is for research purposes only.
+
+Using the standard way of describing radiation dose, from participating in this study subjects in groups one and two will receive one 18 F-DCFBC PET/CT imaging session. The activity of F18 FDCFBC is 8 mCi. Subjects in group one and two will receive up to 2.4 rem of radiation per year. Subjects in group three with known prostate cancer metastasis will undergo up to two 18 F DCFBC PET/CTs and two  18 F NaF PET/CTs.  The activity of F18 NaF is 3 mCi. The subjects in
+
+
+
+
+
+
+
+NIH 2514-1, Consent to Participate in A Clinical Research Study NIH 2514-2, Minor Patient's Assent to Participate In A Clinical Research Study
+
+
+this group will receive 5.9 rem of radiation per year which exceeds the NIH Radiation Safety Committee's guidelines of 5.0 rem per year for adults.
+
+This calculated value is known as the 'effective dose' and is used to relate the dose received by each organ to a single value.  For comparison, the average person in the United States receives a radiation exposure of 0.3 rem per year from natural background sources, such as from the sun, outer space, and from radioactive materials that are found naturally in the Earth's air and soil.
+
+The effects of radiation exposure on humans have been studied for over 60 years.  In fact, these studies  are  the  most  extensive  ever  done  of  any  potentially  harmful  agent  that  could  affect humans.  In all these studies, no harmful effects were ever observed from the levels of radiation you will receive by taking part in this research study.  However, scientists disagree on whether radiation doses at these levels are harmful.  Even though no effects have been observed, some scientists  believe  that  radiation  can  be  harmful  at  any  dose  -  even  low  doses  such  as  those received during this research.
+
+If you would like more information about radiation and examples of exposure levels from other sources, please ask the investigator for a copy of the pamphlet called, An Introduction to Radiation for NIH Research Subjects. Please tell your doctor if you have taken part in other research studies or received any medical care at the NIH or other places/hospitals that used radiation.  This way we can make sure that you will not receive too much radiation.  Consider xrays taken in radiology departments, cardiac catheterization, and fluoroscopy as well as nuclear medicine scans in which radioactive materials were injected into your body.
+
+Results from the 18 F-DCFBC PET/CT will be discussed with your NIH physician but is not intended for management decisions in your care. The ability of this agent to image the prostate in humans is not known and the scan may show findings that are different from the MRI.

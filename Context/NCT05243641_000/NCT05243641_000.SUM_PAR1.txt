@@ -1,0 +1,29 @@
+Consent Form Summary:
+
+This research study is testing a combination of two drugs, neratinib and capmatinib, to see if they can help people with breast cancer that has spread. Neratinib is already approved for some breast cancers, while capmatinib is approved for lung cancer but not breast cancer; this combination is being studied for a new use. The study has two parts: first, to find the best dose, and second, to see if that dose can control the disease. You might experience side effects like fatigue, nausea, or diarrhea, and serious risks are possible. While there may be no direct benefit to you, the study could help others in the future. You will receive study drugs for up to 3 years, depending on how well you respond. The drugs will be provided at no cost, but other treatments and tests may be billed to your insurance. Your participation is voluntary, and you can stop at any time. Your medical information will be kept confidential, but may be shared with study sponsors and regulatory agencies. If you are injured due to the study, standard medical care will be provided, but you won’t be compensated financially. Contact Dr. Rachel Layman at 713-745-8401 or the IRB at 713-792-6477 with any questions. Screening tests, including blood work and scans, will be done to determine eligibility. Your samples and data may be used for future research, even after the study ends. You will not receive payment for participating, but your time and travel are valued.
+
+Extracted Paragraph from Consent Form:
+
+## STUDY SUMMARY
+
+There are 2 parts to this study: Part 1b (dose escalation) and Part 2 (dose expansion).
+
+The goal of Part 1b in this clinical research study is to find the highest tolerable dose of 2 study drugs, capmatinib and neratinib, that can safely be given to patients with breast cancer that is metastatic (has spread) or locally advanced. For patients with estrogen receptor positive breast cancer, the study will also find the highest tolerable dose of the 2 study drugs, capmatinib and neratinib in combination with a type of standard of care endocrine therapy medication known as an aromatase inhibitor.
+
+The goal of Part 2 of this study is to learn if the dose of capmatinib and neratinib found in Part 1b can help to control the disease.
+
+This is an investigational study. Neratinib is FDA approved and commercially available for the treatment of HER2-positive breast cancer. Capmatinib is FDA approved and commercially available for the treatment of metastatic lung cancer but is not approved to treat breast cancer. Aromatase inhibitors are FDA approved and commercially available for the treatment of estrogen receptor positive breast cancer. This drug combination is considered investigational and is currently being used for research purposes only.
+
+The study doctor can explain how the study drugs are designed to work.
+
+The study drugs may help to control the disease. Future patients may benefit from what is learned. There may be no benefits for you in this study.
+
+Your participation is completely voluntary. Before choosing to take part in this study, you should discuss with the study team any concerns you may have, including side effects, potential expenses, and time commitment. If you take part in this study, you may experience side effects, some of which may be severe or fatal. You may choose not to take part in this study because of hospitalization, a prolonged stay out of town, and/or because there are other standard options available. By participating in this study, you may be declining treatments that have been shown to improve survival. You should ask the study staff member obtaining your informed consent to describe any such treatments to you before you sign this consent form.
+
+You can read a full list of potential side effects below in the Possible Risks section of this consent.
+
+You may receive the study drugs for up to 3 years, as long as the study doctor thinks you are benefitting from the therapy. You will no longer be able to take the study drugs if the disease gets worse, if intolerable side effects occur, or if you are unable to follow study directions.
+
+PUMA Biotechnology, Novartis and Celcuity are study supporters. Neratinib (PUMA Biotechnology) and capmatinib (Novartis) will be provided at no cost to you while you are on study. The cost of endocrine therapy agents will be the responsibility of you and/or your insurance provider. The CELsignia test for patients in Part 2 of this study will be performed and the cost covered by Celcuity.
+
+You may choose not to take part in this study. Instead of taking part in this study, you may choose to receive standard of care therapy including chemotherapy, hormonal therapy, targeted therapy, or combination of these drugs, if appropriate. The study doctor will discuss with you which treatment options may be available outside of this study, including the possible risks and benefits of these treatments. You may choose to receive other investigational therapy, if available. You may choose not to have treatment for cancer at all. In all cases, you will receive appropriate medical care, including treatment for pain and other symptoms of cancer.

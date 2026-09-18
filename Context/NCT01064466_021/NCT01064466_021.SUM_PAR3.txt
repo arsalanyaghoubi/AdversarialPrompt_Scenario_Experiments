@@ -1,0 +1,15 @@
+Consent Form Summary:
+
+This research study (NCT01064466) aims to compare a study chemotherapy drug to the usual chemotherapy drug, Etoposide Capsule, for small cell lung cancer. You’re being asked to participate because you’ve had a lung tissue biopsy. The study will randomly assign you to receive either the usual chemotherapy or the study chemotherapy, given orally for six months, with follow-up for two years. Extra tests, including blood, urine, and tissue tests, will be performed. Potential risks include time away from work, side effects like infection or nausea, and possible effects on your heart, liver, or blood. Possible benefits are uncertain, but the study may help future patients. You can stop participating at any time. Your medical information will be kept private, though it may be shared with organizations overseeing the study. There are no costs to you, but you won’t be paid. If you’re injured, your insurance may cover treatment. You can contact Han Xu, M.D., Ph.D. at 1-301-222-7143 with any questions. Additionally, an optional biobanking study is available, where your samples may be stored for future research, with the option to decline participation.
+
+Extracted Paragraph from Consent Form:
+
+## Who will see my medical information?
+
+Your  privacy  is  very  important  to  us  and  the  researchers  will  make  every  effort  to  protect  it.  Your information may be given out if required by law. For example, certain states require doctors to report to health  boards  if  they  find  a  disease  like  tuberculosis.  However,  the  researchers  will  do  their  best  to make sure that any information that is released will not identify you. Some of your health information, and/or information about your specimen, from this study will be kept in a central database for research. Your name or contact information will not be put in the database.
+
+There are organizations that may inspect your records. These organizations are required to make sure your information is kept private, unless required by law to provide information. Some of these organizations are:
+
+- The Medicine Invention Design, Inc. will use United Healthcare Insurance to support this study.
+- The Institutional Review Board, IRB, is a group of people who review the research with the goal of protecting the people who take part in the study.
+- The Food and Drug Administration in the U.S. and similar agencies in other countries involved in the study.

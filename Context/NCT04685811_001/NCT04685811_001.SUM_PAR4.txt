@@ -1,0 +1,17 @@
+Consent Form Summary:
+
+This research study aims to determine if two different methods of producing Gallium-68 (68Ga) for PET/CT scans provide equally clear images of metastatic prostate cancer. Approximately 30 participants with prostate cancer will be enrolled, and you will undergo two PET/CT scans, 6 to 48 hours apart, each lasting about 75 minutes. These scans involve a small injection of a radioactive tracer and may include blood draws before, during, and after the scan. Potential risks include minor discomfort from the injection, exposure to a low level of radiation (similar to standard CT scans), and a very small chance of allergic reaction. There may be unexpected findings on the scans that require further evaluation at your own expense. Participation is entirely voluntary, and you can withdraw at any time without affecting your regular medical care. Your medical information will be kept confidential, and access to it is limited and protected by law. You will not be compensated for participating, but all study-related procedures are covered. If you experience an injury related to the study, immediate medical care will be provided at usual charges, but no monetary compensation is available. For questions or concerns, contact Dr. Joseph R. Osborne at 212-746-6797 or the WCMC IRB Office at (646) 962-8200.
+
+Extracted Paragraph from Consent Form:
+
+## WHY IS THE STUDY BEING DONE?
+
+Prostate Cancer is a very common type of cancer in US. The ability to monitor the presence and progression of prostate cancer is very important. To help your doctor understand the extent of your disease you can undergo a PET/CT scan.
+
+PET stands for P ositron E mission T omography and CT stands for C omputed T omography.   PET/CT is a combination of PET images and CT images into one image.  Gallium-68 citrate is a special form of the metal gallium that is radioactive. It is injected through a small needle into a vein in the arm.
+
+PET imaging or PET scan takes detailed 3-dimensional pictures of areas of the body. The imaging helps doctors see how the organs and tissues inside your body are functioning.  A CT scanner is a special kind of X-ray machine.  A computer then processes data into two- and three-dimensional pictures that are displayed on a computer monitor.
+
+When Gallium-68 citrate is used with PET/CT, the scanner can form images and give the doctor information about the size, shape and functional nature of abnormal tissues.  The images can be reviewed by a physician to provide information about various medical conditions.
+
+Gallium-68 ( 68 Ga) can be produced with two different methods. The one method of production is now used widely but is very expensive and difficult to use. The other method to produce this molecule is not yet established but it is easier to use and cheaper. This research study is being conducted to assess whether the  PET/CT  imaging  results,  as  generated  from  the  two  different 68 Ga  production  methods,  are equivalent. For that purpose, a range of standard-of-care and parametric PET images, as generated with each method, will be comparatively evaluated.

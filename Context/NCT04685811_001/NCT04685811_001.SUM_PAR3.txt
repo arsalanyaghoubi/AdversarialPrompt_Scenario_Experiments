@@ -1,0 +1,26 @@
+Consent Form Summary:
+
+This research study aims to determine if two different methods of producing Gallium-68 (68Ga) for PET/CT scans provide equally clear images of metastatic prostate cancer. Approximately 30 participants with prostate cancer will be enrolled, and you will undergo two PET/CT scans, 6 to 48 hours apart, each lasting about 75 minutes. These scans involve a small injection of a radioactive tracer and may include blood draws before, during, and after the scan. Potential risks include minor discomfort from the injection, exposure to a low level of radiation (similar to standard CT scans), and a very small chance of allergic reaction. There may be unexpected findings on the scans that require further evaluation at your own expense. Participation is entirely voluntary, and you can withdraw at any time without affecting your regular medical care. Your medical information will be kept confidential, and access to it is limited and protected by law. You will not be compensated for participating, but all study-related procedures are covered. If you experience an injury related to the study, immediate medical care will be provided at usual charges, but no monetary compensation is available. For questions or concerns, contact Dr. Joseph R. Osborne at 212-746-6797 or the WCMC IRB Office at (646) 962-8200.
+
+Extracted Paragraph from Consent Form:
+
+## WHAT ABOUT CONFIDENTIALITY?
+
+Efforts will be made to protect your medical records and other personal information to the extent allowed by law. However, we cannot guarantee absolute confidentiality.  Records of study participants are stored and kept according to legal requirements and may be part of your medial record. You will not be identified personally in any reports or publications resulting from this study. Organizations that may request to inspect and/or copy your research and medical records for quality assurance and data analysis include groups such as:
+
+- o Weill Cornell Medical College and NewYork-Presbyterian Hospital
+- o The Institutional Review Board (IRB)
+- o The Office of Human Research Protection (OHRP)
+- o Department of Health and Human Services and National Institutes of Health
+- o The Food and Drug Administration (FDA) and/or their representatives
+
+By signing this consent form, you authorize access to this confidential information.  You also authorize the release of your medical records to Weill Cornell Medical College and NewYorkPresbyterian Hospital by any other hospitals or institutions where you might receive medical care of any kind while you are participating in this study.
+
+If information about your participation in this study is stored in a computer, we will take the following precautions to protect it from unauthorized disclosure, tampering, or damage by requiring a unique ID and password to log into the database.
+
+Please also note that your PET/CT that is done as part of this study will be read and interpreted by a WCMC Department of Radiology radiologist and the report will be provided to the Principal Investigator.  If there are any unsuspected, incidental findings that you should know about, the Principal Investigator will share the findings with you or a physician who you may designate. Incidental findings noted on the PET/CT study might or might not have clinical significance and might or might not lead to further medical tests or treatments.  It will be up to you and your designated physician to determine if any further testing or treatment is necessary on the basis of this information. However, you should know that the limited CT/imaging that is done in conjunction with this study is not meant to be a comprehensive examination, therefore we may not detect abnormalities or diseases which may be present and might be detected in a full clinical and diagnostic CT examination. Should we find abnormalities in our limited CT examination of your brain, your doctor might recommend that you undergo the full diagnostic CT, which would then no longer be considered a part of this study.
+
+A description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. Law.  This website will not include information that can identify you.  At most, the website will include a summary of the results.  You can search this website at any time.
+
+
+IRB Protocol # 19-11021092 Consent version date: 02/08/2021

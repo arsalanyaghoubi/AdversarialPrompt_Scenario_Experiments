@@ -1,0 +1,34 @@
+Extracted Paragraph from Consent Form:
+
+## Types of immune related side effects:
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Inflammation of the lungs (pneumonitis): symptoms may include but are not limited to a new or worsening cough, shortness of breath possibly with fever. Preliminary data suggested that there may be the tendency of higher frequency and severity in Japanese patients compared with non-Japanese patients: tell your study doctor right away if you have any of these symptoms as it may need to be treated urgently.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Hypothyroidism (decreased function of the thyroid gland)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Thyroiditis (inflammatory disease of the thyroid gland)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Hyperthyroidism (increased function of thyroid gland)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; You may develop inflammation of the liver called hepatitis. Signs and symptoms of this include yellowing of the skin or whites of the eyes, dark urine, severe nausea and
+
+
+
+
+
+
+
+vomiting, pain in the upper right side of your abdomen, skin itchiness, not feeling hungry and bleeding or bruising more easily than normal.
+
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Thrombocytopenia (decrease of the blood platelets)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Diabetes mellitus (high blood sugar levels)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Uveitis (inflammation in the eye)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Problems with your adrenal glands (Adrenal Insufficiency): may cause stomach pains, vomiting, muscle weakness and fatigue, depression, low blood pressure, weight loss, kidney problems, and changes in mood and personality. These complications may be permanent and may require hormone replacement.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Myositis (inflammation of the muscles characterized by pain and tenderness)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Inflammation of the intestine (colitis). It may cause abdominal pain and diarrhea with or without blood. Fever may be present. It may require you to receive additional fluids. If left untreated, in rare occasions this may lead to a tear in the wall of the intestine which can be serious and life threatening.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Autoimmune encephalitis is a type of brain inflammation where the body's immune system attacks healthy cells and tissues in the brain or spinal cord.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Myocarditis (inflammation of the heart muscle)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Kidney problems: you may have an increase of creatinine levels in a blood test (creatinine is a protein marker that measures kidney function) but not have any symptoms or feel unwell. Uncommonly a patient may experience nephritis which is an inflammation of the kidneys that stops the kidneys from working properly.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Pemphigoid (fluid-filled blisters that can be itchy)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Problems with the pituitary gland (hypopituitarism): Hypopituitarism refers to decreased output of hormones from the pituitary gland in the brain and may be caused by inflammation of the pituitary gland (hypophysitis). Symptoms may include headaches, thirstiness, and trouble seeing or double vision, leakage of breast milk or irregular periods in women. These complications may be permanent and may require hormone replacement.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Pancreatitis (inflammation of the pancreas)
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Liver problems: Increases in the blood level of substances called enzymes found within your liver cells. The enzyme changes are unlikely to make you feel unwell, however, if these blood enzyme levels become very high, your study doctor may need to stop the study medication.
+- GLYPH&lt;c=3,font=/CNPMCJ+SymbolMT&gt; Nervous system problems: symptoms can include unusual weakness of legs, arms, or face, numbness, or tingling in hands or feet. In rare situations, there is the potential for the inflammation of the nervous system to be severe.
+
+If any of these side effects occur, you must inform your study doctor immediately.

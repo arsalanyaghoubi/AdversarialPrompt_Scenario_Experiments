@@ -1,0 +1,36 @@
+Consent Form Summary:
+
+This research study aims to determine if two different methods of producing Gallium-68 (68Ga) for PET/CT scans provide equally clear images of metastatic prostate cancer. Approximately 30 participants with prostate cancer will be enrolled, and you will undergo two PET/CT scans, 6 to 48 hours apart, each lasting about 75 minutes. These scans involve a small injection of a radioactive tracer and may include blood draws before, during, and after the scan. Potential risks include minor discomfort from the injection, exposure to a low level of radiation (similar to standard CT scans), and a very small chance of allergic reaction. There may be unexpected findings on the scans that require further evaluation at your own expense. Participation is entirely voluntary, and you can withdraw at any time without affecting your regular medical care. Your medical information will be kept confidential, and access to it is limited and protected by law. You will not be compensated for participating, but all study-related procedures are covered. If you experience an injury related to the study, immediate medical care will be provided at usual charges, but no monetary compensation is available. For questions or concerns, contact Dr. Joseph R. Osborne at 212-746-6797 or the WCMC IRB Office at (646) 962-8200.
+
+Extracted Paragraph from Consent Form:
+
+## WHAT IS INVOLVED IN THE STUDY?
+
+During the investigation for metastatic prostate cancer as a standard of care procedure you can undergo a CT or MR imaging or a bone scan. However, these imaging modalities are not very specific and can not always show the extent of the disease. The PET imaging with 68 Ga-citrate PSMA that you will undergo is more specific for evaluating the presence and extent of metastatic disease.
+
+For this study you will undergo a total of two whole-body dynamic  68 Ga-PSMA PET/CT scans with a 6 to 48h gap. Each scan will involve the same amount of 68Ga-PSMA dose and is expected to last approximately 75 min. The first scan will occur after a baseline clinical evaluation, which will include a history, physical, and baseline lab draw. Blood draws will be collected post 68GaPSMA injection immediately before, during and immediately after each PET/CT scan. Research blood draws will be performed only in a subset of patients and are not required for participation in the study. The blood samples will be drawn through the vein using the same catheter previously placed for the 68Ga-PSMA administration
+
+A subset of patients will have serum blood draws (approximately 5 ml) for pharmacokinetic analysis. This is only required in a subset of patient (3-5 patients). The data gathered from the serum blood analysis will be used to calculate and generalize the amount of radiation absorbed by organs and lesions in the body. The planned timepoints are as follows: pre tracer injection, 5 minutes (+/- 10 minutes) 15 minutes (+/- 10 minutes), 30 minutes (+/-10 minutes), 60 minutes (+/-10 minutes). A blood draw will also be performed after each scan (12 blood draws in total per patient at most). This will be done through the IV placed to administer the PET tracer during the imaging visit. Apart from routine laboratory tests, samples will also be evaluated for the presence of 68 Ga, as well as 66 Ga, potential contaminants for generator-produced and cyclotronproduced products.
+
+Scan procedure: You will be pretreated with hydration and encouraged to void immediately prior to imaging. You will be positioned on a flat couch. Following the installation of an intra venous catheter in one of your arms, you will be invited to the PET/CT scanner room and comfortably positioned on the scanner table. A low dose whole-body CT scan will initially be performed from mid-skull to mid-thigh including the prostate or a pre-determined index lesion. Subsequently, you will be injected intravenously with a standard dose of the 68Ga-PSMA radiotracer. At the same time, a dynamic whole-body PET scan will begin. Initially, a 10 min scan over the pelvis region will be conducted followed by a series of successive PET passes from 10-75 min post injection with each pass covering the same body region as that of the previous CT scan. All CT and PET images will be acquired in a supine position with your arms comfortably positioned and secured by the side of your body. You will be allowed to get off from the couch in between the twelve dynamic whole body passes if required (such as for a bathroom break). If the amount of injected dose is considerably lower than the standard, you may be scanned for a maximum of an additional 15min period.
+
+
+<!-- image -->
+
+After 6 hours or within 48h, you will be asked to undergo the same PET/CT imaging protocol after injection of the second experimental radiotracer. The same exam procedures will apply.
+
+Overall, this study involves the procedures listed below:
+
+|                                                                     | Screening- Visit 1 ( Baseline or D0)   | Imaging 1* (Visit 2 or D1)   | Imaging 2* (Visit 3 or D2)   |
+|---------------------------------------------------------------------|----------------------------------------|------------------------------|------------------------------|
+| Medical History                                                     | X                                      |                              |                              |
+| Physical Exam                                                       | X                                      |                              | X                            |
+| Complete Blood Count (Blood draw)                                   | X                                      |                              |                              |
+| Serum BUN and Creatinine (Blood draw)                               | X                                      |                              |                              |
+| AST, ALT, ALP, bil, albumin                                         | X                                      |                              |                              |
+| 68 Ga-PSMA administration                                           |                                        | X                            | X                            |
+| 68 Ga-PSMA PET scans                                                |                                        | X                            | X                            |
+| Research Blood draws (*performed before, during and after the scan) |                                        | X                            | X                            |
+
+
+Please advise the researchers of any medications you are taking.  In addition, if you are taking any over-the-counter drugs or herbal supplements which you have obtained from the drug store, grocery store, etc., you should advise the researchers.

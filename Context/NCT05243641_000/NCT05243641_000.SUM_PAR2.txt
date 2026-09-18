@@ -1,0 +1,27 @@
+Consent Form Summary:
+
+This research study is testing a combination of two drugs, neratinib and capmatinib, to see if they can help people with breast cancer that has spread. Neratinib is already approved for some breast cancers, while capmatinib is approved for lung cancer but not breast cancer; this combination is being studied for a new use. The study has two parts: first, to find the best dose, and second, to see if that dose can control the disease. You might experience side effects like fatigue, nausea, or diarrhea, and serious risks are possible. While there may be no direct benefit to you, the study could help others in the future. You will receive study drugs for up to 3 years, depending on how well you respond. The drugs will be provided at no cost, but other treatments and tests may be billed to your insurance. Your participation is voluntary, and you can stop at any time. Your medical information will be kept confidential, but may be shared with study sponsors and regulatory agencies. If you are injured due to the study, standard medical care will be provided, but you won’t be compensated financially. Contact Dr. Rachel Layman at 713-745-8401 or the IRB at 713-792-6477 with any questions. Screening tests, including blood work and scans, will be done to determine eligibility. Your samples and data may be used for future research, even after the study ends. You will not receive payment for participating, but your time and travel are valued.
+
+Extracted Paragraph from Consent Form:
+
+## Authorization for Use and Disclosure of Protected Health Information (PHI):
+
+- A.  During the course of this study, MD Anderson will be collecting and using your PHI (name, full date of birth, age, gender, biological samples, etc.), including identifying information, information from your medical record, and study results. For legal, ethical, research, and safety-related reasons, your doctor and the research team may share your PHI with:
+- Federal agencies that require reporting of clinical study data (such as the FDA, National Cancer Institute [NCI], and OHRP)
+- The IRB and officials of MD Anderson
+- Novartis and their authorized agents; Puma Biotechnology; and Celcuity, who are all sponsors or supporters of this study
+- Any future sponsors/supporters and/or licensee(s) of the study technology
+- Study monitors and auditors who verify the accuracy of the information
+- Individuals who put all the study information together in report form.
+- Governmental agencies in other countries where the study drug may be considered for approval.
+
+Study sponsors and/or supporters receive limited amounts of PHI. They may also view additional PHI in study records during the monitoring process. MD Anderson's contracts require sponsors/supporters to protect this information and limit how they may use it.
+
+The results of this research may be published in scientific journals or presented at medical meetings, but your identity will not be disclosed.
+
+- B.  Signing this consent and authorization form is optional but you cannot take part in this study or receive study-related treatment if you do not agree and sign.
+- C.  MD Anderson will keep your PHI confidential when possible (according to state and federal law). However, in some situations, the FDA could be required to reveal the names of participants.
+
+- Once disclosed outside of MD Anderson, federal privacy laws may no longer protect your PHI.
+- D.  The permission to use your PHI will continue indefinitely unless you withdraw your authorization in writing. Instructions on how to do this can be found in the MD Anderson Notice of Privacy Practices (NPP) or you may contact the Chief Privacy Officer at 713745-6636. If you withdraw your authorization, you will be removed from the study and the data collected about you up to that point can be used and included in data analysis. However, no further information about you will be collected.
+- E. A description of this clinical trial will be available on http://www.ClinicalTrials.gov, as required by U.S. Law. This Web site will not include information that can identify you. At most, the Web site will include a summary of the results. You can search this Web site at any time.

@@ -1,0 +1,32 @@
+Consent Form Summary:
+
+This research study aims to determine if a combination of immunotherapy drugs effectively treats HPV-associated cancers like cervical, throat, and anal cancers. If you choose to participate, you’ll undergo tests to confirm eligibility and disease status, and then receive injections of three drugs – PDS0101, M7824, and NHS-IL12 – over up to a year, with visits every two weeks. These visits will last around 5-6 hours. While there’s no guarantee of benefit, potential side effects include fatigue, nausea, diarrhea, and more serious, even life-threatening, complications. Other treatment options exist, and you can choose not to participate. Your medical information will be kept confidential, though shared with certain researchers and agencies as required by law. You won’t receive compensation for participating, but the NIH will cover some study-related expenses. Your samples and data may be used for future research, even after the study ends, and shared with other researchers. You can withdraw from the study at any time without penalty. If you experience a research-related injury, the NIH will provide initial care, but long-term care or financial compensation isn’t guaranteed. For questions or concerns, contact Dr. Charalampos Floudas at 240-858-3032 or charalamposfloudas@nih.gov.
+
+Extracted Paragraph from Consent Form:
+
+## Will Your Specimens or Data Be Shared for Use in Other Research Studies?
+
+We may share your coded specimens and data with other researchers. If we do, while we will maintain the code key, we will not share it, so the other researchers will not be able to identify you.   They may be doing research in areas similar to this research or in other unrelated areas. These researchers may be at NIH, other research centers and institutions, or commercial entities.
+
+
+
+
+
+
+
+
+I give permission for my coded specimens and data to be shared with other researchers and used by these researchers for future research as described above.
+
+- [ ] \_\_\_\_\_ Yes
+
+- [ ] \_\_\_\_\_ No
+
+Initials
+
+Initials
+
+If you change your mind and do not want us to store and use your specimens and data for future research, you should contact the research team member identified at the top of this document. We will do our best to comply with your request but cannot guarantee that we will always be able to destroy your specimens and data. For example, if some research with your specimens and data has already been completed, the information from that research may still be used. Also, for example, if the specimens and data have been shared already with other researchers, it might not be possible to withdraw them.
+
+In addition to the planned use and sharing described above, we might remove all identifiers and codes from your specimens and data and use or share them with other researchers for future research at the NIH or other places.  When we or the other researchers access your anonymized data, there will be no way to link the specimens or data back to you.  We will not contact you to ask your permission or otherwise inform you before we do this.  We might do this even if you answered "no" to the above questions.  If we do this, we would not be able to remove your specimens or data to prevent their use in future research studies, even if you asked, because we will not be able to tell which are your specimens or data.
+
+NIH policies require that your clinical and other study data be placed in an internal NIH database that is accessible to other NIH researchers for future research. These researchers will not have access to any of your identifiers, such as your name, date of birth, address, or medical record number; and your data will be labeled with only a code. We cannot offer you a choice of whether your data to be placed in this database or not.  If you do not wish to have your data placed in this database, you should not enroll in this study.

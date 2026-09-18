@@ -1,0 +1,13 @@
+Extracted Paragraph from Consent Form:
+
+## WHY IS THE STUDY BEING DONE?
+
+Prostate Cancer is a very common type of cancer in US. The ability to monitor the presence and progression of prostate cancer is very important. To help your doctor understand the extent of your disease you can undergo a PET/CT scan.
+
+PET stands for P ositron E mission T omography and CT stands for C omputed T omography.   PET/CT is a combination of PET images and CT images into one image.  Gallium-68 citrate is a special form of the metal gallium that is radioactive. It is injected through a small needle into a vein in the arm.
+
+PET imaging or PET scan takes detailed 3-dimensional pictures of areas of the body. The imaging helps doctors see how the organs and tissues inside your body are functioning.  A CT scanner is a special kind of X-ray machine.  A computer then processes data into two- and three-dimensional pictures that are displayed on a computer monitor.
+
+When Gallium-68 citrate is used with PET/CT, the scanner can form images and give the doctor information about the size, shape and functional nature of abnormal tissues.  The images can be reviewed by a physician to provide information about various medical conditions.
+
+Gallium-68 ( 68 Ga) can be produced with two different methods. The one method of production is now used widely but is very expensive and difficult to use. The other method to produce this molecule is not yet established but it is easier to use and cheaper. This research study is being conducted to assess whether the  PET/CT  imaging  results,  as  generated  from  the  two  different 68 Ga  production  methods,  are equivalent. For that purpose, a range of standard-of-care and parametric PET images, as generated with each method, will be comparatively evaluated.

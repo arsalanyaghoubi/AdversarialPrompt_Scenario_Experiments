@@ -1,0 +1,24 @@
+Consent Form Summary:
+
+This research study (NCT01064466) aims to compare a study chemotherapy drug to the usual chemotherapy drug, Etoposide Capsule, for small cell lung cancer. You’re being asked to participate because you’ve had a lung tissue biopsy. The study will randomly assign you to receive either the usual chemotherapy or the study chemotherapy, given orally for six months, with follow-up for two years. Extra tests, including blood, urine, and tissue tests, will be performed. Potential risks include time away from work, side effects like infection or nausea, and possible effects on your heart, liver, or blood. Possible benefits are uncertain, but the study may help future patients. You can stop participating at any time. Your medical information will be kept private, though it may be shared with organizations overseeing the study. There are no costs to you, but you won’t be paid. If you’re injured, your insurance may cover treatment. You can contact Han Xu, M.D., Ph.D. at 1-301-222-7143 with any questions. Additionally, an optional biobanking study is available, where your samples may be stored for future research, with the option to decline participation.
+
+Extracted Paragraph from Consent Form:
+
+## What are the study groups?
+
+This study has two study groups.
+
+- Group 1 will get the usual chemotherapy drugs to treat this type of cancer: Etoposide Capsule
+- o Etoposide Capsule will be given to you orally daily on day 1-5 per week.
+- o This chemotherapy will be repeated for 12 weeks.
+- o The duration will be at least 90 days.
+- Group 2 will get the study chemotherapy drugs to treat this type of cancer: Etoposide Capsule
+- o You will receive China Import Etoposide Capsule into a mouth at day 1-5 per week.
+- o This chemotherapy will be repeated for 12 weeks.
+- o The duration will be at least 90 days.
+
+A  computer  will  by  chance  assign  you  to  chemotherapy  groups  in  the  study.  This  is  called randomization.  This is done by chance because no one knows if one study group is better or worse than the other. Neither you nor your doctor can choose which group you will be in.
+
+Another way to find out what will happen to you during this study is to read the chart below. Start reading on the left side and read across to the right, following the lines and arrows.
+
+<!-- image -->

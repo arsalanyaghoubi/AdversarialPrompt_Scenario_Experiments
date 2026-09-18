@@ -1,0 +1,25 @@
+Extracted Paragraph from Consent Form:
+
+## OPTIONAL Procedures
+
+You may be asked to participate in Image-Guided Bone Marrow-Sparing IMRT using FLTPET and/or functional  MRI  during  this  research  study.  These  images  will  be  used  to understand how to better design radiation therapy plans.
+
+FLT-PET  involves  injection  of  a  radioactive  substance  intravenously  followed  by  a standard positron emission tomography (PET) scan. There is exposure to a small amount of radiation, much less than the standard doses. There is a risk of discomfort, bruising, bleeding,  fainting  or  infection  with  the  placement  or  removal  of  the  needle  used  for drawing blood and injecting the FLT.
+
+There may be a direct benefit to you by consenting to this optional procedure, because the treatment may be given more accurately as a result of this imaging. There may also be a benefit from the medical knowledge gained to patients in the future.  There are no additional costs to you for taking part in the optional procedures.
+
+Your study doctor has no personal or financial interest in this research. Having read and understood the above, and having had the chance to ask questions about these additional, optional procedures, please initial next to your response below:
+
+- [ ] \_\_\_\_\_\_ You give permission to take part in FLT-PET optional procedure.
+
+- [ ] \_\_\_\_\_\_ You do not give permission to take part in FLT-PET optional procedure.
+
+- [ ] \_\_\_\_\_\_ You give permission to take part in quantitative MRI optional procedure.
+
+- [ ] \_\_\_\_\_\_ You do not give permission to take part in quantitative MRI optional procedure.
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Signature of Participant
+
+Date

@@ -1,0 +1,15 @@
+Consent Form Summary:
+
+This research study aims to improve prostate cancer detection using a special imaging agent called 68Ga-PSMA-11 with PET scans. Up to 100 patients will participate, building on the experience of thousands who’ve already had this imaging safely. If you join, you’ll receive an intravenous injection of a small amount of a radioactive substance, followed by a PET/CT or PET/MRI scan lasting about two hours. There are potential risks like pain or bruising from the IV, radiation exposure similar to five years of natural background radiation, and possible side effects from the MRI, including warmth or flashing lights. Potential benefits include providing your doctor with valuable information for your care. Alternatives exist, but this specific imaging agent isn’t widely available locally yet. Your participation is voluntary, and you can withdraw anytime without penalty. Your privacy will be protected, though complete confidentiality cannot be guaranteed. Medical care is available for study-related injuries, but you or your insurance will likely cover the costs. You won’t be paid for participating, but the study covers costs not typically billed to insurance. If you have questions, contact Dr. Bennett Chin at 720-848-6137. Your data and samples may be used for future research with IRB approval.
+
+Extracted Paragraph from Consent Form:
+
+## What are the discomforts and risks of the study procedures?
+
+Risks of Insertion of the intravenous catheter. In this study we will insert an intravenous catheter, connected to a plastic tube, into a vein in your arm.  We will use the tube to administer the 68Ga-PSMA-11.  You will feel some pain when we first insert the tube into your vein.  You may have some redness, swelling, or bruising where the tube goes under your skin.  In some cases, this type of tube can cause an infection where it goes under the skin.  In rare cases, it can cause a blood clot in the vein.
+
+Risks of Computed Tomography (CT). As part of this study, we may perform a CT scan of your chest, abdomen, pelvic area.  CT is a way of taking detailed pictures inside your body by using Xrays.  X-rays are a type of radiation. You get some radiation from your environment.  You get radiation from bricks and concrete, from some foods, and from radon gas, which is an invisible gas that seeps out of the ground.  The amount of radiation that this CT scan will deliver to your body (give you) is about the same as you would get from living in your environment for 5 years .
+
+This is an estimate.  The amount of radiation you get could be higher or lower, depending on the machine, the power setting, and your body weight.  Exposure to radiation at high levels increases a risk of developing cancer.  There is no evidence of such risks for diagnostic procedures.
+
+The risk of this procedure is not equal for everyone.  The risk is much lower for people over the age of 30.

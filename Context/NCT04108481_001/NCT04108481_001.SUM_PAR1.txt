@@ -1,0 +1,60 @@
+Consent Form Summary:
+
+This research study aims to learn more about combining immunotherapy – a treatment to help your body fight cancer – with a type of radiation treatment called yttrium-90 radioembolization (Y90-RE) for colorectal cancer that has spread to the liver. Approximately 18 people at the University of Iowa will participate over about 2 years, receiving durvalumab immunotherapy alongside Y90-RE. You’ll have clinic visits and treatments over up to 10 weeks, each lasting 4-6 hours, and a tumor biopsy may be taken. Potential risks include side effects from the treatments, like skin changes or fatigue, and the possibility of unknown risks. While there’s no guarantee of benefit, the study hopes to improve future treatments. You can choose to stop participating at any time without penalty. Your health information will be kept confidential, but may be shared with regulatory agencies and study sponsors. Medical care for any study-related injury will be available, but you’ll generally be responsible for standard medical costs. Participation is voluntary, and you’ll receive no payment, but the study covers the cost of the immunotherapy drug and investigational device. If significant new findings emerge, you will be informed. For questions or concerns, contact Dr. Chandrikha Chandrasekharan at (319) 356-2425 or the Human Subjects Office at (319) 335-6564.
+
+Extracted Paragraph from Consent Form:
+
+## Tissue/Blood/Data Storage for Future Use
+As part of this study, we are obtaining tissue and blood from you. We would like to study your tissue
+and blood in the future, after this study is over. Your sample, information, and/or data may be placed in
+a central repository or other national repositories sponsored by the National Institutes of Health or other
+Federal agencies. If this happens, it may be stripped of identifiers (such as name, date of birth, address,
+etc). Other qualified researchers who obtain proper permission may gain access to your sample and/or
+data for use in approved research studies that may or may not be related to in the purpose of this study.
+
+Blood cells removed from the blood samples will be used to make a cell line and DNA or conduct whole
+genome sequencing. Cell lines are produced by growing blood cells in a laboratory and allow us to have
+a source of the DNA without having to redraw your blood. These blood cells can be stored for decades
+or more. The cell lines, DNA and genome sequencing results and data will be made available to
+researchers trying to learn more about the cause of diseases.
+
+Each of the cells in your body contains DNA. DNA is the instruction manual that determines your
+appearance in things like eye color or how tall you can be. Your DNA may also lead to higher or lower
+risk of certain diseases. Your environment will also determine some of your disease risk.
+
+Your DNA is a string of four building blocks, called “bases.” These bases are represented by the letters
+G, A, T, and C. There are billions of these letters strung together in every human’s DNA and they are
+arranged in packages like words. Each of these “words” have specific jobs in the body. Most of the time
+the letters are the same in everyone. But about 1% of the population might have an “A” where someone
+else has a “G.” This difference can explain why some people have blue eyes and others brown eyes, or
+why some have a high risk for a certain cancer and others a low risk. All these letters come together to
+create your “genome sequence”, a kind of book of your genetics. It now possible to read off each of
+these letters and read your complete genome sequence. Your DNA sequence is unique to you. You
+inherit your DNA in almost equal parts from each of your parents. In very rare cases, your genome can
+also change through “mutations.” A mutation is like if you tried to copy a page from a book, but
+misspelled some words. Mutations usually result from copying errors that occur in certain letters when
+being passed from parent to child.
+
+When we take a sample of your blood/tissue for this study, it will go to a lab to read off those letters and
+give us a report on the tumor genome. It is our hope this will help us to better understand how the tumor
+genetics works and/or what causes it to not work well, as when a mutation leads to tumor growth
+
+The tests we might want to use to study your tissue and blood may not even exist at this time.
+Therefore, we are asking for your permission to store your tissue and blood so that we can study them in
+the future. These future studies may provide additional information that will be helpful in understanding
+metastatic colorectal cancer, but it is unlikely that what we learn from these studies will have a direct
+benefit to you. It is possible that your tissue and blood might be used to develop products tests, or
+discoveries that could be patented and licensed. In some instances, these may have potential
+commercial value and may be developed by the Investigators, University of Iowa, commercial
+companies, organizations funding this research, or others that may not be working directly with this
+research team. However, donors of tissue and blood do not retain any property rights to the materials.
+Therefore, there are no plans to provide financial compensation to you should this occur.
+
+
+
+
+Your tissue, blood and data will be stored with a code which may be linked to your medical record
+number. If you agree now to future use of your tissue, blood and data but decide in the future that you
+would like to have it removed from future research, you should contact Chandrikha Chandrasekharan
+MD at (319) 356-2425. . However, if some research with your tissue, blood and data has already been
+completed, the information from that research may still be used

@@ -1,0 +1,25 @@
+Extracted Paragraph from Consent Form:
+
+## Side Effects Requiring Immediate Medical Attention:
+
+The side effects listed below require IMMEDIATE MEDICAL ATTENTION OR ADVICE. Call the study doctor right away if you have any of these side effects:
+
+- Allergic reactions can be life-threatening. Symptoms may include difficulty breathing, shortness of breath, low blood pressure (feeling lightheaded, dizziness), tingling around the mouth, rash.
+- Rash, itching, blisters, or pale or yellow skin.
+- Yellowing of the whites of your eyes or blurry vision.
+- Abnormal thinking, confusion, personality changes, headache and/or neck stiffness.
+- Diarrhea, stools that are black or bloody, stomach area pain, nausea or vomiting
+- Bleeding or bruising more easily than normal. Bleeding may require urgent medical attention, including a transfusion (receiving blood or blood products by vein). Low platelet counts may increase your risk of bleeding and bruising.
+- You feel tired, weak, or short of breath. These symptoms may be caused by low red blood cell counts and require a blood transfusion.
+- Hair loss or feeling cold.
+
+
+- Low neutrophil counts may be associated with infection, sometimes severe and life-threatening (neutropenic infection, neutropenic sepsis):
+- -Symptoms of severe life-threatening infection may include fever, chills, feeling of low blood pressure (light-headedness, dizziness, fainting), decreased urination, rapid pulse, rapid breathing or shortness of breath
+- Decrease in the number of all types of blood cells (pancytopenia)
+- Low blood cell counts due to a problem in the bone marrow or blood cancer starting from the bone marrow (Myelodysplastic Syndrome [MDS] or Acute Myeloid Leukemia [AML]). MDS/AML, including fatal cases, have been reported with use of niraparib. If you experience prolonged haematological toxicities, contact your study doctor for haematologist evaluation.
+- High blood pressure (hypertension) including severe increase in blood pressure (hypertensive crisis) has been reported with the use of niraparib. If you have pre-existing hypertension, your doctor will determine if your blood pressure is adequately controlled before starting niraparib.
+- -Symptoms of a severe increase in blood pressure may include blurry vision, headache, nausea, vomiting, confusion, passing out, seizures, weakness or numbness on one side of body or in one arm or leg and/or difficulty talking (symptoms of a stroke), trouble breathing, chest pain, pain in the upper or lower back, urine that is brown or bloody
+- Posterior Reversible Encephalopathy Syndrome (PRES), a rare neurological side effect has been reported with niraparib treatment.
+
+If you have headache, vision changes, confusion or seizure with or without high blood pressure, please contact your doctor.

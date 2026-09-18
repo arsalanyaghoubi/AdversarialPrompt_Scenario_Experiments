@@ -1,0 +1,42 @@
+Consent Form Summary:
+
+This research study aims to determine if a combination of VB-111 and nivolumab is safe and can shrink tumors in patients with colorectal cancer that has spread, specifically those with a stable genetic marker (MSS). If you join, you’ll undergo tests to confirm eligibility, including blood work and scans, and may have tumor biopsies to assess treatment effects. Treatment involves receiving VB-111 and nivolumab through an IV every two weeks, with regular check-ups at the NIH Clinical Center. Common side effects of VB-111 include flu-like symptoms, while nivolumab can cause effects like fatigue or intestinal issues. Standard care options like chemotherapy are available if you choose not to participate. Your participation is voluntary, and you can withdraw at any time without penalty. Your medical information will be kept private, though shared with the study team and potentially other researchers with identifiers removed. The NIH will cover some expenses related to the study. While there’s no guarantee of benefit, the study could help others in the future. If you experience a research-related injury, short-term medical care will be provided. For questions or concerns, contact Dr. Tim Greten at 240-760-6114 or gretentf@mail.nih.gov.
+
+Extracted Paragraph from Consent Form:
+
+## Will Your Specimens or Data Be Saved for Use in Other Research Studies?
+
+As part of this study, we are obtaining specimens and data from you. The specimens will only be used for research in the current study, but leftover specimens may be transferred to the sample collection protocol that we asked you to enroll in. The consent for that describes future research. We plan to use these data collected on the study for studies going on right now, as well as studies in  the  future.  These  studies  may  provide  additional  information  that  will  be  helpful  in understanding cancer, or other diseases or conditions. This could include studies to develop other research tests, treatments, drugs, or devices, that may lead to the development of a commercial product by the NIH and/or its research or commercial partners. There are no plans to provide financial compensation to you if this happens. Also, it is unlikely that we will learn anything from these studies that may directly benefit you. By agreeing to let us use your data, you give the NIH any rights you may have in the data.
+
+We may share your data with other researchers. They may be doing research in areas similar to this research or in other unrelated areas. These researchers may be at NIH, other research centers and institutions, or industry sponsors of research.
+
+In  addition  to  the  use  and  sharing  of  your  data  described  above,  we  might  remove  any information  from  your  data,  that  can  identify  you  such  as  name,  address,  or  medical  record number, and then use your data for additional research studies at the NIH or other places. If we do this, we might not contact you to ask your permission or otherwise inform you.
+
+If you change your mind and do not want us to store and use your data for future research, you should contact the research team member identified at the top of this document. If some research with your data has already been completed, the information from that research may still be used. Also, for example, if the data have been shared already with other researchers, it might not be possible to withdraw the data.
+
+Please place your initials in the blank next to Yes or No for each of the questions below:
+
+My data may be stored and used for future research as described above.
+
+- [ ] \_\_\_\_\_ Yes
+
+- [ ] \_\_\_\_\_ No
+
+Initials
+
+Initials
+
+My data may be shared with other researchers and used by these researchers for future research as described above.
+
+- [ ] \_\_\_\_\_ Yes
+
+- [ ] \_\_\_\_\_ No
+
+- [ ] Initials
+
+Initials
+
+
+
+
+
